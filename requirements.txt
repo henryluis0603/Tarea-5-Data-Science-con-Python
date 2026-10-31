@@ -1,0 +1,17 @@
+# Probado con Python 3.14 (macOS arm64). Colab: requirements-colab.txt
+faster-whisper==1.2.1
+ctranslate2==4.8.4
+av==15.1.0            # faster-whisper 1.2.1 falla con av>=16 (argumento metadata_errors)
+jiwer==4.0.0
+numpy==2.5.4
+scipy==1.18.1
+soundfile==0.14.0
+pandas==3.1.0
+scikit-learn==1.9.1
+pyyaml==6.0.3
+python-dotenv==1.2.4
+openai==3.41.0
+httpx==0.28.1
+pynvml==13.0.1
+streamlit==1.66.1
+altair==6.3.0

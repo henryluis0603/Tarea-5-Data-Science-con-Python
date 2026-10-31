@@ -1,0 +1,173 @@
+# Configuración única del proyecto. Ninguna ruta, modelo, umbral ni prompt vive en el código.
+
+proyecto:
+  # Fecha en que se grabaron las entrevistas: ancla para convertir "en dos semanas" a fecha absoluta.
+  fecha_grabacion: "2026-10-30"
+  moneda_por_defecto: PEN
+
+rutas:
+  audio: audio
+  guiones_entrevistas: guiones/entrevistas
+  guiones_llamadas: guiones/llamadas
+  ground_truth_entrevistas: data/ground_truth/entrevistas.json
+  ground_truth_llamadas: data/ground_truth/llamadas.json
+  transcripciones: data/transcripciones        # caché versionada (se sube al repo)
+  audio_degradado: data/audio_degradado        # regenerable, no se sube
+  resultados: results
+  benchmark_gpu: results/benchmark_gpu.json
+
+asr:
+  modelo: large-v3-turbo
+  dispositivo: auto          # auto | cuda | cpu (el dispositivo real se lee en tiempo de ejecución)
+  precision: int8            # int8 | float16 | int8_float16 | float32
+  idioma: es
+  beam_size: 5
+  timestamps_palabra: true   # da la confianza por palabra que usa el diagnóstico de la Tarea 2
+  modo_glosario: ninguno     # ninguno | hotwords | initial_prompt
+  glosario: >-
+    Python, SQL, Power BI, Airflow, Java, Spring Boot, Docker, Kubernetes, PostgreSQL,
+    Jira, SAP, Excel, PyTorch, TensorFlow, scikit-learn, MLflow, AWS, Databricks, PySpark,
+    Snowflake, dbt, Git, backend, fintech, ML engineer, Yape, Plin, tequeños, chicha morada,
+    ají de gallina, lomo saltado, arroz chaufa, Sabor de Barrio, BARRIO15
+
+benchmark:
+  modelos: [small, large-v3-turbo]
+  precisiones_gpu: [float16, int8]
+  precision_cpu: int8
+  clips: [E01, E02, E03, E04, E05]
+  intervalo_vram_s: 0.05
+
+normalizacion:
+  # Muletillas que se eliminan de referencia e hipótesis antes de calcular WER/CER.
+  muletillas: [eh, ehm, em, mmm, mm, mmmm]
+  # Jerga monetaria peruana: "cinco lucas" = 5000 soles.
+  jerga_miles: [lucas, luca]
+
+extraccion:
+  metodo_defecto: llm          # llm | reglas
+  proveedor_defecto: openai    # openai | ollama
+  openai:
+    modelo: gpt-4o-mini
+    temperatura: 0
+  ollama:
+    modelo: "qwen2.5:3b"
+    url: http://localhost:11434
+    temperatura: 0
+    timeout_s: 300
+  prompt_sistema: >-
+    Eres un sistema de extracción de datos. Recibes la transcripción automática de una
+    conversación en español peruano y devuelves SOLO un objeto JSON válido.
+    Reglas: (1) extrae únicamente lo que se dijo; si un dato no aparece, usa null.
+    (2) Para cada campo incluye "evidencia": la cita LITERAL y exacta del fragmento de la
+    transcripción de donde sale el valor, copiada carácter por carácter, sin corregir
+    errores de transcripción ni ortografía. (3) Si alguien se corrige, usa la versión final.
+    (4) No inventes ni completes datos con conocimiento propio.
+  prompt_entrevista: |
+    Transcripción de una entrevista de trabajo. Extrae los datos del CANDIDATO con este formato:
+    {
+      "anios_experiencia": {"valor": número (años totales, 4.5 para cuatro y medio), "evidencia": "..."},
+      "ultimo_puesto": {"valor": "cargo actual o último cargo", "evidencia": "..."},
+      "tecnologias": {"valor": ["herramienta1", "herramienta2"], "evidencia": "..."},
+      "pretension_salarial": {"valor": {"monto": número, "moneda": "PEN" o "USD"}, "evidencia": "..."},
+      "disponibilidad": {"valor": {"tipo": "inmediata" | "relativa_dias" | "fecha", "dias": número o null, "fecha": "AAAA-MM-DD" o null}, "evidencia": "..."},
+      "nivel_ingles": {"valor": "basico" | "intermedio" | "avanzado", "evidencia": "..."}
+    }
+    La pretensión salarial es lo que el candidato PIDE, no lo que gana hoy.
+    "Una semana" son 7 días, "un mes" son 30 días. Un nivel B1/B2 es intermedio; C1/C2 es avanzado.
+    Transcripción:
+    {transcripcion}
+  prompt_llamada: |
+    Transcripción de una llamada de pedido a un restaurante. Extrae el PEDIDO FINAL
+    (si el cliente cambia algo, vale lo último) con este formato:
+    {
+      "items": {"valor": [{"producto": "...", "tamano": "..." o null, "cantidad": número, "precio_unitario": número}], "evidencia": "..."},
+      "promocion": {"valor": {"nombre": "...", "descuento": número} o null, "evidencia": "..."},
+      "direccion_entrega": {"valor": "...", "evidencia": "..."},
+      "metodo_pago": {"valor": "efectivo" | "tarjeta" | "yape" | "plin" | "transferencia", "evidencia": "..."},
+      "total_dicho": {"valor": número, "evidencia": "..."}
+    }
+    total_dicho es el total que el vendedor DICE en voz alta, aunque esté mal calculado: no lo recalcules.
+    Una promoción solo cuenta si se aplicó al pedido; si se pidió y se rechazó, promocion es null.
+    Transcripción:
+    {transcripcion}
+
+# Catálogos para el camino de reglas y para el diagnóstico (precios de la carta ficticia).
+catalogo:
+  tecnologias:
+    Python: [python]
+    SQL: [sql]
+    Power BI: [power bi, powerbi]
+    Airflow: [airflow, air flow]
+    Java: [java]
+    Spring Boot: [spring boot, springboot]
+    Docker: [docker]
+    Kubernetes: [kubernetes, kubernete]
+    PostgreSQL: [postgresql, postgres, postgre sql]
+    Jira: [jira]
+    SAP: [sap]
+    Excel: [excel]
+    PyTorch: [pytorch, pie torch, pay torch]
+    TensorFlow: [tensorflow, tensor flow]
+    scikit-learn: [scikit learn, scikitlearn, sci kit learn, scikit]
+    MLflow: [mlflow, ml flow, emeleflow]
+    AWS: [aws]
+    Databricks: [databricks, data bricks]
+    PySpark: [pyspark, py spark, pie spark]
+    Snowflake: [snowflake, snow flake]
+    dbt: [dbt]
+    Git: [git]
+  niveles_ingles:
+    basico: [basico, a1, a2]
+    intermedio: [intermedio, b1, b2]
+    avanzado: [avanzado, c1, c2, nativo, fluido]
+  metodos_pago:
+    yape: [yape]
+    plin: [plin]
+    tarjeta: [tarjeta, pos]
+    efectivo: [efectivo]
+    transferencia: [transferencia]
+  carta:
+    pizza_personal:  {nombre: pizza, tamano: personal, precio: 18, alias: [pizza personal, personal]}
+    pizza_mediana:   {nombre: pizza, tamano: mediana,  precio: 32, alias: [pizza mediana, pizzas medianas, mediana]}
+    pizza_familiar:  {nombre: pizza, tamano: familiar, precio: 45, alias: [pizza familiar, familiar]}
+    pollo_cuarto:    {nombre: pollo a la brasa, tamano: cuarto, precio: 22, alias: [cuarto de pollo]}
+    pollo_medio:     {nombre: pollo a la brasa, tamano: medio,  precio: 38, alias: [medio pollo]}
+    pollo_entero:    {nombre: pollo a la brasa, tamano: entero, precio: 68, alias: [pollo a la brasa entero, pollo entero]}
+    lomo_saltado:    {nombre: lomo saltado,   tamano: null, precio: 35, alias: [lomo saltado, lomos saltados]}
+    aji_de_gallina:  {nombre: ají de gallina, tamano: null, precio: 28, alias: [aji de gallina]}
+    arroz_chaufa:    {nombre: arroz chaufa,   tamano: null, precio: 26, alias: [arroz chaufa]}
+    tequenos:        {nombre: tequeños,       tamano: 12 unidades, precio: 20, alias: [tequenos, tequeno]}
+    papas_extra:     {nombre: papas fritas extra, tamano: null, precio: 8, alias: [papas fritas extra, papas extra, porcion de papas, porciones de papas]}
+    ensalada_extra:  {nombre: ensalada extra, tamano: null, precio: 10, alias: [ensalada extra]}
+    chicha_morada:   {nombre: chicha morada,  tamano: jarra 1 L, precio: 12, alias: [chicha morada, jarra de chicha]}
+    gaseosa:         {nombre: gaseosa,        tamano: 1.5 L, precio: 9, alias: [gaseosa, gaseosas]}
+    agua:            {nombre: agua sin gas,   tamano: null, precio: 4, alias: [agua sin gas, aguas sin gas, agua, aguas]}
+  promociones:
+    combo_familiar: {nombre: combo familiar, descuento: 10, alias: [combo familiar]}
+    martes_pizza:   {nombre: martes de pizza 2x1, descuento: 32, alias: [2 por 1, 2x1, martes de pizza]}
+    barrio15:       {nombre: codigo BARRIO15, descuento: 15, alias: [barrio 15, barrio15]}
+  # Frases que anulan una promoción mencionada (camino de reglas).
+  negaciones_promocion: [no le puedo, no aplica, no llega, lo siento, solo los martes, hoy no]
+
+verificacion:
+  # Similitud mínima (0-1) para considerar correcto un campo de texto libre al puntuar.
+  similitud_texto_min: 0.8
+
+degradacion:
+  semilla: 42
+  L1: {codec: libopus, bitrate: 12000, frecuencia: 16000}     # nota de voz de WhatsApp
+  L2: {banda_hz: [300, 3400], frecuencia: 8000, orden_filtro: 6}   # llamada telefónica
+  L3: {base: L1, snr_db: 5, ruido: babble, voces_babble: 4}   # ambiente ruidoso
+  niveles: [L0, L1, L2, L3]
+
+validacion:
+  tolerancia_soles: 0.5
+  # Si la confianza media de Whisper en las palabras del total es menor, se sospecha del ASR.
+  umbral_confianza_total: 0.75
+  # Pares de números que el ASR confunde por sonido parecido (ej. sesenta / setenta).
+  confusiones_asr: [[60, 70], [6, 7], [16, 17], [600, 700], [2, 12], [3, 13], [13, 30], [14, 40], [15, 50], [16, 60]]
+
+regresion:
+  wer_max_entrevistas: 0.20
+  exactitud_min_entrevistas_llm: 0.70
+  exactitud_min_llamadas_llm_L0: 0.70
