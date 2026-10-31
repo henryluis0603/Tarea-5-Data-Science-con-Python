@@ -9,7 +9,7 @@ registro estructurado y **verificado**:
 
 | | |
 |---|---|
-| 🎬 Video (≤ 8 min) | _pendiente: enlace al video_ |
+| 🎬 Video (≤ 8 min) | https://drive.google.com/file/d/10Tn4FrTK31rrmPVNxXrP3NZ0fqC9Cuqv/view?usp=sharing |
 | 🧭 Documento del pipeline (Notion, público) | https://profuse-smelt-c45.notion.site/Tarea-5-Pipeline-de-la-voz-al-registro-40ab1cf1617e8118abf4e29ce51667b6 |
 | 🧪 Notebook GPU (Colab) | [notebooks/benchmark_gpu_colab.ipynb](notebooks/benchmark_gpu_colab.ipynb) |
 
