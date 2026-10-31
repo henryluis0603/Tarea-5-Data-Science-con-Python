@@ -1,0 +1,21 @@
+name: Gate de regresión
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  metricas:
+    runs-on: ubuntu-latest   # sin GPU: solo se evalúan transcripciones en caché
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Instalar dependencias de evaluación (sin ASR)
+        run: pip install jiwer==4.0.0 numpy pandas scikit-learn pyyaml python-dotenv openai httpx
+      - name: Verificar que el motor no importa librerías de interfaz
+        run: "! grep -nE '^\\s*(import|from)\\s+(streamlit|telegram|gradio)' src/engine.py"
+      - name: Recalcular métricas y comparar con umbrales
+        run: python -m scripts.regresion
