@@ -1,0 +1,54 @@
+{
+ "audio": "/Users/henrylluptoncapunay/Documents/GitHub/Tarea 5 Data Science con Python/audio/E01.m4a",
+ "esquema": "entrevista",
+ "metodo": "llm",
+ "proveedor": "ollama",
+ "modelo_extraccion": "qwen2.5:3b",
+ "transcripcion": "Buenas tardes, Dani. Gracias por conectarte. Soy del área de selección de datos andinos. ¿Cómo estás? Muy bien, gracias. Con muchas ganas de conversar sobre el puesto. Perfecto. Para empezar, cuéntame un poco de tu trayectoria. Claro. Empecé en un banco en el área de riesgo. Ahí estuve tres años haciendo reportes de cobranza y algunos modelos sencillos. Después me pasé a un startup de logística donde llevo un año y medio. O sea, que en total serían unos cuatro años y medio trabajando con datos. Exacto, sí. ¿Y qué haces actualmente en el startup? Mi cargo es analista de datos senior. Me encargo de los tableros de operación y de medir los tiempos de entrega. Este casi lo armo en Power BI. Y la limpieza de datos la hago con Python. ¿Y para consultas a la base de datos? SQL, todos los días. Y el año pasado empecé a orquestar los procesos con iFlow. Porque ante todo se corría a mano y se caía bastante. Entiendo. ¿Has trabajado con herramientas en la nube? Un poco. Pero no lo pondría como fortaleza. Lo que domino de verdad es lo que te mencioné. ¿Qué proyecto te ha dado más satisfacción hasta ahora? Un tablero de retrasos de entrega. Cuando llegué nadie sabía por qué los pedidos llegaban tarde. Cruzamos los datos de ruta con los horarios de los almacenes y vimos que el problema estaba en la carga de la mañana. En tres meses los retrasos bajaron de 20% a 12%. ¿Y cómo convenciste el salario de operaciones de usarlo? Me senté con los supervisores una semana entera. Le pregunté qué decisión tomaban cada mañana y diseñé el tablero para responder solo una pregunta. Si un tablero no cambia una decisión, no sirve. Ah, muy bien. Cambiando de tema, el puesto tiene reuniones con un equipo en Canadá. ¿Cómo andas con el inglés? Intermedio. Leo documentos sin problema y puedo seguir una reunión, pero cuando tengo que presentar todavía me pongo un poco lenta. Está bien, es lo que buscamos. Si avanzamos, ¿cuándo podrías empezar? Tengo que avisar en mi trabajo actual y dejar un par de cosas cerradas. Yo diría que en dos semanas podría incorporarme. Perfecto. Y la última pregunta, que siempre es la más incómoda. ¿Cuál es tu pretensión salarial? Bueno, viendo el mercado y las responsabilidades del puesto, estaría pensando en 6.500 soles mensuales. 6.500, anotado. ¿Tienes alguna pregunta para nosotros? Sí. Quería saber si el trabajo es remoto o híbrido. Es híbrido. Dos días a la semana en la oficina. Te escribimos esta semana con los siguientes pasos. Muchas gracias. Hasta luego.",
+ "campos": {
+  "anios_experiencia": 4.5,
+  "ultimo_puesto": "analista de datos senior",
+  "tecnologias": [
+   "Power BI",
+   "Python",
+   "SQL",
+   "iFlow"
+  ],
+  "pretension_salarial": {
+   "monto": 6500,
+   "moneda": "PEN"
+  },
+  "disponibilidad": {
+   "tipo": "inmediata",
+   "dias": null,
+   "fecha": null
+  },
+  "nivel_ingles": "intermedio"
+ },
+ "evidencias": {
+  "anios_experiencia": "Empecé en un banco en el área de riesgo. Ahí estuve tres años haciendo reportes de cobranza y algunos modelos sencillos. Después me pasé a un startup de logística donde llevo un año y medio. O sea, que en total serían unos cuatro años y medio trabajando con datos.",
+  "ultimo_puesto": null,
+  "tecnologias": null,
+  "pretension_salarial": null,
+  "disponibilidad": null,
+  "nivel_ingles": null
+ },
+ "verificacion": {
+  "anios_experiencia": "verificado",
+  "ultimo_puesto": "verificado",
+  "tecnologias": "verificado",
+  "pretension_salarial": "verificado",
+  "disponibilidad": "sin_verificar",
+  "nivel_ingles": "verificado"
+ },
+ "validacion": null,
+ "dispositivo": "cpu",
+ "modelo_asr": "large-v3-turbo (int8)",
+ "segundos": {
+  "asr": 0.0,
+  "extraccion": 20.2,
+  "total": 20.2
+ },
+ "desde_cache": true,
+ "error": null
+}

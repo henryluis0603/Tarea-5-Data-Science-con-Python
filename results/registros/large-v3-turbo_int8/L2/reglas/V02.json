@@ -1,0 +1,65 @@
+{
+ "audio": "/Users/henrylluptoncapunay/Documents/GitHub/Tarea 5 Data Science con Python/audio/V02.m4a",
+ "esquema": "llamada",
+ "metodo": "reglas",
+ "proveedor": null,
+ "modelo_extraccion": "regex",
+ "transcripcion": "Sabor de barrio, buenas tardes, la tienda Lucía, ¿qué desea? Buenas tardes, hoy es martes, ¿no? ¿Sigue la promo de pizzas? Sí, hoy tenemos martes de pizzas, dos por uno en pizzas medianas. Perfecto, entonces quiero dos pizzas medianas hawaianas y una gaseosa de litro y medio. Dos medianas hawaianas y una gaseosa, ¿algo más? Ah, no, espera, mejor que sea una americana y la otra de pepperoni, porque a mi hermano no le gusta la piña. No hay problema, una mediana americana y una mediana de pepperoni. Y que sean dos gaseosas, no una, somos varios. Perfecto, dos gaseosas de litro y medio, ¿algo para picar? Sí, unos pequeños, por favor. Una porción de pequeños que viene con dos unidades, le detallo cada pizza mediana, está a 32 soles, los pequeños 20 soles y cada gaseosa 9 soles. El total sería 102 soles. 102, ya, está bien. Una consulta, ¿de cuántas tajadas son las medianas? De 8 tajadas cada una. ¿La masa la quiere delgada o tradicional? Delgada las dos, por favor. Anotado, masa delgada. Los pequeños con guacamole o con salsa de ají. Con guacamole. Y si se puede, que la gaseosa venga bien helada. Sí, claro. Salen de la refrigeradora al momento de despachar. ¿A qué dirección lo enviamos? A Avenida Arequipa, 1870, interior B, en Lince. Avenida Arequipa, 1870, interior B, Lince. ¿Es casa o edificio? Es una quinta. El interior B es la segunda puerta a la derecha. Perfecto. ¿Forma de pago? En efectivo. Voy a pagar con un billete de 200 para que el repartidor lleve vuelta. Anotado. Efectivo con billete de 200. El tiempo estimado es de 50 minutos, porque los martes hay bastantes pedidos. Está bien, no hay apuro. ¿A nombre de quién? A nombre de alguien. Listo, Ale. Muchas gracias por su pedido. Gracias. Gracias a usted. Gracias.",
+ "campos": {
+  "items": [
+   {
+    "producto": "pizza",
+    "tamano": "mediana",
+    "cantidad": 1,
+    "precio_unitario": 32
+   },
+   {
+    "producto": "gaseosa",
+    "tamano": "1.5 L",
+    "cantidad": 2,
+    "precio_unitario": 9
+   }
+  ],
+  "promocion": {
+   "nombre": "martes de pizza 2x1",
+   "descuento": 32
+  },
+  "direccion_entrega": "Avenida Arequipa, 1870, interior B, Lince",
+  "metodo_pago": "efectivo",
+  "total_dicho": 102
+ },
+ "evidencias": {
+  "items": "detallo cada pizza mediana esta a 32 | que la gaseosa venga bien helada",
+  "promocion": "2 por 1",
+  "direccion_entrega": "avenida arequipa 1870 interior b en lince",
+  "metodo_pago": "efectivo",
+  "total_dicho": "total seria 102"
+ },
+ "verificacion": {
+  "items": "verificado",
+  "promocion": "verificado",
+  "direccion_entrega": "verificado",
+  "metodo_pago": "verificado",
+  "total_dicho": "verificado"
+ },
+ "validacion": {
+  "estado": "no_cuadra",
+  "suma_items": 50.0,
+  "descuento": 32.0,
+  "calculado": 18.0,
+  "total_dicho": 102.0,
+  "diferencia": 84.0,
+  "causa": "hablante",
+  "explicacion": "error de cálculo del hablante (el ASR estaba seguro del total)",
+  "confianza_total": 0.978
+ },
+ "dispositivo": "cpu",
+ "modelo_asr": "large-v3-turbo (int8)",
+ "segundos": {
+  "asr": 0.0,
+  "extraccion": 0.01,
+  "total": 0.01
+ },
+ "desde_cache": true,
+ "error": null
+}

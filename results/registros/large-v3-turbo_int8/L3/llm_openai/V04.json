@@ -1,0 +1,74 @@
+{
+ "audio": "/Users/henrylluptoncapunay/Documents/GitHub/Tarea 5 Data Science con Python/audio/V04.m4a",
+ "esquema": "llamada",
+ "metodo": "llm",
+ "proveedor": "openai",
+ "modelo_extraccion": "gpt-4o-mini",
+ "transcripcion": "¿Sabor de barro? Buenas noches, la tienda de mis hijos, ¿qué le va a hacer? Buenas noches, quería un medio pollo de arroz Medio pollo de arroz, ¿algo más? No, respeto, mejor cambiarlo por un cuarto de pollo y agregarme un arrochazo Así comemos dos cosas distintas Perfecto, entonces queda un cuarto de pollo de arroz Y compro el medio pollo de arroz Exacto, una ensalada hay que hacer para ganar Exacto, una ensalada ¿Para tomar? Dos aguas sin vas Dos aguas sin ¿Algo más? No, eso nada más Ah, tengo el código barretín ¿Me lo pueden aplicar? Lo siento, el código barretín Se lo aplica para que uno de los 100 soles Si su querido no llega a la monta Esta vez no puedo aplicar el mercado Ay, no importa Se confirma, el cuarto de pollo 22 soles El arroz chaufa 26 soles La ensalada extra 10 soles Y cada agua 4 soles El total de 66 soles Pecho y ensalada sin problemas ¿A qué dirección se le enviamos? Pasaje San Martín 12 Tercer queso en barranca Pasaje San Martín 12 Tercer queso en barranco ¿Timbres? Sí Contrato Me pide ¿Timbres de tarjeta? Si no contesta que me llame Y con lo llegue Perfecto Nadie se lo cortó ¿Cómo va a pagar? ¿Cuál es tu precomprim? Listo Ok El pedido tarda más o menos 30 minutos Es el primero Gracias ¿Al nombre de quién? Al nombre de él Gracias, espero que tenga una pregunta Igualmente Gracias Gracias Gracias Gracias Gracias Gracias Gracias",
+ "campos": {
+  "items": [
+   {
+    "producto": "cuarto de pollo de arroz",
+    "tamano": null,
+    "cantidad": 1,
+    "precio_unitario": 22
+   },
+   {
+    "producto": "arroz chaufa",
+    "tamano": null,
+    "cantidad": 1,
+    "precio_unitario": 26
+   },
+   {
+    "producto": "ensalada extra",
+    "tamano": null,
+    "cantidad": 1,
+    "precio_unitario": 10
+   },
+   {
+    "producto": "agua",
+    "tamano": null,
+    "cantidad": 2,
+    "precio_unitario": 4
+   }
+  ],
+  "promocion": null,
+  "direccion_entrega": "Pasaje San Martín 12 Tercer queso en barranca",
+  "metodo_pago": "tarjeta",
+  "total_dicho": 66
+ },
+ "evidencias": {
+  "items": "Se confirma, el cuarto de pollo 22 soles El arroz chaufa 26 soles La ensalada extra 10 soles Y cada agua 4 soles",
+  "promocion": "Lo siento, el código barretín Se lo aplica para que uno de los 100 soles Si su querido no llega a la monta Esta vez no puedo aplicar el mercado",
+  "direccion_entrega": "Pasaje San Martín 12 Tercer queso en barranco",
+  "metodo_pago": "¿Cómo va a pagar? ¿Cuál es tu precomprim?",
+  "total_dicho": "El total de 66 soles"
+ },
+ "verificacion": {
+  "items": "verificado",
+  "promocion": "vacio",
+  "direccion_entrega": "verificado",
+  "metodo_pago": "verificado",
+  "total_dicho": "verificado"
+ },
+ "validacion": {
+  "estado": "cuadra",
+  "suma_items": 66.0,
+  "descuento": 0.0,
+  "calculado": 66.0,
+  "total_dicho": 66.0,
+  "diferencia": 0.0,
+  "causa": null,
+  "explicacion": "cuadra",
+  "confianza_total": 0.584
+ },
+ "dispositivo": "cpu",
+ "modelo_asr": "large-v3-turbo (int8)",
+ "segundos": {
+  "asr": 0.0,
+  "extraccion": 3.62,
+  "total": 3.62
+ },
+ "desde_cache": true,
+ "error": null
+}

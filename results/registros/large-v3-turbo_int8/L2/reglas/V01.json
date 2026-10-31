@@ -1,0 +1,77 @@
+{
+ "audio": "/Users/henrylluptoncapunay/Documents/GitHub/Tarea 5 Data Science con Python/audio/V01.m4a",
+ "esquema": "llamada",
+ "metodo": "reglas",
+ "proveedor": null,
+ "modelo_extraccion": "regex",
+ "transcripcion": "Sabor de barrio, buenas noches. Le habla Sasha. ¿Qué le gustaría pedir? Hola, buenas noches. Quería hacer un pedido para delivery, por favor. Claro que sí. Dígame. A ver, quiero un pollo a la brasa entero, una gaseosa de litro y medio, y dos porciones de papas fritas extra. Perfecto. Le comento que el pollo entero con la gaseosa entra en el combo familiar, que tiene 10 soles de descuento. Ah, qué bien. Entonces sí, con el combo. Listo. Entonces, tengo un pollo entero, una gaseosa y dos papas extra. ¿Algo más? Eh, espera. Déjame pensarlo. Mejor que sea una porción de papas extra, porque el pollo ya viene con papas. Y agrégame una jarra de chicha morada. Perfecto. Corrijo. Una sola porción de papas extra y una jarra de chicha morada. Eso sí. Sí. Le confirmo los precios. El pollo entero está a 68 soles, la gaseosa 9 soles, las papas extra 8 soles y la chicha morada 12 soles. Con el descuento del combo familiar de 10 soles, el total es 87 soles. 87. Perfecto. Una pregunta. ¿El pollo viene con ensalada? Sí. El pollo incluye papas y ensalada clásica. Las cremas van aparte, sin costa. Mayonesa, ketchup, ají y mostaza. Mándame bastante ají, por favor, y poca mayonesa. Anotado. Bastante ají y poca mayonesa. ¿Le pongo ketchup también? Sí, un poquito. ¿Y la chicha es natural o de sobre? Es natural. Le preparamos aquí con maíz, morado, piña y canela. Ah, buenísimo. ¿A qué dirección se lo enviamos? Girón Los Cedros 245, departamento 302, en Surquillo. Girón Los Cedros 245, departamento 302, Surquillo. ¿Alguna referencia? Es un edificio blanco al costado de una farmacia. Anotado. ¿Cómo va a pagar? Con yape. Muy bien. El repartidor le muestra el código cuando llegue. El pedido demora aproximadamente 40 minutos. Perfecto. ¿Me puedes mandar cubiertos? Sí, claro. Le enviamos cubiertos y servilletas. ¿A nombre de quién dejó el pedido? A nombre de Sofía. Listo, Sofía. Gracias por su pedido y que disfruten. Gracias. Hasta luego.",
+ "campos": {
+  "items": [
+   {
+    "producto": "pollo a la brasa",
+    "tamano": "entero",
+    "cantidad": 1,
+    "precio_unitario": 68
+   },
+   {
+    "producto": "gaseosa",
+    "tamano": "1.5 L",
+    "cantidad": 1,
+    "precio_unitario": 9
+   },
+   {
+    "producto": "papas fritas extra",
+    "tamano": null,
+    "cantidad": 1,
+    "precio_unitario": 8
+   },
+   {
+    "producto": "chicha morada",
+    "tamano": "jarra 1 L",
+    "cantidad": 1,
+    "precio_unitario": 12
+   }
+  ],
+  "promocion": {
+   "nombre": "combo familiar",
+   "descuento": 10
+  },
+  "direccion_entrega": null,
+  "metodo_pago": "yape",
+  "total_dicho": 87
+ },
+ "evidencias": {
+  "items": "precios el pollo entero esta a 68 | soles la gaseosa 9 soles las | soles las papas extra 8 soles y | y la chicha morada 12 soles con",
+  "promocion": "combo familiar",
+  "direccion_entrega": null,
+  "metodo_pago": "yape",
+  "total_dicho": "total es 87"
+ },
+ "verificacion": {
+  "items": "verificado",
+  "promocion": "verificado",
+  "direccion_entrega": "vacio",
+  "metodo_pago": "verificado",
+  "total_dicho": "verificado"
+ },
+ "validacion": {
+  "estado": "cuadra",
+  "suma_items": 97.0,
+  "descuento": 10.0,
+  "calculado": 87.0,
+  "total_dicho": 87.0,
+  "diferencia": 0.0,
+  "causa": null,
+  "explicacion": "cuadra",
+  "confianza_total": 0.939
+ },
+ "dispositivo": "cpu",
+ "modelo_asr": "large-v3-turbo (int8)",
+ "segundos": {
+  "asr": 0.0,
+  "extraccion": 0.01,
+  "total": 0.01
+ },
+ "desde_cache": true,
+ "error": null
+}

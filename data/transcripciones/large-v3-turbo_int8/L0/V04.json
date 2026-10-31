@@ -1,0 +1,1442 @@
+{
+ "texto": "Sabor de barrio. Buenas noches, la tienda Lucía. ¿Qué le gustaría pedir? Buenas noches. Quería un medio pollo a la brasa, por favor. Medio pollo a la brasa. ¿Algo más? No, espero. Mejor cámbiale por un cuarto de pollo y agrégame un arroz chaufa. Así comemos dos cosas distintas. Perfecto. Entonces queda un cuarto de pollo y un arroz chaufa. Y quito el medio pollo. Exacto. Y una ensalada extra, por favor. Una ensalada extra. ¿Para tomar? Dos aguas sin gas. Dos aguas sin gas. ¿Algo más? No, eso no más. Ah, tengo el código barrio 15. ¿Me lo pueden aplicar? Lo siento. El código barrio 15 solo aplica para pedidos desde 100 soles. Y su pedido no llega a ese monto. Esta vez no puedo aplicar el descuento. Ah, ya. No importa. Le confirmo. El cuarto de pollo, 22 soles. El arroz chaufa, 26 soles. La ensalada extra, 10 soles. Y cada agua, 4 soles. El total de 66 soles. 66. Perfecto. Una consulta. ¿Y el arroz chaufa lleva cerdo o pollo? Lleva pollo. Con huevo, cebolla china y un toque de quinoa. Perfecto. ¿Y el cuarto de pollo es pecho o pierna? Puedes elegir. Si no me dicen nada, mandamos pierna. Pecho, por favor. Y la ensalada sin tomate, si se puede. Sí, se puede. Anotado. Pecho y ensalada sin tomate. ¿A qué dirección se lo enviamos? Pasaje San Martín 12, tercer piso, en Barranco. Pasaje San Martín 12, tercer piso, Barranco. ¿Timbre? Sí, el timbre del tercer piso. Si no contesto, que me llame cuando llegue. Perfecto. Le aviso al repartidor. ¿Cómo va a pagar? Compline. Listo. Pago Compline. El pedido tarda más o menos 30 minutos. Genial. Gracias. ¿Al nombre de quién? Al nombre de Fer. Gracias Fer. Que tenga buenas noches. Igualmente. Chao.",
+ "segmentos": [
+  {
+   "inicio": 1.94,
+   "fin": 5.44,
+   "texto": "Sabor de barrio. Buenas noches, la tienda Lucía. ¿Qué le gustaría pedir?",
+   "palabras": [
+    {
+     "p": "Sabor",
+     "conf": 0.979
+    },
+    {
+     "p": "de",
+     "conf": 0.999
+    },
+    {
+     "p": "barrio.",
+     "conf": 0.94
+    },
+    {
+     "p": "Buenas",
+     "conf": 1.0
+    },
+    {
+     "p": "noches,",
+     "conf": 1.0
+    },
+    {
+     "p": "la",
+     "conf": 0.94
+    },
+    {
+     "p": "tienda",
+     "conf": 0.918
+    },
+    {
+     "p": "Lucía.",
+     "conf": 0.977
+    },
+    {
+     "p": "¿Qué",
+     "conf": 0.998
+    },
+    {
+     "p": "le",
+     "conf": 0.999
+    },
+    {
+     "p": "gustaría",
+     "conf": 1.0
+    },
+    {
+     "p": "pedir?",
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "inicio": 5.82,
+   "fin": 8.4,
+   "texto": "Buenas noches. Quería un medio pollo a la brasa, por favor.",
+   "palabras": [
+    {
+     "p": "Buenas",
+     "conf": 1.0
+    },
+    {
+     "p": "noches.",
+     "conf": 1.0
+    },
+    {
+     "p": "Quería",
+     "conf": 0.998
+    },
+    {
+     "p": "un",
+     "conf": 0.584
+    },
+    {
+     "p": "medio",
+     "conf": 0.998
+    },
+    {
+     "p": "pollo",
+     "conf": 0.987
+    },
+    {
+     "p": "a",
+     "conf": 0.945
+    },
+    {
+     "p": "la",
+     "conf": 0.998
+    },
+    {
+     "p": "brasa,",
+     "conf": 0.887
+    },
+    {
+     "p": "por",
+     "conf": 1.0
+    },
+    {
+     "p": "favor.",
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "inicio": 8.96,
+   "fin": 10.6,
+   "texto": "Medio pollo a la brasa. ¿Algo más?",
+   "palabras": [
+    {
+     "p": "Medio",
+     "conf": 0.981
+    },
+    {
+     "p": "pollo",
+     "conf": 1.0
+    },
+    {
+     "p": "a",
+     "conf": 1.0
+    },
+    {
+     "p": "la",
+     "conf": 1.0
+    },
+    {
+     "p": "brasa.",
+     "conf": 0.999
+    },
+    {
+     "p": "¿Algo",
+     "conf": 0.999
+    },
+    {
+     "p": "más?",
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "inicio": 11.3,
+   "fin": 17.66,
+   "texto": "No, espero. Mejor cámbiale por un cuarto de pollo y agrégame un arroz chaufa. Así comemos dos cosas distintas.",
+   "palabras": [
+    {
+     "p": "No,",
+     "conf": 0.977
+    },
+    {
+     "p": "espero.",
+     "conf": 0.985
+    },
+    {
+     "p": "Mejor",
+     "conf": 1.0
+    },
+    {
+     "p": "cámbiale",
+     "conf": 0.759
+    },
+    {
+     "p": "por",
+     "conf": 1.0
+    },
+    {
+     "p": "un",
+     "conf": 0.999
+    },
+    {
+     "p": "cuarto",
+     "conf": 1.0
+    },
+    {
+     "p": "de",
+     "conf": 1.0
+    },
+    {
+     "p": "pollo",
+     "conf": 1.0
+    },
+    {
+     "p": "y",
+     "conf": 1.0
+    },
+    {
+     "p": "agrégame",
+     "conf": 0.989
+    },
+    {
+     "p": "un",
+     "conf": 1.0
+    },
+    {
+     "p": "arroz",
+     "conf": 0.994
+    },
+    {
+     "p": "chaufa.",
+     "conf": 0.944
+    },
+    {
+     "p": "Así",
+     "conf": 1.0
+    },
+    {
+     "p": "comemos",
+     "conf": 0.996
+    },
+    {
+     "p": "dos",
+     "conf": 1.0
+    },
+    {
+     "p": "cosas",
+     "conf": 0.999
+    },
+    {
+     "p": "distintas.",
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "inicio": 18.34,
+   "fin": 23.16,
+   "texto": "Perfecto. Entonces queda un cuarto de pollo y un arroz chaufa. Y quito el medio pollo.",
+   "palabras": [
+    {
+     "p": "Perfecto.",
+     "conf": 1.0
+    },
+    {
+     "p": "Entonces",
+     "conf": 1.0
+    },
+    {
+     "p": "queda",
+     "conf": 0.968
+    },
+    {
+     "p": "un",
+     "conf": 1.0
+    },
+    {
+     "p": "cuarto",
+     "conf": 1.0
+    },
+    {
+     "p": "de",
+     "conf": 1.0
+    },
+    {
+     "p": "pollo",
+     "conf": 1.0
+    },
+    {
+     "p": "y",
+     "conf": 1.0
+    },
+    {
+     "p": "un",
+     "conf": 1.0
+    },
+    {
+     "p": "arroz",
+     "conf": 1.0
+    },
+    {
+     "p": "chaufa.",
+     "conf": 0.999
+    },
+    {
+     "p": "Y",
+     "conf": 0.998
+    },
+    {
+     "p": "quito",
+     "conf": 0.999
+    },
+    {
+     "p": "el",
+     "conf": 0.999
+    },
+    {
+     "p": "medio",
+     "conf": 1.0
+    },
+    {
+     "p": "pollo.",
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "inicio": 23.66,
+   "fin": 25.54,
+   "texto": "Exacto. Y una ensalada extra, por favor.",
+   "palabras": [
+    {
+     "p": "Exacto.",
+     "conf": 1.0
+    },
+    {
+     "p": "Y",
+     "conf": 0.976
+    },
+    {
+     "p": "una",
+     "conf": 1.0
+    },
+    {
+     "p": "ensalada",
+     "conf": 1.0
+    },
+    {
+     "p": "extra,",
+     "conf": 1.0
+    },
+    {
+     "p": "por",
+     "conf": 1.0
+    },
+    {
+     "p": "favor.",
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "inicio": 26.16,
+   "fin": 28.2,
+   "texto": "Una ensalada extra. ¿Para tomar?",
+   "palabras": [
+    {
+     "p": "Una",
+     "conf": 0.988
+    },
+    {
+     "p": "ensalada",
+     "conf": 1.0
+    },
+    {
+     "p": "extra.",
+     "conf": 1.0
+    },
+    {
+     "p": "¿Para",
+     "conf": 0.963
+    },
+    {
+     "p": "tomar?",
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "inicio": 28.2,
+   "fin": 29.86,
+   "texto": "Dos aguas sin gas.",
+   "palabras": [
+    {
+     "p": "Dos",
+     "conf": 0.898
+    },
+    {
+     "p": "aguas",
+     "conf": 0.994
+    },
+    {
+     "p": "sin",
+     "conf": 0.996
+    },
+    {
+     "p": "gas.",
+     "conf": 0.999
+    }
+   ]
+  },
+  {
+   "inicio": 30.24,
+   "fin": 32.26,
+   "texto": "Dos aguas sin gas. ¿Algo más?",
+   "palabras": [
+    {
+     "p": "Dos",
+     "conf": 0.961
+    },
+    {
+     "p": "aguas",
+     "conf": 1.0
+    },
+    {
+     "p": "sin",
+     "conf": 1.0
+    },
+    {
+     "p": "gas.",
+     "conf": 1.0
+    },
+    {
+     "p": "¿Algo",
+     "conf": 0.997
+    },
+    {
+     "p": "más?",
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "inicio": 32.6,
+   "fin": 37.16,
+   "texto": "No, eso no más. Ah, tengo el código barrio 15. ¿Me lo pueden aplicar?",
+   "palabras": [
+    {
+     "p": "No,",
+     "conf": 0.999
+    },
+    {
+     "p": "eso",
+     "conf": 0.982
+    },
+    {
+     "p": "no",
+     "conf": 0.82
+    },
+    {
+     "p": "más.",
+     "conf": 0.759
+    },
+    {
+     "p": "Ah,",
+     "conf": 0.992
+    },
+    {
+     "p": "tengo",
+     "conf": 0.999
+    },
+    {
+     "p": "el",
+     "conf": 1.0
+    },
+    {
+     "p": "código",
+     "conf": 0.997
+    },
+    {
+     "p": "barrio",
+     "conf": 0.848
+    },
+    {
+     "p": "15.",
+     "conf": 0.84
+    },
+    {
+     "p": "¿Me",
+     "conf": 0.998
+    },
+    {
+     "p": "lo",
+     "conf": 0.989
+    },
+    {
+     "p": "pueden",
+     "conf": 0.999
+    },
+    {
+     "p": "aplicar?",
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "inicio": 37.58,
+   "fin": 47.26,
+   "texto": "Lo siento. El código barrio 15 solo aplica para pedidos desde 100 soles. Y su pedido no llega a ese monto. Esta vez no puedo aplicar el descuento.",
+   "palabras": [
+    {
+     "p": "Lo",
+     "conf": 0.998
+    },
+    {
+     "p": "siento.",
+     "conf": 1.0
+    },
+    {
+     "p": "El",
+     "conf": 0.996
+    },
+    {
+     "p": "código",
+     "conf": 1.0
+    },
+    {
+     "p": "barrio",
+     "conf": 1.0
+    },
+    {
+     "p": "15",
+     "conf": 0.999
+    },
+    {
+     "p": "solo",
+     "conf": 0.945
+    },
+    {
+     "p": "aplica",
+     "conf": 1.0
+    },
+    {
+     "p": "para",
+     "conf": 1.0
+    },
+    {
+     "p": "pedidos",
+     "conf": 0.998
+    },
+    {
+     "p": "desde",
+     "conf": 0.593
+    },
+    {
+     "p": "100",
+     "conf": 0.987
+    },
+    {
+     "p": "soles.",
+     "conf": 1.0
+    },
+    {
+     "p": "Y",
+     "conf": 1.0
+    },
+    {
+     "p": "su",
+     "conf": 1.0
+    },
+    {
+     "p": "pedido",
+     "conf": 1.0
+    },
+    {
+     "p": "no",
+     "conf": 1.0
+    },
+    {
+     "p": "llega",
+     "conf": 1.0
+    },
+    {
+     "p": "a",
+     "conf": 1.0
+    },
+    {
+     "p": "ese",
+     "conf": 1.0
+    },
+    {
+     "p": "monto.",
+     "conf": 1.0
+    },
+    {
+     "p": "Esta",
+     "conf": 0.999
+    },
+    {
+     "p": "vez",
+     "conf": 1.0
+    },
+    {
+     "p": "no",
+     "conf": 0.996
+    },
+    {
+     "p": "puedo",
+     "conf": 1.0
+    },
+    {
+     "p": "aplicar",
+     "conf": 1.0
+    },
+    {
+     "p": "el",
+     "conf": 1.0
+    },
+    {
+     "p": "descuento.",
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "inicio": 47.94,
+   "fin": 49.18,
+   "texto": "Ah, ya. No importa.",
+   "palabras": [
+    {
+     "p": "Ah,",
+     "conf": 0.451
+    },
+    {
+     "p": "ya.",
+     "conf": 0.856
+    },
+    {
+     "p": "No",
+     "conf": 1.0
+    },
+    {
+     "p": "importa.",
+     "conf": 0.997
+    }
+   ]
+  },
+  {
+   "inicio": 49.72,
+   "fin": 58.12,
+   "texto": "Le confirmo. El cuarto de pollo, 22 soles. El arroz chaufa, 26 soles. La ensalada extra, 10 soles.",
+   "palabras": [
+    {
+     "p": "Le",
+     "conf": 0.993
+    },
+    {
+     "p": "confirmo.",
+     "conf": 0.998
+    },
+    {
+     "p": "El",
+     "conf": 0.994
+    },
+    {
+     "p": "cuarto",
+     "conf": 0.999
+    },
+    {
+     "p": "de",
+     "conf": 1.0
+    },
+    {
+     "p": "pollo,",
+     "conf": 0.999
+    },
+    {
+     "p": "22",
+     "conf": 0.999
+    },
+    {
+     "p": "soles.",
+     "conf": 1.0
+    },
+    {
+     "p": "El",
+     "conf": 0.999
+    },
+    {
+     "p": "arroz",
+     "conf": 1.0
+    },
+    {
+     "p": "chaufa,",
+     "conf": 0.974
+    },
+    {
+     "p": "26",
+     "conf": 1.0
+    },
+    {
+     "p": "soles.",
+     "conf": 1.0
+    },
+    {
+     "p": "La",
+     "conf": 0.993
+    },
+    {
+     "p": "ensalada",
+     "conf": 0.997
+    },
+    {
+     "p": "extra,",
+     "conf": 1.0
+    },
+    {
+     "p": "10",
+     "conf": 1.0
+    },
+    {
+     "p": "soles.",
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "inicio": 58.12,
+   "fin": 64.36,
+   "texto": "Y cada agua, 4 soles. El total de 66 soles.",
+   "palabras": [
+    {
+     "p": "Y",
+     "conf": 0.201
+    },
+    {
+     "p": "cada",
+     "conf": 0.993
+    },
+    {
+     "p": "agua,",
+     "conf": 0.999
+    },
+    {
+     "p": "4",
+     "conf": 0.585
+    },
+    {
+     "p": "soles.",
+     "conf": 0.999
+    },
+    {
+     "p": "El",
+     "conf": 0.994
+    },
+    {
+     "p": "total",
+     "conf": 1.0
+    },
+    {
+     "p": "de",
+     "conf": 0.978
+    },
+    {
+     "p": "66",
+     "conf": 0.975
+    },
+    {
+     "p": "soles.",
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "inicio": 65.28,
+   "fin": 71.88,
+   "texto": "66. Perfecto. Una consulta. ¿Y el arroz chaufa lleva cerdo o pollo?",
+   "palabras": [
+    {
+     "p": "66.",
+     "conf": 0.67
+    },
+    {
+     "p": "Perfecto.",
+     "conf": 0.991
+    },
+    {
+     "p": "Una",
+     "conf": 0.997
+    },
+    {
+     "p": "consulta.",
+     "conf": 1.0
+    },
+    {
+     "p": "¿Y",
+     "conf": 0.979
+    },
+    {
+     "p": "el",
+     "conf": 0.994
+    },
+    {
+     "p": "arroz",
+     "conf": 0.499
+    },
+    {
+     "p": "chaufa",
+     "conf": 0.41
+    },
+    {
+     "p": "lleva",
+     "conf": 0.946
+    },
+    {
+     "p": "cerdo",
+     "conf": 0.997
+    },
+    {
+     "p": "o",
+     "conf": 1.0
+    },
+    {
+     "p": "pollo?",
+     "conf": 0.999
+    }
+   ]
+  },
+  {
+   "inicio": 72.96,
+   "fin": 76.68,
+   "texto": "Lleva pollo. Con huevo, cebolla china y un toque de quinoa.",
+   "palabras": [
+    {
+     "p": "Lleva",
+     "conf": 0.994
+    },
+    {
+     "p": "pollo.",
+     "conf": 0.992
+    },
+    {
+     "p": "Con",
+     "conf": 0.998
+    },
+    {
+     "p": "huevo,",
+     "conf": 0.997
+    },
+    {
+     "p": "cebolla",
+     "conf": 0.999
+    },
+    {
+     "p": "china",
+     "conf": 0.997
+    },
+    {
+     "p": "y",
+     "conf": 0.986
+    },
+    {
+     "p": "un",
+     "conf": 1.0
+    },
+    {
+     "p": "toque",
+     "conf": 1.0
+    },
+    {
+     "p": "de",
+     "conf": 1.0
+    },
+    {
+     "p": "quinoa.",
+     "conf": 0.602
+    }
+   ]
+  },
+  {
+   "inicio": 77.2,
+   "fin": 79.3,
+   "texto": "Perfecto. ¿Y el cuarto de pollo es pecho o pierna?",
+   "palabras": [
+    {
+     "p": "Perfecto.",
+     "conf": 0.996
+    },
+    {
+     "p": "¿Y",
+     "conf": 0.911
+    },
+    {
+     "p": "el",
+     "conf": 0.999
+    },
+    {
+     "p": "cuarto",
+     "conf": 0.991
+    },
+    {
+     "p": "de",
+     "conf": 0.998
+    },
+    {
+     "p": "pollo",
+     "conf": 0.998
+    },
+    {
+     "p": "es",
+     "conf": 0.997
+    },
+    {
+     "p": "pecho",
+     "conf": 0.998
+    },
+    {
+     "p": "o",
+     "conf": 0.999
+    },
+    {
+     "p": "pierna?",
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "inicio": 79.8,
+   "fin": 82.98,
+   "texto": "Puedes elegir. Si no me dicen nada, mandamos pierna.",
+   "palabras": [
+    {
+     "p": "Puedes",
+     "conf": 0.999
+    },
+    {
+     "p": "elegir.",
+     "conf": 1.0
+    },
+    {
+     "p": "Si",
+     "conf": 0.999
+    },
+    {
+     "p": "no",
+     "conf": 1.0
+    },
+    {
+     "p": "me",
+     "conf": 1.0
+    },
+    {
+     "p": "dicen",
+     "conf": 0.999
+    },
+    {
+     "p": "nada,",
+     "conf": 1.0
+    },
+    {
+     "p": "mandamos",
+     "conf": 1.0
+    },
+    {
+     "p": "pierna.",
+     "conf": 0.999
+    }
+   ]
+  },
+  {
+   "inicio": 83.96,
+   "fin": 86.92,
+   "texto": "Pecho, por favor. Y la ensalada sin tomate, si se puede.",
+   "palabras": [
+    {
+     "p": "Pecho,",
+     "conf": 0.998
+    },
+    {
+     "p": "por",
+     "conf": 1.0
+    },
+    {
+     "p": "favor.",
+     "conf": 1.0
+    },
+    {
+     "p": "Y",
+     "conf": 0.729
+    },
+    {
+     "p": "la",
+     "conf": 0.998
+    },
+    {
+     "p": "ensalada",
+     "conf": 1.0
+    },
+    {
+     "p": "sin",
+     "conf": 0.999
+    },
+    {
+     "p": "tomate,",
+     "conf": 0.99
+    },
+    {
+     "p": "si",
+     "conf": 0.926
+    },
+    {
+     "p": "se",
+     "conf": 1.0
+    },
+    {
+     "p": "puede.",
+     "conf": 0.999
+    }
+   ]
+  },
+  {
+   "inicio": 86.92,
+   "fin": 91.16,
+   "texto": "Sí, se puede. Anotado. Pecho y ensalada sin tomate.",
+   "palabras": [
+    {
+     "p": "Sí,",
+     "conf": 0.951
+    },
+    {
+     "p": "se",
+     "conf": 0.997
+    },
+    {
+     "p": "puede.",
+     "conf": 0.982
+    },
+    {
+     "p": "Anotado.",
+     "conf": 0.992
+    },
+    {
+     "p": "Pecho",
+     "conf": 0.995
+    },
+    {
+     "p": "y",
+     "conf": 0.999
+    },
+    {
+     "p": "ensalada",
+     "conf": 0.981
+    },
+    {
+     "p": "sin",
+     "conf": 0.999
+    },
+    {
+     "p": "tomate.",
+     "conf": 0.995
+    }
+   ]
+  },
+  {
+   "inicio": 92.26,
+   "fin": 94.5,
+   "texto": "¿A qué dirección se lo enviamos?",
+   "palabras": [
+    {
+     "p": "¿A",
+     "conf": 0.998
+    },
+    {
+     "p": "qué",
+     "conf": 1.0
+    },
+    {
+     "p": "dirección",
+     "conf": 1.0
+    },
+    {
+     "p": "se",
+     "conf": 1.0
+    },
+    {
+     "p": "lo",
+     "conf": 0.995
+    },
+    {
+     "p": "enviamos?",
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "inicio": 95.14,
+   "fin": 98.44,
+   "texto": "Pasaje San Martín 12, tercer piso, en Barranco.",
+   "palabras": [
+    {
+     "p": "Pasaje",
+     "conf": 0.998
+    },
+    {
+     "p": "San",
+     "conf": 0.998
+    },
+    {
+     "p": "Martín",
+     "conf": 0.999
+    },
+    {
+     "p": "12,",
+     "conf": 0.97
+    },
+    {
+     "p": "tercer",
+     "conf": 0.944
+    },
+    {
+     "p": "piso,",
+     "conf": 1.0
+    },
+    {
+     "p": "en",
+     "conf": 0.997
+    },
+    {
+     "p": "Barranco.",
+     "conf": 0.98
+    }
+   ]
+  },
+  {
+   "inicio": 99.18,
+   "fin": 102.98,
+   "texto": "Pasaje San Martín 12, tercer piso, Barranco. ¿Timbre?",
+   "palabras": [
+    {
+     "p": "Pasaje",
+     "conf": 0.877
+    },
+    {
+     "p": "San",
+     "conf": 1.0
+    },
+    {
+     "p": "Martín",
+     "conf": 1.0
+    },
+    {
+     "p": "12,",
+     "conf": 1.0
+    },
+    {
+     "p": "tercer",
+     "conf": 1.0
+    },
+    {
+     "p": "piso,",
+     "conf": 1.0
+    },
+    {
+     "p": "Barranco.",
+     "conf": 0.995
+    },
+    {
+     "p": "¿Timbre?",
+     "conf": 0.876
+    }
+   ]
+  },
+  {
+   "inicio": 104.04,
+   "fin": 109.5,
+   "texto": "Sí, el timbre del tercer piso. Si no contesto, que me llame cuando llegue.",
+   "palabras": [
+    {
+     "p": "Sí,",
+     "conf": 0.944
+    },
+    {
+     "p": "el",
+     "conf": 0.991
+    },
+    {
+     "p": "timbre",
+     "conf": 0.998
+    },
+    {
+     "p": "del",
+     "conf": 0.949
+    },
+    {
+     "p": "tercer",
+     "conf": 0.998
+    },
+    {
+     "p": "piso.",
+     "conf": 1.0
+    },
+    {
+     "p": "Si",
+     "conf": 0.997
+    },
+    {
+     "p": "no",
+     "conf": 1.0
+    },
+    {
+     "p": "contesto,",
+     "conf": 0.944
+    },
+    {
+     "p": "que",
+     "conf": 0.999
+    },
+    {
+     "p": "me",
+     "conf": 1.0
+    },
+    {
+     "p": "llame",
+     "conf": 0.996
+    },
+    {
+     "p": "cuando",
+     "conf": 0.999
+    },
+    {
+     "p": "llegue.",
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "inicio": 110.12,
+   "fin": 112.58,
+   "texto": "Perfecto. Le aviso al repartidor. ¿Cómo va a pagar?",
+   "palabras": [
+    {
+     "p": "Perfecto.",
+     "conf": 0.997
+    },
+    {
+     "p": "Le",
+     "conf": 0.845
+    },
+    {
+     "p": "aviso",
+     "conf": 0.99
+    },
+    {
+     "p": "al",
+     "conf": 0.782
+    },
+    {
+     "p": "repartidor.",
+     "conf": 1.0
+    },
+    {
+     "p": "¿Cómo",
+     "conf": 1.0
+    },
+    {
+     "p": "va",
+     "conf": 0.935
+    },
+    {
+     "p": "a",
+     "conf": 1.0
+    },
+    {
+     "p": "pagar?",
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "inicio": 113.02,
+   "fin": 113.54,
+   "texto": "Compline.",
+   "palabras": [
+    {
+     "p": "Compline.",
+     "conf": 0.416
+    }
+   ]
+  },
+  {
+   "inicio": 114.32,
+   "fin": 118.98,
+   "texto": "Listo. Pago Compline. El pedido tarda más o menos 30 minutos.",
+   "palabras": [
+    {
+     "p": "Listo.",
+     "conf": 0.997
+    },
+    {
+     "p": "Pago",
+     "conf": 0.987
+    },
+    {
+     "p": "Compline.",
+     "conf": 0.78
+    },
+    {
+     "p": "El",
+     "conf": 0.996
+    },
+    {
+     "p": "pedido",
+     "conf": 1.0
+    },
+    {
+     "p": "tarda",
+     "conf": 0.999
+    },
+    {
+     "p": "más",
+     "conf": 0.999
+    },
+    {
+     "p": "o",
+     "conf": 1.0
+    },
+    {
+     "p": "menos",
+     "conf": 1.0
+    },
+    {
+     "p": "30",
+     "conf": 0.958
+    },
+    {
+     "p": "minutos.",
+     "conf": 0.999
+    }
+   ]
+  },
+  {
+   "inicio": 120.12,
+   "fin": 121.58,
+   "texto": "Genial. Gracias.",
+   "palabras": [
+    {
+     "p": "Genial.",
+     "conf": 0.999
+    },
+    {
+     "p": "Gracias.",
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "inicio": 122.2,
+   "fin": 123.32,
+   "texto": "¿Al nombre de quién?",
+   "palabras": [
+    {
+     "p": "¿Al",
+     "conf": 0.865
+    },
+    {
+     "p": "nombre",
+     "conf": 0.999
+    },
+    {
+     "p": "de",
+     "conf": 1.0
+    },
+    {
+     "p": "quién?",
+     "conf": 0.999
+    }
+   ]
+  },
+  {
+   "inicio": 123.58,
+   "fin": 124.48,
+   "texto": "Al nombre de Fer.",
+   "palabras": [
+    {
+     "p": "Al",
+     "conf": 0.986
+    },
+    {
+     "p": "nombre",
+     "conf": 1.0
+    },
+    {
+     "p": "de",
+     "conf": 1.0
+    },
+    {
+     "p": "Fer.",
+     "conf": 0.993
+    }
+   ]
+  },
+  {
+   "inicio": 124.8,
+   "fin": 126.74,
+   "texto": "Gracias Fer. Que tenga buenas noches.",
+   "palabras": [
+    {
+     "p": "Gracias",
+     "conf": 1.0
+    },
+    {
+     "p": "Fer.",
+     "conf": 0.654
+    },
+    {
+     "p": "Que",
+     "conf": 0.977
+    },
+    {
+     "p": "tenga",
+     "conf": 0.588
+    },
+    {
+     "p": "buenas",
+     "conf": 0.999
+    },
+    {
+     "p": "noches.",
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "inicio": 127.56,
+   "fin": 128.04,
+   "texto": "Igualmente.",
+   "palabras": [
+    {
+     "p": "Igualmente.",
+     "conf": 0.893
+    }
+   ]
+  },
+  {
+   "inicio": 128.46,
+   "fin": 129.16,
+   "texto": "Chao.",
+   "palabras": [
+    {
+     "p": "Chao.",
+     "conf": 0.751
+    }
+   ]
+  }
+ ],
+ "modelo": "large-v3-turbo",
+ "precision": "int8",
+ "modo_glosario": "ninguno",
+ "dispositivo_real": "cpu",
+ "gpus_visibles": 0,
+ "duracion_audio_s": 129.58,
+ "segundos_transcripcion": 76.37,
+ "segundos_carga_modelo": 0.0,
+ "seg_por_min_audio": 35.36,
+ "vram_base_mb": null,
+ "vram_pico_mb": null,
+ "idioma_detectado": "es",
+ "faster_whisper": "1.2.1",
+ "ctranslate2": "4.8.4"
+}

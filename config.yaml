@@ -40,6 +40,10 @@ benchmark:
 normalizacion:
   # Muletillas que se eliminan de referencia e hipótesis antes de calcular WER/CER.
   muletillas: [eh, ehm, em, mmm, mm, mmmm]
+  # Códigos de moneda que devuelve el LLM -> ISO 4217.
+  monedas:
+    PEN: [pen, s, s/, s/., sol, soles, nuevos soles]
+    USD: [usd, us$, $, dolar, dolares, dolares americanos]
   # Jerga monetaria peruana: "cinco lucas" = 5000 soles.
   jerga_miles: [lucas, luca]
 
@@ -73,6 +77,7 @@ extraccion:
       "nivel_ingles": {"valor": "basico" | "intermedio" | "avanzado", "evidencia": "..."}
     }
     La pretensión salarial es lo que el candidato PIDE, no lo que gana hoy.
+    La entrevista se grabó el {fecha_referencia}: usa ese año para fechas sin año.
     "Una semana" son 7 días, "un mes" son 30 días. Un nivel B1/B2 es intermedio; C1/C2 es avanzado.
     Transcripción:
     {transcripcion}

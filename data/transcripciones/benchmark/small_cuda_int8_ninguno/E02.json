@@ -1,0 +1,1714 @@
+{
+ "texto": "Hola Alex, buenos días. Te habla el equipo de talento de Nubesur. Antes de entrar en detalle una pregunta rápida para no perder el tiempo de nada. ¿Cuál es tu expectativa salarial? Buenos días. Directo Adriano, me gusta. Yo estoy buscando unas 5 lucas mensuales en planilla. Perfecto. Está dentro del rango. Entonces ahora sí, cuéntame de ti. Ya. Trabajo en desarrollo backend desde hace 7 años. Empecé haciendo mantenimiento de servicios internos y poco a poco me fui pasando a microservicios. ¿Y en el último trabajo cuál era tu rol? Mi último puesto fue backend developer en una fintech. Ahí éramos un equipo de 6 personas y yo veía la parte de pagos. ¿Con qué lenguaje trabajas? Principalmente Java, con Spring Boot, todos los servicios corregidos en contenedores con Docker y los desplegamos en Kubernetes y la base de datos era Postgre SQL. ¿Te tocó ver temas de monitoreo o de seguridad? Un poco de monitoreo. Sí, alertas cuando un pago se quedaba colgado. Seguridad lo veía a otro equipo, la verdad. Cuéntame de un problema difícil que te haya tocado resolver. Un error lento. Procesábamos unos 800 transacciones por minuto y algunas se duplicaban. Encontramos que un reintento automático se disparaba antes de que la primera respuesta llegara. Lo corregimos con una clave única por pago y desde entonces no hubo más duplicados. ¿Y cómo lo detectaron? Por lo reclamos. La verdad. Por eso después armamos las alertas que te comentaba para enterarnos antes que el cliente. Entiendo. Nosotros tenemos clientes en Estados Unidos y las reuniones diarias son en inglés. ¿Qué nivel tienes? Avanzado. En la fintech, la mitad del equipo de producto está en Miami, así que hablamos en inglés todos los días. Por escrito y en llamadas. Excelente. Y desde cuándo estarías disponible? Inmediata. El proyecto en el que estaba terminado el mes pasado ya no tengo contrato, así que puedo empezar cuando ustedes digan. Perfecto. Eso nos ayuda mucho porque queremos cubrir la posición rápida. ¿Alguna pregunta? Sí. ¿Cómo es el proceso? ¿Hay una prueba técnica? Sí. Hay una prueba técnica de dos horas y luego una entrevista con el líder del equipo. Te mando el enlace hoy en la tarde. Genial. Quédala espera. Muchas gracias. Gracias a ti, Álex, que tengas buen día.",
+ "segmentos": [
+  {
+   "inicio": 2.94,
+   "fin": 8.68,
+   "texto": "Hola Alex, buenos días. Te habla el equipo de talento de Nubesur. Antes de entrar en detalle",
+   "palabras": [
+    {
+     "p": "Hola",
+     "conf": 0.322
+    },
+    {
+     "p": "Alex,",
+     "conf": 0.721
+    },
+    {
+     "p": "buenos",
+     "conf": 0.887
+    },
+    {
+     "p": "días.",
+     "conf": 0.973
+    },
+    {
+     "p": "Te",
+     "conf": 0.853
+    },
+    {
+     "p": "habla",
+     "conf": 0.546
+    },
+    {
+     "p": "el",
+     "conf": 0.84
+    },
+    {
+     "p": "equipo",
+     "conf": 0.952
+    },
+    {
+     "p": "de",
+     "conf": 0.99
+    },
+    {
+     "p": "talento",
+     "conf": 0.98
+    },
+    {
+     "p": "de",
+     "conf": 0.956
+    },
+    {
+     "p": "Nubesur.",
+     "conf": 0.784
+    },
+    {
+     "p": "Antes",
+     "conf": 0.985
+    },
+    {
+     "p": "de",
+     "conf": 0.988
+    },
+    {
+     "p": "entrar",
+     "conf": 0.994
+    },
+    {
+     "p": "en",
+     "conf": 0.701
+    },
+    {
+     "p": "detalle",
+     "conf": 0.977
+    }
+   ]
+  },
+  {
+   "inicio": 8.68,
+   "fin": 13.82,
+   "texto": "una pregunta rápida para no perder el tiempo de nada. ¿Cuál es tu expectativa salarial?",
+   "palabras": [
+    {
+     "p": "una",
+     "conf": 0.391
+    },
+    {
+     "p": "pregunta",
+     "conf": 0.999
+    },
+    {
+     "p": "rápida",
+     "conf": 0.994
+    },
+    {
+     "p": "para",
+     "conf": 0.952
+    },
+    {
+     "p": "no",
+     "conf": 0.985
+    },
+    {
+     "p": "perder",
+     "conf": 0.984
+    },
+    {
+     "p": "el",
+     "conf": 0.996
+    },
+    {
+     "p": "tiempo",
+     "conf": 0.998
+    },
+    {
+     "p": "de",
+     "conf": 0.888
+    },
+    {
+     "p": "nada.",
+     "conf": 0.518
+    },
+    {
+     "p": "¿Cuál",
+     "conf": 0.96
+    },
+    {
+     "p": "es",
+     "conf": 0.999
+    },
+    {
+     "p": "tu",
+     "conf": 0.98
+    },
+    {
+     "p": "expectativa",
+     "conf": 0.992
+    },
+    {
+     "p": "salarial?",
+     "conf": 0.994
+    }
+   ]
+  },
+  {
+   "inicio": 14.98,
+   "fin": 21.68,
+   "texto": "Buenos días. Directo Adriano, me gusta. Yo estoy buscando unas 5 lucas mensuales en planilla.",
+   "palabras": [
+    {
+     "p": "Buenos",
+     "conf": 0.894
+    },
+    {
+     "p": "días.",
+     "conf": 0.944
+    },
+    {
+     "p": "Directo",
+     "conf": 0.561
+    },
+    {
+     "p": "Adriano,",
+     "conf": 0.627
+    },
+    {
+     "p": "me",
+     "conf": 0.765
+    },
+    {
+     "p": "gusta.",
+     "conf": 0.381
+    },
+    {
+     "p": "Yo",
+     "conf": 0.472
+    },
+    {
+     "p": "estoy",
+     "conf": 0.993
+    },
+    {
+     "p": "buscando",
+     "conf": 0.991
+    },
+    {
+     "p": "unas",
+     "conf": 0.967
+    },
+    {
+     "p": "5",
+     "conf": 0.38
+    },
+    {
+     "p": "lucas",
+     "conf": 0.731
+    },
+    {
+     "p": "mensuales",
+     "conf": 0.977
+    },
+    {
+     "p": "en",
+     "conf": 0.964
+    },
+    {
+     "p": "planilla.",
+     "conf": 0.644
+    }
+   ]
+  },
+  {
+   "inicio": 22.64,
+   "fin": 26.04,
+   "texto": "Perfecto. Está dentro del rango. Entonces ahora sí, cuéntame de ti.",
+   "palabras": [
+    {
+     "p": "Perfecto.",
+     "conf": 0.968
+    },
+    {
+     "p": "Está",
+     "conf": 0.949
+    },
+    {
+     "p": "dentro",
+     "conf": 0.889
+    },
+    {
+     "p": "del",
+     "conf": 0.982
+    },
+    {
+     "p": "rango.",
+     "conf": 0.977
+    },
+    {
+     "p": "Entonces",
+     "conf": 0.912
+    },
+    {
+     "p": "ahora",
+     "conf": 0.88
+    },
+    {
+     "p": "sí,",
+     "conf": 0.842
+    },
+    {
+     "p": "cuéntame",
+     "conf": 0.975
+    },
+    {
+     "p": "de",
+     "conf": 0.927
+    },
+    {
+     "p": "ti.",
+     "conf": 0.997
+    }
+   ]
+  },
+  {
+   "inicio": 26.04,
+   "fin": 32.24,
+   "texto": "Ya. Trabajo en desarrollo backend desde hace 7 años. Empecé haciendo mantenimiento de servicios",
+   "palabras": [
+    {
+     "p": "Ya.",
+     "conf": 0.122
+    },
+    {
+     "p": "Trabajo",
+     "conf": 0.96
+    },
+    {
+     "p": "en",
+     "conf": 0.963
+    },
+    {
+     "p": "desarrollo",
+     "conf": 0.821
+    },
+    {
+     "p": "backend",
+     "conf": 0.338
+    },
+    {
+     "p": "desde",
+     "conf": 0.84
+    },
+    {
+     "p": "hace",
+     "conf": 0.981
+    },
+    {
+     "p": "7",
+     "conf": 0.417
+    },
+    {
+     "p": "años.",
+     "conf": 0.995
+    },
+    {
+     "p": "Empecé",
+     "conf": 0.97
+    },
+    {
+     "p": "haciendo",
+     "conf": 0.994
+    },
+    {
+     "p": "mantenimiento",
+     "conf": 0.898
+    },
+    {
+     "p": "de",
+     "conf": 0.98
+    },
+    {
+     "p": "servicios",
+     "conf": 0.985
+    }
+   ]
+  },
+  {
+   "inicio": 32.24,
+   "fin": 39.18,
+   "texto": "internos y poco a poco me fui pasando a microservicios. ¿Y en el último trabajo cuál era tu rol?",
+   "palabras": [
+    {
+     "p": "internos",
+     "conf": 0.996
+    },
+    {
+     "p": "y",
+     "conf": 0.575
+    },
+    {
+     "p": "poco",
+     "conf": 0.977
+    },
+    {
+     "p": "a",
+     "conf": 0.996
+    },
+    {
+     "p": "poco",
+     "conf": 1.0
+    },
+    {
+     "p": "me",
+     "conf": 0.983
+    },
+    {
+     "p": "fui",
+     "conf": 0.987
+    },
+    {
+     "p": "pasando",
+     "conf": 0.972
+    },
+    {
+     "p": "a",
+     "conf": 0.973
+    },
+    {
+     "p": "microservicios.",
+     "conf": 0.874
+    },
+    {
+     "p": "¿Y",
+     "conf": 0.636
+    },
+    {
+     "p": "en",
+     "conf": 0.971
+    },
+    {
+     "p": "el",
+     "conf": 0.996
+    },
+    {
+     "p": "último",
+     "conf": 0.986
+    },
+    {
+     "p": "trabajo",
+     "conf": 0.998
+    },
+    {
+     "p": "cuál",
+     "conf": 0.58
+    },
+    {
+     "p": "era",
+     "conf": 0.992
+    },
+    {
+     "p": "tu",
+     "conf": 0.993
+    },
+    {
+     "p": "rol?",
+     "conf": 0.992
+    }
+   ]
+  },
+  {
+   "inicio": 40.1,
+   "fin": 45.82,
+   "texto": "Mi último puesto fue backend developer en una fintech. Ahí éramos un equipo de 6 personas y",
+   "palabras": [
+    {
+     "p": "Mi",
+     "conf": 0.848
+    },
+    {
+     "p": "último",
+     "conf": 0.994
+    },
+    {
+     "p": "puesto",
+     "conf": 0.992
+    },
+    {
+     "p": "fue",
+     "conf": 0.99
+    },
+    {
+     "p": "backend",
+     "conf": 0.835
+    },
+    {
+     "p": "developer",
+     "conf": 0.95
+    },
+    {
+     "p": "en",
+     "conf": 0.986
+    },
+    {
+     "p": "una",
+     "conf": 0.86
+    },
+    {
+     "p": "fintech.",
+     "conf": 0.805
+    },
+    {
+     "p": "Ahí",
+     "conf": 0.721
+    },
+    {
+     "p": "éramos",
+     "conf": 0.958
+    },
+    {
+     "p": "un",
+     "conf": 0.979
+    },
+    {
+     "p": "equipo",
+     "conf": 0.998
+    },
+    {
+     "p": "de",
+     "conf": 0.999
+    },
+    {
+     "p": "6",
+     "conf": 0.745
+    },
+    {
+     "p": "personas",
+     "conf": 0.996
+    },
+    {
+     "p": "y",
+     "conf": 0.968
+    }
+   ]
+  },
+  {
+   "inicio": 45.82,
+   "fin": 52.3,
+   "texto": "yo veía la parte de pagos. ¿Con qué lenguaje trabajas? Principalmente Java,",
+   "palabras": [
+    {
+     "p": "yo",
+     "conf": 0.988
+    },
+    {
+     "p": "veía",
+     "conf": 0.913
+    },
+    {
+     "p": "la",
+     "conf": 0.981
+    },
+    {
+     "p": "parte",
+     "conf": 0.993
+    },
+    {
+     "p": "de",
+     "conf": 0.989
+    },
+    {
+     "p": "pagos.",
+     "conf": 0.845
+    },
+    {
+     "p": "¿Con",
+     "conf": 0.91
+    },
+    {
+     "p": "qué",
+     "conf": 0.975
+    },
+    {
+     "p": "lenguaje",
+     "conf": 0.989
+    },
+    {
+     "p": "trabajas?",
+     "conf": 0.99
+    },
+    {
+     "p": "Principalmente",
+     "conf": 0.979
+    },
+    {
+     "p": "Java,",
+     "conf": 0.787
+    }
+   ]
+  },
+  {
+   "inicio": 52.3,
+   "fin": 58.44,
+   "texto": "con Spring Boot, todos los servicios corregidos en contenedores con Docker y los desplegamos en",
+   "palabras": [
+    {
+     "p": "con",
+     "conf": 0.035
+    },
+    {
+     "p": "Spring",
+     "conf": 0.193
+    },
+    {
+     "p": "Boot,",
+     "conf": 0.721
+    },
+    {
+     "p": "todos",
+     "conf": 0.848
+    },
+    {
+     "p": "los",
+     "conf": 0.992
+    },
+    {
+     "p": "servicios",
+     "conf": 0.994
+    },
+    {
+     "p": "corregidos",
+     "conf": 0.359
+    },
+    {
+     "p": "en",
+     "conf": 0.887
+    },
+    {
+     "p": "contenedores",
+     "conf": 0.632
+    },
+    {
+     "p": "con",
+     "conf": 0.905
+    },
+    {
+     "p": "Docker",
+     "conf": 0.497
+    },
+    {
+     "p": "y",
+     "conf": 0.824
+    },
+    {
+     "p": "los",
+     "conf": 0.128
+    },
+    {
+     "p": "desplegamos",
+     "conf": 0.956
+    },
+    {
+     "p": "en",
+     "conf": 0.958
+    }
+   ]
+  },
+  {
+   "inicio": 58.44,
+   "fin": 66.44,
+   "texto": "Kubernetes y la base de datos era Postgre SQL. ¿Te tocó ver temas de monitoreo o de seguridad?",
+   "palabras": [
+    {
+     "p": "Kubernetes",
+     "conf": 0.867
+    },
+    {
+     "p": "y",
+     "conf": 0.414
+    },
+    {
+     "p": "la",
+     "conf": 0.991
+    },
+    {
+     "p": "base",
+     "conf": 0.99
+    },
+    {
+     "p": "de",
+     "conf": 0.981
+    },
+    {
+     "p": "datos",
+     "conf": 0.981
+    },
+    {
+     "p": "era",
+     "conf": 0.965
+    },
+    {
+     "p": "Postgre",
+     "conf": 0.714
+    },
+    {
+     "p": "SQL.",
+     "conf": 0.049
+    },
+    {
+     "p": "¿Te",
+     "conf": 0.728
+    },
+    {
+     "p": "tocó",
+     "conf": 0.992
+    },
+    {
+     "p": "ver",
+     "conf": 0.883
+    },
+    {
+     "p": "temas",
+     "conf": 0.985
+    },
+    {
+     "p": "de",
+     "conf": 0.988
+    },
+    {
+     "p": "monitoreo",
+     "conf": 0.948
+    },
+    {
+     "p": "o",
+     "conf": 0.912
+    },
+    {
+     "p": "de",
+     "conf": 0.953
+    },
+    {
+     "p": "seguridad?",
+     "conf": 0.998
+    }
+   ]
+  },
+  {
+   "inicio": 67.34,
+   "fin": 73.34,
+   "texto": "Un poco de monitoreo. Sí, alertas cuando un pago se quedaba colgado. Seguridad lo veía a otro",
+   "palabras": [
+    {
+     "p": "Un",
+     "conf": 0.954
+    },
+    {
+     "p": "poco",
+     "conf": 0.996
+    },
+    {
+     "p": "de",
+     "conf": 0.912
+    },
+    {
+     "p": "monitoreo.",
+     "conf": 0.988
+    },
+    {
+     "p": "Sí,",
+     "conf": 0.596
+    },
+    {
+     "p": "alertas",
+     "conf": 0.735
+    },
+    {
+     "p": "cuando",
+     "conf": 0.967
+    },
+    {
+     "p": "un",
+     "conf": 0.979
+    },
+    {
+     "p": "pago",
+     "conf": 0.979
+    },
+    {
+     "p": "se",
+     "conf": 0.99
+    },
+    {
+     "p": "quedaba",
+     "conf": 0.712
+    },
+    {
+     "p": "colgado.",
+     "conf": 0.986
+    },
+    {
+     "p": "Seguridad",
+     "conf": 0.946
+    },
+    {
+     "p": "lo",
+     "conf": 0.491
+    },
+    {
+     "p": "veía",
+     "conf": 0.946
+    },
+    {
+     "p": "a",
+     "conf": 0.26
+    },
+    {
+     "p": "otro",
+     "conf": 0.999
+    }
+   ]
+  },
+  {
+   "inicio": 73.34,
+   "fin": 82.24,
+   "texto": "equipo, la verdad. Cuéntame de un problema difícil que te haya tocado resolver. Un",
+   "palabras": [
+    {
+     "p": "equipo,",
+     "conf": 0.996
+    },
+    {
+     "p": "la",
+     "conf": 0.978
+    },
+    {
+     "p": "verdad.",
+     "conf": 0.999
+    },
+    {
+     "p": "Cuéntame",
+     "conf": 0.901
+    },
+    {
+     "p": "de",
+     "conf": 0.951
+    },
+    {
+     "p": "un",
+     "conf": 0.996
+    },
+    {
+     "p": "problema",
+     "conf": 0.998
+    },
+    {
+     "p": "difícil",
+     "conf": 0.996
+    },
+    {
+     "p": "que",
+     "conf": 0.984
+    },
+    {
+     "p": "te",
+     "conf": 0.99
+    },
+    {
+     "p": "haya",
+     "conf": 0.638
+    },
+    {
+     "p": "tocado",
+     "conf": 0.984
+    },
+    {
+     "p": "resolver.",
+     "conf": 0.983
+    },
+    {
+     "p": "Un",
+     "conf": 0.962
+    }
+   ]
+  },
+  {
+   "inicio": 82.24,
+   "fin": 88.18,
+   "texto": "error lento. Procesábamos unos 800 transacciones por minuto y algunas se duplicaban. Encontramos que",
+   "palabras": [
+    {
+     "p": "error",
+     "conf": 0.0
+    },
+    {
+     "p": "lento.",
+     "conf": 0.503
+    },
+    {
+     "p": "Procesábamos",
+     "conf": 0.927
+    },
+    {
+     "p": "unos",
+     "conf": 0.741
+    },
+    {
+     "p": "800",
+     "conf": 0.854
+    },
+    {
+     "p": "transacciones",
+     "conf": 0.933
+    },
+    {
+     "p": "por",
+     "conf": 0.977
+    },
+    {
+     "p": "minuto",
+     "conf": 0.955
+    },
+    {
+     "p": "y",
+     "conf": 0.939
+    },
+    {
+     "p": "algunas",
+     "conf": 0.967
+    },
+    {
+     "p": "se",
+     "conf": 0.989
+    },
+    {
+     "p": "duplicaban.",
+     "conf": 0.981
+    },
+    {
+     "p": "Encontramos",
+     "conf": 0.978
+    },
+    {
+     "p": "que",
+     "conf": 0.99
+    }
+   ]
+  },
+  {
+   "inicio": 88.18,
+   "fin": 92.62,
+   "texto": "un reintento automático se disparaba antes de que la primera respuesta llegara. Lo corregimos",
+   "palabras": [
+    {
+     "p": "un",
+     "conf": 0.954
+    },
+    {
+     "p": "reintento",
+     "conf": 0.746
+    },
+    {
+     "p": "automático",
+     "conf": 0.995
+    },
+    {
+     "p": "se",
+     "conf": 0.99
+    },
+    {
+     "p": "disparaba",
+     "conf": 0.979
+    },
+    {
+     "p": "antes",
+     "conf": 0.995
+    },
+    {
+     "p": "de",
+     "conf": 0.884
+    },
+    {
+     "p": "que",
+     "conf": 0.978
+    },
+    {
+     "p": "la",
+     "conf": 0.965
+    },
+    {
+     "p": "primera",
+     "conf": 0.987
+    },
+    {
+     "p": "respuesta",
+     "conf": 0.869
+    },
+    {
+     "p": "llegara.",
+     "conf": 0.952
+    },
+    {
+     "p": "Lo",
+     "conf": 0.965
+    },
+    {
+     "p": "corregimos",
+     "conf": 0.993
+    }
+   ]
+  },
+  {
+   "inicio": 92.62,
+   "fin": 97.76,
+   "texto": "con una clave única por pago y desde entonces no hubo más duplicados. ¿Y cómo lo detectaron?",
+   "palabras": [
+    {
+     "p": "con",
+     "conf": 0.965
+    },
+    {
+     "p": "una",
+     "conf": 0.979
+    },
+    {
+     "p": "clave",
+     "conf": 0.991
+    },
+    {
+     "p": "única",
+     "conf": 0.986
+    },
+    {
+     "p": "por",
+     "conf": 0.976
+    },
+    {
+     "p": "pago",
+     "conf": 0.564
+    },
+    {
+     "p": "y",
+     "conf": 0.943
+    },
+    {
+     "p": "desde",
+     "conf": 0.925
+    },
+    {
+     "p": "entonces",
+     "conf": 0.99
+    },
+    {
+     "p": "no",
+     "conf": 0.878
+    },
+    {
+     "p": "hubo",
+     "conf": 0.996
+    },
+    {
+     "p": "más",
+     "conf": 0.982
+    },
+    {
+     "p": "duplicados.",
+     "conf": 0.991
+    },
+    {
+     "p": "¿Y",
+     "conf": 0.734
+    },
+    {
+     "p": "cómo",
+     "conf": 0.827
+    },
+    {
+     "p": "lo",
+     "conf": 0.99
+    },
+    {
+     "p": "detectaron?",
+     "conf": 0.997
+    }
+   ]
+  },
+  {
+   "inicio": 98.66,
+   "fin": 103.62,
+   "texto": "Por lo reclamos. La verdad. Por eso después armamos las alertas que te comentaba para",
+   "palabras": [
+    {
+     "p": "Por",
+     "conf": 0.917
+    },
+    {
+     "p": "lo",
+     "conf": 0.952
+    },
+    {
+     "p": "reclamos.",
+     "conf": 0.805
+    },
+    {
+     "p": "La",
+     "conf": 0.361
+    },
+    {
+     "p": "verdad.",
+     "conf": 0.998
+    },
+    {
+     "p": "Por",
+     "conf": 0.974
+    },
+    {
+     "p": "eso",
+     "conf": 0.991
+    },
+    {
+     "p": "después",
+     "conf": 0.602
+    },
+    {
+     "p": "armamos",
+     "conf": 0.959
+    },
+    {
+     "p": "las",
+     "conf": 0.959
+    },
+    {
+     "p": "alertas",
+     "conf": 0.9
+    },
+    {
+     "p": "que",
+     "conf": 0.983
+    },
+    {
+     "p": "te",
+     "conf": 0.832
+    },
+    {
+     "p": "comentaba",
+     "conf": 0.948
+    },
+    {
+     "p": "para",
+     "conf": 0.551
+    }
+   ]
+  },
+  {
+   "inicio": 103.62,
+   "fin": 109.64,
+   "texto": "enterarnos antes que el cliente. Entiendo. Nosotros tenemos clientes en Estados Unidos y las",
+   "palabras": [
+    {
+     "p": "enterarnos",
+     "conf": 0.955
+    },
+    {
+     "p": "antes",
+     "conf": 0.997
+    },
+    {
+     "p": "que",
+     "conf": 0.75
+    },
+    {
+     "p": "el",
+     "conf": 0.967
+    },
+    {
+     "p": "cliente.",
+     "conf": 0.994
+    },
+    {
+     "p": "Entiendo.",
+     "conf": 0.987
+    },
+    {
+     "p": "Nosotros",
+     "conf": 0.98
+    },
+    {
+     "p": "tenemos",
+     "conf": 0.993
+    },
+    {
+     "p": "clientes",
+     "conf": 0.995
+    },
+    {
+     "p": "en",
+     "conf": 0.996
+    },
+    {
+     "p": "Estados",
+     "conf": 0.889
+    },
+    {
+     "p": "Unidos",
+     "conf": 0.999
+    },
+    {
+     "p": "y",
+     "conf": 0.953
+    },
+    {
+     "p": "las",
+     "conf": 0.991
+    }
+   ]
+  },
+  {
+   "inicio": 109.79,
+   "fin": 115.85,
+   "texto": "reuniones diarias son en inglés. ¿Qué nivel tienes? Avanzado. En la fintech, la mitad del equipo",
+   "palabras": [
+    {
+     "p": "reuniones",
+     "conf": 0.499
+    },
+    {
+     "p": "diarias",
+     "conf": 0.94
+    },
+    {
+     "p": "son",
+     "conf": 0.587
+    },
+    {
+     "p": "en",
+     "conf": 0.972
+    },
+    {
+     "p": "inglés.",
+     "conf": 0.897
+    },
+    {
+     "p": "¿Qué",
+     "conf": 0.877
+    },
+    {
+     "p": "nivel",
+     "conf": 0.999
+    },
+    {
+     "p": "tienes?",
+     "conf": 0.962
+    },
+    {
+     "p": "Avanzado.",
+     "conf": 0.726
+    },
+    {
+     "p": "En",
+     "conf": 0.926
+    },
+    {
+     "p": "la",
+     "conf": 0.905
+    },
+    {
+     "p": "fintech,",
+     "conf": 0.727
+    },
+    {
+     "p": "la",
+     "conf": 0.245
+    },
+    {
+     "p": "mitad",
+     "conf": 0.993
+    },
+    {
+     "p": "del",
+     "conf": 0.892
+    },
+    {
+     "p": "equipo",
+     "conf": 0.988
+    }
+   ]
+  },
+  {
+   "inicio": 115.85,
+   "fin": 120.17,
+   "texto": "de producto está en Miami, así que hablamos en inglés todos los días. Por escrito y en llamadas.",
+   "palabras": [
+    {
+     "p": "de",
+     "conf": 0.651
+    },
+    {
+     "p": "producto",
+     "conf": 0.897
+    },
+    {
+     "p": "está",
+     "conf": 0.88
+    },
+    {
+     "p": "en",
+     "conf": 0.954
+    },
+    {
+     "p": "Miami,",
+     "conf": 0.967
+    },
+    {
+     "p": "así",
+     "conf": 0.988
+    },
+    {
+     "p": "que",
+     "conf": 0.994
+    },
+    {
+     "p": "hablamos",
+     "conf": 0.302
+    },
+    {
+     "p": "en",
+     "conf": 0.846
+    },
+    {
+     "p": "inglés",
+     "conf": 0.989
+    },
+    {
+     "p": "todos",
+     "conf": 0.87
+    },
+    {
+     "p": "los",
+     "conf": 0.989
+    },
+    {
+     "p": "días.",
+     "conf": 0.974
+    },
+    {
+     "p": "Por",
+     "conf": 0.976
+    },
+    {
+     "p": "escrito",
+     "conf": 0.968
+    },
+    {
+     "p": "y",
+     "conf": 0.992
+    },
+    {
+     "p": "en",
+     "conf": 0.967
+    },
+    {
+     "p": "llamadas.",
+     "conf": 0.994
+    }
+   ]
+  },
+  {
+   "inicio": 120.99,
+   "fin": 125.91,
+   "texto": "Excelente. Y desde cuándo estarías disponible? Inmediata. El proyecto en el que estaba terminado",
+   "palabras": [
+    {
+     "p": "Excelente.",
+     "conf": 0.873
+    },
+    {
+     "p": "Y",
+     "conf": 0.545
+    },
+    {
+     "p": "desde",
+     "conf": 0.917
+    },
+    {
+     "p": "cuándo",
+     "conf": 0.848
+    },
+    {
+     "p": "estarías",
+     "conf": 0.95
+    },
+    {
+     "p": "disponible?",
+     "conf": 0.996
+    },
+    {
+     "p": "Inmediata.",
+     "conf": 0.888
+    },
+    {
+     "p": "El",
+     "conf": 0.973
+    },
+    {
+     "p": "proyecto",
+     "conf": 0.695
+    },
+    {
+     "p": "en",
+     "conf": 0.543
+    },
+    {
+     "p": "el",
+     "conf": 0.978
+    },
+    {
+     "p": "que",
+     "conf": 0.99
+    },
+    {
+     "p": "estaba",
+     "conf": 0.891
+    },
+    {
+     "p": "terminado",
+     "conf": 0.8
+    }
+   ]
+  },
+  {
+   "inicio": 125.91,
+   "fin": 129.03,
+   "texto": "el mes pasado ya no tengo contrato, así que puedo empezar cuando ustedes digan.",
+   "palabras": [
+    {
+     "p": "el",
+     "conf": 0.926
+    },
+    {
+     "p": "mes",
+     "conf": 0.997
+    },
+    {
+     "p": "pasado",
+     "conf": 0.991
+    },
+    {
+     "p": "ya",
+     "conf": 0.625
+    },
+    {
+     "p": "no",
+     "conf": 0.993
+    },
+    {
+     "p": "tengo",
+     "conf": 0.365
+    },
+    {
+     "p": "contrato,",
+     "conf": 0.822
+    },
+    {
+     "p": "así",
+     "conf": 0.995
+    },
+    {
+     "p": "que",
+     "conf": 0.994
+    },
+    {
+     "p": "puedo",
+     "conf": 0.906
+    },
+    {
+     "p": "empezar",
+     "conf": 0.995
+    },
+    {
+     "p": "cuando",
+     "conf": 0.982
+    },
+    {
+     "p": "ustedes",
+     "conf": 0.873
+    },
+    {
+     "p": "digan.",
+     "conf": 0.917
+    }
+   ]
+  },
+  {
+   "inicio": 129.61,
+   "fin": 134.67,
+   "texto": "Perfecto. Eso nos ayuda mucho porque queremos cubrir la posición rápida. ¿Alguna pregunta?",
+   "palabras": [
+    {
+     "p": "Perfecto.",
+     "conf": 0.956
+    },
+    {
+     "p": "Eso",
+     "conf": 0.978
+    },
+    {
+     "p": "nos",
+     "conf": 0.994
+    },
+    {
+     "p": "ayuda",
+     "conf": 0.994
+    },
+    {
+     "p": "mucho",
+     "conf": 0.997
+    },
+    {
+     "p": "porque",
+     "conf": 0.807
+    },
+    {
+     "p": "queremos",
+     "conf": 0.995
+    },
+    {
+     "p": "cubrir",
+     "conf": 0.992
+    },
+    {
+     "p": "la",
+     "conf": 0.992
+    },
+    {
+     "p": "posición",
+     "conf": 0.993
+    },
+    {
+     "p": "rápida.",
+     "conf": 0.998
+    },
+    {
+     "p": "¿Alguna",
+     "conf": 0.977
+    },
+    {
+     "p": "pregunta?",
+     "conf": 0.997
+    }
+   ]
+  },
+  {
+   "inicio": 134.67,
+   "fin": 141.15,
+   "texto": "Sí. ¿Cómo es el proceso? ¿Hay una prueba técnica? Sí. Hay una prueba técnica de dos",
+   "palabras": [
+    {
+     "p": "Sí.",
+     "conf": 0.086
+    },
+    {
+     "p": "¿Cómo",
+     "conf": 0.882
+    },
+    {
+     "p": "es",
+     "conf": 0.844
+    },
+    {
+     "p": "el",
+     "conf": 0.986
+    },
+    {
+     "p": "proceso?",
+     "conf": 0.999
+    },
+    {
+     "p": "¿Hay",
+     "conf": 0.87
+    },
+    {
+     "p": "una",
+     "conf": 0.964
+    },
+    {
+     "p": "prueba",
+     "conf": 0.991
+    },
+    {
+     "p": "técnica?",
+     "conf": 0.964
+    },
+    {
+     "p": "Sí.",
+     "conf": 0.936
+    },
+    {
+     "p": "Hay",
+     "conf": 0.949
+    },
+    {
+     "p": "una",
+     "conf": 0.997
+    },
+    {
+     "p": "prueba",
+     "conf": 0.988
+    },
+    {
+     "p": "técnica",
+     "conf": 0.996
+    },
+    {
+     "p": "de",
+     "conf": 0.994
+    },
+    {
+     "p": "dos",
+     "conf": 0.917
+    }
+   ]
+  },
+  {
+   "inicio": 141.15,
+   "fin": 145.89,
+   "texto": "horas y luego una entrevista con el líder del equipo. Te mando el enlace hoy en la tarde.",
+   "palabras": [
+    {
+     "p": "horas",
+     "conf": 0.999
+    },
+    {
+     "p": "y",
+     "conf": 0.846
+    },
+    {
+     "p": "luego",
+     "conf": 0.98
+    },
+    {
+     "p": "una",
+     "conf": 0.95
+    },
+    {
+     "p": "entrevista",
+     "conf": 0.999
+    },
+    {
+     "p": "con",
+     "conf": 0.997
+    },
+    {
+     "p": "el",
+     "conf": 0.993
+    },
+    {
+     "p": "líder",
+     "conf": 0.991
+    },
+    {
+     "p": "del",
+     "conf": 0.992
+    },
+    {
+     "p": "equipo.",
+     "conf": 0.998
+    },
+    {
+     "p": "Te",
+     "conf": 0.975
+    },
+    {
+     "p": "mando",
+     "conf": 0.992
+    },
+    {
+     "p": "el",
+     "conf": 0.997
+    },
+    {
+     "p": "enlace",
+     "conf": 0.998
+    },
+    {
+     "p": "hoy",
+     "conf": 0.989
+    },
+    {
+     "p": "en",
+     "conf": 0.697
+    },
+    {
+     "p": "la",
+     "conf": 0.465
+    },
+    {
+     "p": "tarde.",
+     "conf": 0.997
+    }
+   ]
+  },
+  {
+   "inicio": 146.57,
+   "fin": 151.39,
+   "texto": "Genial. Quédala espera. Muchas gracias. Gracias a ti, Álex, que tengas buen día.",
+   "palabras": [
+    {
+     "p": "Genial.",
+     "conf": 0.939
+    },
+    {
+     "p": "Quédala",
+     "conf": 0.276
+    },
+    {
+     "p": "espera.",
+     "conf": 0.696
+    },
+    {
+     "p": "Muchas",
+     "conf": 0.948
+    },
+    {
+     "p": "gracias.",
+     "conf": 0.996
+    },
+    {
+     "p": "Gracias",
+     "conf": 0.975
+    },
+    {
+     "p": "a",
+     "conf": 0.961
+    },
+    {
+     "p": "ti,",
+     "conf": 0.944
+    },
+    {
+     "p": "Álex,",
+     "conf": 0.646
+    },
+    {
+     "p": "que",
+     "conf": 0.981
+    },
+    {
+     "p": "tengas",
+     "conf": 0.996
+    },
+    {
+     "p": "buen",
+     "conf": 0.749
+    },
+    {
+     "p": "día.",
+     "conf": 0.998
+    }
+   ]
+  }
+ ],
+ "modelo": "small",
+ "precision": "int8",
+ "modo_glosario": "ninguno",
+ "dispositivo_real": "cuda",
+ "gpus_visibles": 1,
+ "duracion_audio_s": 152.79,
+ "segundos_transcripcion": 4.34,
+ "segundos_carga_modelo": 0.0,
+ "seg_por_min_audio": 1.71,
+ "vram_base_mb": 854.1875,
+ "vram_pico_mb": 1046.1875,
+ "idioma_detectado": "es",
+ "faster_whisper": "1.2.1",
+ "ctranslate2": "4.8.4"
+}

@@ -1,0 +1,1594 @@
+{
+ "texto": "¿Qué tal? Sobor de barro. Buenas noches. ¿Qué va a pasar? Hola, buenas noches. ¿Tiene alguna promesa? No, señor. Entonces, por una, solo un pizza mediano y solo dos marcos. Ah, qué pena. Igual quiero una pizza familiar de peperoni y dos gaseosas de destino. Una familiar de peperoni y dos gaseosas. La familiar está a 45 soles y cada gaseosa es 9 soles. Ya. Ay, no, ¿sabes qué? Me pongo una gaseosa. El modelo de tabla nos está haciendo para el equipo. Y agrégame unos pequeños. ¿Qué problema es? Es perfecto. Correcto. Y hay una pizza familiar de peperoni, una sola gaseosa y una prevención de pequeños. Está a 20 soles. Muy bien. En total es 63. Esto está en AWS. Bien, si yo me encargo de que los modelos pasen para la producción de la gaseosa está grande. Es de 12 tajadas. Nada más a la querezgada o tradicional. ¿Qué tiene la gaseosa y los pequeños? ¿Con qué salís a ver? Con guacamole. Si prefieres con sacerdote. ¿Guacamole? Sí. Ah. Y que no le pongan oregano a la pizza. ¿Qué tiene la gaseosa y la gaseosa y la gaseosa y la gaseosa y la gaseosa y la gaseosa? ¿Qué tiene la gaseosa y la gaseosa y la gaseosa y la gaseosa? El 40 y cínico, B7, departamento 51. ¿Alguna referencia? Es un condominio de la San Verdes. ¿Cuál es el que está en el trame? Perfecto, ¿forma de pago? Por transferencia bancaria ¿Me pasa un contrato? Sí, leí en la licencia con los datos de la cuenta Apenas transfiere envíe la captura para la muchacha ¿Cuánto demora? Un 45 minutos Porque la gente se convierte en un poco más ¿Al nombre de ti? Al nombre de ti Gracias, Carmen Buen provecho Gracias, a todos",
+ "segmentos": [
+  {
+   "inicio": 0.9,
+   "fin": 1.54,
+   "texto": "¿Qué tal?",
+   "palabras": [
+    {
+     "p": "¿Qué",
+     "conf": 0.45
+    },
+    {
+     "p": "tal?",
+     "conf": 0.958
+    }
+   ]
+  },
+  {
+   "inicio": 2.02,
+   "fin": 2.9,
+   "texto": "Sobor de barro.",
+   "palabras": [
+    {
+     "p": "Sobor",
+     "conf": 0.37
+    },
+    {
+     "p": "de",
+     "conf": 0.75
+    },
+    {
+     "p": "barro.",
+     "conf": 0.831
+    }
+   ]
+  },
+  {
+   "inicio": 3.16,
+   "fin": 3.6,
+   "texto": "Buenas noches.",
+   "palabras": [
+    {
+     "p": "Buenas",
+     "conf": 0.992
+    },
+    {
+     "p": "noches.",
+     "conf": 0.996
+    }
+   ]
+  },
+  {
+   "inicio": 4.26,
+   "fin": 5.02,
+   "texto": "¿Qué va a pasar?",
+   "palabras": [
+    {
+     "p": "¿Qué",
+     "conf": 0.631
+    },
+    {
+     "p": "va",
+     "conf": 0.855
+    },
+    {
+     "p": "a",
+     "conf": 0.982
+    },
+    {
+     "p": "pasar?",
+     "conf": 0.372
+    }
+   ]
+  },
+  {
+   "inicio": 5.7,
+   "fin": 6.94,
+   "texto": "Hola, buenas noches.",
+   "palabras": [
+    {
+     "p": "Hola,",
+     "conf": 0.785
+    },
+    {
+     "p": "buenas",
+     "conf": 0.994
+    },
+    {
+     "p": "noches.",
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "inicio": 7.1,
+   "fin": 8.14,
+   "texto": "¿Tiene alguna promesa?",
+   "palabras": [
+    {
+     "p": "¿Tiene",
+     "conf": 0.979
+    },
+    {
+     "p": "alguna",
+     "conf": 0.994
+    },
+    {
+     "p": "promesa?",
+     "conf": 0.711
+    }
+   ]
+  },
+  {
+   "inicio": 8.94,
+   "fin": 9.82,
+   "texto": "No, señor.",
+   "palabras": [
+    {
+     "p": "No,",
+     "conf": 0.361
+    },
+    {
+     "p": "señor.",
+     "conf": 0.799
+    }
+   ]
+  },
+  {
+   "inicio": 10.78,
+   "fin": 13.22,
+   "texto": "Entonces, por una, solo un pizza mediano y solo dos marcos.",
+   "palabras": [
+    {
+     "p": "Entonces,",
+     "conf": 0.139
+    },
+    {
+     "p": "por",
+     "conf": 0.721
+    },
+    {
+     "p": "una,",
+     "conf": 0.944
+    },
+    {
+     "p": "solo",
+     "conf": 0.785
+    },
+    {
+     "p": "un",
+     "conf": 0.863
+    },
+    {
+     "p": "pizza",
+     "conf": 0.982
+    },
+    {
+     "p": "mediano",
+     "conf": 0.737
+    },
+    {
+     "p": "y",
+     "conf": 0.39
+    },
+    {
+     "p": "solo",
+     "conf": 0.823
+    },
+    {
+     "p": "dos",
+     "conf": 0.504
+    },
+    {
+     "p": "marcos.",
+     "conf": 0.419
+    }
+   ]
+  },
+  {
+   "inicio": 14.2,
+   "fin": 14.82,
+   "texto": "Ah, qué pena.",
+   "palabras": [
+    {
+     "p": "Ah,",
+     "conf": 0.775
+    },
+    {
+     "p": "qué",
+     "conf": 0.983
+    },
+    {
+     "p": "pena.",
+     "conf": 0.996
+    }
+   ]
+  },
+  {
+   "inicio": 15.62,
+   "fin": 19.84,
+   "texto": "Igual quiero una pizza familiar de peperoni y dos gaseosas de destino.",
+   "palabras": [
+    {
+     "p": "Igual",
+     "conf": 0.898
+    },
+    {
+     "p": "quiero",
+     "conf": 0.861
+    },
+    {
+     "p": "una",
+     "conf": 0.997
+    },
+    {
+     "p": "pizza",
+     "conf": 0.999
+    },
+    {
+     "p": "familiar",
+     "conf": 0.99
+    },
+    {
+     "p": "de",
+     "conf": 0.985
+    },
+    {
+     "p": "peperoni",
+     "conf": 0.816
+    },
+    {
+     "p": "y",
+     "conf": 0.853
+    },
+    {
+     "p": "dos",
+     "conf": 0.993
+    },
+    {
+     "p": "gaseosas",
+     "conf": 0.812
+    },
+    {
+     "p": "de",
+     "conf": 0.723
+    },
+    {
+     "p": "destino.",
+     "conf": 0.473
+    }
+   ]
+  },
+  {
+   "inicio": 20.54,
+   "fin": 22.96,
+   "texto": "Una familiar de peperoni y dos gaseosas.",
+   "palabras": [
+    {
+     "p": "Una",
+     "conf": 0.9
+    },
+    {
+     "p": "familiar",
+     "conf": 0.958
+    },
+    {
+     "p": "de",
+     "conf": 0.992
+    },
+    {
+     "p": "peperoni",
+     "conf": 0.998
+    },
+    {
+     "p": "y",
+     "conf": 0.996
+    },
+    {
+     "p": "dos",
+     "conf": 1.0
+    },
+    {
+     "p": "gaseosas.",
+     "conf": 0.987
+    }
+   ]
+  },
+  {
+   "inicio": 23.32,
+   "fin": 27.34,
+   "texto": "La familiar está a 45 soles y cada gaseosa es 9 soles.",
+   "palabras": [
+    {
+     "p": "La",
+     "conf": 0.956
+    },
+    {
+     "p": "familiar",
+     "conf": 0.981
+    },
+    {
+     "p": "está",
+     "conf": 0.999
+    },
+    {
+     "p": "a",
+     "conf": 0.973
+    },
+    {
+     "p": "45",
+     "conf": 0.987
+    },
+    {
+     "p": "soles",
+     "conf": 0.998
+    },
+    {
+     "p": "y",
+     "conf": 0.961
+    },
+    {
+     "p": "cada",
+     "conf": 1.0
+    },
+    {
+     "p": "gaseosa",
+     "conf": 0.839
+    },
+    {
+     "p": "es",
+     "conf": 0.387
+    },
+    {
+     "p": "9",
+     "conf": 0.697
+    },
+    {
+     "p": "soles.",
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "inicio": 27.34,
+   "fin": 28.18,
+   "texto": "Ya.",
+   "palabras": [
+    {
+     "p": "Ya.",
+     "conf": 0.127
+    }
+   ]
+  },
+  {
+   "inicio": 28.68,
+   "fin": 30.0,
+   "texto": "Ay, no, ¿sabes qué?",
+   "palabras": [
+    {
+     "p": "Ay,",
+     "conf": 0.697
+    },
+    {
+     "p": "no,",
+     "conf": 0.962
+    },
+    {
+     "p": "¿sabes",
+     "conf": 0.989
+    },
+    {
+     "p": "qué?",
+     "conf": 0.999
+    }
+   ]
+  },
+  {
+   "inicio": 30.12,
+   "fin": 31.06,
+   "texto": "Me pongo una gaseosa.",
+   "palabras": [
+    {
+     "p": "Me",
+     "conf": 0.984
+    },
+    {
+     "p": "pongo",
+     "conf": 0.616
+    },
+    {
+     "p": "una",
+     "conf": 0.967
+    },
+    {
+     "p": "gaseosa.",
+     "conf": 0.901
+    }
+   ]
+  },
+  {
+   "inicio": 31.06,
+   "fin": 33.34,
+   "texto": "El modelo de tabla nos está haciendo para el equipo.",
+   "palabras": [
+    {
+     "p": "El",
+     "conf": 0.103
+    },
+    {
+     "p": "modelo",
+     "conf": 0.994
+    },
+    {
+     "p": "de",
+     "conf": 0.95
+    },
+    {
+     "p": "tabla",
+     "conf": 0.949
+    },
+    {
+     "p": "nos",
+     "conf": 0.417
+    },
+    {
+     "p": "está",
+     "conf": 0.296
+    },
+    {
+     "p": "haciendo",
+     "conf": 0.129
+    },
+    {
+     "p": "para",
+     "conf": 0.954
+    },
+    {
+     "p": "el",
+     "conf": 0.96
+    },
+    {
+     "p": "equipo.",
+     "conf": 0.988
+    }
+   ]
+  },
+  {
+   "inicio": 33.36,
+   "fin": 34.74,
+   "texto": "Y agrégame unos pequeños.",
+   "palabras": [
+    {
+     "p": "Y",
+     "conf": 0.895
+    },
+    {
+     "p": "agrégame",
+     "conf": 0.933
+    },
+    {
+     "p": "unos",
+     "conf": 0.852
+    },
+    {
+     "p": "pequeños.",
+     "conf": 0.599
+    }
+   ]
+  },
+  {
+   "inicio": 35.06,
+   "fin": 36.24,
+   "texto": "¿Qué problema es?",
+   "palabras": [
+    {
+     "p": "¿Qué",
+     "conf": 0.841
+    },
+    {
+     "p": "problema",
+     "conf": 0.132
+    },
+    {
+     "p": "es?",
+     "conf": 0.599
+    }
+   ]
+  },
+  {
+   "inicio": 36.4,
+   "fin": 36.74,
+   "texto": "Es perfecto.",
+   "palabras": [
+    {
+     "p": "Es",
+     "conf": 0.231
+    },
+    {
+     "p": "perfecto.",
+     "conf": 0.988
+    }
+   ]
+  },
+  {
+   "inicio": 37.36,
+   "fin": 37.86,
+   "texto": "Correcto.",
+   "palabras": [
+    {
+     "p": "Correcto.",
+     "conf": 0.691
+    }
+   ]
+  },
+  {
+   "inicio": 38.16,
+   "fin": 43.18,
+   "texto": "Y hay una pizza familiar de peperoni, una sola gaseosa y una prevención de pequeños.",
+   "palabras": [
+    {
+     "p": "Y",
+     "conf": 0.208
+    },
+    {
+     "p": "hay",
+     "conf": 0.942
+    },
+    {
+     "p": "una",
+     "conf": 0.773
+    },
+    {
+     "p": "pizza",
+     "conf": 0.128
+    },
+    {
+     "p": "familiar",
+     "conf": 0.977
+    },
+    {
+     "p": "de",
+     "conf": 0.479
+    },
+    {
+     "p": "peperoni,",
+     "conf": 0.163
+    },
+    {
+     "p": "una",
+     "conf": 0.999
+    },
+    {
+     "p": "sola",
+     "conf": 0.967
+    },
+    {
+     "p": "gaseosa",
+     "conf": 0.999
+    },
+    {
+     "p": "y",
+     "conf": 0.781
+    },
+    {
+     "p": "una",
+     "conf": 0.957
+    },
+    {
+     "p": "prevención",
+     "conf": 0.444
+    },
+    {
+     "p": "de",
+     "conf": 0.738
+    },
+    {
+     "p": "pequeños.",
+     "conf": 0.893
+    }
+   ]
+  },
+  {
+   "inicio": 43.64,
+   "fin": 44.68,
+   "texto": "Está a 20 soles.",
+   "palabras": [
+    {
+     "p": "Está",
+     "conf": 0.422
+    },
+    {
+     "p": "a",
+     "conf": 0.71
+    },
+    {
+     "p": "20",
+     "conf": 0.993
+    },
+    {
+     "p": "soles.",
+     "conf": 0.713
+    }
+   ]
+  },
+  {
+   "inicio": 46.24,
+   "fin": 46.98,
+   "texto": "Muy bien.",
+   "palabras": [
+    {
+     "p": "Muy",
+     "conf": 0.831
+    },
+    {
+     "p": "bien.",
+     "conf": 0.999
+    }
+   ]
+  },
+  {
+   "inicio": 47.4,
+   "fin": 48.72,
+   "texto": "En total es 63.",
+   "palabras": [
+    {
+     "p": "En",
+     "conf": 0.768
+    },
+    {
+     "p": "total",
+     "conf": 0.999
+    },
+    {
+     "p": "es",
+     "conf": 0.967
+    },
+    {
+     "p": "63.",
+     "conf": 0.958
+    }
+   ]
+  },
+  {
+   "inicio": 48.94,
+   "fin": 50.14,
+   "texto": "Esto está en AWS.",
+   "palabras": [
+    {
+     "p": "Esto",
+     "conf": 0.054
+    },
+    {
+     "p": "está",
+     "conf": 0.963
+    },
+    {
+     "p": "en",
+     "conf": 0.96
+    },
+    {
+     "p": "AWS.",
+     "conf": 0.786
+    }
+   ]
+  },
+  {
+   "inicio": 50.7,
+   "fin": 54.34,
+   "texto": "Bien, si yo me encargo de que los modelos pasen para la producción de la gaseosa está grande.",
+   "palabras": [
+    {
+     "p": "Bien,",
+     "conf": 0.126
+    },
+    {
+     "p": "si",
+     "conf": 0.158
+    },
+    {
+     "p": "yo",
+     "conf": 0.891
+    },
+    {
+     "p": "me",
+     "conf": 0.532
+    },
+    {
+     "p": "encargo",
+     "conf": 0.766
+    },
+    {
+     "p": "de",
+     "conf": 0.986
+    },
+    {
+     "p": "que",
+     "conf": 0.938
+    },
+    {
+     "p": "los",
+     "conf": 0.934
+    },
+    {
+     "p": "modelos",
+     "conf": 0.98
+    },
+    {
+     "p": "pasen",
+     "conf": 0.555
+    },
+    {
+     "p": "para",
+     "conf": 0.44
+    },
+    {
+     "p": "la",
+     "conf": 0.749
+    },
+    {
+     "p": "producción",
+     "conf": 0.726
+    },
+    {
+     "p": "de",
+     "conf": 0.875
+    },
+    {
+     "p": "la",
+     "conf": 0.392
+    },
+    {
+     "p": "gaseosa",
+     "conf": 0.691
+    },
+    {
+     "p": "está",
+     "conf": 0.116
+    },
+    {
+     "p": "grande.",
+     "conf": 0.857
+    }
+   ]
+  },
+  {
+   "inicio": 55.82,
+   "fin": 57.06,
+   "texto": "Es de 12 tajadas.",
+   "palabras": [
+    {
+     "p": "Es",
+     "conf": 0.908
+    },
+    {
+     "p": "de",
+     "conf": 0.999
+    },
+    {
+     "p": "12",
+     "conf": 0.942
+    },
+    {
+     "p": "tajadas.",
+     "conf": 0.748
+    }
+   ]
+  },
+  {
+   "inicio": 57.34,
+   "fin": 59.48,
+   "texto": "Nada más a la querezgada o tradicional.",
+   "palabras": [
+    {
+     "p": "Nada",
+     "conf": 0.005
+    },
+    {
+     "p": "más",
+     "conf": 0.975
+    },
+    {
+     "p": "a",
+     "conf": 0.864
+    },
+    {
+     "p": "la",
+     "conf": 0.959
+    },
+    {
+     "p": "querezgada",
+     "conf": 0.596
+    },
+    {
+     "p": "o",
+     "conf": 0.676
+    },
+    {
+     "p": "tradicional.",
+     "conf": 0.955
+    }
+   ]
+  },
+  {
+   "inicio": 60.62,
+   "fin": 61.66,
+   "texto": "¿Qué tiene la gaseosa y los pequeños?",
+   "palabras": [
+    {
+     "p": "¿Qué",
+     "conf": 0.331
+    },
+    {
+     "p": "tiene",
+     "conf": 0.182
+    },
+    {
+     "p": "la",
+     "conf": 0.262
+    },
+    {
+     "p": "gaseosa",
+     "conf": 0.005
+    },
+    {
+     "p": "y",
+     "conf": 0.053
+    },
+    {
+     "p": "los",
+     "conf": 0.281
+    },
+    {
+     "p": "pequeños?",
+     "conf": 0.987
+    }
+   ]
+  },
+  {
+   "inicio": 62.36,
+   "fin": 63.02,
+   "texto": "¿Con qué salís a ver?",
+   "palabras": [
+    {
+     "p": "¿Con",
+     "conf": 0.846
+    },
+    {
+     "p": "qué",
+     "conf": 0.95
+    },
+    {
+     "p": "salís",
+     "conf": 0.439
+    },
+    {
+     "p": "a",
+     "conf": 0.398
+    },
+    {
+     "p": "ver?",
+     "conf": 0.115
+    }
+   ]
+  },
+  {
+   "inicio": 63.54,
+   "fin": 64.42,
+   "texto": "Con guacamole.",
+   "palabras": [
+    {
+     "p": "Con",
+     "conf": 0.905
+    },
+    {
+     "p": "guacamole.",
+     "conf": 0.96
+    }
+   ]
+  },
+  {
+   "inicio": 64.64,
+   "fin": 65.48,
+   "texto": "Si prefieres con sacerdote.",
+   "palabras": [
+    {
+     "p": "Si",
+     "conf": 0.234
+    },
+    {
+     "p": "prefieres",
+     "conf": 0.873
+    },
+    {
+     "p": "con",
+     "conf": 0.425
+    },
+    {
+     "p": "sacerdote.",
+     "conf": 0.462
+    }
+   ]
+  },
+  {
+   "inicio": 66.5,
+   "fin": 66.94,
+   "texto": "¿Guacamole?",
+   "palabras": [
+    {
+     "p": "¿Guacamole?",
+     "conf": 0.796
+    }
+   ]
+  },
+  {
+   "inicio": 67.16,
+   "fin": 67.3,
+   "texto": "Sí.",
+   "palabras": [
+    {
+     "p": "Sí.",
+     "conf": 0.099
+    }
+   ]
+  },
+  {
+   "inicio": 67.8,
+   "fin": 67.98,
+   "texto": "Ah.",
+   "palabras": [
+    {
+     "p": "Ah.",
+     "conf": 0.847
+    }
+   ]
+  },
+  {
+   "inicio": 68.72,
+   "fin": 70.8,
+   "texto": "Y que no le pongan oregano a la pizza.",
+   "palabras": [
+    {
+     "p": "Y",
+     "conf": 0.855
+    },
+    {
+     "p": "que",
+     "conf": 0.977
+    },
+    {
+     "p": "no",
+     "conf": 0.999
+    },
+    {
+     "p": "le",
+     "conf": 0.996
+    },
+    {
+     "p": "pongan",
+     "conf": 0.982
+    },
+    {
+     "p": "oregano",
+     "conf": 0.511
+    },
+    {
+     "p": "a",
+     "conf": 0.937
+    },
+    {
+     "p": "la",
+     "conf": 0.949
+    },
+    {
+     "p": "pizza.",
+     "conf": 0.102
+    }
+   ]
+  },
+  {
+   "inicio": 71.68,
+   "fin": 75.12,
+   "texto": "¿Qué tiene la gaseosa y la gaseosa y la gaseosa y la gaseosa y la gaseosa y la gaseosa?",
+   "palabras": [
+    {
+     "p": "¿Qué",
+     "conf": 0.354
+    },
+    {
+     "p": "tiene",
+     "conf": 0.189
+    },
+    {
+     "p": "la",
+     "conf": 0.302
+    },
+    {
+     "p": "gaseosa",
+     "conf": 0.976
+    },
+    {
+     "p": "y",
+     "conf": 0.371
+    },
+    {
+     "p": "la",
+     "conf": 0.296
+    },
+    {
+     "p": "gaseosa",
+     "conf": 0.73
+    },
+    {
+     "p": "y",
+     "conf": 0.156
+    },
+    {
+     "p": "la",
+     "conf": 0.697
+    },
+    {
+     "p": "gaseosa",
+     "conf": 0.858
+    },
+    {
+     "p": "y",
+     "conf": 0.108
+    },
+    {
+     "p": "la",
+     "conf": 0.828
+    },
+    {
+     "p": "gaseosa",
+     "conf": 0.904
+    },
+    {
+     "p": "y",
+     "conf": 0.129
+    },
+    {
+     "p": "la",
+     "conf": 0.853
+    },
+    {
+     "p": "gaseosa",
+     "conf": 0.95
+    },
+    {
+     "p": "y",
+     "conf": 0.139
+    },
+    {
+     "p": "la",
+     "conf": 0.858
+    },
+    {
+     "p": "gaseosa?",
+     "conf": 0.971
+    }
+   ]
+  },
+  {
+   "inicio": 75.14,
+   "fin": 87.32,
+   "texto": "¿Qué tiene la gaseosa y la gaseosa y la gaseosa y la gaseosa?",
+   "palabras": [
+    {
+     "p": "¿Qué",
+     "conf": 0.251
+    },
+    {
+     "p": "tiene",
+     "conf": 0.348
+    },
+    {
+     "p": "la",
+     "conf": 0.932
+    },
+    {
+     "p": "gaseosa",
+     "conf": 0.991
+    },
+    {
+     "p": "y",
+     "conf": 0.862
+    },
+    {
+     "p": "la",
+     "conf": 0.912
+    },
+    {
+     "p": "gaseosa",
+     "conf": 0.992
+    },
+    {
+     "p": "y",
+     "conf": 0.705
+    },
+    {
+     "p": "la",
+     "conf": 0.937
+    },
+    {
+     "p": "gaseosa",
+     "conf": 0.994
+    },
+    {
+     "p": "y",
+     "conf": 0.383
+    },
+    {
+     "p": "la",
+     "conf": 0.934
+    },
+    {
+     "p": "gaseosa?",
+     "conf": 0.993
+    }
+   ]
+  },
+  {
+   "inicio": 87.32,
+   "fin": 91.14,
+   "texto": "El 40 y cínico, B7, departamento 51.",
+   "palabras": [
+    {
+     "p": "El",
+     "conf": 0.093
+    },
+    {
+     "p": "40",
+     "conf": 0.518
+    },
+    {
+     "p": "y",
+     "conf": 0.857
+    },
+    {
+     "p": "cínico,",
+     "conf": 0.606
+    },
+    {
+     "p": "B7,",
+     "conf": 0.215
+    },
+    {
+     "p": "departamento",
+     "conf": 0.91
+    },
+    {
+     "p": "51.",
+     "conf": 0.819
+    }
+   ]
+  },
+  {
+   "inicio": 92.1,
+   "fin": 93.46,
+   "texto": "¿Alguna referencia?",
+   "palabras": [
+    {
+     "p": "¿Alguna",
+     "conf": 0.971
+    },
+    {
+     "p": "referencia?",
+     "conf": 0.998
+    }
+   ]
+  },
+  {
+   "inicio": 94.1,
+   "fin": 96.56,
+   "texto": "Es un condominio de la San Verdes.",
+   "palabras": [
+    {
+     "p": "Es",
+     "conf": 0.128
+    },
+    {
+     "p": "un",
+     "conf": 0.988
+    },
+    {
+     "p": "condominio",
+     "conf": 0.959
+    },
+    {
+     "p": "de",
+     "conf": 0.65
+    },
+    {
+     "p": "la",
+     "conf": 0.256
+    },
+    {
+     "p": "San",
+     "conf": 0.429
+    },
+    {
+     "p": "Verdes.",
+     "conf": 0.583
+    }
+   ]
+  },
+  {
+   "inicio": 96.8,
+   "fin": 99.08,
+   "texto": "¿Cuál es el que está en el trame?",
+   "palabras": [
+    {
+     "p": "¿Cuál",
+     "conf": 0.52
+    },
+    {
+     "p": "es",
+     "conf": 0.077
+    },
+    {
+     "p": "el",
+     "conf": 0.397
+    },
+    {
+     "p": "que",
+     "conf": 0.031
+    },
+    {
+     "p": "está",
+     "conf": 0.146
+    },
+    {
+     "p": "en",
+     "conf": 0.939
+    },
+    {
+     "p": "el",
+     "conf": 0.94
+    },
+    {
+     "p": "trame?",
+     "conf": 0.055
+    }
+   ]
+  },
+  {
+   "inicio": 99.08,
+   "fin": 100.82,
+   "texto": "Perfecto, ¿forma de pago?",
+   "palabras": [
+    {
+     "p": "Perfecto,",
+     "conf": 0.854
+    },
+    {
+     "p": "¿forma",
+     "conf": 0.881
+    },
+    {
+     "p": "de",
+     "conf": 1.0
+    },
+    {
+     "p": "pago?",
+     "conf": 0.996
+    }
+   ]
+  },
+  {
+   "inicio": 101.28,
+   "fin": 102.84,
+   "texto": "Por transferencia bancaria",
+   "palabras": [
+    {
+     "p": "Por",
+     "conf": 0.494
+    },
+    {
+     "p": "transferencia",
+     "conf": 0.978
+    },
+    {
+     "p": "bancaria",
+     "conf": 0.952
+    }
+   ]
+  },
+  {
+   "inicio": 102.84,
+   "fin": 104.74,
+   "texto": "¿Me pasa un contrato?",
+   "palabras": [
+    {
+     "p": "¿Me",
+     "conf": 0.265
+    },
+    {
+     "p": "pasa",
+     "conf": 0.67
+    },
+    {
+     "p": "un",
+     "conf": 0.583
+    },
+    {
+     "p": "contrato?",
+     "conf": 0.993
+    }
+   ]
+  },
+  {
+   "inicio": 105.14,
+   "fin": 108.32,
+   "texto": "Sí, leí en la licencia con los datos de la cuenta",
+   "palabras": [
+    {
+     "p": "Sí,",
+     "conf": 0.61
+    },
+    {
+     "p": "leí",
+     "conf": 0.622
+    },
+    {
+     "p": "en",
+     "conf": 0.277
+    },
+    {
+     "p": "la",
+     "conf": 0.231
+    },
+    {
+     "p": "licencia",
+     "conf": 0.563
+    },
+    {
+     "p": "con",
+     "conf": 0.63
+    },
+    {
+     "p": "los",
+     "conf": 0.999
+    },
+    {
+     "p": "datos",
+     "conf": 1.0
+    },
+    {
+     "p": "de",
+     "conf": 0.997
+    },
+    {
+     "p": "la",
+     "conf": 0.997
+    },
+    {
+     "p": "cuenta",
+     "conf": 0.989
+    }
+   ]
+  },
+  {
+   "inicio": 108.32,
+   "fin": 110.98,
+   "texto": "Apenas transfiere envíe la captura para la muchacha",
+   "palabras": [
+    {
+     "p": "Apenas",
+     "conf": 0.973
+    },
+    {
+     "p": "transfiere",
+     "conf": 0.564
+    },
+    {
+     "p": "envíe",
+     "conf": 0.76
+    },
+    {
+     "p": "la",
+     "conf": 0.953
+    },
+    {
+     "p": "captura",
+     "conf": 0.902
+    },
+    {
+     "p": "para",
+     "conf": 0.702
+    },
+    {
+     "p": "la",
+     "conf": 0.436
+    },
+    {
+     "p": "muchacha",
+     "conf": 0.729
+    }
+   ]
+  },
+  {
+   "inicio": 111.62,
+   "fin": 112.64,
+   "texto": "¿Cuánto demora?",
+   "palabras": [
+    {
+     "p": "¿Cuánto",
+     "conf": 0.945
+    },
+    {
+     "p": "demora?",
+     "conf": 0.949
+    }
+   ]
+  },
+  {
+   "inicio": 113.02,
+   "fin": 114.16,
+   "texto": "Un 45 minutos",
+   "palabras": [
+    {
+     "p": "Un",
+     "conf": 0.442
+    },
+    {
+     "p": "45",
+     "conf": 0.639
+    },
+    {
+     "p": "minutos",
+     "conf": 0.983
+    }
+   ]
+  },
+  {
+   "inicio": 114.16,
+   "fin": 116.28,
+   "texto": "Porque la gente se convierte en un poco más",
+   "palabras": [
+    {
+     "p": "Porque",
+     "conf": 0.055
+    },
+    {
+     "p": "la",
+     "conf": 0.952
+    },
+    {
+     "p": "gente",
+     "conf": 0.17
+    },
+    {
+     "p": "se",
+     "conf": 0.399
+    },
+    {
+     "p": "convierte",
+     "conf": 0.41
+    },
+    {
+     "p": "en",
+     "conf": 0.429
+    },
+    {
+     "p": "un",
+     "conf": 0.576
+    },
+    {
+     "p": "poco",
+     "conf": 0.937
+    },
+    {
+     "p": "más",
+     "conf": 0.97
+    }
+   ]
+  },
+  {
+   "inicio": 117.88,
+   "fin": 118.86,
+   "texto": "¿Al nombre de ti?",
+   "palabras": [
+    {
+     "p": "¿Al",
+     "conf": 0.539
+    },
+    {
+     "p": "nombre",
+     "conf": 0.996
+    },
+    {
+     "p": "de",
+     "conf": 0.996
+    },
+    {
+     "p": "ti?",
+     "conf": 0.963
+    }
+   ]
+  },
+  {
+   "inicio": 119.32,
+   "fin": 120.18,
+   "texto": "Al nombre de ti",
+   "palabras": [
+    {
+     "p": "Al",
+     "conf": 0.401
+    },
+    {
+     "p": "nombre",
+     "conf": 0.998
+    },
+    {
+     "p": "de",
+     "conf": 0.933
+    },
+    {
+     "p": "ti",
+     "conf": 0.148
+    }
+   ]
+  },
+  {
+   "inicio": 120.18,
+   "fin": 121.8,
+   "texto": "Gracias, Carmen",
+   "palabras": [
+    {
+     "p": "Gracias,",
+     "conf": 0.921
+    },
+    {
+     "p": "Carmen",
+     "conf": 0.189
+    }
+   ]
+  },
+  {
+   "inicio": 121.8,
+   "fin": 122.82,
+   "texto": "Buen provecho",
+   "palabras": [
+    {
+     "p": "Buen",
+     "conf": 0.859
+    },
+    {
+     "p": "provecho",
+     "conf": 0.997
+    }
+   ]
+  },
+  {
+   "inicio": 122.82,
+   "fin": 124.22,
+   "texto": "Gracias, a todos",
+   "palabras": [
+    {
+     "p": "Gracias,",
+     "conf": 0.941
+    },
+    {
+     "p": "a",
+     "conf": 0.035
+    },
+    {
+     "p": "todos",
+     "conf": 0.267
+    }
+   ]
+  }
+ ],
+ "modelo": "large-v3-turbo",
+ "precision": "int8",
+ "modo_glosario": "ninguno",
+ "dispositivo_real": "cpu",
+ "gpus_visibles": 0,
+ "duracion_audio_s": 125.74,
+ "segundos_transcripcion": 63.75,
+ "segundos_carga_modelo": 0.0,
+ "seg_por_min_audio": 30.42,
+ "vram_base_mb": null,
+ "vram_pico_mb": null,
+ "idioma_detectado": "es",
+ "faster_whisper": "1.2.1",
+ "ctranslate2": "4.8.4",
+ "degradacion": {
+  "nivel": "L3",
+  "snr_objetivo_db": 5,
+  "snr_medida_voz_activa_db": 5.0,
+  "snr_medida_global_db": 3.47
+ }
+}

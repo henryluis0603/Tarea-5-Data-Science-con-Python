@@ -1,0 +1,68 @@
+{
+ "audio": "/Users/henrylluptoncapunay/Documents/GitHub/Tarea 5 Data Science con Python/audio/V05.m4a",
+ "esquema": "llamada",
+ "metodo": "llm",
+ "proveedor": "openai",
+ "modelo_extraccion": "gpt-4o-mini",
+ "transcripcion": "Sabor de barrio. Buenas noches, le habla Sasha. ¿Qué va a pedir? Hola, buenas noches. ¿Tiene alguna promoción hoy? Hoy no, señorita. El 2x1 es solo en pizzas medianas y solo en los martes. Ah, qué pena. Bueno, igual quiero una pizza familiar de pepperoni y dos gaseosas del litro y medio. Una familiar de pepperoni y dos gaseosas. La familiar está a 45 soles y cada gaseosa a 9 soles. Ya. Ay, no. ¿Sabes qué? Mejor una gaseosa sola, que somos pocos. Y agrégame unos tequeños. Perfecto. Corrí. Una pizza familiar de pepperoni, una sola gaseosa y una porción de tequeños, que está a 20 soles. Eso. Muy bien. El total es 63 soles. 63. Perfecto. Una pregunta. ¿La pizza familiar es de cuántas tajadas? Es de 12 tajadas. ¿La masa la quiere delgada o tradicional? Tradicional. ¿Y los tequeños, con qué salsa viene? Con guacamole. O si prefiere, con salsa de ají. Guacamole está bien. Ah, y que no le pongan orégano a la pizza, por favor. Anotado. Pizza sin orégano. ¿A qué dirección le enviamos? Avenida Brasil, 3045, Block 7, Departamento 501, en Pueblo Libre. Avenida Brasil, 3045, Block 7, Departamento 501, Pueblo Libre. ¿Alguna referencia? Es un condominio con rejas verdes. El vigilante está en entrada. Perfecto. ¿Forma de pago? Por transferencia bancaria. ¿Me pasas el número de cuenta? Sí, le llega un mensaje con los datos de la cuenta. Apenas transfiere, envíe la captura por el mismo chat. Listo. ¿Cuánto demora? Unos 45 minutos, porque la pizza familiar tarda un poco más en el horno. Está bien. ¿A nombre de quién? A nombre de Camila. Gracias, Camila. Buen provecho. Gracias. Chao.",
+ "campos": {
+  "items": [
+   {
+    "producto": "pizza familiar de pepperoni",
+    "tamano": "familiar",
+    "cantidad": 1,
+    "precio_unitario": 45
+   },
+   {
+    "producto": "gaseosa",
+    "tamano": "litro y medio",
+    "cantidad": 1,
+    "precio_unitario": 9
+   },
+   {
+    "producto": "tequeños",
+    "tamano": null,
+    "cantidad": 1,
+    "precio_unitario": 20
+   }
+  ],
+  "promocion": null,
+  "direccion_entrega": "Avenida Brasil, 3045, Block 7, Departamento 501, en Pueblo Libre",
+  "metodo_pago": "transferencia",
+  "total_dicho": 63
+ },
+ "evidencias": {
+  "items": "Una pizza familiar de pepperoni, una sola gaseosa y una porción de tequeños, que está a 20 soles.",
+  "promocion": null,
+  "direccion_entrega": "Avenida Brasil, 3045, Block 7, Departamento 501, Pueblo Libre.",
+  "metodo_pago": "¿Forma de pago? Por transferencia bancaria.",
+  "total_dicho": "El total es 63 soles."
+ },
+ "verificacion": {
+  "items": "verificado",
+  "promocion": "vacio",
+  "direccion_entrega": "verificado",
+  "metodo_pago": "verificado",
+  "total_dicho": "verificado"
+ },
+ "validacion": {
+  "estado": "no_cuadra",
+  "suma_items": 74.0,
+  "descuento": 0.0,
+  "calculado": 74.0,
+  "total_dicho": 63.0,
+  "diferencia": -11.0,
+  "causa": "hablante",
+  "explicacion": "el total corresponde a otras cantidades: probable total del pedido antes de corregir",
+  "confianza_total": 0.991
+ },
+ "dispositivo": "cpu",
+ "modelo_asr": "large-v3-turbo (int8)",
+ "segundos": {
+  "asr": 0.0,
+  "extraccion": 4.04,
+  "total": 4.04
+ },
+ "desde_cache": true,
+ "error": null
+}

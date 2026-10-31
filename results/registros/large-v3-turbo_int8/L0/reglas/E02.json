@@ -1,0 +1,53 @@
+{
+ "audio": "/Users/henrylluptoncapunay/Documents/GitHub/Tarea 5 Data Science con Python/audio/E02.m4a",
+ "esquema": "entrevista",
+ "metodo": "reglas",
+ "proveedor": null,
+ "modelo_extraccion": "regex",
+ "transcripcion": "Hola Alex, buenos días. Te habla el equipo de talento de Nubesur. Antes de entrar en detalle, una pregunta rápida para no perder el tiempo de nadie. ¿Cuál es tu expectativa salarial? Buenos días. Directo de grano, me gusta. Yo estoy buscando unas 5 lucas mensuales en planilla. Perfecto, está dentro del rango. Entonces ahora sí, cuéntame de ti. Ya, trabajo en desarrollo backend desde hace 7 años. Empecé haciendo mantenimiento de servicios internos y poco a poco me fui pasando a microservicios. ¿Y en el último trabajo cuál era tu rol? Mi último puesto fue backend developer en una fintech. Ahí éramos un equipo de 6 personas y yo veía la parte de pagos. ¿Con qué lenguaje trabajas? Principalmente Java con Spring Boot. Todos los servicios corrieran en contenedores con Docker y los desplegábamos en Kubernetes. Y la base de datos era PostgreSQL. ¿Te tocó ver temas de monitoreo o de seguridad? Un poco de monitoreo, sí. Alertas cuando un pago se quedaba colgado. Seguridad lo veía otro equipo, la verdad. Cuéntame de un problema difícil que te haya tocado resolver. Un viernes de ofertas, el servicio de pagos empezó a responder lento. Procesábamos unas 800 transacciones por minuto y algunas se duplicaban. Encontramos que un reintento automático se disparaba antes de que la primera respuesta llegara. Lo corregimos con una clave única por pago y desde entonces no hubo más duplicados. ¿Y cómo lo detectaron? ¿Por los reclamos, la verdad. Por eso después armamos las alertas que te comentaba, para enterrarnos antes que el cliente. Entiendo. Nosotros tenemos clientes en Estados Unidos y las reuniones diarias son en inglés. ¿Qué nivel tienes? Avanzado. En la FinTech, la mitad del equipo de producto está en Miami, así que habla en inglés todos los días. Por escrito y en llamadas. Excelente. ¿Y desde cuándo estarías disponible? Inmediata. El proyecto en el que estaba terminó el mes pasado y ya no tengo contrato, así que puedo empezar cuando ustedes digan. Perfecto. Eso nos ayuda mucho porque queremos cubrir la posición rápida. ¿Alguna pregunta? Sí. ¿Cómo es el proceso? ¿Hay una prueba técnica? Sí. Hay una prueba técnica de dos horas y luego una entrevista con el líder del equipo. Te mando el enlace hoy en la tarde. Genial. Claro, la espera. Muchas gracias. Gracias a ti, Alex. Que tengas buen día.",
+ "campos": {
+  "anios_experiencia": 7,
+  "ultimo_puesto": "backend developer",
+  "tecnologias": [
+   "Java",
+   "Spring Boot",
+   "Docker",
+   "Kubernetes",
+   "PostgreSQL"
+  ],
+  "pretension_salarial": {
+   "monto": 5000,
+   "moneda": "PEN"
+  },
+  "disponibilidad": {
+   "tipo": "inmediata"
+  },
+  "nivel_ingles": "avanzado"
+ },
+ "evidencias": {
+  "anios_experiencia": "7 años",
+  "ultimo_puesto": "mi ultimo puesto fue backend developer",
+  "tecnologias": "java | spring boot | docker | kubernetes | postgresql",
+  "pretension_salarial": "5000 soles",
+  "disponibilidad": "inmediata",
+  "nivel_ingles": "avanzado"
+ },
+ "verificacion": {
+  "anios_experiencia": "verificado",
+  "ultimo_puesto": "verificado",
+  "tecnologias": "verificado",
+  "pretension_salarial": "verificado",
+  "disponibilidad": "verificado",
+  "nivel_ingles": "verificado"
+ },
+ "validacion": null,
+ "dispositivo": "cpu",
+ "modelo_asr": "large-v3-turbo (int8)",
+ "segundos": {
+  "asr": 0.0,
+  "extraccion": 0.02,
+  "total": 0.02
+ },
+ "desde_cache": true,
+ "error": null
+}

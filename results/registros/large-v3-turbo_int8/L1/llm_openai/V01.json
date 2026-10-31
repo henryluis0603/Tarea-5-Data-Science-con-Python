@@ -1,0 +1,77 @@
+{
+ "audio": "/Users/henrylluptoncapunay/Documents/GitHub/Tarea 5 Data Science con Python/audio/V01.m4a",
+ "esquema": "llamada",
+ "metodo": "llm",
+ "proveedor": "openai",
+ "modelo_extraccion": "gpt-4o-mini",
+ "transcripcion": "sabor de barrio buenas noches le habla sasha que le gustaría pedir hola buenas noches quería hacer un pedido para delivery por favor claro que sí dígame a ver quiero un pollo a la brasa entero una gaseosa de litro y medio y dos porciones de papas fritas perfecto le comento que el pollo entero con la gaseosa entra en el combo familiar que tiene 10 soles de descuento a qué bien entonces sí con el combo listo entonces tengo un pollo entero una gaseosa y dos pasadas papas extra algo más espera déjame pensar mejor que sea una porción de papas extra porque el pollo ya viene con papas y agrévame una jarra de chicha morada perfecto corrijo una sola porción de papas extra y una jarra chicha morada eso sí le confirmo los precios el pollo entero está 68 soles la gaseosa 9 soles las papas extra 8 soles y la chicha morada 12 soles con el descuento del combo familiar de 10 soles el total es 87 soles 87 perfecto una pregunta el pollo viene con ensalada si el pollo incluye papas y ensalada clásica las cremas van aparte sin costo mayonesa ketchup ají mostaza mándame bastante aquí por favor y poco mayonesa anotado bastante aquí y poca mayonesa le pongo que también si un poquito y la chicha es natural o de sobre es natural le preparamos aquí con maíz morado piña y canela a buenísimo a qué dirección se le enviamos girón los cedros 245 departamento 302 en surquillo girón los cedros 245 departamento 302 surquillo alguna referencia es un edificio blanco al costado de una farmacia anotado como va a pagar con yape muy bien el repartidor le muestra el código cuando llegue el pedido demora personalmente 40 minutos perfecto me pueden mandar cubiertos sí claro le enviamos cubiertos y servilletas a nombre de quien dejó el pedido a nombre de sofía listo sofía gracias por su pedido y que disfruten gracias hasta luego",
+ "campos": {
+  "items": [
+   {
+    "producto": "pollo a la brasa entero",
+    "tamano": null,
+    "cantidad": 1,
+    "precio_unitario": 68
+   },
+   {
+    "producto": "gaseosa de litro y medio",
+    "tamano": null,
+    "cantidad": 1,
+    "precio_unitario": 9
+   },
+   {
+    "producto": "porción de papas extra",
+    "tamano": null,
+    "cantidad": 1,
+    "precio_unitario": 8
+   },
+   {
+    "producto": "jarra de chicha morada",
+    "tamano": null,
+    "cantidad": 1,
+    "precio_unitario": 12
+   }
+  ],
+  "promocion": {
+   "nombre": "combo familiar",
+   "descuento": 10
+  },
+  "direccion_entrega": "girón los cedros 245 departamento 302 en surquillo",
+  "metodo_pago": "yape",
+  "total_dicho": 87
+ },
+ "evidencias": {
+  "items": "entonces sí con el combo listo entonces tengo un pollo entero una gaseosa y dos pasadas papas extra algo más espera déjame pensar mejor que sea una porción de papas extra porque el pollo ya viene con papas y agrévame una jarra de chicha morada perfecto corrijo una sola porción de papas extra y una jarra chicha morada",
+  "promocion": "le comento que el pollo entero con la gaseosa entra en el combo familiar que tiene 10 soles de descuento",
+  "direccion_entrega": "a qué dirección se le enviamos girón los cedros 245 departamento 302 en surquillo",
+  "metodo_pago": "como va a pagar con yape",
+  "total_dicho": "con el descuento del combo familiar de 10 soles el total es 87 soles"
+ },
+ "verificacion": {
+  "items": "verificado",
+  "promocion": "verificado",
+  "direccion_entrega": "verificado",
+  "metodo_pago": "verificado",
+  "total_dicho": "verificado"
+ },
+ "validacion": {
+  "estado": "cuadra",
+  "suma_items": 97.0,
+  "descuento": 10.0,
+  "calculado": 87.0,
+  "total_dicho": 87.0,
+  "diferencia": 0.0,
+  "causa": null,
+  "explicacion": "cuadra",
+  "confianza_total": 0.97
+ },
+ "dispositivo": "cpu",
+ "modelo_asr": "large-v3-turbo (int8)",
+ "segundos": {
+  "asr": 0.0,
+  "extraccion": 4.57,
+  "total": 4.57
+ },
+ "desde_cache": true,
+ "error": null
+}

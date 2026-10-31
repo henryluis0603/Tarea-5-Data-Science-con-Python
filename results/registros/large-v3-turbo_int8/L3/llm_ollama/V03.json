@@ -1,0 +1,71 @@
+{
+ "audio": "/Users/henrylluptoncapunay/Documents/GitHub/Tarea 5 Data Science con Python/audio/V03.m4a",
+ "esquema": "llamada",
+ "metodo": "llm",
+ "proveedor": "ollama",
+ "modelo_extraccion": "qwen2.5:3b",
+ "transcripcion": "A favor del barrio, buenas tardes, le habla Shasha ¿En qué le puedo ayudar? Hola, buenas tardes, quiero pedir un almuerzo para los músicos Claro, con gusto, ¿qué te gustaría? Dos lomos saltados, una jide gallina y una jarra de chichamá ¿Y cuántos días? Dos lomos saltados, una jide gallina y una jarra de chichamá ¿El lomo lo quiere con arroz o con taco taco? Con arroz normal Perfecto, ¿algo más? No, eso es todo Ah, tengo un código de descuento barrio 8 Déjame revisar Sí, el código barrio 15 aplica partidos desde 100 soles Y su pedido pasa a los 100 Así que le descontamos 15 soles Genial De detalle, cada lomo saltado cuesta 35 soles La jide gallina 28 soles y la chicha morada 12 soles Con el descuento de 15 soles del código el total es 85 soles 85, ya, perfecto Una pregunta ¿El ají de gallina fijamos? No, es suave Si quiere, le mandamos aquí aparte para el resto Cada uno de por el resto Sí, mándalo aparte, por favor Y que los datos vayan en bases separados Porque son para 3 Perfecto Van en 3 bases separados ¿Y la chicha viene con vasos? Sí, le enviamos 3 bases de los carteles Dirección de entrega Calle Los Algarrobo 77, Muzana C, Lote 14, Urbanización Santa Cruz Calle Los Algarrobo 77, Muzana C, Lote 14, Urbanización Santa Cruz ¿Es una oficina? ¿Cuándo podrías empezar? Es una casa convertida en una oficina Hay un letrero similares Perfecto, ¿cómo va a pagar? Contrato, me pide, me pide, me pide, me pide ¿El compartidor lleva el post? Sí, lleva el post y acepta todas las tarjetas El pedido llega a los 35 minutos Excelente, muy gusto para la obra ¿A la obra de quién dejó el pedido? Al nombre de Vale, del área de canta Listo, vale Gracias por hacer una pregunta para nosotros Gracias, está en el lugar",
+ "campos": {
+  "items": [
+   {
+    "producto": "lomo saltado",
+    "tamano": null,
+    "cantidad": 2,
+    "precio_unitario": 35
+   },
+   {
+    "producto": "jide gallina",
+    "tamano": null,
+    "cantidad": 1,
+    "precio_unitario": 28
+   },
+   {
+    "producto": "chicha morada",
+    "tamano": null,
+    "cantidad": 1,
+    "precio_unitario": 12
+   }
+  ],
+  "promocion": {
+   "nombre": "barrio 15",
+   "descuento": 15
+  },
+  "direccion_entrega": "Calle Los Algarrobo 77, Muzana C, Lote 14, Urbanización Santa Cruz",
+  "metodo_pago": "contrato",
+  "total_dicho": 85
+ },
+ "evidencias": {
+  "items": "Dos lomos saltados, una jide gallina y una jarra de chichamá",
+  "promocion": "Sí, el código barrio 15 aplica partidos desde 100 soles Y su pedido pasa a los 100 Así que le descontamos 15 soles",
+  "direccion_entrega": "Calle Los Algarrobo 77, Muzana C, Lote 14, Urbanización Santa Cruz",
+  "metodo_pago": "¿El compartidor lleva el post? Sí, lleva el post y acepta todas las tarjetas",
+  "total_dicho": "El total es 85 soles 85, ya, perfecto"
+ },
+ "verificacion": {
+  "items": "verificado",
+  "promocion": "verificado",
+  "direccion_entrega": "verificado",
+  "metodo_pago": "verificado",
+  "total_dicho": "verificado"
+ },
+ "validacion": {
+  "estado": "no_cuadra",
+  "suma_items": 110.0,
+  "descuento": 15.0,
+  "calculado": 95.0,
+  "total_dicho": 85.0,
+  "diferencia": -10.0,
+  "causa": "hablante",
+  "explicacion": "error de cálculo del hablante (el ASR estaba seguro del total)",
+  "confianza_total": 0.762
+ },
+ "dispositivo": "cpu",
+ "modelo_asr": "large-v3-turbo (int8)",
+ "segundos": {
+  "asr": 0.0,
+  "extraccion": 32.06,
+  "total": 32.06
+ },
+ "desde_cache": true,
+ "error": null
+}

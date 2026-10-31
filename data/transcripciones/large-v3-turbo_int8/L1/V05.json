@@ -1,0 +1,1192 @@
+{
+ "texto": "sabor de barrio buenas noches le habla Sasha que va a pedir hola buenas noches tiene alguna promoción hoy hoy nada señorita el 2x1 solo en pizzas medianas y sobre los martes ah qué pena bueno igual quiero una pizza familiar de pepperoni y dos gaseosas del litro y medio una familiar de pepperoni y dos gaseosas la familiar está a 45 soles y cada gaseosa 9 soles ya hay no sabes qué mejor una gaseosa sola que somos pocos y agrégame unos pequeños perfecto corrido una pizza familiar de pepperoni una sola gaseosa y una porción de pequeños que está a 20 soles eso muy bien el total es 63 soles 63 perfecto una pregunta la pizza familiar es de cuántas tajadas es de 12 tajadas la masa la quiere delgada o tradicional tradicional y los pequeños con qué salsa viene con guacamole o si prefieres con salsa de ají guacamole está bien ah y que no le pongan orégano a la pizza por favor anotado pizza sin orégano a qué dirección le enviamos avenida brasil 3045 block 7 departamento 501 en pueblo libre alguna referencia es un condominio con rejas verdes el vigilante está en entrada perfecto forma de pago por transferencia bancaria me pasas el número de cuenta si le llega un mensaje a lo con los datos de la cuenta apenas transfiere envía la captura para el mismo chat listo cuánto demora unos 45 minutos porque la pizza familiar tarda un poco más en el horno está bien a nombre de ti a nombre de camina gracias camina buen provecho gracias chao",
+ "segmentos": [
+  {
+   "inicio": 1.82,
+   "fin": 7.7,
+   "texto": "sabor de barrio buenas noches le habla Sasha que va a pedir hola buenas noches tiene alguna",
+   "palabras": [
+    {
+     "p": "sabor",
+     "conf": 0.016
+    },
+    {
+     "p": "de",
+     "conf": 0.935
+    },
+    {
+     "p": "barrio",
+     "conf": 0.823
+    },
+    {
+     "p": "buenas",
+     "conf": 0.761
+    },
+    {
+     "p": "noches",
+     "conf": 0.998
+    },
+    {
+     "p": "le",
+     "conf": 0.777
+    },
+    {
+     "p": "habla",
+     "conf": 0.939
+    },
+    {
+     "p": "Sasha",
+     "conf": 0.641
+    },
+    {
+     "p": "que",
+     "conf": 0.363
+    },
+    {
+     "p": "va",
+     "conf": 0.876
+    },
+    {
+     "p": "a",
+     "conf": 0.971
+    },
+    {
+     "p": "pedir",
+     "conf": 0.979
+    },
+    {
+     "p": "hola",
+     "conf": 0.739
+    },
+    {
+     "p": "buenas",
+     "conf": 0.967
+    },
+    {
+     "p": "noches",
+     "conf": 0.997
+    },
+    {
+     "p": "tiene",
+     "conf": 0.868
+    },
+    {
+     "p": "alguna",
+     "conf": 0.989
+    }
+   ]
+  },
+  {
+   "inicio": 7.7,
+   "fin": 14.92,
+   "texto": "promoción hoy hoy nada señorita el 2x1 solo en pizzas medianas y sobre los martes ah qué pena",
+   "palabras": [
+    {
+     "p": "promoción",
+     "conf": 0.998
+    },
+    {
+     "p": "hoy",
+     "conf": 0.892
+    },
+    {
+     "p": "hoy",
+     "conf": 0.403
+    },
+    {
+     "p": "nada",
+     "conf": 0.504
+    },
+    {
+     "p": "señorita",
+     "conf": 0.96
+    },
+    {
+     "p": "el",
+     "conf": 0.678
+    },
+    {
+     "p": "2x1",
+     "conf": 0.777
+    },
+    {
+     "p": "solo",
+     "conf": 0.27
+    },
+    {
+     "p": "en",
+     "conf": 0.927
+    },
+    {
+     "p": "pizzas",
+     "conf": 0.883
+    },
+    {
+     "p": "medianas",
+     "conf": 0.985
+    },
+    {
+     "p": "y",
+     "conf": 0.965
+    },
+    {
+     "p": "sobre",
+     "conf": 0.084
+    },
+    {
+     "p": "los",
+     "conf": 0.833
+    },
+    {
+     "p": "martes",
+     "conf": 0.996
+    },
+    {
+     "p": "ah",
+     "conf": 0.438
+    },
+    {
+     "p": "qué",
+     "conf": 0.315
+    },
+    {
+     "p": "pena",
+     "conf": 0.998
+    }
+   ]
+  },
+  {
+   "inicio": 14.92,
+   "fin": 21.74,
+   "texto": "bueno igual quiero una pizza familiar de pepperoni y dos gaseosas del litro y medio una familiar de",
+   "palabras": [
+    {
+     "p": "bueno",
+     "conf": 0.961
+    },
+    {
+     "p": "igual",
+     "conf": 0.989
+    },
+    {
+     "p": "quiero",
+     "conf": 0.498
+    },
+    {
+     "p": "una",
+     "conf": 0.994
+    },
+    {
+     "p": "pizza",
+     "conf": 0.983
+    },
+    {
+     "p": "familiar",
+     "conf": 0.988
+    },
+    {
+     "p": "de",
+     "conf": 0.992
+    },
+    {
+     "p": "pepperoni",
+     "conf": 0.881
+    },
+    {
+     "p": "y",
+     "conf": 0.977
+    },
+    {
+     "p": "dos",
+     "conf": 0.751
+    },
+    {
+     "p": "gaseosas",
+     "conf": 0.983
+    },
+    {
+     "p": "del",
+     "conf": 0.798
+    },
+    {
+     "p": "litro",
+     "conf": 0.992
+    },
+    {
+     "p": "y",
+     "conf": 0.997
+    },
+    {
+     "p": "medio",
+     "conf": 0.998
+    },
+    {
+     "p": "una",
+     "conf": 0.869
+    },
+    {
+     "p": "familiar",
+     "conf": 0.727
+    },
+    {
+     "p": "de",
+     "conf": 0.965
+    }
+   ]
+  },
+  {
+   "inicio": 21.74,
+   "fin": 29.72,
+   "texto": "pepperoni y dos gaseosas la familiar está a 45 soles y cada gaseosa 9 soles ya hay no sabes",
+   "palabras": [
+    {
+     "p": "pepperoni",
+     "conf": 0.988
+    },
+    {
+     "p": "y",
+     "conf": 0.798
+    },
+    {
+     "p": "dos",
+     "conf": 0.887
+    },
+    {
+     "p": "gaseosas",
+     "conf": 0.994
+    },
+    {
+     "p": "la",
+     "conf": 0.929
+    },
+    {
+     "p": "familiar",
+     "conf": 0.927
+    },
+    {
+     "p": "está",
+     "conf": 0.845
+    },
+    {
+     "p": "a",
+     "conf": 0.548
+    },
+    {
+     "p": "45",
+     "conf": 0.967
+    },
+    {
+     "p": "soles",
+     "conf": 0.996
+    },
+    {
+     "p": "y",
+     "conf": 0.988
+    },
+    {
+     "p": "cada",
+     "conf": 0.992
+    },
+    {
+     "p": "gaseosa",
+     "conf": 0.912
+    },
+    {
+     "p": "9",
+     "conf": 0.577
+    },
+    {
+     "p": "soles",
+     "conf": 0.995
+    },
+    {
+     "p": "ya",
+     "conf": 0.943
+    },
+    {
+     "p": "hay",
+     "conf": 0.395
+    },
+    {
+     "p": "no",
+     "conf": 0.982
+    },
+    {
+     "p": "sabes",
+     "conf": 0.824
+    }
+   ]
+  },
+  {
+   "inicio": 29.72,
+   "fin": 39.4,
+   "texto": "qué mejor una gaseosa sola que somos pocos y agrégame unos pequeños perfecto corrido una pizza familiar",
+   "palabras": [
+    {
+     "p": "qué",
+     "conf": 0.011
+    },
+    {
+     "p": "mejor",
+     "conf": 0.188
+    },
+    {
+     "p": "una",
+     "conf": 0.948
+    },
+    {
+     "p": "gaseosa",
+     "conf": 0.925
+    },
+    {
+     "p": "sola",
+     "conf": 0.889
+    },
+    {
+     "p": "que",
+     "conf": 0.415
+    },
+    {
+     "p": "somos",
+     "conf": 0.971
+    },
+    {
+     "p": "pocos",
+     "conf": 0.998
+    },
+    {
+     "p": "y",
+     "conf": 0.981
+    },
+    {
+     "p": "agrégame",
+     "conf": 0.939
+    },
+    {
+     "p": "unos",
+     "conf": 0.98
+    },
+    {
+     "p": "pequeños",
+     "conf": 0.976
+    },
+    {
+     "p": "perfecto",
+     "conf": 0.846
+    },
+    {
+     "p": "corrido",
+     "conf": 0.324
+    },
+    {
+     "p": "una",
+     "conf": 0.933
+    },
+    {
+     "p": "pizza",
+     "conf": 0.923
+    },
+    {
+     "p": "familiar",
+     "conf": 0.976
+    }
+   ]
+  },
+  {
+   "inicio": 39.4,
+   "fin": 47.64,
+   "texto": "de pepperoni una sola gaseosa y una porción de pequeños que está a 20 soles eso muy bien el",
+   "palabras": [
+    {
+     "p": "de",
+     "conf": 0.804
+    },
+    {
+     "p": "pepperoni",
+     "conf": 0.546
+    },
+    {
+     "p": "una",
+     "conf": 0.877
+    },
+    {
+     "p": "sola",
+     "conf": 0.995
+    },
+    {
+     "p": "gaseosa",
+     "conf": 0.996
+    },
+    {
+     "p": "y",
+     "conf": 0.992
+    },
+    {
+     "p": "una",
+     "conf": 0.995
+    },
+    {
+     "p": "porción",
+     "conf": 0.997
+    },
+    {
+     "p": "de",
+     "conf": 0.994
+    },
+    {
+     "p": "pequeños",
+     "conf": 0.968
+    },
+    {
+     "p": "que",
+     "conf": 0.978
+    },
+    {
+     "p": "está",
+     "conf": 0.899
+    },
+    {
+     "p": "a",
+     "conf": 0.719
+    },
+    {
+     "p": "20",
+     "conf": 0.924
+    },
+    {
+     "p": "soles",
+     "conf": 0.854
+    },
+    {
+     "p": "eso",
+     "conf": 0.753
+    },
+    {
+     "p": "muy",
+     "conf": 0.941
+    },
+    {
+     "p": "bien",
+     "conf": 0.994
+    },
+    {
+     "p": "el",
+     "conf": 0.606
+    }
+   ]
+  },
+  {
+   "inicio": 47.64,
+   "fin": 57.2,
+   "texto": "total es 63 soles 63 perfecto una pregunta la pizza familiar es de cuántas tajadas es de 12 tajadas",
+   "palabras": [
+    {
+     "p": "total",
+     "conf": 1.0
+    },
+    {
+     "p": "es",
+     "conf": 0.937
+    },
+    {
+     "p": "63",
+     "conf": 0.969
+    },
+    {
+     "p": "soles",
+     "conf": 0.928
+    },
+    {
+     "p": "63",
+     "conf": 0.938
+    },
+    {
+     "p": "perfecto",
+     "conf": 0.988
+    },
+    {
+     "p": "una",
+     "conf": 0.99
+    },
+    {
+     "p": "pregunta",
+     "conf": 0.999
+    },
+    {
+     "p": "la",
+     "conf": 0.963
+    },
+    {
+     "p": "pizza",
+     "conf": 0.985
+    },
+    {
+     "p": "familiar",
+     "conf": 0.996
+    },
+    {
+     "p": "es",
+     "conf": 0.966
+    },
+    {
+     "p": "de",
+     "conf": 0.995
+    },
+    {
+     "p": "cuántas",
+     "conf": 0.758
+    },
+    {
+     "p": "tajadas",
+     "conf": 0.936
+    },
+    {
+     "p": "es",
+     "conf": 0.768
+    },
+    {
+     "p": "de",
+     "conf": 0.989
+    },
+    {
+     "p": "12",
+     "conf": 0.877
+    },
+    {
+     "p": "tajadas",
+     "conf": 0.948
+    }
+   ]
+  },
+  {
+   "inicio": 57.2,
+   "fin": 64.7,
+   "texto": "la masa la quiere delgada o tradicional tradicional y los pequeños con qué salsa viene con guacamole o si",
+   "palabras": [
+    {
+     "p": "la",
+     "conf": 0.052
+    },
+    {
+     "p": "masa",
+     "conf": 0.983
+    },
+    {
+     "p": "la",
+     "conf": 0.911
+    },
+    {
+     "p": "quiere",
+     "conf": 0.774
+    },
+    {
+     "p": "delgada",
+     "conf": 0.981
+    },
+    {
+     "p": "o",
+     "conf": 0.987
+    },
+    {
+     "p": "tradicional",
+     "conf": 0.998
+    },
+    {
+     "p": "tradicional",
+     "conf": 0.845
+    },
+    {
+     "p": "y",
+     "conf": 0.608
+    },
+    {
+     "p": "los",
+     "conf": 0.994
+    },
+    {
+     "p": "pequeños",
+     "conf": 0.812
+    },
+    {
+     "p": "con",
+     "conf": 0.552
+    },
+    {
+     "p": "qué",
+     "conf": 0.426
+    },
+    {
+     "p": "salsa",
+     "conf": 0.951
+    },
+    {
+     "p": "viene",
+     "conf": 0.768
+    },
+    {
+     "p": "con",
+     "conf": 0.901
+    },
+    {
+     "p": "guacamole",
+     "conf": 0.993
+    },
+    {
+     "p": "o",
+     "conf": 0.985
+    },
+    {
+     "p": "si",
+     "conf": 0.995
+    }
+   ]
+  },
+  {
+   "inicio": 64.7,
+   "fin": 71.52,
+   "texto": "prefieres con salsa de ají guacamole está bien ah y que no le pongan orégano a la pizza por favor",
+   "palabras": [
+    {
+     "p": "prefieres",
+     "conf": 0.942
+    },
+    {
+     "p": "con",
+     "conf": 0.959
+    },
+    {
+     "p": "salsa",
+     "conf": 0.561
+    },
+    {
+     "p": "de",
+     "conf": 0.771
+    },
+    {
+     "p": "ají",
+     "conf": 0.9
+    },
+    {
+     "p": "guacamole",
+     "conf": 0.996
+    },
+    {
+     "p": "está",
+     "conf": 0.944
+    },
+    {
+     "p": "bien",
+     "conf": 0.995
+    },
+    {
+     "p": "ah",
+     "conf": 0.603
+    },
+    {
+     "p": "y",
+     "conf": 0.886
+    },
+    {
+     "p": "que",
+     "conf": 0.993
+    },
+    {
+     "p": "no",
+     "conf": 0.998
+    },
+    {
+     "p": "le",
+     "conf": 0.999
+    },
+    {
+     "p": "pongan",
+     "conf": 0.977
+    },
+    {
+     "p": "orégano",
+     "conf": 0.905
+    },
+    {
+     "p": "a",
+     "conf": 0.931
+    },
+    {
+     "p": "la",
+     "conf": 0.998
+    },
+    {
+     "p": "pizza",
+     "conf": 0.996
+    },
+    {
+     "p": "por",
+     "conf": 0.991
+    },
+    {
+     "p": "favor",
+     "conf": 0.999
+    }
+   ]
+  },
+  {
+   "inicio": 72.34,
+   "fin": 84.2,
+   "texto": "anotado pizza sin orégano a qué dirección le enviamos avenida brasil 3045 block 7 departamento 501 en",
+   "palabras": [
+    {
+     "p": "anotado",
+     "conf": 0.803
+    },
+    {
+     "p": "pizza",
+     "conf": 0.805
+    },
+    {
+     "p": "sin",
+     "conf": 0.994
+    },
+    {
+     "p": "orégano",
+     "conf": 0.992
+    },
+    {
+     "p": "a",
+     "conf": 0.761
+    },
+    {
+     "p": "qué",
+     "conf": 0.849
+    },
+    {
+     "p": "dirección",
+     "conf": 0.998
+    },
+    {
+     "p": "le",
+     "conf": 0.627
+    },
+    {
+     "p": "enviamos",
+     "conf": 0.995
+    },
+    {
+     "p": "avenida",
+     "conf": 0.946
+    },
+    {
+     "p": "brasil",
+     "conf": 0.95
+    },
+    {
+     "p": "3045",
+     "conf": 0.922
+    },
+    {
+     "p": "block",
+     "conf": 0.632
+    },
+    {
+     "p": "7",
+     "conf": 0.992
+    },
+    {
+     "p": "departamento",
+     "conf": 0.991
+    },
+    {
+     "p": "501",
+     "conf": 0.977
+    },
+    {
+     "p": "en",
+     "conf": 0.991
+    }
+   ]
+  },
+  {
+   "inicio": 84.2,
+   "fin": 98.98,
+   "texto": "pueblo libre alguna referencia es un condominio con rejas verdes el vigilante está en entrada",
+   "palabras": [
+    {
+     "p": "pueblo",
+     "conf": 0.114
+    },
+    {
+     "p": "libre",
+     "conf": 0.994
+    },
+    {
+     "p": "alguna",
+     "conf": 0.0
+    },
+    {
+     "p": "referencia",
+     "conf": 0.997
+    },
+    {
+     "p": "es",
+     "conf": 0.907
+    },
+    {
+     "p": "un",
+     "conf": 0.996
+    },
+    {
+     "p": "condominio",
+     "conf": 0.993
+    },
+    {
+     "p": "con",
+     "conf": 0.992
+    },
+    {
+     "p": "rejas",
+     "conf": 0.991
+    },
+    {
+     "p": "verdes",
+     "conf": 0.993
+    },
+    {
+     "p": "el",
+     "conf": 0.931
+    },
+    {
+     "p": "vigilante",
+     "conf": 0.998
+    },
+    {
+     "p": "está",
+     "conf": 0.983
+    },
+    {
+     "p": "en",
+     "conf": 0.993
+    },
+    {
+     "p": "entrada",
+     "conf": 0.959
+    }
+   ]
+  },
+  {
+   "inicio": 98.98,
+   "fin": 106.68,
+   "texto": "perfecto forma de pago por transferencia bancaria me pasas el número de cuenta si le llega un mensaje a",
+   "palabras": [
+    {
+     "p": "perfecto",
+     "conf": 0.942
+    },
+    {
+     "p": "forma",
+     "conf": 0.971
+    },
+    {
+     "p": "de",
+     "conf": 0.985
+    },
+    {
+     "p": "pago",
+     "conf": 0.979
+    },
+    {
+     "p": "por",
+     "conf": 0.992
+    },
+    {
+     "p": "transferencia",
+     "conf": 0.995
+    },
+    {
+     "p": "bancaria",
+     "conf": 0.997
+    },
+    {
+     "p": "me",
+     "conf": 0.971
+    },
+    {
+     "p": "pasas",
+     "conf": 0.856
+    },
+    {
+     "p": "el",
+     "conf": 0.986
+    },
+    {
+     "p": "número",
+     "conf": 0.995
+    },
+    {
+     "p": "de",
+     "conf": 0.995
+    },
+    {
+     "p": "cuenta",
+     "conf": 0.96
+    },
+    {
+     "p": "si",
+     "conf": 0.902
+    },
+    {
+     "p": "le",
+     "conf": 0.923
+    },
+    {
+     "p": "llega",
+     "conf": 0.645
+    },
+    {
+     "p": "un",
+     "conf": 0.996
+    },
+    {
+     "p": "mensaje",
+     "conf": 0.997
+    },
+    {
+     "p": "a",
+     "conf": 0.665
+    }
+   ]
+  },
+  {
+   "inicio": 106.68,
+   "fin": 112.2,
+   "texto": "lo con los datos de la cuenta apenas transfiere envía la captura para el mismo chat listo cuánto",
+   "palabras": [
+    {
+     "p": "lo",
+     "conf": 0.002
+    },
+    {
+     "p": "con",
+     "conf": 0.734
+    },
+    {
+     "p": "los",
+     "conf": 0.998
+    },
+    {
+     "p": "datos",
+     "conf": 0.999
+    },
+    {
+     "p": "de",
+     "conf": 0.998
+    },
+    {
+     "p": "la",
+     "conf": 0.996
+    },
+    {
+     "p": "cuenta",
+     "conf": 0.996
+    },
+    {
+     "p": "apenas",
+     "conf": 0.746
+    },
+    {
+     "p": "transfiere",
+     "conf": 0.865
+    },
+    {
+     "p": "envía",
+     "conf": 0.584
+    },
+    {
+     "p": "la",
+     "conf": 0.879
+    },
+    {
+     "p": "captura",
+     "conf": 0.983
+    },
+    {
+     "p": "para",
+     "conf": 0.687
+    },
+    {
+     "p": "el",
+     "conf": 0.537
+    },
+    {
+     "p": "mismo",
+     "conf": 0.158
+    },
+    {
+     "p": "chat",
+     "conf": 0.8
+    },
+    {
+     "p": "listo",
+     "conf": 0.959
+    },
+    {
+     "p": "cuánto",
+     "conf": 0.777
+    }
+   ]
+  },
+  {
+   "inicio": 112.2,
+   "fin": 118.64,
+   "texto": "demora unos 45 minutos porque la pizza familiar tarda un poco más en el horno está bien a nombre",
+   "palabras": [
+    {
+     "p": "demora",
+     "conf": 0.969
+    },
+    {
+     "p": "unos",
+     "conf": 0.919
+    },
+    {
+     "p": "45",
+     "conf": 0.922
+    },
+    {
+     "p": "minutos",
+     "conf": 0.996
+    },
+    {
+     "p": "porque",
+     "conf": 0.99
+    },
+    {
+     "p": "la",
+     "conf": 0.98
+    },
+    {
+     "p": "pizza",
+     "conf": 0.854
+    },
+    {
+     "p": "familiar",
+     "conf": 0.989
+    },
+    {
+     "p": "tarda",
+     "conf": 0.858
+    },
+    {
+     "p": "un",
+     "conf": 0.996
+    },
+    {
+     "p": "poco",
+     "conf": 0.999
+    },
+    {
+     "p": "más",
+     "conf": 0.996
+    },
+    {
+     "p": "en",
+     "conf": 0.959
+    },
+    {
+     "p": "el",
+     "conf": 0.999
+    },
+    {
+     "p": "horno",
+     "conf": 0.998
+    },
+    {
+     "p": "está",
+     "conf": 0.897
+    },
+    {
+     "p": "bien",
+     "conf": 0.996
+    },
+    {
+     "p": "a",
+     "conf": 0.633
+    },
+    {
+     "p": "nombre",
+     "conf": 0.93
+    }
+   ]
+  },
+  {
+   "inicio": 118.64,
+   "fin": 124.26,
+   "texto": "de ti a nombre de camina gracias camina buen provecho gracias chao",
+   "palabras": [
+    {
+     "p": "de",
+     "conf": 0.914
+    },
+    {
+     "p": "ti",
+     "conf": 0.632
+    },
+    {
+     "p": "a",
+     "conf": 0.614
+    },
+    {
+     "p": "nombre",
+     "conf": 0.927
+    },
+    {
+     "p": "de",
+     "conf": 0.939
+    },
+    {
+     "p": "camina",
+     "conf": 0.766
+    },
+    {
+     "p": "gracias",
+     "conf": 0.914
+    },
+    {
+     "p": "camina",
+     "conf": 0.651
+    },
+    {
+     "p": "buen",
+     "conf": 0.867
+    },
+    {
+     "p": "provecho",
+     "conf": 0.997
+    },
+    {
+     "p": "gracias",
+     "conf": 0.996
+    },
+    {
+     "p": "chao",
+     "conf": 0.893
+    }
+   ]
+  }
+ ],
+ "modelo": "large-v3-turbo",
+ "precision": "int8",
+ "modo_glosario": "ninguno",
+ "dispositivo_real": "cpu",
+ "gpus_visibles": 0,
+ "duracion_audio_s": 125.74,
+ "segundos_transcripcion": 85.77,
+ "segundos_carga_modelo": 0.0,
+ "seg_por_min_audio": 40.93,
+ "vram_base_mb": null,
+ "vram_pico_mb": null,
+ "idioma_detectado": "es",
+ "faster_whisper": "1.2.1",
+ "ctranslate2": "4.8.4",
+ "degradacion": {
+  "nivel": "L1",
+  "bitrate": 12000
+ }
+}

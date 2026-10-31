@@ -1,0 +1,68 @@
+{
+ "audio": "/Users/henrylluptoncapunay/Documents/GitHub/Tarea 5 Data Science con Python/audio/V05.m4a",
+ "esquema": "llamada",
+ "metodo": "llm",
+ "proveedor": "openai",
+ "modelo_extraccion": "gpt-4o-mini",
+ "transcripcion": "sabor de barrio buenas noches le habla Sasha que va a pedir hola buenas noches tiene alguna promoción hoy hoy nada señorita el 2x1 solo en pizzas medianas y sobre los martes ah qué pena bueno igual quiero una pizza familiar de pepperoni y dos gaseosas del litro y medio una familiar de pepperoni y dos gaseosas la familiar está a 45 soles y cada gaseosa 9 soles ya hay no sabes qué mejor una gaseosa sola que somos pocos y agrégame unos pequeños perfecto corrido una pizza familiar de pepperoni una sola gaseosa y una porción de pequeños que está a 20 soles eso muy bien el total es 63 soles 63 perfecto una pregunta la pizza familiar es de cuántas tajadas es de 12 tajadas la masa la quiere delgada o tradicional tradicional y los pequeños con qué salsa viene con guacamole o si prefieres con salsa de ají guacamole está bien ah y que no le pongan orégano a la pizza por favor anotado pizza sin orégano a qué dirección le enviamos avenida brasil 3045 block 7 departamento 501 en pueblo libre alguna referencia es un condominio con rejas verdes el vigilante está en entrada perfecto forma de pago por transferencia bancaria me pasas el número de cuenta si le llega un mensaje a lo con los datos de la cuenta apenas transfiere envía la captura para el mismo chat listo cuánto demora unos 45 minutos porque la pizza familiar tarda un poco más en el horno está bien a nombre de ti a nombre de camina gracias camina buen provecho gracias chao",
+ "campos": {
+  "items": [
+   {
+    "producto": "pizza familiar de pepperoni",
+    "tamano": null,
+    "cantidad": 1,
+    "precio_unitario": 45
+   },
+   {
+    "producto": "gaseosa",
+    "tamano": "litro y medio",
+    "cantidad": 1,
+    "precio_unitario": 9
+   },
+   {
+    "producto": "porción de pequeños",
+    "tamano": null,
+    "cantidad": 1,
+    "precio_unitario": 20
+   }
+  ],
+  "promocion": null,
+  "direccion_entrega": "avenida brasil 3045 block 7 departamento 501 en pueblo libre",
+  "metodo_pago": "transferencia",
+  "total_dicho": 63
+ },
+ "evidencias": {
+  "items": "una pizza familiar de pepperoni una sola gaseosa y una porción de pequeños que está a 20 soles eso muy bien el total es 63 soles",
+  "promocion": null,
+  "direccion_entrega": "a qué dirección le enviamos avenida brasil 3045 block 7 departamento 501 en pueblo libre",
+  "metodo_pago": "perfecto forma de pago por transferencia bancaria",
+  "total_dicho": "el total es 63 soles"
+ },
+ "verificacion": {
+  "items": "verificado",
+  "promocion": "vacio",
+  "direccion_entrega": "verificado",
+  "metodo_pago": "verificado",
+  "total_dicho": "verificado"
+ },
+ "validacion": {
+  "estado": "no_cuadra",
+  "suma_items": 74.0,
+  "descuento": 0.0,
+  "calculado": 74.0,
+  "total_dicho": 63.0,
+  "diferencia": -11.0,
+  "causa": "hablante",
+  "explicacion": "el total corresponde a otras cantidades: probable total del pedido antes de corregir",
+  "confianza_total": 0.966
+ },
+ "dispositivo": "cpu",
+ "modelo_asr": "large-v3-turbo (int8)",
+ "segundos": {
+  "asr": 0.0,
+  "extraccion": 3.6,
+  "total": 3.6
+ },
+ "desde_cache": true,
+ "error": null
+}

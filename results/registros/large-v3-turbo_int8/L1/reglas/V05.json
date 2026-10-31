@@ -1,0 +1,65 @@
+{
+ "audio": "/Users/henrylluptoncapunay/Documents/GitHub/Tarea 5 Data Science con Python/audio/V05.m4a",
+ "esquema": "llamada",
+ "metodo": "reglas",
+ "proveedor": null,
+ "modelo_extraccion": "regex",
+ "transcripcion": "sabor de barrio buenas noches le habla Sasha que va a pedir hola buenas noches tiene alguna promoción hoy hoy nada señorita el 2x1 solo en pizzas medianas y sobre los martes ah qué pena bueno igual quiero una pizza familiar de pepperoni y dos gaseosas del litro y medio una familiar de pepperoni y dos gaseosas la familiar está a 45 soles y cada gaseosa 9 soles ya hay no sabes qué mejor una gaseosa sola que somos pocos y agrégame unos pequeños perfecto corrido una pizza familiar de pepperoni una sola gaseosa y una porción de pequeños que está a 20 soles eso muy bien el total es 63 soles 63 perfecto una pregunta la pizza familiar es de cuántas tajadas es de 12 tajadas la masa la quiere delgada o tradicional tradicional y los pequeños con qué salsa viene con guacamole o si prefieres con salsa de ají guacamole está bien ah y que no le pongan orégano a la pizza por favor anotado pizza sin orégano a qué dirección le enviamos avenida brasil 3045 block 7 departamento 501 en pueblo libre alguna referencia es un condominio con rejas verdes el vigilante está en entrada perfecto forma de pago por transferencia bancaria me pasas el número de cuenta si le llega un mensaje a lo con los datos de la cuenta apenas transfiere envía la captura para el mismo chat listo cuánto demora unos 45 minutos porque la pizza familiar tarda un poco más en el horno está bien a nombre de ti a nombre de camina gracias camina buen provecho gracias chao",
+ "campos": {
+  "items": [
+   {
+    "producto": "pizza",
+    "tamano": "familiar",
+    "cantidad": 1,
+    "precio_unitario": 45
+   },
+   {
+    "producto": "gaseosa",
+    "tamano": "1.5 L",
+    "cantidad": 1,
+    "precio_unitario": 9
+   }
+  ],
+  "promocion": {
+   "nombre": "martes de pizza 2x1",
+   "descuento": 32
+  },
+  "direccion_entrega": "avenida brasil 3045 block 7 departamento 501 en pueblo libre alguna referencia es un condominio con rejas verdes el vigilante está en entrada perfecto forma de pago por transferencia bancaria me pasas el número de cuenta si le llega un mensaje a lo con los datos de la cuenta apenas transfiere envía la captura para el mismo chat listo cuánto demora unos 45 minutos porque la pizza familiar tarda un poco más en el horno está bien a nombre de ti a nombre de camina gracias camina buen provecho gracias chao",
+  "metodo_pago": "transferencia",
+  "total_dicho": 63
+ },
+ "evidencias": {
+  "items": "porque la pizza familiar tarda 1 poco | 1 sola gaseosa y 1 porcion",
+  "promocion": "2 x 1",
+  "direccion_entrega": "avenida brasil 3045 block 7 departamento 501 en pueblo libre alguna referencia es 1 condominio con rejas verdes el vigilante esta en entrada perfecto forma de pago por transferencia bancaria me pasas el numero de cuenta si le llega 1 mensaje a lo con los datos de la cuenta apenas transfiere envia la captura para el mismo chat listo cuanto demora unos 45 minutos porque la pizza familiar tarda 1 poco mas en el horno esta bien a nombre de ti a nombre de camina gracias camina buen provecho gracias chao",
+  "metodo_pago": "transferencia",
+  "total_dicho": "total es 63"
+ },
+ "verificacion": {
+  "items": "verificado",
+  "promocion": "sin_verificar",
+  "direccion_entrega": "verificado",
+  "metodo_pago": "verificado",
+  "total_dicho": "verificado"
+ },
+ "validacion": {
+  "estado": "no_cuadra",
+  "suma_items": 54.0,
+  "descuento": 32.0,
+  "calculado": 22.0,
+  "total_dicho": 63.0,
+  "diferencia": 41.0,
+  "causa": "hablante",
+  "explicacion": "error de cálculo del hablante (el ASR estaba seguro del total)",
+  "confianza_total": 0.966
+ },
+ "dispositivo": "cpu",
+ "modelo_asr": "large-v3-turbo (int8)",
+ "segundos": {
+  "asr": 0.0,
+  "extraccion": 0.01,
+  "total": 0.01
+ },
+ "desde_cache": true,
+ "error": null
+}

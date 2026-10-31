@@ -1,0 +1,80 @@
+{
+ "audio": "/Users/henrylluptoncapunay/Documents/GitHub/Tarea 5 Data Science con Python/audio/V05.m4a",
+ "esquema": "llamada",
+ "metodo": "llm",
+ "proveedor": "ollama",
+ "modelo_extraccion": "qwen2.5:3b",
+ "transcripcion": "¿Qué tal? Sobor de barro. Buenas noches. ¿Qué va a pasar? Hola, buenas noches. ¿Tiene alguna promesa? No, señor. Entonces, por una, solo un pizza mediano y solo dos marcos. Ah, qué pena. Igual quiero una pizza familiar de peperoni y dos gaseosas de destino. Una familiar de peperoni y dos gaseosas. La familiar está a 45 soles y cada gaseosa es 9 soles. Ya. Ay, no, ¿sabes qué? Me pongo una gaseosa. El modelo de tabla nos está haciendo para el equipo. Y agrégame unos pequeños. ¿Qué problema es? Es perfecto. Correcto. Y hay una pizza familiar de peperoni, una sola gaseosa y una prevención de pequeños. Está a 20 soles. Muy bien. En total es 63. Esto está en AWS. Bien, si yo me encargo de que los modelos pasen para la producción de la gaseosa está grande. Es de 12 tajadas. Nada más a la querezgada o tradicional. ¿Qué tiene la gaseosa y los pequeños? ¿Con qué salís a ver? Con guacamole. Si prefieres con sacerdote. ¿Guacamole? Sí. Ah. Y que no le pongan oregano a la pizza. ¿Qué tiene la gaseosa y la gaseosa y la gaseosa y la gaseosa y la gaseosa y la gaseosa? ¿Qué tiene la gaseosa y la gaseosa y la gaseosa y la gaseosa? El 40 y cínico, B7, departamento 51. ¿Alguna referencia? Es un condominio de la San Verdes. ¿Cuál es el que está en el trame? Perfecto, ¿forma de pago? Por transferencia bancaria ¿Me pasa un contrato? Sí, leí en la licencia con los datos de la cuenta Apenas transfiere envíe la captura para la muchacha ¿Cuánto demora? Un 45 minutos Porque la gente se convierte en un poco más ¿Al nombre de ti? Al nombre de ti Gracias, Carmen Buen provecho Gracias, a todos",
+ "campos": {
+  "items": [
+   {
+    "producto": "pizza mediano",
+    "tamano": "mediano",
+    "cantidad": 1,
+    "precio_unitario": 20
+   },
+   {
+    "producto": "gaseosa",
+    "tamano": "destino",
+    "cantidad": 2,
+    "precio_unitario": 9
+   },
+   {
+    "producto": "pizza familiar de peperoni",
+    "tamano": "familiar",
+    "cantidad": 1,
+    "precio_unitario": 45
+   },
+   {
+    "producto": "gaseosa",
+    "tamano": "destino",
+    "cantidad": 1,
+    "precio_unitario": 9
+   },
+   {
+    "producto": "prevención de pequeños",
+    "tamano": "prevención de pequeños",
+    "cantidad": 1,
+    "precio_unitario": 5
+   }
+  ],
+  "promocion": null,
+  "direccion_entrega": null,
+  "metodo_pago": "transferencia",
+  "total_dicho": 63
+ },
+ "evidencias": {
+  "items": "Y hay una pizza familiar de peperoni, una sola gaseosa y una prevención de pequeños. Está a 20 soles.",
+  "promocion": null,
+  "direccion_entrega": null,
+  "metodo_pago": null,
+  "total_dicho": "En total es 63."
+ },
+ "verificacion": {
+  "items": "sin_verificar",
+  "promocion": "vacio",
+  "direccion_entrega": "vacio",
+  "metodo_pago": "verificado",
+  "total_dicho": "verificado"
+ },
+ "validacion": {
+  "estado": "no_cuadra",
+  "suma_items": 97.0,
+  "descuento": 0.0,
+  "calculado": 97.0,
+  "total_dicho": 63.0,
+  "diferencia": -34.0,
+  "causa": "asr",
+  "explicacion": "precio de pizza mediano (20) no coincide con la carta (18)",
+  "confianza_total": 0.958
+ },
+ "dispositivo": "cpu",
+ "modelo_asr": "large-v3-turbo (int8)",
+ "segundos": {
+  "asr": 0.0,
+  "extraccion": 20.09,
+  "total": 20.09
+ },
+ "desde_cache": true,
+ "error": null
+}
