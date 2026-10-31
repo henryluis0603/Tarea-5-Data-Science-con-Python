@@ -120,7 +120,7 @@ with tabs[2]:
         st.altair_chart(alt.Chart(pts).mark_circle(size=80).encode(
             x=alt.X("wer:Q", title="WER"), y=alt.Y("exactitud_registro:Q", title="Exactitud del registro"),
             color="metodo:N", shape="tarea:N", tooltip=["tarea", "clip", "nivel", "metodo", "wer", "exactitud_registro"],
-        ).properties(height=380), use_container_width=True)
+        ).properties(height=380), width="stretch")
 
 # ------------------------------------------------------------------ 4
 with tabs[3]:
@@ -136,7 +136,7 @@ with tabs[3]:
                          var_name="métrica", value_name="valor")
         st.altair_chart(alt.Chart(largo).mark_line(point=True).encode(
             x="nivel:N", y="valor:Q", color="metodo:N", strokeDash="métrica:N",
-            tooltip=["nivel", "metodo", "métrica", "valor"]).properties(height=360), use_container_width=True)
+            tooltip=["nivel", "metodo", "métrica", "valor"]).properties(height=360), width="stretch")
         st.dataframe(esc.round(3), hide_index=True)
         if t2["snr"]:
             st.caption("SNR medida en L3")
