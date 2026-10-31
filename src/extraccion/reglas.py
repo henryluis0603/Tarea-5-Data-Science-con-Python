@@ -10,7 +10,7 @@ from datetime import date, timedelta
 from ..config import cargar_config
 from ..normalizacion import MESES, contiene, normalizar_para_verificar, normalizar_texto
 
-NUM_MES = {m: i + 1 for i, m in enumerate(MESES.split("|")) if m != "setiembre"} | {"setiembre": 9}
+NUM_MES = {m: i + 1 for i, m in enumerate(MESES.replace("|setiembre", "").split("|"))} | {"setiembre": 9}
 
 
 def _campo(valor, evidencia):

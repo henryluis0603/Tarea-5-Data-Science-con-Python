@@ -136,7 +136,7 @@ catalogo:
     lomo_saltado:    {nombre: lomo saltado,   tamano: null, precio: 35, alias: [lomo saltado, lomos saltados]}
     aji_de_gallina:  {nombre: ají de gallina, tamano: null, precio: 28, alias: [aji de gallina]}
     arroz_chaufa:    {nombre: arroz chaufa,   tamano: null, precio: 26, alias: [arroz chaufa]}
-    tequenos:        {nombre: tequeños,       tamano: 12 unidades, precio: 20, alias: [tequenos, tequeno]}
+    tequenos:        {nombre: tequeños,       tamano: 12 unidades, precio: 20, alias: [tequeños, tequeño]}
     papas_extra:     {nombre: papas fritas extra, tamano: null, precio: 8, alias: [papas fritas extra, papas extra, porcion de papas, porciones de papas]}
     ensalada_extra:  {nombre: ensalada extra, tamano: null, precio: 10, alias: [ensalada extra]}
     chicha_morada:   {nombre: chicha morada,  tamano: jarra 1 L, precio: 12, alias: [chicha morada, jarra de chicha]}

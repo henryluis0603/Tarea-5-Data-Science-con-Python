@@ -12,7 +12,7 @@ from .config import cargar_config
 from .normalizacion import MESES, contiene, normalizar_para_verificar, normalizar_texto
 
 VERIFICADO, SIN_VERIFICAR, VACIO = "verificado", "sin_verificar", "vacio"
-NOMBRE_MES = MESES.split("|")
+NOMBRE_MES = MESES.replace("|setiembre", "").split("|")
 
 
 def _num(v) -> str:
