@@ -1,0 +1,61 @@
+nivel,clip,metodo,wer,items,promocion,direccion_entrega,metodo_pago,total_dicho,f1_items,trampa_total_erroneo,estado_validacion,detectado,omitido,falsa_alarma,causa_diagnosticada,causa_real,diagnostico_correcto,explicacion,calculado,total_dicho_extraido,registro_completo,exactitud_registro
+L0,V01,reglas,0.03903903903903904,True,True,False,True,True,1.0,False,cuadra,False,False,False,,,,cuadra,87.0,87.0,False,0.8
+L0,V01,llm_openai,0.03903903903903904,True,True,True,True,True,1.0,False,cuadra,False,False,False,,,,cuadra,87.0,87.0,True,1.0
+L0,V01,llm_ollama,0.03903903903903904,False,True,True,True,True,0.75,False,no_cuadra,False,False,True,hablante,asr,False,la diferencia equivale a papas fritas extra: ítem omitido o sobrante,95.0,87.0,False,0.8
+L0,V02,reglas,0.0165016501650165,False,True,False,True,True,0.6666666666666666,True,no_cuadra,True,False,False,hablante,hablante,True,el total corresponde a otras cantidades: probable total del pedido antes de corregir,38.0,102.0,False,0.6
+L0,V02,llm_openai,0.0165016501650165,True,False,True,True,True,1.0,True,no_cuadra,True,False,False,hablante,hablante,True,la diferencia es el descuento: la promoción no se aplicó al total,52.0,102.0,False,0.8
+L0,V02,llm_ollama,0.0165016501650165,True,False,True,True,True,1.0,True,cuadra,False,True,False,,,,cuadra,102.0,102.0,False,0.8
+L0,V03,reglas,0.04180064308681672,True,True,False,True,True,1.0,True,no_cuadra,True,False,False,hablante,hablante,True,error de cálculo del hablante (el ASR estaba seguro del total),95.0,85.0,False,0.8
+L0,V03,llm_openai,0.04180064308681672,True,True,True,True,True,1.0,True,no_cuadra,True,False,False,hablante,hablante,True,error de cálculo del hablante (el ASR estaba seguro del total),95.0,85.0,True,1.0
+L0,V03,llm_ollama,0.04180064308681672,True,True,True,True,True,1.0,True,no_cuadra,True,False,False,hablante,hablante,True,error de cálculo del hablante (el ASR estaba seguro del total),95.0,85.0,True,1.0
+L0,V04,reglas,0.07357859531772576,True,True,True,False,False,1.0,False,no_verificable,False,False,False,,,,faltan ítems con precio o el total dicho,,,False,0.6
+L0,V04,llm_openai,0.07357859531772576,True,True,True,True,True,1.0,False,cuadra,False,False,False,,,,cuadra,66.0,66.0,True,1.0
+L0,V04,llm_ollama,0.07357859531772576,True,True,True,False,True,1.0,False,cuadra,False,False,False,,,,cuadra,66.0,66.0,False,0.8
+L0,V05,reglas,0.05090909090909091,False,False,True,True,True,0.6666666666666666,True,no_verificable,False,True,False,,,,faltan ítems con precio o el total dicho,,63.0,False,0.6
+L0,V05,llm_openai,0.05090909090909091,True,True,True,True,True,1.0,True,no_cuadra,True,False,False,hablante,hablante,True,el total corresponde a otras cantidades: probable total del pedido antes de corregir,74.0,63.0,True,1.0
+L0,V05,llm_ollama,0.05090909090909091,False,True,True,False,True,0.4,True,no_cuadra,True,False,False,asr,hablante,False,precio de gaseosa del litro y medio (9) no coincide con la carta (32),83.0,63.0,False,0.6
+L1,V01,reglas,0.05405405405405406,True,True,False,True,True,1.0,False,cuadra,False,False,False,,,,cuadra,87.0,87.0,False,0.8
+L1,V01,llm_openai,0.05405405405405406,True,True,True,True,True,1.0,False,cuadra,False,False,False,,,,cuadra,87.0,87.0,True,1.0
+L1,V01,llm_ollama,0.05405405405405406,False,True,True,True,True,0.75,False,no_cuadra,False,False,True,hablante,asr,False,la diferencia equivale a papas fritas porción extra: ítem omitido o sobrante,95.0,87.0,False,0.8
+L1,V02,reglas,0.0165016501650165,False,True,False,True,True,0.6666666666666666,True,no_cuadra,True,False,False,hablante,hablante,True,el total corresponde a otras cantidades: probable total del pedido antes de corregir,38.0,102.0,False,0.6
+L1,V02,llm_openai,0.0165016501650165,True,False,True,True,True,1.0,True,no_cuadra,True,False,False,hablante,hablante,True,la diferencia es el descuento: la promoción no se aplicó al total,52.0,102.0,False,0.8
+L1,V02,llm_ollama,0.0165016501650165,False,False,True,True,True,0.6666666666666666,True,no_cuadra,True,False,False,hablante,hablante,True,la diferencia equivale a tequeños: ítem omitido o sobrante,122.0,102.0,False,0.6
+L1,V03,reglas,0.05144694533762058,True,True,False,True,True,1.0,True,no_cuadra,True,False,False,hablante,hablante,True,error de cálculo del hablante (el ASR estaba seguro del total),95.0,85.0,False,0.8
+L1,V03,llm_openai,0.05144694533762058,True,True,True,True,True,1.0,True,no_cuadra,True,False,False,hablante,hablante,True,error de cálculo del hablante (el ASR estaba seguro del total),95.0,85.0,True,1.0
+L1,V03,llm_ollama,0.05144694533762058,True,True,True,True,True,1.0,True,no_cuadra,True,False,False,hablante,hablante,True,error de cálculo del hablante (el ASR estaba seguro del total),95.0,85.0,True,1.0
+L1,V04,reglas,0.10033444816053512,True,True,True,False,False,1.0,False,no_verificable,False,False,False,,,,faltan ítems con precio o el total dicho,,,False,0.6
+L1,V04,llm_openai,0.10033444816053512,True,True,True,True,True,1.0,False,cuadra,False,False,False,,,,cuadra,66.0,66.0,True,1.0
+L1,V04,llm_ollama,0.10033444816053512,False,True,True,False,True,0.75,False,cuadra,False,False,False,,,,cuadra,66.0,66.0,False,0.6
+L1,V05,reglas,0.13090909090909092,False,False,False,True,True,0.8,True,no_cuadra,True,False,False,hablante,hablante,True,error de cálculo del hablante (el ASR estaba seguro del total),22.0,63.0,False,0.4
+L1,V05,llm_openai,0.13090909090909092,False,True,True,True,True,0.6666666666666666,True,no_cuadra,True,False,False,hablante,hablante,True,el total corresponde a otras cantidades: probable total del pedido antes de corregir,74.0,63.0,False,0.8
+L1,V05,llm_ollama,0.13090909090909092,False,True,True,True,False,0.4,True,no_verificable,False,True,False,,,,faltan ítems con precio o el total dicho,,,False,0.6
+L2,V01,reglas,0.03003003003003003,True,True,False,True,True,1.0,False,cuadra,False,False,False,,,,cuadra,87.0,87.0,False,0.8
+L2,V01,llm_openai,0.03003003003003003,True,True,True,True,True,1.0,False,cuadra,False,False,False,,,,cuadra,87.0,87.0,True,1.0
+L2,V01,llm_ollama,0.03003003003003003,False,True,True,True,True,0.75,False,no_cuadra,False,False,True,hablante,asr,False,la diferencia equivale a papas fritas extra: ítem omitido o sobrante,95.0,87.0,False,0.8
+L2,V02,reglas,0.052805280528052806,False,True,True,True,True,0.4,True,no_cuadra,True,False,False,hablante,hablante,True,error de cálculo del hablante (el ASR estaba seguro del total),18.0,102.0,False,0.8
+L2,V02,llm_openai,0.052805280528052806,False,False,True,True,True,0.6666666666666666,True,no_cuadra,True,False,False,hablante,hablante,True,la diferencia es el descuento: la promoción no se aplicó al total,52.0,102.0,False,0.6
+L2,V02,llm_ollama,0.052805280528052806,False,False,True,True,True,0.3333333333333333,True,no_cuadra,True,False,False,hablante,hablante,True,la diferencia equivale a pizza mediana hawaiana: ítem omitido o sobrante,166.0,102.0,False,0.6
+L2,V03,reglas,0.2733118971061093,False,True,True,True,True,0.8,True,no_cuadra,True,False,False,hablante,hablante,True,error de cálculo del hablante (el ASR estaba seguro del total),25.0,85.0,False,0.8
+L2,V03,llm_openai,0.2733118971061093,False,True,True,True,True,0.6666666666666666,True,no_cuadra,True,False,False,hablante,hablante,True,error de cálculo del hablante (el ASR estaba seguro del total),60.0,85.0,False,0.8
+L2,V03,llm_ollama,0.2733118971061093,False,True,True,True,True,0.4,True,no_cuadra,True,False,False,asr,hablante,False,precio de ají de gallina (35) no coincide con la carta (28),60.0,85.0,False,0.8
+L2,V04,reglas,0.3277591973244147,True,True,False,False,False,1.0,False,no_verificable,False,False,False,,,,faltan ítems con precio o el total dicho,,,False,0.4
+L2,V04,llm_openai,0.3277591973244147,True,True,True,False,True,1.0,False,cuadra,False,False,False,,,,cuadra,66.0,66.0,False,0.8
+L2,V04,llm_ollama,0.3277591973244147,False,True,True,False,True,0.75,False,no_cuadra,False,False,True,hablante,asr,False,la diferencia equivale a agua: ítem omitido o sobrante,62.0,66.0,False,0.6
+L2,V05,reglas,0.08727272727272728,False,False,True,True,True,0.8,True,no_cuadra,True,False,False,hablante,hablante,True,error de cálculo del hablante (el ASR estaba seguro del total),22.0,63.0,False,0.6
+L2,V05,llm_openai,0.08727272727272728,False,True,True,True,True,0.6666666666666666,True,no_cuadra,True,False,False,hablante,hablante,True,el total corresponde a otras cantidades: probable total del pedido antes de corregir,74.0,63.0,False,0.8
+L2,V05,llm_ollama,0.08727272727272728,False,True,True,False,True,0.4,True,no_cuadra,True,False,False,asr,hablante,False,precio de pizza familiar de pepperoni (45) no coincide con la carta (32),83.0,63.0,False,0.6
+L3,V01,reglas,0.36036036036036034,False,True,False,False,True,0.5714285714285714,False,no_cuadra,False,False,True,asr,asr,True,precio de chicha morada (6) no coincide con la carta (12),72.0,87.0,False,0.4
+L3,V01,llm_openai,0.36036036036036034,False,True,True,False,True,0.5,False,no_cuadra,False,False,True,asr,asr,True,precio de jarra de chicha morada (6) no coincide con la carta (12),81.0,87.0,False,0.6
+L3,V01,llm_ollama,0.36036036036036034,False,True,False,False,True,0.5,False,no_cuadra,False,False,True,asr,asr,True,precio de chicha morada (6) no coincide con la carta (12),90.0,87.0,False,0.4
+L3,V02,reglas,0.25412541254125415,False,True,True,True,True,0.4,True,no_cuadra,True,False,False,asr,hablante,False,confianza baja del ASR en el total (0.55),18.0,102.0,False,0.8
+L3,V02,llm_openai,0.25412541254125415,False,False,True,True,True,0.6666666666666666,True,cuadra,False,True,False,,,,cuadra,102.0,102.0,False,0.6
+L3,V02,llm_ollama,0.25412541254125415,False,False,True,True,True,0.4,True,no_cuadra,True,False,False,asr,hablante,False,confianza baja del ASR en el total (0.55),114.0,102.0,False,0.6
+L3,V03,reglas,0.3183279742765273,False,True,False,False,True,0.8,True,no_cuadra,True,False,False,hablante,hablante,True,error de cálculo del hablante (el ASR estaba seguro del total),67.0,85.0,False,0.4
+L3,V03,llm_openai,0.3183279742765273,False,True,True,True,True,0.6666666666666666,True,no_cuadra,True,False,False,hablante,hablante,True,error de cálculo del hablante (el ASR estaba seguro del total),95.0,85.0,False,0.8
+L3,V03,llm_ollama,0.3183279742765273,False,True,True,False,True,0.6666666666666666,True,no_cuadra,True,False,False,hablante,hablante,True,error de cálculo del hablante (el ASR estaba seguro del total),95.0,85.0,False,0.6
+L3,V04,reglas,0.5384615384615384,False,True,False,False,False,0.8888888888888888,False,no_verificable,False,False,False,,,,faltan ítems con precio o el total dicho,,,False,0.2
+L3,V04,llm_openai,0.5384615384615384,True,True,True,False,True,1.0,False,cuadra,False,False,False,,,,cuadra,66.0,66.0,False,0.8
+L3,V04,llm_ollama,0.5384615384615384,False,True,True,False,True,0.75,False,cuadra,False,False,False,,,,cuadra,66.0,66.0,False,0.6
+L3,V05,reglas,0.6436363636363637,False,True,False,True,True,0.8,True,no_cuadra,True,False,False,hablante,hablante,True,la diferencia equivale a gaseosa: ítem omitido o sobrante,54.0,63.0,False,0.6
+L3,V05,llm_openai,0.6436363636363637,False,True,False,True,True,0.6666666666666666,True,no_cuadra,True,False,False,hablante,hablante,True,el total corresponde a otras cantidades: probable total del pedido antes de corregir,74.0,63.0,False,0.6
+L3,V05,llm_ollama,0.6436363636363637,False,True,False,True,True,0.2857142857142857,True,no_cuadra,True,False,False,asr,hablante,False,precio de pizza mediano (20) no coincide con la carta (18),97.0,63.0,False,0.6

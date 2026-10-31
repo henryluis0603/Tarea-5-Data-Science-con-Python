@@ -1,0 +1,74 @@
+{
+ "audio": "/Users/henrylluptoncapunay/Documents/GitHub/Tarea 5 Data Science con Python/audio/V04.m4a",
+ "esquema": "llamada",
+ "metodo": "llm",
+ "proveedor": "ollama",
+ "modelo_extraccion": "qwen2.5:3b",
+ "transcripcion": "Sabor de barrio Dos aguas sin más ¿Algo más? No, eso no más Ah, tengo el código barrio 15 ¿Me lo pueden aplicar? Lo siento El código barrio 15 solo aplica para pedidos de 100 soles Y su pedido no llega a ese monto Esta vez no puedo aplicar el descuento Ay, no importa Le confirmo El cuarto de pollo 22 soles El arroz chaufa 26 soles La ensalada extra 10 soles Y cada agua 4 soles El total de 66 soles 66 Perfecto Una consulta ¿Y el arroz chaufa lleva cerdo o pollo? Lleva pollo Con huevo, cebolla china y un toque de quinoa Perfecto ¿Y el cuarto de pollo es pecho o pierna? Puedes elegir Si no me dicen nada, mandamos pierna Pecho, por favor Y la ensalada sin tomate, si se puede Si, se puede Anotado Pecho y ensalada sin tomate ¿A qué dirección se lo enviamos? Pasaje San Martín 12, tercer piso, en Barranco Pasaje San Martín 12, tercer piso, Barranco ¿Timbre? Si, el timbre del tercer piso Si no contesto, que me llame cuando llegue Perfecto Le aviso al repartidor ¿Cómo va a pagar? Compline Listo Pago Compline El pedido tarda más o menos 30 minutos Genial Gracias ¿Al nombre de quién? Al nombre de Fer Gracias Fer Que tenga buenas noches Igualmente Chao",
+ "campos": {
+  "items": [
+   {
+    "producto": "cuarto de pollo",
+    "tamano": null,
+    "cantidad": 1,
+    "precio_unitario": 22
+   },
+   {
+    "producto": "arroz chaufa",
+    "tamano": null,
+    "cantidad": 1,
+    "precio_unitario": 26
+   },
+   {
+    "producto": "ensalada extra",
+    "tamano": null,
+    "cantidad": 1,
+    "precio_unitario": 10
+   },
+   {
+    "producto": "agua",
+    "tamano": null,
+    "cantidad": 1,
+    "precio_unitario": 4
+   }
+  ],
+  "promocion": null,
+  "direccion_entrega": "Pasaje San Martín 12, tercer piso, Barranco",
+  "metodo_pago": "compline",
+  "total_dicho": 66
+ },
+ "evidencias": {
+  "items": "El cuarto de pollo 22 soles El arroz chaufa 26 soles La ensalada extra 10 soles Y cada agua 4 soles",
+  "promocion": null,
+  "direccion_entrega": "¿A qué dirección se lo enviamos? Pasaje San Martín 12, tercer piso, Barranco ¿Timbre? Si, el timbre del tercer piso",
+  "metodo_pago": null,
+  "total_dicho": "El total de 66 soles 66"
+ },
+ "verificacion": {
+  "items": "verificado",
+  "promocion": "vacio",
+  "direccion_entrega": "verificado",
+  "metodo_pago": "verificado",
+  "total_dicho": "verificado"
+ },
+ "validacion": {
+  "estado": "no_cuadra",
+  "suma_items": 62.0,
+  "descuento": 0.0,
+  "calculado": 62.0,
+  "total_dicho": 66.0,
+  "diferencia": 4.0,
+  "causa": "hablante",
+  "explicacion": "la diferencia equivale a agua: ítem omitido o sobrante",
+  "confianza_total": 0.917
+ },
+ "dispositivo": "cpu",
+ "modelo_asr": "large-v3-turbo (int8)",
+ "segundos": {
+  "asr": 0.0,
+  "extraccion": 21.19,
+  "total": 21.19
+ },
+ "desde_cache": true,
+ "error": null
+}

@@ -1,0 +1,77 @@
+{
+ "audio": "/Users/henrylluptoncapunay/Documents/GitHub/Tarea 5 Data Science con Python/audio/V01.m4a",
+ "esquema": "llamada",
+ "metodo": "llm",
+ "proveedor": "ollama",
+ "modelo_extraccion": "qwen2.5:3b",
+ "transcripcion": "Sabor de Barrio, buenas noches. Le habla Sasha. ¿Qué le gustaría pedir? Hola, buenas noches. Quería hacer un pedido para delivery, por favor. Claro que sí. Dígame. A ver, quiero un pollo a la brasa entero, una gaseosa de litro y medio, y dos porciones de papas fritas extra. Perfecto. Le comento que el pollo entero con la gaseosa entra en el combo familiar, que tiene 10 soles de descuento. Ah, qué bien. Entonces sí, con el combo. Listo. Entonces tengo un pollo entero, una gaseosa y dos papas extra. ¿Algo más? Espera, déjame pensar. Mejor que sea una porción de papas extra, porque el pollo ya viene con papas. Y agrégame una jarra de chicha morada. Perfecto. Corrijo. Una sola porción de papas extra y una jarra de chicha morada. Eso sí. Le confirmo los precios. El pollo entero está a 68 soles, la gaseosa a 9 soles, las papas extra 8 soles y la chicha morada a 12 soles. Con el descuento del combo familiar de 10 soles, el total es 87 soles. 87. Perfecto. Una pregunta. ¿El pollo viene con ensalada? Sí. El pollo incluye papas y ensalada clásica. Las cremas van aparte, sin costo. Mayonesa, ketchup, ají y mostaza. Mándame bastante ají, por favor, y poca mayonesa. Anotado. Bastante ají y poca mayonesa. ¿Le pongo ketchup también? Sí, un poquito. ¿Y la chicha es natural o de sobre? Es natural. Le preparamos aquí con maíz, morado, piña y canela. Ah, buenísimo. ¿A qué dirección se le enviamos? Girón Los Cedros 245, departamento 302, en Surquillo. Girón Los Cedros 245, departamento 302, Surquillo. Bueno, ¿alguna referencia? Es un edificio blanco al costado de una farmacia. Anotado. ¿Cómo va a pagar? Con yape. Muy bien. El repartidor le muestra el código cuando llegue. El pedido demora aproximadamente 40 minutos. Perfecto. ¿Me puedes mandar cubiertos? Sí, claro. Le enviamos cubiertos y servilletas. ¿A nombre de quién dejó el pedido? A nombre de Sofía. Listo, Sofía. Gracias por su pedido y que disfruten. Gracias. Hasta luego. Gracias. Gracias.",
+ "campos": {
+  "items": [
+   {
+    "producto": "pollo a la brasa entero",
+    "tamano": null,
+    "cantidad": 1,
+    "precio_unitario": 68
+   },
+   {
+    "producto": "gaseosa de litro y medio",
+    "tamano": null,
+    "cantidad": 1,
+    "precio_unitario": 9
+   },
+   {
+    "producto": "papas fritas extra",
+    "tamano": null,
+    "cantidad": 2,
+    "precio_unitario": 8
+   },
+   {
+    "producto": "chicha morada",
+    "tamano": null,
+    "cantidad": 1,
+    "precio_unitario": 12
+   }
+  ],
+  "promocion": {
+   "nombre": "combo familiar",
+   "descuento": 10
+  },
+  "direccion_entrega": "Girón Los Cedros 245, departamento 302, Surquillo",
+  "metodo_pago": "yape",
+  "total_dicho": 87
+ },
+ "evidencias": {
+  "items": "Sasha: 'A ver, quiero un pollo a la brasa entero, una gaseosa de litro y medio, y dos porciones de papas fritas extra. Perfecto. Le comento que el pollo entero con la gaseosa entra en el combo familiar, que tiene 10 soles de descuento. Ah, qué bien. Entonces sí, con el combo. Listo. Entonces tengo un pollo entero, una gaseosa y dos papas extra. ¿Algo más? Espera, déjame pensar. Mejor que sea una porción de papas extra y una jarra de chicha morada. Eso sí. Le confirmo los precios. El pollo entero está a 68 soles, la gaseosa a 9 soles, las papas extra 8 soles y la chicha morada a 12 soles. Con el descuento del combo familiar de 10 soles, el total es 87 soles. 87. Perfecto. Una pregunta. ¿El pollo viene con ensalada? Sí. El pollo incluye papas y ensalada clásica. Las cremas van aparte, sin costo. Mayonesa, ketchup, ají y mostaza. Mándame bastante ají, por favor, y poca mayonesa. Anotado. Bastante ají y poca mayonesa. ¿Le pongo ketchup también? Sí, un poquito. ¿Y la chicha es natural o de sobre? Es natural. Le preparamos aquí con maíz, morado, piña y canela. Ah, buenísimo. ¿A qué dirección se le enviamos? Girón Los Cedros 245, departamento 302, en Surquillo. Girón Los Cedros 245, departamento 302, Surquillo. Bueno, ¿alguna referencia? Es un edificio blanco al costado de una farmacia. Anotado. ¿Cómo va a pagar? Con yape. Muy bien. El repartidor le muestra el código cuando llegue. El pedido demora aproximadamente 40 minutos. Perfecto. ¿Me puedes mandar cubiertos? Sí, claro. Le enviamos cubiertos y servilletas. ¿A nombre de quién dejó el pedido? A nombre de Sofía. Listo, Sofía. Gracias por su pedido y que disfruten. Gracias. Hasta luego. Gracias. Gracias.",
+  "promocion": "Sasha: 'Le comento que el pollo entero con la gaseosa entra en el combo familiar, que tiene 10 soles de descuento. Ah, qué bien. Entonces sí, con el combo. Listo. Entonces tengo un pollo entero, una gaseosa y dos papas extra. ¿Algo más? Espera, déjame pensar. Mejor que sea una porción de papas extra y una jarra de chicha morada. Eso sí. Le confirmo los precios. El pollo entero está a 68 soles, la gaseosa a 9 soles, las papas extra 8 soles y la chicha morada a 12 soles. Con el descuento del combo familiar de 10 soles, el total es 87 soles. 87. Perfecto. Una pregunta. ¿El pollo viene con ensalada? Sí. El pollo incluye papas y ensalada clásica. Las cremas van aparte, sin costo. Mayonesa, ketchup, ají y mostaza. Mándame bastante ají, por favor, y poca mayonesa. Anotado. Bastante ají y poca mayonesa. ¿Le pongo ketchup también? Sí, un poquito. ¿Y la chicha es natural o de sobre? Es natural. Le preparamos aquí con maíz, morado, piña y canela. Ah, buenísimo. ¿A qué dirección se le enviamos? Girón Los Cedros 245, departamento 302, en Surquillo. Girón Los Cedros 245, departamento 302, Surquillo. Bueno, ¿alguna referencia? Es un edificio blanco al costado de una farmacia. Anotado. ¿Cómo va a pagar? Con yape. Muy bien. El repartidor le muestra el código cuando llegue. El pedido demora aproximadamente 40 minutos. Perfecto. ¿Me puedes mandar cubiertos? Sí, claro. Le enviamos cubiertos y servilletas. ¿A nombre de quién dejó el pedido? A nombre de Sofía. Listo, Sofía. Gracias por su pedido y que disfruten. Gracias. Hasta luego. Gracias. Gracias.",
+  "direccion_entrega": "Sasha: '¿A qué dirección se le enviamos? Girón Los Cedros 245, departamento 302, en Surquillo. Girón Los Cedros 245, departamento 302, Surquillo. Bueno, ¿alguna referencia? Es un edificio blanco al costado de una farmacia. Anotado. ¿Cómo va a pagar? Con yape. Muy bien. El repartidor le muestra el código cuando llegue. El pedido demora aproximadamente 40 minutos. Perfecto. ¿Me puedes mandar cubiertos? Sí, claro. Le enviamos cubiertos y servilletas. ¿A nombre de quién dejó el pedido? A nombre de Sofía. Listo, Sofía. Gracias por su pedido y que disfruten. Gracias. Hasta luego. Gracias. Gracias.",
+  "metodo_pago": "Sasha: '¿Cómo va a pagar? Con yape. Muy bien. El repartidor le muestra el código cuando llegue. El pedido demora aproximadamente 40 minutos. Perfecto. ¿Me puedes mandar cubiertos? Sí, claro. Le enviamos cubiertos y servilletas. ¿A nombre de quién dejó el pedido? A nombre de Sofía. Listo, Sofía. Gracias por su pedido y que disfruten. Gracias. Hasta luego. Gracias. Gracias.",
+  "total_dicho": "Sasha: 'Con el descuento del combo familiar de 10 soles, el total es 87 soles. 87. Perfecto. Una pregunta. ¿El pollo viene con ensalada? Sí. El pollo incluye papas y ensalada clásica. Las cremas van aparte, sin costo. Mayonesa, ketchup, ají y mostaza. Mándame bastante ají, por favor, y poca mayonesa. Anotado. Bastante ají y poca mayonesa. ¿Le pongo ketchup también? Sí, un poquito. ¿Y la chicha es natural o de sobre? Es natural. Le preparamos aquí con maíz, morado, piña y canela. Ah, buenísimo. ¿A qué dirección se le enviamos? Girón Los Cedros 245, departamento 302, en Surquillo. Girón Los Cedros 245, departamento 302, Surquillo. Bueno, ¿alguna referencia? Es un edificio blanco al costado de una farmacia. Anotado. ¿Cómo va a pagar? Con yape. Muy bien. El repartidor le muestra el código cuando llegue. El pedido demora aproximadamente 40 minutos. Perfecto. ¿Me puedes mandar cubiertos? Sí, claro. Le enviamos cubiertos y servilletas. ¿A nombre de quién dejó el pedido? A nombre de Sofía. Listo, Sofía. Gracias por su pedido y que disfruten. Gracias. Hasta luego. Gracias. Gracias.'"
+ },
+ "verificacion": {
+  "items": "verificado",
+  "promocion": "verificado",
+  "direccion_entrega": "verificado",
+  "metodo_pago": "verificado",
+  "total_dicho": "verificado"
+ },
+ "validacion": {
+  "estado": "no_cuadra",
+  "suma_items": 105.0,
+  "descuento": 10.0,
+  "calculado": 95.0,
+  "total_dicho": 87.0,
+  "diferencia": -8.0,
+  "causa": "hablante",
+  "explicacion": "la diferencia equivale a papas fritas extra: ítem omitido o sobrante",
+  "confianza_total": 0.926
+ },
+ "dispositivo": "cpu",
+ "modelo_asr": "large-v3-turbo (int8)",
+ "segundos": {
+  "asr": 0.0,
+  "extraccion": 168.8,
+  "total": 168.8
+ },
+ "desde_cache": true,
+ "error": null
+}

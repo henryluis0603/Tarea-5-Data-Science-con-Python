@@ -1,0 +1,74 @@
+{
+ "audio": "/Users/henrylluptoncapunay/Documents/GitHub/Tarea 5 Data Science con Python/audio/V04.m4a",
+ "esquema": "llamada",
+ "metodo": "llm",
+ "proveedor": "openai",
+ "modelo_extraccion": "gpt-4o-mini",
+ "transcripcion": "Sabor de barrio. Buenas noches, la tienda Lucía. ¿Qué le gustaría pedir? Buenas noches. Quería un medio pollo a la brasa, por favor. Medio pollo a la brasa. ¿Algo más? No, espero. Mejor cámbiale por un cuarto de pollo y agrégame un arroz chaufa. Así comemos dos cosas distintas. Perfecto. Entonces queda un cuarto de pollo y un arroz chaufa. Y quito el medio pollo. Exacto. Y una ensalada extra, por favor. Una ensalada extra. ¿Para tomar? Dos aguas sin gas. Dos aguas sin gas. ¿Algo más? No, eso no más. Ah, tengo el código barrio 15. ¿Me lo pueden aplicar? Lo siento. El código barrio 15 solo aplica para pedidos desde 100 soles. Y su pedido no llega a ese monto. Esta vez no puedo aplicar el descuento. Ah, ya. No importa. Le confirmo. El cuarto de pollo, 22 soles. El arroz chaufa, 26 soles. La ensalada extra, 10 soles. Y cada agua, 4 soles. El total de 66 soles. 66. Perfecto. Una consulta. ¿Y el arroz chaufa lleva cerdo o pollo? Lleva pollo. Con huevo, cebolla china y un toque de quinoa. Perfecto. ¿Y el cuarto de pollo es pecho o pierna? Puedes elegir. Si no me dicen nada, mandamos pierna. Pecho, por favor. Y la ensalada sin tomate, si se puede. Sí, se puede. Anotado. Pecho y ensalada sin tomate. ¿A qué dirección se lo enviamos? Pasaje San Martín 12, tercer piso, en Barranco. Pasaje San Martín 12, tercer piso, Barranco. ¿Timbre? Sí, el timbre del tercer piso. Si no contesto, que me llame cuando llegue. Perfecto. Le aviso al repartidor. ¿Cómo va a pagar? Compline. Listo. Pago Compline. El pedido tarda más o menos 30 minutos. Genial. Gracias. ¿Al nombre de quién? Al nombre de Fer. Gracias Fer. Que tenga buenas noches. Igualmente. Chao.",
+ "campos": {
+  "items": [
+   {
+    "producto": "cuarto de pollo",
+    "tamano": "pecho",
+    "cantidad": 1,
+    "precio_unitario": 22
+   },
+   {
+    "producto": "arroz chaufa",
+    "tamano": null,
+    "cantidad": 1,
+    "precio_unitario": 26
+   },
+   {
+    "producto": "ensalada extra",
+    "tamano": null,
+    "cantidad": 1,
+    "precio_unitario": 10
+   },
+   {
+    "producto": "agua",
+    "tamano": null,
+    "cantidad": 2,
+    "precio_unitario": 4
+   }
+  ],
+  "promocion": null,
+  "direccion_entrega": "Pasaje San Martín 12, tercer piso, en Barranco",
+  "metodo_pago": "plin",
+  "total_dicho": 66
+ },
+ "evidencias": {
+  "items": "Entonces queda un cuarto de pollo y un arroz chaufa. Y quito el medio pollo. Exacto. Y una ensalada extra, por favor. Dos aguas sin gas.",
+  "promocion": null,
+  "direccion_entrega": "Pasaje San Martín 12, tercer piso, Barranco.",
+  "metodo_pago": "¿Cómo va a pagar? Compline.",
+  "total_dicho": "El total de 66 soles. 66."
+ },
+ "verificacion": {
+  "items": "verificado",
+  "promocion": "vacio",
+  "direccion_entrega": "verificado",
+  "metodo_pago": "sin_verificar",
+  "total_dicho": "verificado"
+ },
+ "validacion": {
+  "estado": "cuadra",
+  "suma_items": 66.0,
+  "descuento": 0.0,
+  "calculado": 66.0,
+  "total_dicho": 66.0,
+  "diferencia": 0.0,
+  "causa": null,
+  "explicacion": "cuadra",
+  "confianza_total": 0.881
+ },
+ "dispositivo": "cpu",
+ "modelo_asr": "large-v3-turbo (int8)",
+ "segundos": {
+  "asr": 0.0,
+  "extraccion": 4.19,
+  "total": 4.19
+ },
+ "desde_cache": true,
+ "error": null
+}

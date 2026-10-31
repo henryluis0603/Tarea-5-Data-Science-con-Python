@@ -1,0 +1,77 @@
+{
+ "audio": "/Users/henrylluptoncapunay/Documents/GitHub/Tarea 5 Data Science con Python/audio/V02.m4a",
+ "esquema": "llamada",
+ "metodo": "llm",
+ "proveedor": "openai",
+ "modelo_extraccion": "gpt-4o-mini",
+ "transcripcion": "Sabor de barrio, buenas tardes, la tienda Lucía, ¿qué desea? Buenas tardes, hoy es martes, ¿no? ¿Sigue la promo de pizzas? Sí, hoy tenemos martes de pizza, dos por uno en pizzas medianas Perfecto, entonces quiero dos pizzas medianas hawaianas y una gaseosa de litro y medio Dos medianas hawaianas y una gaseosa, ¿algo más? Ah no, espera, mejor que sea una americana y la otra de pepperoni, porque a mi hermano no le gusta la piña No hay problema, una mediana americana y una mediana de pepperoni Y que sean dos gaseosas, no una, somos varios Perfecto, dos gaseosas de litro y medio, ¿algo para picar? Sí, unos tequeños por favor Una porción de tequeños que viene con 12 unidades Le detallo cada pizza mediana, está 32 soles Los tequeños 20 soles y cada gaseosa 9 soles El total sería 102 soles 102, ya, está bien Una consulta, ¿de cuántas tajadas son las medianas? De 8 tajadas cada una ¿La masa la quiere delgada o tradicional? Delgada las dos, por favor Anotado, masa delgada Los tequeños con guacamole o con salsa de ají Con guacamole Y si se puede, que la gaseosa venga bien helada Sí, claro Salen de la refrigeradora al momento de despachar ¿A qué dirección lo enviamos? Avenida Arequipa 1870, interior B, en Lince Avenida Arequipa 1870, interior B, Lince ¿Es casa o edificio? Es una quinta El interior B es la segunda puerta a la derecha Perfecto ¿Forma de pago? En efectivo Voy a pagar con un billete de 200 Para que el repartidor lleve vuelta Anotado Efectivo con billete de 200 El tiempo estimado es de 50 minutos Porque los martes hay bastantes pedidos Está bien, no hay apuro ¿A nombre de quién? A nombre de Ale Listo Ale, muchas gracias por su pedido Gracias a usted",
+ "campos": {
+  "items": [
+   {
+    "producto": "pizza mediana americana",
+    "tamano": null,
+    "cantidad": 1,
+    "precio_unitario": 32
+   },
+   {
+    "producto": "pizza mediana de pepperoni",
+    "tamano": null,
+    "cantidad": 1,
+    "precio_unitario": 32
+   },
+   {
+    "producto": "gaseosa de litro y medio",
+    "tamano": null,
+    "cantidad": 2,
+    "precio_unitario": 9
+   },
+   {
+    "producto": "tequeños",
+    "tamano": null,
+    "cantidad": 1,
+    "precio_unitario": 20
+   }
+  ],
+  "promocion": {
+   "nombre": "martes de pizza",
+   "descuento": 50
+  },
+  "direccion_entrega": "Avenida Arequipa 1870, interior B, en Lince",
+  "metodo_pago": "efectivo",
+  "total_dicho": 102
+ },
+ "evidencias": {
+  "items": "Perfecto, entonces quiero dos pizzas medianas hawaianas y una gaseosa de litro y medio Dos medianas hawaianas y una gaseosa, ¿algo más? Ah no, espera, mejor que sea una americana y la otra de pepperoni, porque a mi hermano no le gusta la piña No hay problema, una mediana americana y una mediana de pepperoni Y que sean dos gaseosas, no una, somos varios Perfecto, dos gaseosas de litro y medio, ¿algo para picar? Sí, unos tequeños por favor Una porción de tequeños que viene con 12 unidades Le detallo cada pizza mediana, está 32 soles Los tequeños 20 soles y cada gaseosa 9 soles",
+  "promocion": "Sí, hoy tenemos martes de pizza, dos por uno en pizzas medianas",
+  "direccion_entrega": "¿A qué dirección lo enviamos? Avenida Arequipa 1870, interior B, en Lince",
+  "metodo_pago": "¿Forma de pago? En efectivo",
+  "total_dicho": "El total sería 102 soles"
+ },
+ "verificacion": {
+  "items": "verificado",
+  "promocion": "verificado",
+  "direccion_entrega": "verificado",
+  "metodo_pago": "verificado",
+  "total_dicho": "verificado"
+ },
+ "validacion": {
+  "estado": "no_cuadra",
+  "suma_items": 102.0,
+  "descuento": 50.0,
+  "calculado": 52.0,
+  "total_dicho": 102.0,
+  "diferencia": 50.0,
+  "causa": "hablante",
+  "explicacion": "la diferencia es el descuento: la promoción no se aplicó al total",
+  "confianza_total": 0.967
+ },
+ "dispositivo": "cpu",
+ "modelo_asr": "large-v3-turbo (int8)",
+ "segundos": {
+  "asr": 0.0,
+  "extraccion": 5.32,
+  "total": 5.32
+ },
+ "desde_cache": true,
+ "error": null
+}

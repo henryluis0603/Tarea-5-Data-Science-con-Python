@@ -1,0 +1,71 @@
+{
+ "audio": "/Users/henrylluptoncapunay/Documents/GitHub/Tarea 5 Data Science con Python/audio/V03.m4a",
+ "esquema": "llamada",
+ "metodo": "llm",
+ "proveedor": "openai",
+ "modelo_extraccion": "gpt-4o-mini",
+ "transcripcion": "Sabor del Barrio, buenas tardes. Le habla Shasha. ¿En qué le puedo ayudar? Hola, buenas tardes. Quiero pedir un almuerzo para la oficina. Claro, con gusto. ¿Qué te gustaría? Dos lomos saltados, un ají de gallina y una jarra de chicha morada. Dos lomos saltados, un ají de gallina y una jarra de chicha morada. ¿El lomo lo quiere con arroz o con taco-taco? Con arroz normal. Perfecto. ¿Algo más? No, eso es todo. Ah, tengo un código de descuento barrio 15. Déjenme revisar. Sí, el código barrio 15 aplica para pedidos desde 100 soles y su pedido pasa a los 100. Así que le descontamos 15 soles. Genial. De detalle, cada lomo saltado cuesta 35 soles, el ají de gallina 28 soles y la chicha morada 12 soles. Con el descuento de 15 soles del código, el total es 85 soles. 85. Ya, perfecto. Una pregunta. ¿El ají de gallina pica mucho? No, es suave. Si quiere, le mandamos ají aparte para que cada uno le ponga el gusto. Sí, mándalo aparte, por favor. Y que los platos vayan en bases separados porque son para tres personas distintas. Perfecto. Van en tres envases separados con sus cubiertos. ¿Y la chicha viene con vasos? Sí, le enviamos tres vasos descartables. ¿Dirección de entrega? Calle Los Algarrobos 77, Manzana C. Lote 14, Urbanización Santa Rosa. Calle Los Algarrobos 77, Manzana C. Lote 14, Urbanización Santa Rosa. ¿Es una oficina? Sí, es una casa convertida en oficina. Hay un letrero azul en la puerta. Perfecto. ¿Cómo va a pagar? Con tarjeta, por favor. ¿El repartidor lleva el post? Sí, lleva el post y acepta todas las tarjetas. El pedido llega en unos 35 minutos. Excelente. Justo para la hora del morso. ¿A nombre de quién dejo el pedido? A nombre de Valeria, del área de contabilidad. Listo, Valeria. Gracias por preferirnos. Gracias. Hasta luego.",
+ "campos": {
+  "items": [
+   {
+    "producto": "lomo saltado",
+    "tamano": null,
+    "cantidad": 2,
+    "precio_unitario": 35
+   },
+   {
+    "producto": "ají de gallina",
+    "tamano": null,
+    "cantidad": 1,
+    "precio_unitario": 28
+   },
+   {
+    "producto": "chicha morada",
+    "tamano": null,
+    "cantidad": 1,
+    "precio_unitario": 12
+   }
+  ],
+  "promocion": {
+   "nombre": "barrio 15",
+   "descuento": 15
+  },
+  "direccion_entrega": "Calle Los Algarrobos 77, Manzana C. Lote 14, Urbanización Santa Rosa.",
+  "metodo_pago": "tarjeta",
+  "total_dicho": 85
+ },
+ "evidencias": {
+  "items": "Dos lomos saltados, un ají de gallina y una jarra de chicha morada.",
+  "promocion": "Sí, el código barrio 15 aplica para pedidos desde 100 soles y su pedido pasa a los 100. Así que le descontamos 15 soles.",
+  "direccion_entrega": "Calle Los Algarrobos 77, Manzana C. Lote 14, Urbanización Santa Rosa.",
+  "metodo_pago": "Con tarjeta, por favor.",
+  "total_dicho": "Con el descuento de 15 soles del código, el total es 85 soles."
+ },
+ "verificacion": {
+  "items": "verificado",
+  "promocion": "verificado",
+  "direccion_entrega": "verificado",
+  "metodo_pago": "verificado",
+  "total_dicho": "verificado"
+ },
+ "validacion": {
+  "estado": "no_cuadra",
+  "suma_items": 110.0,
+  "descuento": 15.0,
+  "calculado": 95.0,
+  "total_dicho": 85.0,
+  "diferencia": -10.0,
+  "causa": "hablante",
+  "explicacion": "error de cálculo del hablante (el ASR estaba seguro del total)",
+  "confianza_total": 0.882
+ },
+ "dispositivo": "cpu",
+ "modelo_asr": "large-v3-turbo (int8)",
+ "segundos": {
+  "asr": 0.0,
+  "extraccion": 4.62,
+  "total": 4.62
+ },
+ "desde_cache": true,
+ "error": null
+}

@@ -1,0 +1,53 @@
+{
+ "audio": "/Users/henrylluptoncapunay/Documents/GitHub/Tarea 5 Data Science con Python/audio/E03.m4a",
+ "esquema": "entrevista",
+ "metodo": "reglas",
+ "proveedor": null,
+ "modelo_extraccion": "regex",
+ "transcripcion": "Hola Cris, buenas tardes, gracias por tu tiempo. Te llamo de consultorio pacífico por la exposición de líder de proyectos. Buenas tardes, encantada, gracias por la oportunidad. Cuéntame, ¿cuánto tiempo llevas gestionando proyectos? Ya son una década, 10 años en total, los primeros como analista funcional y después liderando equipos. ¿Y dónde estás ahora? Ahora trabajo en una empresa retail. Mi puesto actual es líder de proyectos de tecnología. Coordino tres equipos que implementan cambios en el sistema de inventarios. ¿Con qué herramienta trabajas en el día a día? Para el seguimiento usamos Jira, el sistema central de empresa es SAP, así que ahí paso bastante tiempo validando configuraciones. Y para reportar a Gerencia, la verdad, mucho Excel y algunos tableros en Power BI. ¿Cómo manejas un proyecto que se está retrasando? Lo primero es decirlo temprano. El año pasado teníamos una migración de 11 tiendas y a la mitad vimos que no llegábamos. En lugar de esconderlo, propuse dividirla en dos etapas. Primero seis tiendas y después otras cinco. Gerencia aceptó y cumplimos la primera etapa a tiempo. ¿Y el equipo cómo lo tomó? Bien, porque le quitó presión. Un equipo agotado comete errores e inventarios en un error cuesta caro. Muy bien, ahora una pregunta práctica. Varios de nuestros proveedores son de Brasil y de Estados Unidos. ¿Qué tal tu inglés? Básico, siendo honesta. Entiendo correos y documentos técnicos, pero en una llamada me cuesta. Estoy llevando clases para mejorar. Te agradezco la honestidad. ¿Y cuál sería tu pretensión salarial? Estaba pensando en 4.800 soles. No, perdón. Mejor dicho, 5.200 soles. Porque el puesto incluye más equipos de los que manejo ahora. 5.200. Perfecto. ¿Y en cuánto a disponibilidad? Tengo que cerrar el proyecto de inventarios que estoy liderando. Podría empezar a partir del 1 de diciembre. Muy bien. Eso calza con nuestros plazos. ¿Tienes alguna consulta? Sí. ¿Cuántas personas tendrían a cargo? Al inicio serían 8 personas en 2 equipos. Luego, si todo va bien, se suma un tercero. Perfecto. Muchas gracias. Queda al espera. Gracias, Cris. Te escribimos el lunes.",
+ "campos": {
+  "anios_experiencia": 10,
+  "ultimo_puesto": "lider de proyectos de tecnologia",
+  "tecnologias": [
+   "Power BI",
+   "Jira",
+   "SAP",
+   "Excel"
+  ],
+  "pretension_salarial": {
+   "monto": 5200,
+   "moneda": "PEN"
+  },
+  "disponibilidad": {
+   "tipo": "fecha",
+   "fecha": "2026-12-01"
+  },
+  "nivel_ingles": "basico"
+ },
+ "evidencias": {
+  "anios_experiencia": "10 años",
+  "ultimo_puesto": "mi puesto actual es lider de proyectos de tecnologia",
+  "tecnologias": "power bi | jira | sap | excel",
+  "pretension_salarial": "5200 soles",
+  "disponibilidad": "1 de diciembre",
+  "nivel_ingles": "basico"
+ },
+ "verificacion": {
+  "anios_experiencia": "verificado",
+  "ultimo_puesto": "verificado",
+  "tecnologias": "verificado",
+  "pretension_salarial": "verificado",
+  "disponibilidad": "verificado",
+  "nivel_ingles": "verificado"
+ },
+ "validacion": null,
+ "dispositivo": "cpu",
+ "modelo_asr": "large-v3-turbo (int8)",
+ "segundos": {
+  "asr": 0.0,
+  "extraccion": 0.01,
+  "total": 0.01
+ },
+ "desde_cache": true,
+ "error": null
+}

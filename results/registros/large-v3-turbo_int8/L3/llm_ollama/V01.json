@@ -1,0 +1,77 @@
+{
+ "audio": "/Users/henrylluptoncapunay/Documents/GitHub/Tarea 5 Data Science con Python/audio/V01.m4a",
+ "esquema": "llamada",
+ "metodo": "llm",
+ "proveedor": "ollama",
+ "modelo_extraccion": "qwen2.5:3b",
+ "transcripcion": "Sabor de barrio, buenas noches. Le habla Sasha. ¿Qué le gustaría pedir? Hola, buenas noches. ¿Querías un pedido para el libro? Claro, les gusta. A ver, quiero un pollo la braza entero, una gazaza de litro, dos porciones de la correa. Los modelos de tabla los hago. Perfecto. Le comento que el pollo entero con la braza entero entra en el combo familiar que tiene 10 soles de descuento. Ah, qué bien. Entonces, sí, vamos a comer. Listo. Entonces, tengo un pollo entero, una gazaza y dos pasadas papas extra. ¿Algo más? Eh, espera, déjame pensarlo. Es por que sea una porción de papas extra o con el pollo y el guión de papas. Y agrégame una jarra de chavilla. Perfecto. Corrido. Una sola porción de papas extra y una jarra de chavilla morada. Es un sistema. Le confirmo las porciones. El pollo entero está a sesenta y ocho soles. Las gazaza nueve soles como las papas extra. Ocho soles y la chicha morada a seis soles. Con el descuento del combo familiar de diez soles, el total es ochenta y siete soles. Ocho y siete. Perfecto. Una pregunta. ¿El pollo viene con cualada? Sí, el pollo incluye papas y ensalada clásica. Las cremas van aparte, sin costo. Mayonesa, queso, churro, churro, churro. Y mostaza nueve soles. Mándame bastante ají y poca mayones. Anotado. Bastante ají y poca mayones. ¿Le pongo queso también? ¿Dónde estás ahora? Sí, un poquito. ¿Y la chicha es natural o de su? Está bien. Es natural. Le preparamos aquí pia maíz, morado, piña y carne. Ah, buenísimo. ¿A qué dirección se le enviamos? Girón Los Cedros, cuarenta y cinco. Departamento trescientos dos. Perfecto. No hay una pregunta. Girón Los Cedros, doscientos cuatro. ¿Cuál es? Sí, recono, departamento trescientos dos. Surguillo. ¿Alguna referencia? Es un edificio blanco al costado de una farmacia. Anotado. ¿Cómo va a pagar? No me hagas. Muy bien. El repartidor le muestra el código pandemático. El pedido demora aproximadamente cuarenta minutos. Perfecto. ¿Se puede mandar? ¿Otra referencia? Sí, claro. Teníamos cubierto todos los setenta. ¿A nombre de quién dejó el pedido? A nombre de su fila. Listo, dos o menos. Gracias por su pedido y que... Gracias a todos. ¿Cómo están los reclamos? Muy bien.",
+ "campos": {
+  "items": [
+   {
+    "producto": "pollo la braza entero",
+    "tamano": null,
+    "cantidad": 1,
+    "precio_unitario": 68
+   },
+   {
+    "producto": "gazaza",
+    "tamano": null,
+    "cantidad": 2,
+    "precio_unitario": 9
+   },
+   {
+    "producto": "papas extra",
+    "tamano": "una porción",
+    "cantidad": 1,
+    "precio_unitario": 8
+   },
+   {
+    "producto": "chicha morada",
+    "tamano": null,
+    "cantidad": 1,
+    "precio_unitario": 6
+   }
+  ],
+  "promocion": {
+   "nombre": "combo familiar",
+   "descuento": 10
+  },
+  "direccion_entrega": "Girón Los Cedros, doscientos cuatro. ¿Cuál es? Sí, recono, departamento trescientos dos. Surguillo. ¿Alguna referencia? Es un edificio blanco al costado de una farmacia.",
+  "metodo_pago": "efectivo",
+  "total_dicho": 87
+ },
+ "evidencias": {
+  "items": "A ver, quiero un pollo la braza entero, una gazaza de litro, dos porciones de la correa. Los modelos de tabla los hago. Perfecto. Le comento que el pollo entero con la braza entero entra en el combo familiar que tiene 10 soles de descuento. Ah, qué bien. Entonces, sí, vamos a comer. Listo. Entonces, tengo un pollo entero, una gazaza y dos pasadas papas extra. ¿Algo más? Eh, espera, déjame pensarlo. Es por que sea una porción de papas extra o con el pollo y el guión de papas. Y agrégame una jarra de chavilla. Perfecto. Corrido. Una sola porción de papas extra y una jarra de chicha morada. Es un sistema. Le confirmo las porciones. El pollo entero está a sesenta y ocho soles. Las gazaza nueve soles como las papas extra. Ocho soles y la chicha morada a seis soles. Con el descuento del combo familiar de diez soles, el total es ochenta y siete soles. Ocho y siete. Perfecto. Una pregunta. ¿El pollo viene con cualada? Sí, el pollo incluye papas y ensalada clásica. Las cremas van aparte, sin costo. Mayonesa, queso, churro, churro, churro. Y mostaza nueve soles. Mándame bastante ají y poca mayones. Anotado. Bastante ají y poca mayones. ¿Le pongo queso también? ¿Dónde estás ahora? Sí, un poquito. ¿Y la chicha es natural o de su? Está bien. Es natural. Le preparamos aquí pia maíz, morado, piña y carne. Ah, buenísimo. ¿A qué dirección se le enviamos? Girón Los Cedros, cuarenta y cinco. Departamento trescientos dos. Perfecto. No hay una pregunta. Girón Los Cedros, doscientos cuatro. ¿Cuál es? Sí, recono, departamento trescientos dos. Surguillo. ¿Alguna referencia? Es un edificio blanco al costado de una farmacia. Anotado. ¿Cómo va a pagar? No me hagas. Muy bien. El repartidor le muestra el código pandemático. El pedido demora aproximadamente cuarenta minutos. Perfecto. ¿Se puede mandar? ¿Otra referencia? Sí, claro. Teníamos cubierto todos los setenta. ¿A nombre de quién dejó el pedido? A nombre de su fila. Listo, dos o menos. Gracias por su pedido y que... Gracias a todos. ¿Cómo están los reclamos? Muy bien.",
+  "promocion": "Le comento que el pollo entero con la braza entero entra en el combo familiar que tiene 10 soles de descuento. Entonces, sí, vamos a comer. Listo. Entonces, tengo un pollo entero, una gazaza y dos pasadas papas extra. ¿Algo más? Eh, espera, déjame pensarlo. Es por que sea una porción de papas extra o con el pollo y el guión de papas. Y agrégame una jarra de chavilla. Perfecto. Corrido. Una sola porción de papas extra y una jarra de chicha morada. Es un sistema. Le confirmo las porciones. El pollo entero está a sesenta y ocho soles. Las gazaza nueve soles como las papas extra. Ocho soles y la chicha morada a seis soles. Con el descuento del combo familiar de diez soles, el total es ochenta y siete soles. Ocho y siete. Perfecto.",
+  "direccion_entrega": "Girón Los Cedros, doscientos cuatro. ¿Cuál es? Sí, recono, departamento trescientos dos. Surguillo. ¿Alguna referencia? Es un edificio blanco al costado de una farmacia.",
+  "metodo_pago": "¿Cómo va a pagar? No me hagas. Muy bien. El repartidor le muestra el código pandemático. El pedido demora aproximadamente cuarenta minutos. Perfecto. ¿Se puede mandar? ¿Otra referencia? Sí, claro. Teníamos cubierto todos los setenta. ¿A nombre de quién dejó el pedido? A nombre de su fila. Listo, dos o menos. Gracias por su pedido y que... Gracias a todos. ¿Cómo están los reclamos? Muy bien.",
+  "total_dicho": "Le comento que el pollo entero con la braza entero entra en el combo familiar que tiene 10 soles de descuento. Entonces, sí, vamos a comer. Listo. Entonces, tengo un pollo entero, una gazaza y dos pasadas papas extra. ¿Algo más? Eh, espera, déjame pensarlo. Es por que sea una porción de papas extra o con el pollo y el guión de papas. Y agrégame una jarra de chavilla. Perfecto. Corrido. Una sola porción de papas extra y una jarra de chicha morada. Es un sistema. Le confirmo las porciones. El pollo entero está a sesenta y ocho soles. Las gazaza nueve soles como las papas extra. Ocho soles y la chicha morada a seis soles. Con el descuento del combo familiar de diez soles, el total es ochenta y siete soles. Ocho y siete. Perfecto."
+ },
+ "verificacion": {
+  "items": "verificado",
+  "promocion": "verificado",
+  "direccion_entrega": "verificado",
+  "metodo_pago": "sin_verificar",
+  "total_dicho": "verificado"
+ },
+ "validacion": {
+  "estado": "no_cuadra",
+  "suma_items": 100.0,
+  "descuento": 10.0,
+  "calculado": 90.0,
+  "total_dicho": 87.0,
+  "diferencia": -3.0,
+  "causa": "asr",
+  "explicacion": "precio de chicha morada (6) no coincide con la carta (12)",
+  "confianza_total": 0.887
+ },
+ "dispositivo": "cpu",
+ "modelo_asr": "large-v3-turbo (int8)",
+ "segundos": {
+  "asr": 0.0,
+  "extraccion": 98.82,
+  "total": 98.82
+ },
+ "desde_cache": true,
+ "error": null
+}

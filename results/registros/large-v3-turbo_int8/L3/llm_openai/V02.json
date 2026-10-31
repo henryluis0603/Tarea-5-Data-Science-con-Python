@@ -1,0 +1,77 @@
+{
+ "audio": "/Users/henrylluptoncapunay/Documents/GitHub/Tarea 5 Data Science con Python/audio/V02.m4a",
+ "esquema": "llamada",
+ "metodo": "llm",
+ "proveedor": "openai",
+ "modelo_extraccion": "gpt-4o-mini",
+ "transcripcion": "Sabor de barrio. Buenas tardes. Bien delicioso. ¿Qué tal? Buenas tardes. Hoy es martes, ¿no? ¿Sigue la promo de pizzas? Sí, hoy tenemos martes y dos. Dos por una pizzas medianas. Perfecto. Entonces quiero dos pizzas medianas, jaboyanas y una gaseosa de litro y medio. Dos medianas y jaboyanas y una gaseosa. ¿Algo más? Ah, no, espero. Mejor que sea una americana y la otra de peperoni, porque a mi hermano no le gusta la piña. No hay problema. Una mediana americana y una mediana de peperoni. Que sean dos gaseosas. No, somos varios. Perfecto. Dos gaseosas de litro y medio. ¿Algo para aplicar? Sí, unos pequeños, por favor. Una porción de pequeños que viene con dos unidades, le detalle cada pizza mediana. Están 32 soles, los pequeños 20 soles y cada gaseosa 9 soles. El total sería 102. 102. Ya, está bien. Una consulta. ¿De cuántas tajadas son las medianas? De 8 tajadas. ¿La masa la quiere delgada o tradicional? Delgada a las dos, por favor. ¿Cuánto tiempo ya va a gestionar? Anotaban bien, salen. Los pequeños con guacamole o con salsa de género. Con guacamole. ¿Y se puede que la gaseosa venga bien? Sí, claro. Salen de la refrigeradora al momento del estorchado. ¿A qué dirección le enviamos? A Avenida Arequipa, 1870, interior B, en Inglaterra. Avenida Arequipa, 1870, interior B, en Inglaterra. ¿Escaso o ídolo? Es una quinta. Interior B, en la segunda puerta a la derecha. Perfecto. ¿Forma de pago? En efectivo. Voy a pagar con un billete de 200. ¿Cuál es tu pretención? ¿El repartidor lleve vueltas? Anotado. Efectivo con billete de dosis. El tiempo estimado es de 50 euros, porque los martes hay un pedido. Está bien. No hay apuro. ¿A nombre de quién? A nombre de alguien. Gracias a ti. Listo. Muchas gracias por su opinión. Gracias a su opinión. En lugar de esconderlo. Muy completo. Es bien.",
+ "campos": {
+  "items": [
+   {
+    "producto": "pizza mediana americana",
+    "tamano": null,
+    "cantidad": 1,
+    "precio_unitario": 32
+   },
+   {
+    "producto": "pizza mediana de peperoni",
+    "tamano": null,
+    "cantidad": 1,
+    "precio_unitario": 32
+   },
+   {
+    "producto": "gaseosa de litro y medio",
+    "tamano": null,
+    "cantidad": 2,
+    "precio_unitario": 9
+   },
+   {
+    "producto": "porción de pequeños",
+    "tamano": null,
+    "cantidad": 1,
+    "precio_unitario": 20
+   }
+  ],
+  "promocion": {
+   "nombre": "martes y dos",
+   "descuento": null
+  },
+  "direccion_entrega": "Avenida Arequipa, 1870, interior B, en Inglaterra",
+  "metodo_pago": "efectivo",
+  "total_dicho": 102
+ },
+ "evidencias": {
+  "items": "Entonces quiero dos pizzas medianas, jaboyanas y una gaseosa de litro y medio. No hay problema. Una mediana americana y una mediana de peperoni. Perfecto. Dos gaseosas de litro y medio. Sí, unos pequeños, por favor. Una porción de pequeños que viene con dos unidades, le detalle cada pizza mediana. Están 32 soles, los pequeños 20 soles y cada gaseosa 9 soles.",
+  "promocion": "Sí, hoy tenemos martes y dos. Dos por una pizzas medianas.",
+  "direccion_entrega": "Avenida Arequipa, 1870, interior B, en Inglaterra.",
+  "metodo_pago": "Perfecto. ¿Forma de pago? En efectivo.",
+  "total_dicho": "El total sería 102."
+ },
+ "verificacion": {
+  "items": "verificado",
+  "promocion": "sin_verificar",
+  "direccion_entrega": "verificado",
+  "metodo_pago": "verificado",
+  "total_dicho": "verificado"
+ },
+ "validacion": {
+  "estado": "cuadra",
+  "suma_items": 102.0,
+  "descuento": 0.0,
+  "calculado": 102.0,
+  "total_dicho": 102.0,
+  "diferencia": 0.0,
+  "causa": null,
+  "explicacion": "cuadra",
+  "confianza_total": 0.55
+ },
+ "dispositivo": "cpu",
+ "modelo_asr": "large-v3-turbo (int8)",
+ "segundos": {
+  "asr": 0.0,
+  "extraccion": 4.71,
+  "total": 4.71
+ },
+ "desde_cache": true,
+ "error": null
+}

@@ -1,0 +1,52 @@
+{
+ "audio": "/Users/henrylluptoncapunay/Documents/GitHub/Tarea 5 Data Science con Python/audio/E05.m4a",
+ "esquema": "entrevista",
+ "metodo": "reglas",
+ "proveedor": null,
+ "modelo_extraccion": "regex",
+ "transcripcion": "Buenos días, Noa. Gracias por venir. Te cuento rápido. Buscamos a alguien para el equipo de ingeniería de datos del Grupo Altiplano. Buenos días. Sí vi la descripción y me pareció muy alienada con lo que hago. Qué bueno. ¿Cuál es tu puesto actual? Soy ingeniería de datos en una empresa de telecomunicaciones. Construyo los flujos que llevan la información de las antenas hasta el área de analítica. ¿Y cuántos años de experiencia tienes en total? Seis años. Dos comunalistas y los últimos cuatro ya en ingeniería de datos. ¿Qué tecnologías usas para esos flujos? El procesamiento pesado lo hacemos en Databricks con PySpark. Las tareas las programamos en iFort. El almacén de datos está en Snowbreak. Y las transformaciones usamos DBT. Todo el código está versionado en JIT, obviamente. ¿Cómo controlas la calidad de los datos en esos flujos? Cada tabla tiene pruebas automáticas. Ya que no haya duplicado, que las fechas tengan sentido y que el volumen no caiga de golpe. Procesamos unos dos terabytes diario. Así que revisar a mano es imposible. Si una prueba falla, los flujos se detienen y llega una alerta. ¿Recuerdas una vez que eso te salvara? Sí. Una vez un proveedor mandó un archivo con la mitad de antenas vacías. La prueba de volumen lo detectó antes de que llegara los reportes de gerencia. Muy completo. ¿Y el inglés? Avanzado. Hice una maestría en línea en una universidad de Estados Unidos. Todo en inglés. Así que no tengo problema. Excelente. Hablemos de números. ¿Cuánto ganas actualmente? Ahora gano 7200 soles brutos. ¿Y cuál sería tu pretensión para este puesto? Considerando que es un rol con más responsabilidad, estaría buscando 9000 soles mensuales. 9000. Entendido. ¿Y cuándo podrías empezar? Justo estoy terminando un proyecto esta semana, así que podría empezar la próxima semana sin problema. Perfecto. ¿Tienes alguna pregunta para mí? Sí. ¿El equipo trabaja con guardias los fines de semana? Solo una vez al mes y se compensa con un día libre. Te escribimos para la entrevista técnica. Genial. Muchas gracias.",
+ "campos": {
+  "anios_experiencia": 6,
+  "ultimo_puesto": "ingenieria de datos",
+  "tecnologias": [
+   "Databricks",
+   "PySpark",
+   "dbt"
+  ],
+  "pretension_salarial": {
+   "monto": 9000,
+   "moneda": "PEN"
+  },
+  "disponibilidad": {
+   "tipo": "relativa_dias",
+   "dias": 7
+  },
+  "nivel_ingles": "avanzado"
+ },
+ "evidencias": {
+  "anios_experiencia": "6 años",
+  "ultimo_puesto": "soy ingenieria de datos",
+  "tecnologias": "databricks | pyspark | dbt",
+  "pretension_salarial": "9000 soles",
+  "disponibilidad": "la proxima semana",
+  "nivel_ingles": "avanzado"
+ },
+ "verificacion": {
+  "anios_experiencia": "verificado",
+  "ultimo_puesto": "verificado",
+  "tecnologias": "verificado",
+  "pretension_salarial": "verificado",
+  "disponibilidad": "verificado",
+  "nivel_ingles": "verificado"
+ },
+ "validacion": null,
+ "dispositivo": "cpu",
+ "modelo_asr": "large-v3-turbo (int8)",
+ "segundos": {
+  "asr": 0.0,
+  "extraccion": 0.01,
+  "total": 0.01
+ },
+ "desde_cache": true,
+ "error": null
+}

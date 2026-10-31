@@ -1,0 +1,54 @@
+{
+ "audio": "/Users/henrylluptoncapunay/Documents/GitHub/Tarea 5 Data Science con Python/audio/E04.m4a",
+ "esquema": "entrevista",
+ "metodo": "llm",
+ "proveedor": "ollama",
+ "modelo_extraccion": "qwen2.5:3b",
+ "transcripcion": "Hola Sam, buenas tardes. Soy del equipo de selección de Andes Analytic. Como la entrevista técnica después es en inglés, empecemos por ahí. ¿Qué nivel tienes? Buenas tardes. Tengo certificado B2, o sea intermedio alto. Puedo trabajar en inglés, aunque a veces me falta vocabulario cuando hablo rápido. Perfecto. B2 es suficiente. Cuéntame qué haces actualmente. Me he puesto SML Engineer en una aseguradora. Armamos modelos para detectar fraude en los reclamos. ¿Y cuánto tiempo llevas en esa área? En Machine Learning, dos años y medio. Estuve unos meses como practicante, pero eso no lo cuento. Está bien. ¿Con qué frameworks trabajas? Los modelos de tabla los hago con Secret Learn. Para los modelos de texto usamos PyTorch. PyTorch y hay un proyecto antiguo en TensorFlow que todavía mantengo. Los experimentos los registramos en MLflow. ¿Y dónde despliegan? Todo está en AWS. Yo me encargo de que los modelos pasen a producción y de revisar que no se degraden. ¿Te ha tocado un modelo que falló en producción? Sí. El modelo de fraude funcionaba muy bien en las pruebas, pero a los cuatro meses empezó a fallar. Los desfraudadores cambiaron la estrategia y la precisión bajó de 90 a 70%. Desde ahí armé un monitoreo semanal que compara los datos nuevos con los de entrenamiento. ¿Y qué hacen cuando detectan ese cambio? Reentrenamos con los últimos datos y antes de reemplazar el modelo lo probamos en paralelo a dos semanas. Nunca cambiamos un modelo a cienes. Muy bien. La posición es remota para una empresa de afuera y se paga en dólares. ¿Cuál sería tu pretensión? Estoy buscando 2.800 dólares al mes. Sé que es un salto, pero es lo que vi para este nivel en otras ofertas remotas. Entiendo. Lo pasan al equipo. ¿Cuándo podrías empezar? Me contrato, me pide un mes de preaviso, así que tendría que contar 30 días desde que firme. Es razonable. Lo tenemos en cuenta. ¿Tienes alguna pregunta? Sí. ¿El equipo de datos es grande? Somos 12 personas. Cuatro de ellas es Machine Learning. Te mandamos una prueba para la próxima etapa. Perfecto. Muchas gracias por el tiempo. Gracias a ti, Sam. Hablamos pronto.",
+ "campos": {
+  "anios_experiencia": 2.5,
+  "ultimo_puesto": "SML Engineer en una aseguradora",
+  "tecnologias": [
+   "Secret Learn",
+   "PyTorch",
+   "MLflow",
+   "AWS"
+  ],
+  "pretension_salarial": {
+   "monto": 2800,
+   "moneda": "USD"
+  },
+  "disponibilidad": {
+   "tipo": "inmediata",
+   "dias": null,
+   "fecha": null
+  },
+  "nivel_ingles": "intermedio alto"
+ },
+ "evidencias": {
+  "anios_experiencia": "En Machine Learning, dos años y medio.",
+  "ultimo_puesto": "Me he puesto SML Engineer en una aseguradora.",
+  "tecnologias": "Los modelos de tabla los hago con Secret Learn. Para los modelos de texto usamos PyTorch. Los experimentos los registramos en MLflow. Todo está en AWS.",
+  "pretension_salarial": "Estoy buscando 2.800 dólares al mes.",
+  "disponibilidad": "Me contrato, me pide un mes de preaviso, así que tendría que contar 30 días desde que firme.",
+  "nivel_ingles": "Tengo certificado B2, o sea intermedio alto."
+ },
+ "verificacion": {
+  "anios_experiencia": "verificado",
+  "ultimo_puesto": "verificado",
+  "tecnologias": "verificado",
+  "pretension_salarial": "verificado",
+  "disponibilidad": "sin_verificar",
+  "nivel_ingles": "verificado"
+ },
+ "validacion": null,
+ "dispositivo": "cpu",
+ "modelo_asr": "large-v3-turbo (int8)",
+ "segundos": {
+  "asr": 0.0,
+  "extraccion": 18.0,
+  "total": 18.0
+ },
+ "desde_cache": true,
+ "error": null
+}
