@@ -1,0 +1,1536 @@
+{
+ "texto": "Sabor de barrio, buenas tardes, la tienda Lucía, ¿qué desea? Buenas tardes, hoy es martes, ¿no? ¿Sigue la promo de pizzas? Sí, hoy tenemos martes de pizza, dos por uno en pizzas medianas Perfecto, entonces quiero dos pizzas medianas hawaianas y una gaseosa de litro y medio Dos medianas hawaianas y una gaseosa, ¿algo más? Ah, no, espera, mejor que sea una americana y la otra de pepperoni, porque a mi hermano no le gusta la piña No hay problema, una mediana americana y una mediana de pepperoni Y que sean dos gaseosas, no una, somos varios Perfecto, dos gaseosas de litro y medio, ¿algo para picar? Sí, unos tequeños, por favor Una porción de tequeños que viene con 12 unidades, le detallo cada pizza mediana Está 32 soles Los tequeños 20 soles Y cada gaseosa 9 soles El total sería 102 soles 102, ya, está bien Una consulta, ¿de cuántas tajadas son las medianas? De 8 tajadas cada una ¿La masa la quiere delgada o tradicional? Delgada las dos, por favor Anotado, masa delgada Los tequeños con guacamole o con salsa de ají Con guacamole, y si se puede que la gaseosa venga bien helada Sí, claro, salen de la refrigeradora al momento de despachar ¿A qué dirección lo enviamos? Avenida Arequipa 1870, interior B, en Lince Avenida Arequipa 1870, interior B, Lince ¿Es casa o edificio? Es una quinta El interior B es la segunda puerta a la derecha Perfecto, ¿forma de pago? En efectivo Voy a pagar con un billete de 200 Para que el repartidor lleve vuelta Anotado Efectivo con billete de 200 El tiempo estimado es de 50 minutos Porque los martes hay bastantes pedidos Está bien, no hay apuro ¿A nombre de quién? A nombre de Ale Listo Ale, muchas gracias por su pedido Gracias a usted",
+ "segmentos": [
+  {
+   "inicio": 3.1,
+   "fin": 6.3,
+   "texto": "Sabor de barrio, buenas tardes, la tienda Lucía, ¿qué desea?",
+   "palabras": [
+    {
+     "p": "Sabor",
+     "conf": 0.775
+    },
+    {
+     "p": "de",
+     "conf": 0.994
+    },
+    {
+     "p": "barrio,",
+     "conf": 0.685
+    },
+    {
+     "p": "buenas",
+     "conf": 0.995
+    },
+    {
+     "p": "tardes,",
+     "conf": 1.0
+    },
+    {
+     "p": "la",
+     "conf": 0.775
+    },
+    {
+     "p": "tienda",
+     "conf": 0.974
+    },
+    {
+     "p": "Lucía,",
+     "conf": 0.977
+    },
+    {
+     "p": "¿qué",
+     "conf": 0.98
+    },
+    {
+     "p": "desea?",
+     "conf": 0.967
+    }
+   ]
+  },
+  {
+   "inicio": 6.74,
+   "fin": 10.2,
+   "texto": "Buenas tardes, hoy es martes, ¿no? ¿Sigue la promo de pizzas?",
+   "palabras": [
+    {
+     "p": "Buenas",
+     "conf": 0.999
+    },
+    {
+     "p": "tardes,",
+     "conf": 1.0
+    },
+    {
+     "p": "hoy",
+     "conf": 1.0
+    },
+    {
+     "p": "es",
+     "conf": 1.0
+    },
+    {
+     "p": "martes,",
+     "conf": 0.999
+    },
+    {
+     "p": "¿no?",
+     "conf": 0.997
+    },
+    {
+     "p": "¿Sigue",
+     "conf": 0.976
+    },
+    {
+     "p": "la",
+     "conf": 0.971
+    },
+    {
+     "p": "promo",
+     "conf": 0.995
+    },
+    {
+     "p": "de",
+     "conf": 0.999
+    },
+    {
+     "p": "pizzas?",
+     "conf": 0.998
+    }
+   ]
+  },
+  {
+   "inicio": 10.58,
+   "fin": 15.32,
+   "texto": "Sí, hoy tenemos martes de pizza, dos por uno en pizzas medianas",
+   "palabras": [
+    {
+     "p": "Sí,",
+     "conf": 0.995
+    },
+    {
+     "p": "hoy",
+     "conf": 1.0
+    },
+    {
+     "p": "tenemos",
+     "conf": 1.0
+    },
+    {
+     "p": "martes",
+     "conf": 0.999
+    },
+    {
+     "p": "de",
+     "conf": 1.0
+    },
+    {
+     "p": "pizza,",
+     "conf": 0.842
+    },
+    {
+     "p": "dos",
+     "conf": 0.853
+    },
+    {
+     "p": "por",
+     "conf": 0.999
+    },
+    {
+     "p": "uno",
+     "conf": 0.997
+    },
+    {
+     "p": "en",
+     "conf": 1.0
+    },
+    {
+     "p": "pizzas",
+     "conf": 1.0
+    },
+    {
+     "p": "medianas",
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "inicio": 15.96,
+   "fin": 20.3,
+   "texto": "Perfecto, entonces quiero dos pizzas medianas hawaianas y una gaseosa de litro y medio",
+   "palabras": [
+    {
+     "p": "Perfecto,",
+     "conf": 0.537
+    },
+    {
+     "p": "entonces",
+     "conf": 1.0
+    },
+    {
+     "p": "quiero",
+     "conf": 1.0
+    },
+    {
+     "p": "dos",
+     "conf": 1.0
+    },
+    {
+     "p": "pizzas",
+     "conf": 1.0
+    },
+    {
+     "p": "medianas",
+     "conf": 1.0
+    },
+    {
+     "p": "hawaianas",
+     "conf": 0.919
+    },
+    {
+     "p": "y",
+     "conf": 1.0
+    },
+    {
+     "p": "una",
+     "conf": 1.0
+    },
+    {
+     "p": "gaseosa",
+     "conf": 0.999
+    },
+    {
+     "p": "de",
+     "conf": 0.98
+    },
+    {
+     "p": "litro",
+     "conf": 1.0
+    },
+    {
+     "p": "y",
+     "conf": 1.0
+    },
+    {
+     "p": "medio",
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "inicio": 20.3,
+   "fin": 24.02,
+   "texto": "Dos medianas hawaianas y una gaseosa, ¿algo más?",
+   "palabras": [
+    {
+     "p": "Dos",
+     "conf": 0.995
+    },
+    {
+     "p": "medianas",
+     "conf": 1.0
+    },
+    {
+     "p": "hawaianas",
+     "conf": 0.999
+    },
+    {
+     "p": "y",
+     "conf": 1.0
+    },
+    {
+     "p": "una",
+     "conf": 1.0
+    },
+    {
+     "p": "gaseosa,",
+     "conf": 1.0
+    },
+    {
+     "p": "¿algo",
+     "conf": 0.999
+    },
+    {
+     "p": "más?",
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "inicio": 24.68,
+   "fin": 30.78,
+   "texto": "Ah, no, espera, mejor que sea una americana y la otra de pepperoni, porque a mi hermano no le gusta la piña",
+   "palabras": [
+    {
+     "p": "Ah,",
+     "conf": 0.913
+    },
+    {
+     "p": "no,",
+     "conf": 0.999
+    },
+    {
+     "p": "espera,",
+     "conf": 0.975
+    },
+    {
+     "p": "mejor",
+     "conf": 0.999
+    },
+    {
+     "p": "que",
+     "conf": 1.0
+    },
+    {
+     "p": "sea",
+     "conf": 0.999
+    },
+    {
+     "p": "una",
+     "conf": 0.999
+    },
+    {
+     "p": "americana",
+     "conf": 0.996
+    },
+    {
+     "p": "y",
+     "conf": 0.997
+    },
+    {
+     "p": "la",
+     "conf": 1.0
+    },
+    {
+     "p": "otra",
+     "conf": 1.0
+    },
+    {
+     "p": "de",
+     "conf": 1.0
+    },
+    {
+     "p": "pepperoni,",
+     "conf": 0.854
+    },
+    {
+     "p": "porque",
+     "conf": 0.999
+    },
+    {
+     "p": "a",
+     "conf": 0.997
+    },
+    {
+     "p": "mi",
+     "conf": 1.0
+    },
+    {
+     "p": "hermano",
+     "conf": 0.996
+    },
+    {
+     "p": "no",
+     "conf": 1.0
+    },
+    {
+     "p": "le",
+     "conf": 1.0
+    },
+    {
+     "p": "gusta",
+     "conf": 0.992
+    },
+    {
+     "p": "la",
+     "conf": 0.998
+    },
+    {
+     "p": "piña",
+     "conf": 0.999
+    }
+   ]
+  },
+  {
+   "inicio": 30.78,
+   "fin": 35.82,
+   "texto": "No hay problema, una mediana americana y una mediana de pepperoni",
+   "palabras": [
+    {
+     "p": "No",
+     "conf": 0.287
+    },
+    {
+     "p": "hay",
+     "conf": 0.994
+    },
+    {
+     "p": "problema,",
+     "conf": 1.0
+    },
+    {
+     "p": "una",
+     "conf": 0.999
+    },
+    {
+     "p": "mediana",
+     "conf": 0.997
+    },
+    {
+     "p": "americana",
+     "conf": 1.0
+    },
+    {
+     "p": "y",
+     "conf": 1.0
+    },
+    {
+     "p": "una",
+     "conf": 1.0
+    },
+    {
+     "p": "mediana",
+     "conf": 1.0
+    },
+    {
+     "p": "de",
+     "conf": 1.0
+    },
+    {
+     "p": "pepperoni",
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "inicio": 35.82,
+   "fin": 39.26,
+   "texto": "Y que sean dos gaseosas, no una, somos varios",
+   "palabras": [
+    {
+     "p": "Y",
+     "conf": 0.993
+    },
+    {
+     "p": "que",
+     "conf": 1.0
+    },
+    {
+     "p": "sean",
+     "conf": 1.0
+    },
+    {
+     "p": "dos",
+     "conf": 0.972
+    },
+    {
+     "p": "gaseosas,",
+     "conf": 0.898
+    },
+    {
+     "p": "no",
+     "conf": 1.0
+    },
+    {
+     "p": "una,",
+     "conf": 1.0
+    },
+    {
+     "p": "somos",
+     "conf": 1.0
+    },
+    {
+     "p": "varios",
+     "conf": 0.999
+    }
+   ]
+  },
+  {
+   "inicio": 39.92,
+   "fin": 43.16,
+   "texto": "Perfecto, dos gaseosas de litro y medio, ¿algo para picar?",
+   "palabras": [
+    {
+     "p": "Perfecto,",
+     "conf": 0.996
+    },
+    {
+     "p": "dos",
+     "conf": 0.982
+    },
+    {
+     "p": "gaseosas",
+     "conf": 0.999
+    },
+    {
+     "p": "de",
+     "conf": 0.76
+    },
+    {
+     "p": "litro",
+     "conf": 0.998
+    },
+    {
+     "p": "y",
+     "conf": 1.0
+    },
+    {
+     "p": "medio,",
+     "conf": 1.0
+    },
+    {
+     "p": "¿algo",
+     "conf": 0.963
+    },
+    {
+     "p": "para",
+     "conf": 1.0
+    },
+    {
+     "p": "picar?",
+     "conf": 0.998
+    }
+   ]
+  },
+  {
+   "inicio": 43.8,
+   "fin": 45.96,
+   "texto": "Sí, unos tequeños, por favor",
+   "palabras": [
+    {
+     "p": "Sí,",
+     "conf": 0.969
+    },
+    {
+     "p": "unos",
+     "conf": 0.996
+    },
+    {
+     "p": "tequeños,",
+     "conf": 0.947
+    },
+    {
+     "p": "por",
+     "conf": 1.0
+    },
+    {
+     "p": "favor",
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "inicio": 46.56,
+   "fin": 52.52,
+   "texto": "Una porción de tequeños que viene con 12 unidades, le detallo cada pizza mediana",
+   "palabras": [
+    {
+     "p": "Una",
+     "conf": 0.991
+    },
+    {
+     "p": "porción",
+     "conf": 1.0
+    },
+    {
+     "p": "de",
+     "conf": 1.0
+    },
+    {
+     "p": "tequeños",
+     "conf": 1.0
+    },
+    {
+     "p": "que",
+     "conf": 0.995
+    },
+    {
+     "p": "viene",
+     "conf": 0.996
+    },
+    {
+     "p": "con",
+     "conf": 1.0
+    },
+    {
+     "p": "12",
+     "conf": 0.938
+    },
+    {
+     "p": "unidades,",
+     "conf": 1.0
+    },
+    {
+     "p": "le",
+     "conf": 0.982
+    },
+    {
+     "p": "detallo",
+     "conf": 0.989
+    },
+    {
+     "p": "cada",
+     "conf": 0.988
+    },
+    {
+     "p": "pizza",
+     "conf": 0.996
+    },
+    {
+     "p": "mediana",
+     "conf": 0.999
+    }
+   ]
+  },
+  {
+   "inicio": 52.52,
+   "fin": 55.16,
+   "texto": "Está 32 soles",
+   "palabras": [
+    {
+     "p": "Está",
+     "conf": 0.245
+    },
+    {
+     "p": "32",
+     "conf": 0.797
+    },
+    {
+     "p": "soles",
+     "conf": 0.997
+    }
+   ]
+  },
+  {
+   "inicio": 55.16,
+   "fin": 57.9,
+   "texto": "Los tequeños 20 soles",
+   "palabras": [
+    {
+     "p": "Los",
+     "conf": 0.782
+    },
+    {
+     "p": "tequeños",
+     "conf": 0.66
+    },
+    {
+     "p": "20",
+     "conf": 0.964
+    },
+    {
+     "p": "soles",
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "inicio": 57.9,
+   "fin": 59.78,
+   "texto": "Y cada gaseosa 9 soles",
+   "palabras": [
+    {
+     "p": "Y",
+     "conf": 0.925
+    },
+    {
+     "p": "cada",
+     "conf": 0.999
+    },
+    {
+     "p": "gaseosa",
+     "conf": 0.987
+    },
+    {
+     "p": "9",
+     "conf": 0.974
+    },
+    {
+     "p": "soles",
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "inicio": 59.78,
+   "fin": 62.44,
+   "texto": "El total sería 102 soles",
+   "palabras": [
+    {
+     "p": "El",
+     "conf": 0.985
+    },
+    {
+     "p": "total",
+     "conf": 1.0
+    },
+    {
+     "p": "sería",
+     "conf": 0.993
+    },
+    {
+     "p": "102",
+     "conf": 0.997
+    },
+    {
+     "p": "soles",
+     "conf": 0.994
+    }
+   ]
+  },
+  {
+   "inicio": 63.1,
+   "fin": 65.28,
+   "texto": "102, ya, está bien",
+   "palabras": [
+    {
+     "p": "102,",
+     "conf": 0.947
+    },
+    {
+     "p": "ya,",
+     "conf": 0.999
+    },
+    {
+     "p": "está",
+     "conf": 0.998
+    },
+    {
+     "p": "bien",
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "inicio": 65.28,
+   "fin": 68.74,
+   "texto": "Una consulta, ¿de cuántas tajadas son las medianas?",
+   "palabras": [
+    {
+     "p": "Una",
+     "conf": 0.994
+    },
+    {
+     "p": "consulta,",
+     "conf": 1.0
+    },
+    {
+     "p": "¿de",
+     "conf": 0.962
+    },
+    {
+     "p": "cuántas",
+     "conf": 0.992
+    },
+    {
+     "p": "tajadas",
+     "conf": 0.997
+    },
+    {
+     "p": "son",
+     "conf": 0.918
+    },
+    {
+     "p": "las",
+     "conf": 0.998
+    },
+    {
+     "p": "medianas?",
+     "conf": 0.999
+    }
+   ]
+  },
+  {
+   "inicio": 69.1,
+   "fin": 70.84,
+   "texto": "De 8 tajadas cada una",
+   "palabras": [
+    {
+     "p": "De",
+     "conf": 0.999
+    },
+    {
+     "p": "8",
+     "conf": 0.985
+    },
+    {
+     "p": "tajadas",
+     "conf": 0.999
+    },
+    {
+     "p": "cada",
+     "conf": 0.994
+    },
+    {
+     "p": "una",
+     "conf": 0.98
+    }
+   ]
+  },
+  {
+   "inicio": 70.84,
+   "fin": 73.04,
+   "texto": "¿La masa la quiere delgada o tradicional?",
+   "palabras": [
+    {
+     "p": "¿La",
+     "conf": 0.887
+    },
+    {
+     "p": "masa",
+     "conf": 0.999
+    },
+    {
+     "p": "la",
+     "conf": 0.985
+    },
+    {
+     "p": "quiere",
+     "conf": 0.987
+    },
+    {
+     "p": "delgada",
+     "conf": 0.999
+    },
+    {
+     "p": "o",
+     "conf": 0.999
+    },
+    {
+     "p": "tradicional?",
+     "conf": 0.999
+    }
+   ]
+  },
+  {
+   "inicio": 73.62,
+   "fin": 75.22,
+   "texto": "Delgada las dos, por favor",
+   "palabras": [
+    {
+     "p": "Delgada",
+     "conf": 0.998
+    },
+    {
+     "p": "las",
+     "conf": 0.807
+    },
+    {
+     "p": "dos,",
+     "conf": 0.713
+    },
+    {
+     "p": "por",
+     "conf": 1.0
+    },
+    {
+     "p": "favor",
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "inicio": 75.22,
+   "fin": 77.28,
+   "texto": "Anotado, masa delgada",
+   "palabras": [
+    {
+     "p": "Anotado,",
+     "conf": 0.982
+    },
+    {
+     "p": "masa",
+     "conf": 0.999
+    },
+    {
+     "p": "delgada",
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "inicio": 77.28,
+   "fin": 80.44,
+   "texto": "Los tequeños con guacamole o con salsa de ají",
+   "palabras": [
+    {
+     "p": "Los",
+     "conf": 0.686
+    },
+    {
+     "p": "tequeños",
+     "conf": 0.998
+    },
+    {
+     "p": "con",
+     "conf": 0.991
+    },
+    {
+     "p": "guacamole",
+     "conf": 0.999
+    },
+    {
+     "p": "o",
+     "conf": 0.915
+    },
+    {
+     "p": "con",
+     "conf": 0.999
+    },
+    {
+     "p": "salsa",
+     "conf": 0.999
+    },
+    {
+     "p": "de",
+     "conf": 1.0
+    },
+    {
+     "p": "ají",
+     "conf": 0.998
+    }
+   ]
+  },
+  {
+   "inicio": 80.44,
+   "fin": 84.96,
+   "texto": "Con guacamole, y si se puede que la gaseosa venga bien helada",
+   "palabras": [
+    {
+     "p": "Con",
+     "conf": 0.826
+    },
+    {
+     "p": "guacamole,",
+     "conf": 0.991
+    },
+    {
+     "p": "y",
+     "conf": 0.857
+    },
+    {
+     "p": "si",
+     "conf": 0.995
+    },
+    {
+     "p": "se",
+     "conf": 0.998
+    },
+    {
+     "p": "puede",
+     "conf": 1.0
+    },
+    {
+     "p": "que",
+     "conf": 0.702
+    },
+    {
+     "p": "la",
+     "conf": 0.99
+    },
+    {
+     "p": "gaseosa",
+     "conf": 0.535
+    },
+    {
+     "p": "venga",
+     "conf": 0.998
+    },
+    {
+     "p": "bien",
+     "conf": 0.999
+    },
+    {
+     "p": "helada",
+     "conf": 0.998
+    }
+   ]
+  },
+  {
+   "inicio": 84.96,
+   "fin": 89.74,
+   "texto": "Sí, claro, salen de la refrigeradora al momento de despachar",
+   "palabras": [
+    {
+     "p": "Sí,",
+     "conf": 0.123
+    },
+    {
+     "p": "claro,",
+     "conf": 1.0
+    },
+    {
+     "p": "salen",
+     "conf": 0.999
+    },
+    {
+     "p": "de",
+     "conf": 1.0
+    },
+    {
+     "p": "la",
+     "conf": 1.0
+    },
+    {
+     "p": "refrigeradora",
+     "conf": 1.0
+    },
+    {
+     "p": "al",
+     "conf": 0.999
+    },
+    {
+     "p": "momento",
+     "conf": 1.0
+    },
+    {
+     "p": "de",
+     "conf": 1.0
+    },
+    {
+     "p": "despachar",
+     "conf": 0.999
+    }
+   ]
+  },
+  {
+   "inicio": 89.74,
+   "fin": 91.36,
+   "texto": "¿A qué dirección lo enviamos?",
+   "palabras": [
+    {
+     "p": "¿A",
+     "conf": 0.893
+    },
+    {
+     "p": "qué",
+     "conf": 0.999
+    },
+    {
+     "p": "dirección",
+     "conf": 1.0
+    },
+    {
+     "p": "lo",
+     "conf": 0.837
+    },
+    {
+     "p": "enviamos?",
+     "conf": 0.999
+    }
+   ]
+  },
+  {
+   "inicio": 92.3,
+   "fin": 96.94,
+   "texto": "Avenida Arequipa 1870, interior B, en Lince",
+   "palabras": [
+    {
+     "p": "Avenida",
+     "conf": 0.757
+    },
+    {
+     "p": "Arequipa",
+     "conf": 0.999
+    },
+    {
+     "p": "1870,",
+     "conf": 0.764
+    },
+    {
+     "p": "interior",
+     "conf": 0.826
+    },
+    {
+     "p": "B,",
+     "conf": 0.985
+    },
+    {
+     "p": "en",
+     "conf": 0.903
+    },
+    {
+     "p": "Lince",
+     "conf": 0.914
+    }
+   ]
+  },
+  {
+   "inicio": 96.94,
+   "fin": 102.74,
+   "texto": "Avenida Arequipa 1870, interior B, Lince",
+   "palabras": [
+    {
+     "p": "Avenida",
+     "conf": 0.997
+    },
+    {
+     "p": "Arequipa",
+     "conf": 1.0
+    },
+    {
+     "p": "1870,",
+     "conf": 0.99
+    },
+    {
+     "p": "interior",
+     "conf": 1.0
+    },
+    {
+     "p": "B,",
+     "conf": 0.999
+    },
+    {
+     "p": "Lince",
+     "conf": 0.978
+    }
+   ]
+  },
+  {
+   "inicio": 102.74,
+   "fin": 104.12,
+   "texto": "¿Es casa o edificio?",
+   "palabras": [
+    {
+     "p": "¿Es",
+     "conf": 0.736
+    },
+    {
+     "p": "casa",
+     "conf": 0.974
+    },
+    {
+     "p": "o",
+     "conf": 0.999
+    },
+    {
+     "p": "edificio?",
+     "conf": 0.882
+    }
+   ]
+  },
+  {
+   "inicio": 104.3,
+   "fin": 105.28,
+   "texto": "Es una quinta",
+   "palabras": [
+    {
+     "p": "Es",
+     "conf": 0.997
+    },
+    {
+     "p": "una",
+     "conf": 0.998
+    },
+    {
+     "p": "quinta",
+     "conf": 0.998
+    }
+   ]
+  },
+  {
+   "inicio": 105.28,
+   "fin": 108.08,
+   "texto": "El interior B es la segunda puerta a la derecha",
+   "palabras": [
+    {
+     "p": "El",
+     "conf": 0.056
+    },
+    {
+     "p": "interior",
+     "conf": 0.997
+    },
+    {
+     "p": "B",
+     "conf": 0.919
+    },
+    {
+     "p": "es",
+     "conf": 0.98
+    },
+    {
+     "p": "la",
+     "conf": 0.999
+    },
+    {
+     "p": "segunda",
+     "conf": 1.0
+    },
+    {
+     "p": "puerta",
+     "conf": 0.999
+    },
+    {
+     "p": "a",
+     "conf": 0.991
+    },
+    {
+     "p": "la",
+     "conf": 1.0
+    },
+    {
+     "p": "derecha",
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "inicio": 108.66,
+   "fin": 109.96,
+   "texto": "Perfecto, ¿forma de pago?",
+   "palabras": [
+    {
+     "p": "Perfecto,",
+     "conf": 0.976
+    },
+    {
+     "p": "¿forma",
+     "conf": 0.976
+    },
+    {
+     "p": "de",
+     "conf": 0.999
+    },
+    {
+     "p": "pago?",
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "inicio": 110.44,
+   "fin": 111.28,
+   "texto": "En efectivo",
+   "palabras": [
+    {
+     "p": "En",
+     "conf": 0.964
+    },
+    {
+     "p": "efectivo",
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "inicio": 111.28,
+   "fin": 113.24,
+   "texto": "Voy a pagar con un billete de 200",
+   "palabras": [
+    {
+     "p": "Voy",
+     "conf": 0.549
+    },
+    {
+     "p": "a",
+     "conf": 1.0
+    },
+    {
+     "p": "pagar",
+     "conf": 1.0
+    },
+    {
+     "p": "con",
+     "conf": 0.999
+    },
+    {
+     "p": "un",
+     "conf": 0.855
+    },
+    {
+     "p": "billete",
+     "conf": 0.996
+    },
+    {
+     "p": "de",
+     "conf": 1.0
+    },
+    {
+     "p": "200",
+     "conf": 0.837
+    }
+   ]
+  },
+  {
+   "inicio": 113.24,
+   "fin": 115.48,
+   "texto": "Para que el repartidor lleve vuelta",
+   "palabras": [
+    {
+     "p": "Para",
+     "conf": 0.548
+    },
+    {
+     "p": "que",
+     "conf": 1.0
+    },
+    {
+     "p": "el",
+     "conf": 0.995
+    },
+    {
+     "p": "repartidor",
+     "conf": 0.999
+    },
+    {
+     "p": "lleve",
+     "conf": 0.999
+    },
+    {
+     "p": "vuelta",
+     "conf": 0.854
+    }
+   ]
+  },
+  {
+   "inicio": 116.2,
+   "fin": 116.76,
+   "texto": "Anotado",
+   "palabras": [
+    {
+     "p": "Anotado",
+     "conf": 0.995
+    }
+   ]
+  },
+  {
+   "inicio": 116.76,
+   "fin": 118.58,
+   "texto": "Efectivo con billete de 200",
+   "palabras": [
+    {
+     "p": "Efectivo",
+     "conf": 0.783
+    },
+    {
+     "p": "con",
+     "conf": 0.999
+    },
+    {
+     "p": "billete",
+     "conf": 0.995
+    },
+    {
+     "p": "de",
+     "conf": 1.0
+    },
+    {
+     "p": "200",
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "inicio": 118.58,
+   "fin": 121.48,
+   "texto": "El tiempo estimado es de 50 minutos",
+   "palabras": [
+    {
+     "p": "El",
+     "conf": 0.98
+    },
+    {
+     "p": "tiempo",
+     "conf": 1.0
+    },
+    {
+     "p": "estimado",
+     "conf": 0.999
+    },
+    {
+     "p": "es",
+     "conf": 0.991
+    },
+    {
+     "p": "de",
+     "conf": 1.0
+    },
+    {
+     "p": "50",
+     "conf": 0.999
+    },
+    {
+     "p": "minutos",
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "inicio": 121.48,
+   "fin": 123.98,
+   "texto": "Porque los martes hay bastantes pedidos",
+   "palabras": [
+    {
+     "p": "Porque",
+     "conf": 0.996
+    },
+    {
+     "p": "los",
+     "conf": 0.998
+    },
+    {
+     "p": "martes",
+     "conf": 1.0
+    },
+    {
+     "p": "hay",
+     "conf": 0.977
+    },
+    {
+     "p": "bastantes",
+     "conf": 0.981
+    },
+    {
+     "p": "pedidos",
+     "conf": 0.999
+    }
+   ]
+  },
+  {
+   "inicio": 123.98,
+   "fin": 125.78,
+   "texto": "Está bien, no hay apuro",
+   "palabras": [
+    {
+     "p": "Está",
+     "conf": 0.979
+    },
+    {
+     "p": "bien,",
+     "conf": 1.0
+    },
+    {
+     "p": "no",
+     "conf": 0.999
+    },
+    {
+     "p": "hay",
+     "conf": 0.996
+    },
+    {
+     "p": "apuro",
+     "conf": 0.977
+    }
+   ]
+  },
+  {
+   "inicio": 125.78,
+   "fin": 127.14,
+   "texto": "¿A nombre de quién?",
+   "palabras": [
+    {
+     "p": "¿A",
+     "conf": 0.862
+    },
+    {
+     "p": "nombre",
+     "conf": 0.964
+    },
+    {
+     "p": "de",
+     "conf": 1.0
+    },
+    {
+     "p": "quién?",
+     "conf": 0.984
+    }
+   ]
+  },
+  {
+   "inicio": 127.6,
+   "fin": 128.48,
+   "texto": "A nombre de Ale",
+   "palabras": [
+    {
+     "p": "A",
+     "conf": 0.862
+    },
+    {
+     "p": "nombre",
+     "conf": 1.0
+    },
+    {
+     "p": "de",
+     "conf": 1.0
+    },
+    {
+     "p": "Ale",
+     "conf": 0.51
+    }
+   ]
+  },
+  {
+   "inicio": 129.18,
+   "fin": 131.16,
+   "texto": "Listo Ale, muchas gracias por su pedido",
+   "palabras": [
+    {
+     "p": "Listo",
+     "conf": 0.972
+    },
+    {
+     "p": "Ale,",
+     "conf": 0.505
+    },
+    {
+     "p": "muchas",
+     "conf": 0.999
+    },
+    {
+     "p": "gracias",
+     "conf": 1.0
+    },
+    {
+     "p": "por",
+     "conf": 0.993
+    },
+    {
+     "p": "su",
+     "conf": 0.999
+    },
+    {
+     "p": "pedido",
+     "conf": 0.949
+    }
+   ]
+  },
+  {
+   "inicio": 131.16,
+   "fin": 132.32,
+   "texto": "Gracias a usted",
+   "palabras": [
+    {
+     "p": "Gracias",
+     "conf": 0.385
+    },
+    {
+     "p": "a",
+     "conf": 0.972
+    },
+    {
+     "p": "usted",
+     "conf": 0.967
+    }
+   ]
+  }
+ ],
+ "modelo": "large-v3-turbo",
+ "precision": "int8",
+ "modo_glosario": "ninguno",
+ "dispositivo_real": "cpu",
+ "gpus_visibles": 0,
+ "duracion_audio_s": 134.46,
+ "segundos_transcripcion": 83.24,
+ "segundos_carga_modelo": 0.0,
+ "seg_por_min_audio": 37.14,
+ "vram_base_mb": null,
+ "vram_pico_mb": null,
+ "idioma_detectado": "es",
+ "faster_whisper": "1.2.1",
+ "ctranslate2": "4.8.4",
+ "degradacion": {
+  "nivel": "L1",
+  "bitrate": 12000
+ }
+}

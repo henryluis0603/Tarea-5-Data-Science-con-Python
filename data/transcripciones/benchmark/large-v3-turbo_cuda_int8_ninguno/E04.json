@@ -1,0 +1,1656 @@
+{
+ "texto": "hola sam buenas tardes soy del equipo de selección de andes analytics como la entrevista técnica después es en inglés empecemos por ahí qué nivel tienes buenas tardes tengo certificado b2 o sea intermedio alto puedo trabajar en inglés aunque a veces me falta vocabulario cuando hablo rápido perfecto b2 es suficiente cuéntame qué haces actualmente me he puesto es ml engineer en una aseguradora armado modelos para detectar fraude en los reclamos y cuánto tiempo llevas en esa área en machine learning dos años y medio te estuve unos meses como practicante pero eso no lo cuento está bien con qué fein works trabajas los modelos de tabla los hago con sicklearn para los modelos de texto usamos pytorch y hay un proyecto antiguo en tensorflow que todavía mantengo los experimentos los registramos en ml flow y dónde despliega entonces todo está en aws yo me encargo de que los modelos pasen a producción y de revisar que no se degrade te ha tocado un modelo que falló en producción si el modelo de fraude funcionaba muy bien en las pruebas pero a los cuatro meses empezó a fallar los desfraudadores cambiaron la estrategia y la precisión bajó de 90 a 70 por ciento desde ahí armé un monitoreo semanal que compara los datos nuevos con los de entrenamiento y qué hacen cuando detectan ese cambio lo entrenamos con los últimos datos y antes de reemplazar el modelo lo probamos en paralelo dos semanas nunca cambiamos un modelo a ciegas muy bien la posición remota para una empresa de afuera y se paga en dólares cuál sería tu pretensión estoy buscando dos mil ochocientos dólares al mes sé que es un salto pero es lo que vi para este nivel en otras ofertas remotas entiendo lo lo pasan al equipo cuando podrías empezar el contrato me pide un mes de preaviso así que tendría que contar 30 días desde que firme es razonable lo tenemos en cuenta tienes alguna pregunta si el equipo de datos es grande somos 12 personas cuatro de ellas es machine leer ni te mandamos una prueba para la próxima etapa perfecto muchas gracias por el tiempo gracias a ti sam hablamos pronto gracias",
+ "segmentos": [
+  {
+   "inicio": 1.74,
+   "fin": 9.02,
+   "texto": "hola sam buenas tardes soy del equipo de selección de andes analytics como la entrevista técnica",
+   "palabras": [
+    {
+     "p": "hola",
+     "conf": 0.501
+    },
+    {
+     "p": "sam",
+     "conf": 0.731
+    },
+    {
+     "p": "buenas",
+     "conf": 0.94
+    },
+    {
+     "p": "tardes",
+     "conf": 0.998
+    },
+    {
+     "p": "soy",
+     "conf": 0.884
+    },
+    {
+     "p": "del",
+     "conf": 0.979
+    },
+    {
+     "p": "equipo",
+     "conf": 0.999
+    },
+    {
+     "p": "de",
+     "conf": 0.999
+    },
+    {
+     "p": "selección",
+     "conf": 0.997
+    },
+    {
+     "p": "de",
+     "conf": 0.967
+    },
+    {
+     "p": "andes",
+     "conf": 0.877
+    },
+    {
+     "p": "analytics",
+     "conf": 0.323
+    },
+    {
+     "p": "como",
+     "conf": 0.932
+    },
+    {
+     "p": "la",
+     "conf": 0.992
+    },
+    {
+     "p": "entrevista",
+     "conf": 0.995
+    },
+    {
+     "p": "técnica",
+     "conf": 0.624
+    }
+   ]
+  },
+  {
+   "inicio": 9.02,
+   "fin": 15.2,
+   "texto": "después es en inglés empecemos por ahí qué nivel tienes buenas tardes tengo certificado",
+   "palabras": [
+    {
+     "p": "después",
+     "conf": 0.978
+    },
+    {
+     "p": "es",
+     "conf": 0.895
+    },
+    {
+     "p": "en",
+     "conf": 0.984
+    },
+    {
+     "p": "inglés",
+     "conf": 0.99
+    },
+    {
+     "p": "empecemos",
+     "conf": 0.97
+    },
+    {
+     "p": "por",
+     "conf": 0.997
+    },
+    {
+     "p": "ahí",
+     "conf": 0.952
+    },
+    {
+     "p": "qué",
+     "conf": 0.614
+    },
+    {
+     "p": "nivel",
+     "conf": 0.995
+    },
+    {
+     "p": "tienes",
+     "conf": 0.95
+    },
+    {
+     "p": "buenas",
+     "conf": 0.846
+    },
+    {
+     "p": "tardes",
+     "conf": 0.996
+    },
+    {
+     "p": "tengo",
+     "conf": 0.995
+    },
+    {
+     "p": "certificado",
+     "conf": 0.981
+    }
+   ]
+  },
+  {
+   "inicio": 15.2,
+   "fin": 20.3,
+   "texto": "b2 o sea intermedio alto puedo trabajar en inglés aunque a veces me falta vocabulario",
+   "palabras": [
+    {
+     "p": "b2",
+     "conf": 0.749
+    },
+    {
+     "p": "o",
+     "conf": 0.836
+    },
+    {
+     "p": "sea",
+     "conf": 0.976
+    },
+    {
+     "p": "intermedio",
+     "conf": 0.988
+    },
+    {
+     "p": "alto",
+     "conf": 0.887
+    },
+    {
+     "p": "puedo",
+     "conf": 0.875
+    },
+    {
+     "p": "trabajar",
+     "conf": 0.999
+    },
+    {
+     "p": "en",
+     "conf": 0.999
+    },
+    {
+     "p": "inglés",
+     "conf": 0.999
+    },
+    {
+     "p": "aunque",
+     "conf": 0.997
+    },
+    {
+     "p": "a",
+     "conf": 0.995
+    },
+    {
+     "p": "veces",
+     "conf": 0.999
+    },
+    {
+     "p": "me",
+     "conf": 0.989
+    },
+    {
+     "p": "falta",
+     "conf": 0.943
+    },
+    {
+     "p": "vocabulario",
+     "conf": 0.992
+    }
+   ]
+  },
+  {
+   "inicio": 20.3,
+   "fin": 26.32,
+   "texto": "cuando hablo rápido perfecto b2 es suficiente cuéntame qué haces actualmente me he puesto",
+   "palabras": [
+    {
+     "p": "cuando",
+     "conf": 0.995
+    },
+    {
+     "p": "hablo",
+     "conf": 0.987
+    },
+    {
+     "p": "rápido",
+     "conf": 0.985
+    },
+    {
+     "p": "perfecto",
+     "conf": 0.991
+    },
+    {
+     "p": "b2",
+     "conf": 0.868
+    },
+    {
+     "p": "es",
+     "conf": 0.938
+    },
+    {
+     "p": "suficiente",
+     "conf": 0.983
+    },
+    {
+     "p": "cuéntame",
+     "conf": 0.965
+    },
+    {
+     "p": "qué",
+     "conf": 0.918
+    },
+    {
+     "p": "haces",
+     "conf": 0.987
+    },
+    {
+     "p": "actualmente",
+     "conf": 0.997
+    },
+    {
+     "p": "me",
+     "conf": 0.366
+    },
+    {
+     "p": "he",
+     "conf": 0.895
+    },
+    {
+     "p": "puesto",
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "inicio": 26.32,
+   "fin": 33.02,
+   "texto": "es ml engineer en una aseguradora armado modelos para detectar fraude en los reclamos y cuánto",
+   "palabras": [
+    {
+     "p": "es",
+     "conf": 0.341
+    },
+    {
+     "p": "ml",
+     "conf": 0.002
+    },
+    {
+     "p": "engineer",
+     "conf": 0.678
+    },
+    {
+     "p": "en",
+     "conf": 0.988
+    },
+    {
+     "p": "una",
+     "conf": 1.0
+    },
+    {
+     "p": "aseguradora",
+     "conf": 0.999
+    },
+    {
+     "p": "armado",
+     "conf": 0.202
+    },
+    {
+     "p": "modelos",
+     "conf": 0.749
+    },
+    {
+     "p": "para",
+     "conf": 1.0
+    },
+    {
+     "p": "detectar",
+     "conf": 0.991
+    },
+    {
+     "p": "fraude",
+     "conf": 0.998
+    },
+    {
+     "p": "en",
+     "conf": 0.999
+    },
+    {
+     "p": "los",
+     "conf": 1.0
+    },
+    {
+     "p": "reclamos",
+     "conf": 0.999
+    },
+    {
+     "p": "y",
+     "conf": 0.118
+    },
+    {
+     "p": "cuánto",
+     "conf": 0.906
+    }
+   ]
+  },
+  {
+   "inicio": 33.02,
+   "fin": 38.94,
+   "texto": "tiempo llevas en esa área en machine learning dos años y medio te estuve unos meses como",
+   "palabras": [
+    {
+     "p": "tiempo",
+     "conf": 1.0
+    },
+    {
+     "p": "llevas",
+     "conf": 0.996
+    },
+    {
+     "p": "en",
+     "conf": 1.0
+    },
+    {
+     "p": "esa",
+     "conf": 0.984
+    },
+    {
+     "p": "área",
+     "conf": 0.998
+    },
+    {
+     "p": "en",
+     "conf": 0.816
+    },
+    {
+     "p": "machine",
+     "conf": 0.683
+    },
+    {
+     "p": "learning",
+     "conf": 1.0
+    },
+    {
+     "p": "dos",
+     "conf": 0.934
+    },
+    {
+     "p": "años",
+     "conf": 1.0
+    },
+    {
+     "p": "y",
+     "conf": 0.998
+    },
+    {
+     "p": "medio",
+     "conf": 0.999
+    },
+    {
+     "p": "te",
+     "conf": 0.026
+    },
+    {
+     "p": "estuve",
+     "conf": 0.836
+    },
+    {
+     "p": "unos",
+     "conf": 0.883
+    },
+    {
+     "p": "meses",
+     "conf": 1.0
+    },
+    {
+     "p": "como",
+     "conf": 0.994
+    }
+   ]
+  },
+  {
+   "inicio": 38.94,
+   "fin": 48.12,
+   "texto": "practicante pero eso no lo cuento está bien con qué fein works trabajas los modelos de tabla los",
+   "palabras": [
+    {
+     "p": "practicante",
+     "conf": 0.98
+    },
+    {
+     "p": "pero",
+     "conf": 0.949
+    },
+    {
+     "p": "eso",
+     "conf": 0.845
+    },
+    {
+     "p": "no",
+     "conf": 0.985
+    },
+    {
+     "p": "lo",
+     "conf": 0.931
+    },
+    {
+     "p": "cuento",
+     "conf": 0.979
+    },
+    {
+     "p": "está",
+     "conf": 0.942
+    },
+    {
+     "p": "bien",
+     "conf": 1.0
+    },
+    {
+     "p": "con",
+     "conf": 0.882
+    },
+    {
+     "p": "qué",
+     "conf": 0.777
+    },
+    {
+     "p": "fein",
+     "conf": 0.432
+    },
+    {
+     "p": "works",
+     "conf": 0.884
+    },
+    {
+     "p": "trabajas",
+     "conf": 0.984
+    },
+    {
+     "p": "los",
+     "conf": 0.981
+    },
+    {
+     "p": "modelos",
+     "conf": 0.999
+    },
+    {
+     "p": "de",
+     "conf": 0.999
+    },
+    {
+     "p": "tabla",
+     "conf": 0.96
+    },
+    {
+     "p": "los",
+     "conf": 0.989
+    }
+   ]
+  },
+  {
+   "inicio": 48.12,
+   "fin": 56.54,
+   "texto": "hago con sicklearn para los modelos de texto usamos pytorch y hay un proyecto antiguo en tensorflow que",
+   "palabras": [
+    {
+     "p": "hago",
+     "conf": 0.655
+    },
+    {
+     "p": "con",
+     "conf": 0.998
+    },
+    {
+     "p": "sicklearn",
+     "conf": 0.473
+    },
+    {
+     "p": "para",
+     "conf": 0.304
+    },
+    {
+     "p": "los",
+     "conf": 0.765
+    },
+    {
+     "p": "modelos",
+     "conf": 0.997
+    },
+    {
+     "p": "de",
+     "conf": 0.997
+    },
+    {
+     "p": "texto",
+     "conf": 0.96
+    },
+    {
+     "p": "usamos",
+     "conf": 0.995
+    },
+    {
+     "p": "pytorch",
+     "conf": 0.74
+    },
+    {
+     "p": "y",
+     "conf": 0.989
+    },
+    {
+     "p": "hay",
+     "conf": 0.999
+    },
+    {
+     "p": "un",
+     "conf": 1.0
+    },
+    {
+     "p": "proyecto",
+     "conf": 0.997
+    },
+    {
+     "p": "antiguo",
+     "conf": 0.997
+    },
+    {
+     "p": "en",
+     "conf": 0.959
+    },
+    {
+     "p": "tensorflow",
+     "conf": 0.665
+    },
+    {
+     "p": "que",
+     "conf": 0.984
+    }
+   ]
+  },
+  {
+   "inicio": 56.54,
+   "fin": 65.64,
+   "texto": "todavía mantengo los experimentos los registramos en ml flow y dónde despliega entonces todo está en",
+   "palabras": [
+    {
+     "p": "todavía",
+     "conf": 0.996
+    },
+    {
+     "p": "mantengo",
+     "conf": 0.997
+    },
+    {
+     "p": "los",
+     "conf": 0.583
+    },
+    {
+     "p": "experimentos",
+     "conf": 0.99
+    },
+    {
+     "p": "los",
+     "conf": 0.974
+    },
+    {
+     "p": "registramos",
+     "conf": 0.997
+    },
+    {
+     "p": "en",
+     "conf": 0.989
+    },
+    {
+     "p": "ml",
+     "conf": 0.792
+    },
+    {
+     "p": "flow",
+     "conf": 0.039
+    },
+    {
+     "p": "y",
+     "conf": 0.651
+    },
+    {
+     "p": "dónde",
+     "conf": 0.312
+    },
+    {
+     "p": "despliega",
+     "conf": 0.824
+    },
+    {
+     "p": "entonces",
+     "conf": 0.079
+    },
+    {
+     "p": "todo",
+     "conf": 0.94
+    },
+    {
+     "p": "está",
+     "conf": 0.989
+    },
+    {
+     "p": "en",
+     "conf": 0.997
+    }
+   ]
+  },
+  {
+   "inicio": 65.64,
+   "fin": 70.4,
+   "texto": "aws yo me encargo de que los modelos pasen a producción y de revisar que no se degrade",
+   "palabras": [
+    {
+     "p": "aws",
+     "conf": 0.521
+    },
+    {
+     "p": "yo",
+     "conf": 0.849
+    },
+    {
+     "p": "me",
+     "conf": 0.999
+    },
+    {
+     "p": "encargo",
+     "conf": 0.999
+    },
+    {
+     "p": "de",
+     "conf": 0.999
+    },
+    {
+     "p": "que",
+     "conf": 0.998
+    },
+    {
+     "p": "los",
+     "conf": 0.877
+    },
+    {
+     "p": "modelos",
+     "conf": 0.963
+    },
+    {
+     "p": "pasen",
+     "conf": 0.99
+    },
+    {
+     "p": "a",
+     "conf": 0.915
+    },
+    {
+     "p": "producción",
+     "conf": 0.987
+    },
+    {
+     "p": "y",
+     "conf": 0.978
+    },
+    {
+     "p": "de",
+     "conf": 0.993
+    },
+    {
+     "p": "revisar",
+     "conf": 0.99
+    },
+    {
+     "p": "que",
+     "conf": 0.986
+    },
+    {
+     "p": "no",
+     "conf": 0.963
+    },
+    {
+     "p": "se",
+     "conf": 0.994
+    },
+    {
+     "p": "degrade",
+     "conf": 0.768
+    }
+   ]
+  },
+  {
+   "inicio": 71.06,
+   "fin": 76.74,
+   "texto": "te ha tocado un modelo que falló en producción si el modelo de fraude funcionaba muy bien en las",
+   "palabras": [
+    {
+     "p": "te",
+     "conf": 0.773
+    },
+    {
+     "p": "ha",
+     "conf": 0.974
+    },
+    {
+     "p": "tocado",
+     "conf": 0.999
+    },
+    {
+     "p": "un",
+     "conf": 0.982
+    },
+    {
+     "p": "modelo",
+     "conf": 0.995
+    },
+    {
+     "p": "que",
+     "conf": 0.98
+    },
+    {
+     "p": "falló",
+     "conf": 0.953
+    },
+    {
+     "p": "en",
+     "conf": 0.998
+    },
+    {
+     "p": "producción",
+     "conf": 0.993
+    },
+    {
+     "p": "si",
+     "conf": 0.709
+    },
+    {
+     "p": "el",
+     "conf": 0.802
+    },
+    {
+     "p": "modelo",
+     "conf": 0.98
+    },
+    {
+     "p": "de",
+     "conf": 0.91
+    },
+    {
+     "p": "fraude",
+     "conf": 0.558
+    },
+    {
+     "p": "funcionaba",
+     "conf": 0.878
+    },
+    {
+     "p": "muy",
+     "conf": 0.998
+    },
+    {
+     "p": "bien",
+     "conf": 0.999
+    },
+    {
+     "p": "en",
+     "conf": 0.705
+    },
+    {
+     "p": "las",
+     "conf": 0.972
+    }
+   ]
+  },
+  {
+   "inicio": 76.74,
+   "fin": 80.88,
+   "texto": "pruebas pero a los cuatro meses empezó a fallar los desfraudadores cambiaron la estrategia y la",
+   "palabras": [
+    {
+     "p": "pruebas",
+     "conf": 0.883
+    },
+    {
+     "p": "pero",
+     "conf": 0.516
+    },
+    {
+     "p": "a",
+     "conf": 0.885
+    },
+    {
+     "p": "los",
+     "conf": 0.997
+    },
+    {
+     "p": "cuatro",
+     "conf": 0.699
+    },
+    {
+     "p": "meses",
+     "conf": 0.997
+    },
+    {
+     "p": "empezó",
+     "conf": 0.961
+    },
+    {
+     "p": "a",
+     "conf": 0.998
+    },
+    {
+     "p": "fallar",
+     "conf": 0.999
+    },
+    {
+     "p": "los",
+     "conf": 0.368
+    },
+    {
+     "p": "desfraudadores",
+     "conf": 0.807
+    },
+    {
+     "p": "cambiaron",
+     "conf": 0.963
+    },
+    {
+     "p": "la",
+     "conf": 0.734
+    },
+    {
+     "p": "estrategia",
+     "conf": 0.999
+    },
+    {
+     "p": "y",
+     "conf": 0.91
+    },
+    {
+     "p": "la",
+     "conf": 0.997
+    }
+   ]
+  },
+  {
+   "inicio": 80.88,
+   "fin": 87.08,
+   "texto": "precisión bajó de 90 a 70 por ciento desde ahí armé un monitoreo semanal que compara los datos nuevos",
+   "palabras": [
+    {
+     "p": "precisión",
+     "conf": 0.995
+    },
+    {
+     "p": "bajó",
+     "conf": 0.888
+    },
+    {
+     "p": "de",
+     "conf": 0.763
+    },
+    {
+     "p": "90",
+     "conf": 0.959
+    },
+    {
+     "p": "a",
+     "conf": 0.943
+    },
+    {
+     "p": "70",
+     "conf": 0.993
+    },
+    {
+     "p": "por",
+     "conf": 0.883
+    },
+    {
+     "p": "ciento",
+     "conf": 0.998
+    },
+    {
+     "p": "desde",
+     "conf": 0.953
+    },
+    {
+     "p": "ahí",
+     "conf": 0.749
+    },
+    {
+     "p": "armé",
+     "conf": 0.815
+    },
+    {
+     "p": "un",
+     "conf": 0.974
+    },
+    {
+     "p": "monitoreo",
+     "conf": 0.853
+    },
+    {
+     "p": "semanal",
+     "conf": 0.997
+    },
+    {
+     "p": "que",
+     "conf": 0.983
+    },
+    {
+     "p": "compara",
+     "conf": 0.906
+    },
+    {
+     "p": "los",
+     "conf": 0.998
+    },
+    {
+     "p": "datos",
+     "conf": 0.999
+    },
+    {
+     "p": "nuevos",
+     "conf": 0.984
+    }
+   ]
+  },
+  {
+   "inicio": 87.08,
+   "fin": 93.62,
+   "texto": "con los de entrenamiento y qué hacen cuando detectan ese cambio lo entrenamos con los últimos datos y",
+   "palabras": [
+    {
+     "p": "con",
+     "conf": 0.988
+    },
+    {
+     "p": "los",
+     "conf": 0.999
+    },
+    {
+     "p": "de",
+     "conf": 0.925
+    },
+    {
+     "p": "entrenamiento",
+     "conf": 0.998
+    },
+    {
+     "p": "y",
+     "conf": 0.946
+    },
+    {
+     "p": "qué",
+     "conf": 0.733
+    },
+    {
+     "p": "hacen",
+     "conf": 0.995
+    },
+    {
+     "p": "cuando",
+     "conf": 0.998
+    },
+    {
+     "p": "detectan",
+     "conf": 0.993
+    },
+    {
+     "p": "ese",
+     "conf": 0.98
+    },
+    {
+     "p": "cambio",
+     "conf": 0.959
+    },
+    {
+     "p": "lo",
+     "conf": 0.278
+    },
+    {
+     "p": "entrenamos",
+     "conf": 0.901
+    },
+    {
+     "p": "con",
+     "conf": 0.999
+    },
+    {
+     "p": "los",
+     "conf": 1.0
+    },
+    {
+     "p": "últimos",
+     "conf": 0.999
+    },
+    {
+     "p": "datos",
+     "conf": 0.996
+    },
+    {
+     "p": "y",
+     "conf": 0.924
+    }
+   ]
+  },
+  {
+   "inicio": 93.62,
+   "fin": 98.38,
+   "texto": "antes de reemplazar el modelo lo probamos en paralelo dos semanas nunca cambiamos un modelo",
+   "palabras": [
+    {
+     "p": "antes",
+     "conf": 0.992
+    },
+    {
+     "p": "de",
+     "conf": 0.955
+    },
+    {
+     "p": "reemplazar",
+     "conf": 0.918
+    },
+    {
+     "p": "el",
+     "conf": 0.989
+    },
+    {
+     "p": "modelo",
+     "conf": 0.999
+    },
+    {
+     "p": "lo",
+     "conf": 0.846
+    },
+    {
+     "p": "probamos",
+     "conf": 0.897
+    },
+    {
+     "p": "en",
+     "conf": 0.971
+    },
+    {
+     "p": "paralelo",
+     "conf": 0.645
+    },
+    {
+     "p": "dos",
+     "conf": 0.711
+    },
+    {
+     "p": "semanas",
+     "conf": 0.998
+    },
+    {
+     "p": "nunca",
+     "conf": 0.992
+    },
+    {
+     "p": "cambiamos",
+     "conf": 0.998
+    },
+    {
+     "p": "un",
+     "conf": 0.872
+    },
+    {
+     "p": "modelo",
+     "conf": 0.99
+    }
+   ]
+  },
+  {
+   "inicio": 98.38,
+   "fin": 104.86,
+   "texto": "a ciegas muy bien la posición remota para una empresa de afuera y se paga en dólares cuál sería",
+   "palabras": [
+    {
+     "p": "a",
+     "conf": 0.003
+    },
+    {
+     "p": "ciegas",
+     "conf": 0.74
+    },
+    {
+     "p": "muy",
+     "conf": 0.031
+    },
+    {
+     "p": "bien",
+     "conf": 0.998
+    },
+    {
+     "p": "la",
+     "conf": 0.988
+    },
+    {
+     "p": "posición",
+     "conf": 0.987
+    },
+    {
+     "p": "remota",
+     "conf": 0.745
+    },
+    {
+     "p": "para",
+     "conf": 0.996
+    },
+    {
+     "p": "una",
+     "conf": 0.997
+    },
+    {
+     "p": "empresa",
+     "conf": 0.998
+    },
+    {
+     "p": "de",
+     "conf": 0.994
+    },
+    {
+     "p": "afuera",
+     "conf": 0.995
+    },
+    {
+     "p": "y",
+     "conf": 0.99
+    },
+    {
+     "p": "se",
+     "conf": 0.995
+    },
+    {
+     "p": "paga",
+     "conf": 0.738
+    },
+    {
+     "p": "en",
+     "conf": 0.993
+    },
+    {
+     "p": "dólares",
+     "conf": 0.984
+    },
+    {
+     "p": "cuál",
+     "conf": 0.928
+    },
+    {
+     "p": "sería",
+     "conf": 0.996
+    }
+   ]
+  },
+  {
+   "inicio": 104.86,
+   "fin": 112.12,
+   "texto": "tu pretensión estoy buscando dos mil ochocientos dólares al mes sé que es un salto pero es lo que",
+   "palabras": [
+    {
+     "p": "tu",
+     "conf": 0.989
+    },
+    {
+     "p": "pretensión",
+     "conf": 0.992
+    },
+    {
+     "p": "estoy",
+     "conf": 0.855
+    },
+    {
+     "p": "buscando",
+     "conf": 0.984
+    },
+    {
+     "p": "dos",
+     "conf": 0.2
+    },
+    {
+     "p": "mil",
+     "conf": 0.906
+    },
+    {
+     "p": "ochocientos",
+     "conf": 0.919
+    },
+    {
+     "p": "dólares",
+     "conf": 0.982
+    },
+    {
+     "p": "al",
+     "conf": 0.994
+    },
+    {
+     "p": "mes",
+     "conf": 0.999
+    },
+    {
+     "p": "sé",
+     "conf": 0.97
+    },
+    {
+     "p": "que",
+     "conf": 0.988
+    },
+    {
+     "p": "es",
+     "conf": 0.998
+    },
+    {
+     "p": "un",
+     "conf": 0.999
+    },
+    {
+     "p": "salto",
+     "conf": 0.998
+    },
+    {
+     "p": "pero",
+     "conf": 0.997
+    },
+    {
+     "p": "es",
+     "conf": 0.948
+    },
+    {
+     "p": "lo",
+     "conf": 0.998
+    },
+    {
+     "p": "que",
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "inicio": 112.12,
+   "fin": 119.98,
+   "texto": "vi para este nivel en otras ofertas remotas entiendo lo lo pasan al equipo cuando podrías empezar el",
+   "palabras": [
+    {
+     "p": "vi",
+     "conf": 0.495
+    },
+    {
+     "p": "para",
+     "conf": 0.822
+    },
+    {
+     "p": "este",
+     "conf": 0.95
+    },
+    {
+     "p": "nivel",
+     "conf": 0.995
+    },
+    {
+     "p": "en",
+     "conf": 0.938
+    },
+    {
+     "p": "otras",
+     "conf": 0.99
+    },
+    {
+     "p": "ofertas",
+     "conf": 0.992
+    },
+    {
+     "p": "remotas",
+     "conf": 0.995
+    },
+    {
+     "p": "entiendo",
+     "conf": 0.983
+    },
+    {
+     "p": "lo",
+     "conf": 0.944
+    },
+    {
+     "p": "lo",
+     "conf": 0.79
+    },
+    {
+     "p": "pasan",
+     "conf": 0.892
+    },
+    {
+     "p": "al",
+     "conf": 0.995
+    },
+    {
+     "p": "equipo",
+     "conf": 0.999
+    },
+    {
+     "p": "cuando",
+     "conf": 0.864
+    },
+    {
+     "p": "podrías",
+     "conf": 0.973
+    },
+    {
+     "p": "empezar",
+     "conf": 0.982
+    },
+    {
+     "p": "el",
+     "conf": 0.78
+    }
+   ]
+  },
+  {
+   "inicio": 119.98,
+   "fin": 126.82,
+   "texto": "contrato me pide un mes de preaviso así que tendría que contar 30 días desde que firme es razonable lo",
+   "palabras": [
+    {
+     "p": "contrato",
+     "conf": 0.991
+    },
+    {
+     "p": "me",
+     "conf": 0.986
+    },
+    {
+     "p": "pide",
+     "conf": 0.975
+    },
+    {
+     "p": "un",
+     "conf": 0.996
+    },
+    {
+     "p": "mes",
+     "conf": 0.999
+    },
+    {
+     "p": "de",
+     "conf": 0.989
+    },
+    {
+     "p": "preaviso",
+     "conf": 0.93
+    },
+    {
+     "p": "así",
+     "conf": 0.924
+    },
+    {
+     "p": "que",
+     "conf": 0.999
+    },
+    {
+     "p": "tendría",
+     "conf": 0.989
+    },
+    {
+     "p": "que",
+     "conf": 0.999
+    },
+    {
+     "p": "contar",
+     "conf": 0.992
+    },
+    {
+     "p": "30",
+     "conf": 0.951
+    },
+    {
+     "p": "días",
+     "conf": 0.942
+    },
+    {
+     "p": "desde",
+     "conf": 0.978
+    },
+    {
+     "p": "que",
+     "conf": 0.981
+    },
+    {
+     "p": "firme",
+     "conf": 0.972
+    },
+    {
+     "p": "es",
+     "conf": 0.971
+    },
+    {
+     "p": "razonable",
+     "conf": 0.99
+    },
+    {
+     "p": "lo",
+     "conf": 0.975
+    }
+   ]
+  },
+  {
+   "inicio": 126.82,
+   "fin": 134.44,
+   "texto": "tenemos en cuenta tienes alguna pregunta si el equipo de datos es grande somos 12 personas cuatro de ellas",
+   "palabras": [
+    {
+     "p": "tenemos",
+     "conf": 0.705
+    },
+    {
+     "p": "en",
+     "conf": 0.994
+    },
+    {
+     "p": "cuenta",
+     "conf": 1.0
+    },
+    {
+     "p": "tienes",
+     "conf": 0.035
+    },
+    {
+     "p": "alguna",
+     "conf": 0.995
+    },
+    {
+     "p": "pregunta",
+     "conf": 0.999
+    },
+    {
+     "p": "si",
+     "conf": 0.823
+    },
+    {
+     "p": "el",
+     "conf": 0.984
+    },
+    {
+     "p": "equipo",
+     "conf": 0.998
+    },
+    {
+     "p": "de",
+     "conf": 0.989
+    },
+    {
+     "p": "datos",
+     "conf": 0.999
+    },
+    {
+     "p": "es",
+     "conf": 0.991
+    },
+    {
+     "p": "grande",
+     "conf": 0.996
+    },
+    {
+     "p": "somos",
+     "conf": 0.99
+    },
+    {
+     "p": "12",
+     "conf": 0.888
+    },
+    {
+     "p": "personas",
+     "conf": 0.995
+    },
+    {
+     "p": "cuatro",
+     "conf": 0.595
+    },
+    {
+     "p": "de",
+     "conf": 0.996
+    },
+    {
+     "p": "ellas",
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "inicio": 134.44,
+   "fin": 142.76,
+   "texto": "es machine leer ni te mandamos una prueba para la próxima etapa perfecto muchas gracias por el",
+   "palabras": [
+    {
+     "p": "es",
+     "conf": 0.993
+    },
+    {
+     "p": "machine",
+     "conf": 0.758
+    },
+    {
+     "p": "leer",
+     "conf": 0.001
+    },
+    {
+     "p": "ni",
+     "conf": 0.588
+    },
+    {
+     "p": "te",
+     "conf": 0.963
+    },
+    {
+     "p": "mandamos",
+     "conf": 1.0
+    },
+    {
+     "p": "una",
+     "conf": 0.995
+    },
+    {
+     "p": "prueba",
+     "conf": 1.0
+    },
+    {
+     "p": "para",
+     "conf": 0.998
+    },
+    {
+     "p": "la",
+     "conf": 0.993
+    },
+    {
+     "p": "próxima",
+     "conf": 0.994
+    },
+    {
+     "p": "etapa",
+     "conf": 0.995
+    },
+    {
+     "p": "perfecto",
+     "conf": 0.969
+    },
+    {
+     "p": "muchas",
+     "conf": 0.993
+    },
+    {
+     "p": "gracias",
+     "conf": 0.999
+    },
+    {
+     "p": "por",
+     "conf": 0.995
+    },
+    {
+     "p": "el",
+     "conf": 0.999
+    }
+   ]
+  },
+  {
+   "inicio": 142.76,
+   "fin": 145.68,
+   "texto": "tiempo gracias a ti sam hablamos pronto",
+   "palabras": [
+    {
+     "p": "tiempo",
+     "conf": 0.994
+    },
+    {
+     "p": "gracias",
+     "conf": 0.991
+    },
+    {
+     "p": "a",
+     "conf": 0.985
+    },
+    {
+     "p": "ti",
+     "conf": 0.97
+    },
+    {
+     "p": "sam",
+     "conf": 0.198
+    },
+    {
+     "p": "hablamos",
+     "conf": 0.979
+    },
+    {
+     "p": "pronto",
+     "conf": 0.998
+    }
+   ]
+  },
+  {
+   "inicio": 145.68,
+   "fin": 145.82,
+   "texto": "gracias",
+   "palabras": [
+    {
+     "p": "gracias",
+     "conf": 0.007
+    }
+   ]
+  }
+ ],
+ "modelo": "large-v3-turbo",
+ "precision": "int8",
+ "modo_glosario": "ninguno",
+ "dispositivo_real": "cuda",
+ "gpus_visibles": 1,
+ "duracion_audio_s": 147.35,
+ "segundos_transcripcion": 4.35,
+ "segundos_carga_modelo": 0.0,
+ "seg_por_min_audio": 1.77,
+ "vram_base_mb": 1462.1875,
+ "vram_pico_mb": 1590.1875,
+ "idioma_detectado": "es",
+ "faster_whisper": "1.2.1",
+ "ctranslate2": "4.8.4"
+}

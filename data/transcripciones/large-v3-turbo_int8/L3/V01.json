@@ -1,0 +1,2112 @@
+{
+ "texto": "Sabor de barrio, buenas noches. Le habla Sasha. ¿Qué le gustaría pedir? Hola, buenas noches. ¿Querías un pedido para el libro? Claro, les gusta. A ver, quiero un pollo la braza entero, una gazaza de litro, dos porciones de la correa. Los modelos de tabla los hago. Perfecto. Le comento que el pollo entero con la braza entero entra en el combo familiar que tiene 10 soles de descuento. Ah, qué bien. Entonces, sí, vamos a comer. Listo. Entonces, tengo un pollo entero, una gazaza y dos pasadas papas extra. ¿Algo más? Eh, espera, déjame pensarlo. Es por que sea una porción de papas extra o con el pollo y el guión de papas. Y agrégame una jarra de chavilla. Perfecto. Corrido. Una sola porción de papas extra y una jarra de chavilla morada. Es un sistema. Le confirmo las porciones. El pollo entero está a sesenta y ocho soles. Las gazaza nueve soles como las papas extra. Ocho soles y la chicha morada a seis soles. Con el descuento del combo familiar de diez soles, el total es ochenta y siete soles. Ocho y siete. Perfecto. Una pregunta. ¿El pollo viene con cualada? Sí, el pollo incluye papas y ensalada clásica. Las cremas van aparte, sin costo. Mayonesa, queso, churro, churro, churro. Y mostaza nueve soles. Mándame bastante ají y poca mayones. Anotado. Bastante ají y poca mayones. ¿Le pongo queso también? ¿Dónde estás ahora? Sí, un poquito. ¿Y la chicha es natural o de su? Está bien. Es natural. Le preparamos aquí pia maíz, morado, piña y carne. Ah, buenísimo. ¿A qué dirección se le enviamos? Girón Los Cedros, cuarenta y cinco. Departamento trescientos dos. Perfecto. No hay una pregunta. Girón Los Cedros, doscientos cuatro. ¿Cuál es? Sí, recono, departamento trescientos dos. Surguillo. ¿Alguna referencia? Es un edificio blanco al costado de una farmacia. Anotado. ¿Cómo va a pagar? No me hagas. Muy bien. El repartidor le muestra el código pandemático. El pedido demora aproximadamente cuarenta minutos. Perfecto. ¿Se puede mandar? ¿Otra referencia? Sí, claro. Teníamos cubierto todos los setenta. ¿A nombre de quién dejó el pedido? A nombre de su fila. Listo, dos o menos. Gracias por su pedido y que... Gracias a todos. ¿Cómo están los reclamos? Muy bien.",
+ "segmentos": [
+  {
+   "inicio": 1.9,
+   "fin": 4.04,
+   "texto": "Sabor de barrio, buenas noches.",
+   "palabras": [
+    {
+     "p": "Sabor",
+     "conf": 0.63
+    },
+    {
+     "p": "de",
+     "conf": 0.731
+    },
+    {
+     "p": "barrio,",
+     "conf": 0.772
+    },
+    {
+     "p": "buenas",
+     "conf": 0.927
+    },
+    {
+     "p": "noches.",
+     "conf": 0.998
+    }
+   ]
+  },
+  {
+   "inicio": 4.08,
+   "fin": 4.94,
+   "texto": "Le habla Sasha.",
+   "palabras": [
+    {
+     "p": "Le",
+     "conf": 0.932
+    },
+    {
+     "p": "habla",
+     "conf": 0.996
+    },
+    {
+     "p": "Sasha.",
+     "conf": 0.959
+    }
+   ]
+  },
+  {
+   "inicio": 5.4,
+   "fin": 6.48,
+   "texto": "¿Qué le gustaría pedir?",
+   "palabras": [
+    {
+     "p": "¿Qué",
+     "conf": 0.984
+    },
+    {
+     "p": "le",
+     "conf": 0.992
+    },
+    {
+     "p": "gustaría",
+     "conf": 0.996
+    },
+    {
+     "p": "pedir?",
+     "conf": 0.998
+    }
+   ]
+  },
+  {
+   "inicio": 7.3,
+   "fin": 8.36,
+   "texto": "Hola, buenas noches.",
+   "palabras": [
+    {
+     "p": "Hola,",
+     "conf": 0.502
+    },
+    {
+     "p": "buenas",
+     "conf": 0.999
+    },
+    {
+     "p": "noches.",
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "inicio": 8.46,
+   "fin": 10.02,
+   "texto": "¿Querías un pedido para el libro?",
+   "palabras": [
+    {
+     "p": "¿Querías",
+     "conf": 0.892
+    },
+    {
+     "p": "un",
+     "conf": 0.727
+    },
+    {
+     "p": "pedido",
+     "conf": 0.881
+    },
+    {
+     "p": "para",
+     "conf": 0.981
+    },
+    {
+     "p": "el",
+     "conf": 0.17
+    },
+    {
+     "p": "libro?",
+     "conf": 0.113
+    }
+   ]
+  },
+  {
+   "inicio": 11.38,
+   "fin": 11.92,
+   "texto": "Claro, les gusta.",
+   "palabras": [
+    {
+     "p": "Claro,",
+     "conf": 0.949
+    },
+    {
+     "p": "les",
+     "conf": 0.293
+    },
+    {
+     "p": "gusta.",
+     "conf": 0.078
+    }
+   ]
+  },
+  {
+   "inicio": 12.24,
+   "fin": 15.48,
+   "texto": "A ver, quiero un pollo la braza entero,",
+   "palabras": [
+    {
+     "p": "A",
+     "conf": 0.158
+    },
+    {
+     "p": "ver,",
+     "conf": 0.999
+    },
+    {
+     "p": "quiero",
+     "conf": 0.99
+    },
+    {
+     "p": "un",
+     "conf": 1.0
+    },
+    {
+     "p": "pollo",
+     "conf": 0.979
+    },
+    {
+     "p": "la",
+     "conf": 0.127
+    },
+    {
+     "p": "braza",
+     "conf": 0.339
+    },
+    {
+     "p": "entero,",
+     "conf": 0.957
+    }
+   ]
+  },
+  {
+   "inicio": 15.66,
+   "fin": 17.1,
+   "texto": "una gazaza de litro,",
+   "palabras": [
+    {
+     "p": "una",
+     "conf": 0.951
+    },
+    {
+     "p": "gazaza",
+     "conf": 0.316
+    },
+    {
+     "p": "de",
+     "conf": 0.825
+    },
+    {
+     "p": "litro,",
+     "conf": 0.985
+    }
+   ]
+  },
+  {
+   "inicio": 17.2,
+   "fin": 19.5,
+   "texto": "dos porciones de la correa.",
+   "palabras": [
+    {
+     "p": "dos",
+     "conf": 0.726
+    },
+    {
+     "p": "porciones",
+     "conf": 0.859
+    },
+    {
+     "p": "de",
+     "conf": 0.735
+    },
+    {
+     "p": "la",
+     "conf": 0.181
+    },
+    {
+     "p": "correa.",
+     "conf": 0.571
+    }
+   ]
+  },
+  {
+   "inicio": 19.72,
+   "fin": 21.02,
+   "texto": "Los modelos de tabla los hago.",
+   "palabras": [
+    {
+     "p": "Los",
+     "conf": 0.523
+    },
+    {
+     "p": "modelos",
+     "conf": 0.999
+    },
+    {
+     "p": "de",
+     "conf": 0.998
+    },
+    {
+     "p": "tabla",
+     "conf": 0.952
+    },
+    {
+     "p": "los",
+     "conf": 0.894
+    },
+    {
+     "p": "hago.",
+     "conf": 0.934
+    }
+   ]
+  },
+  {
+   "inicio": 21.78,
+   "fin": 22.34,
+   "texto": "Perfecto.",
+   "palabras": [
+    {
+     "p": "Perfecto.",
+     "conf": 0.979
+    }
+   ]
+  },
+  {
+   "inicio": 22.54,
+   "fin": 25.38,
+   "texto": "Le comento que el pollo entero con la braza entero",
+   "palabras": [
+    {
+     "p": "Le",
+     "conf": 0.594
+    },
+    {
+     "p": "comento",
+     "conf": 0.865
+    },
+    {
+     "p": "que",
+     "conf": 0.999
+    },
+    {
+     "p": "el",
+     "conf": 0.979
+    },
+    {
+     "p": "pollo",
+     "conf": 0.997
+    },
+    {
+     "p": "entero",
+     "conf": 0.912
+    },
+    {
+     "p": "con",
+     "conf": 0.976
+    },
+    {
+     "p": "la",
+     "conf": 0.883
+    },
+    {
+     "p": "braza",
+     "conf": 0.926
+    },
+    {
+     "p": "entero",
+     "conf": 0.187
+    }
+   ]
+  },
+  {
+   "inicio": 25.38,
+   "fin": 26.72,
+   "texto": "entra en el combo familiar",
+   "palabras": [
+    {
+     "p": "entra",
+     "conf": 0.179
+    },
+    {
+     "p": "en",
+     "conf": 0.993
+    },
+    {
+     "p": "el",
+     "conf": 0.772
+    },
+    {
+     "p": "combo",
+     "conf": 0.66
+    },
+    {
+     "p": "familiar",
+     "conf": 0.999
+    }
+   ]
+  },
+  {
+   "inicio": 26.72,
+   "fin": 28.88,
+   "texto": "que tiene 10 soles de descuento.",
+   "palabras": [
+    {
+     "p": "que",
+     "conf": 0.659
+    },
+    {
+     "p": "tiene",
+     "conf": 1.0
+    },
+    {
+     "p": "10",
+     "conf": 0.89
+    },
+    {
+     "p": "soles",
+     "conf": 0.666
+    },
+    {
+     "p": "de",
+     "conf": 0.997
+    },
+    {
+     "p": "descuento.",
+     "conf": 0.997
+    }
+   ]
+  },
+  {
+   "inicio": 28.88,
+   "fin": 30.3,
+   "texto": "Ah, qué bien.",
+   "palabras": [
+    {
+     "p": "Ah,",
+     "conf": 0.252
+    },
+    {
+     "p": "qué",
+     "conf": 0.914
+    },
+    {
+     "p": "bien.",
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "inicio": 30.46,
+   "fin": 31.76,
+   "texto": "Entonces, sí, vamos a comer.",
+   "palabras": [
+    {
+     "p": "Entonces,",
+     "conf": 0.898
+    },
+    {
+     "p": "sí,",
+     "conf": 0.358
+    },
+    {
+     "p": "vamos",
+     "conf": 0.338
+    },
+    {
+     "p": "a",
+     "conf": 0.457
+    },
+    {
+     "p": "comer.",
+     "conf": 0.932
+    }
+   ]
+  },
+  {
+   "inicio": 32.88,
+   "fin": 33.4,
+   "texto": "Listo.",
+   "palabras": [
+    {
+     "p": "Listo.",
+     "conf": 0.754
+    }
+   ]
+  },
+  {
+   "inicio": 33.6,
+   "fin": 35.1,
+   "texto": "Entonces, tengo un pollo entero,",
+   "palabras": [
+    {
+     "p": "Entonces,",
+     "conf": 0.975
+    },
+    {
+     "p": "tengo",
+     "conf": 0.877
+    },
+    {
+     "p": "un",
+     "conf": 0.999
+    },
+    {
+     "p": "pollo",
+     "conf": 0.782
+    },
+    {
+     "p": "entero,",
+     "conf": 0.999
+    }
+   ]
+  },
+  {
+   "inicio": 35.3,
+   "fin": 37.28,
+   "texto": "una gazaza y dos pasadas papas extra.",
+   "palabras": [
+    {
+     "p": "una",
+     "conf": 0.999
+    },
+    {
+     "p": "gazaza",
+     "conf": 0.131
+    },
+    {
+     "p": "y",
+     "conf": 0.995
+    },
+    {
+     "p": "dos",
+     "conf": 0.959
+    },
+    {
+     "p": "pasadas",
+     "conf": 0.499
+    },
+    {
+     "p": "papas",
+     "conf": 0.839
+    },
+    {
+     "p": "extra.",
+     "conf": 0.912
+    }
+   ]
+  },
+  {
+   "inicio": 37.48,
+   "fin": 38.16,
+   "texto": "¿Algo más?",
+   "palabras": [
+    {
+     "p": "¿Algo",
+     "conf": 0.994
+    },
+    {
+     "p": "más?",
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "inicio": 39.04,
+   "fin": 41.44,
+   "texto": "Eh, espera, déjame pensarlo.",
+   "palabras": [
+    {
+     "p": "Eh,",
+     "conf": 0.195
+    },
+    {
+     "p": "espera,",
+     "conf": 0.986
+    },
+    {
+     "p": "déjame",
+     "conf": 0.999
+    },
+    {
+     "p": "pensarlo.",
+     "conf": 0.804
+    }
+   ]
+  },
+  {
+   "inicio": 41.88,
+   "fin": 44.44,
+   "texto": "Es por que sea una porción de papas extra",
+   "palabras": [
+    {
+     "p": "Es",
+     "conf": 0.536
+    },
+    {
+     "p": "por",
+     "conf": 0.3
+    },
+    {
+     "p": "que",
+     "conf": 0.911
+    },
+    {
+     "p": "sea",
+     "conf": 0.999
+    },
+    {
+     "p": "una",
+     "conf": 0.999
+    },
+    {
+     "p": "porción",
+     "conf": 0.998
+    },
+    {
+     "p": "de",
+     "conf": 1.0
+    },
+    {
+     "p": "papas",
+     "conf": 0.999
+    },
+    {
+     "p": "extra",
+     "conf": 0.998
+    }
+   ]
+  },
+  {
+   "inicio": 44.44,
+   "fin": 46.16,
+   "texto": "o con el pollo y el guión de papas.",
+   "palabras": [
+    {
+     "p": "o",
+     "conf": 0.283
+    },
+    {
+     "p": "con",
+     "conf": 0.369
+    },
+    {
+     "p": "el",
+     "conf": 0.47
+    },
+    {
+     "p": "pollo",
+     "conf": 0.927
+    },
+    {
+     "p": "y",
+     "conf": 0.877
+    },
+    {
+     "p": "el",
+     "conf": 0.928
+    },
+    {
+     "p": "guión",
+     "conf": 0.166
+    },
+    {
+     "p": "de",
+     "conf": 0.196
+    },
+    {
+     "p": "papas.",
+     "conf": 0.534
+    }
+   ]
+  },
+  {
+   "inicio": 46.46,
+   "fin": 47.84,
+   "texto": "Y agrégame una jarra de chavilla.",
+   "palabras": [
+    {
+     "p": "Y",
+     "conf": 0.969
+    },
+    {
+     "p": "agrégame",
+     "conf": 0.768
+    },
+    {
+     "p": "una",
+     "conf": 0.995
+    },
+    {
+     "p": "jarra",
+     "conf": 0.992
+    },
+    {
+     "p": "de",
+     "conf": 0.777
+    },
+    {
+     "p": "chavilla.",
+     "conf": 0.111
+    }
+   ]
+  },
+  {
+   "inicio": 49.44,
+   "fin": 49.96,
+   "texto": "Perfecto.",
+   "palabras": [
+    {
+     "p": "Perfecto.",
+     "conf": 0.938
+    }
+   ]
+  },
+  {
+   "inicio": 50.52,
+   "fin": 50.78,
+   "texto": "Corrido.",
+   "palabras": [
+    {
+     "p": "Corrido.",
+     "conf": 0.482
+    }
+   ]
+  },
+  {
+   "inicio": 51.66,
+   "fin": 53.24,
+   "texto": "Una sola porción de papas extra",
+   "palabras": [
+    {
+     "p": "Una",
+     "conf": 0.965
+    },
+    {
+     "p": "sola",
+     "conf": 0.995
+    },
+    {
+     "p": "porción",
+     "conf": 1.0
+    },
+    {
+     "p": "de",
+     "conf": 1.0
+    },
+    {
+     "p": "papas",
+     "conf": 0.999
+    },
+    {
+     "p": "extra",
+     "conf": 0.999
+    }
+   ]
+  },
+  {
+   "inicio": 53.24,
+   "fin": 54.66,
+   "texto": "y una jarra de chavilla morada.",
+   "palabras": [
+    {
+     "p": "y",
+     "conf": 0.994
+    },
+    {
+     "p": "una",
+     "conf": 0.992
+    },
+    {
+     "p": "jarra",
+     "conf": 0.993
+    },
+    {
+     "p": "de",
+     "conf": 0.967
+    },
+    {
+     "p": "chavilla",
+     "conf": 0.923
+    },
+    {
+     "p": "morada.",
+     "conf": 0.884
+    }
+   ]
+  },
+  {
+   "inicio": 55.32,
+   "fin": 55.88,
+   "texto": "Es un sistema.",
+   "palabras": [
+    {
+     "p": "Es",
+     "conf": 0.398
+    },
+    {
+     "p": "un",
+     "conf": 0.702
+    },
+    {
+     "p": "sistema.",
+     "conf": 0.261
+    }
+   ]
+  },
+  {
+   "inicio": 56.4,
+   "fin": 57.58,
+   "texto": "Le confirmo las porciones.",
+   "palabras": [
+    {
+     "p": "Le",
+     "conf": 0.05
+    },
+    {
+     "p": "confirmo",
+     "conf": 0.992
+    },
+    {
+     "p": "las",
+     "conf": 0.417
+    },
+    {
+     "p": "porciones.",
+     "conf": 0.512
+    }
+   ]
+  },
+  {
+   "inicio": 57.58,
+   "fin": 60.44,
+   "texto": "El pollo entero está a sesenta y ocho soles.",
+   "palabras": [
+    {
+     "p": "El",
+     "conf": 0.844
+    },
+    {
+     "p": "pollo",
+     "conf": 0.98
+    },
+    {
+     "p": "entero",
+     "conf": 0.982
+    },
+    {
+     "p": "está",
+     "conf": 0.975
+    },
+    {
+     "p": "a",
+     "conf": 0.859
+    },
+    {
+     "p": "sesenta",
+     "conf": 0.523
+    },
+    {
+     "p": "y",
+     "conf": 0.998
+    },
+    {
+     "p": "ocho",
+     "conf": 0.996
+    },
+    {
+     "p": "soles.",
+     "conf": 0.998
+    }
+   ]
+  },
+  {
+   "inicio": 60.58,
+   "fin": 62.38,
+   "texto": "Las gazaza nueve soles",
+   "palabras": [
+    {
+     "p": "Las",
+     "conf": 0.659
+    },
+    {
+     "p": "gazaza",
+     "conf": 0.033
+    },
+    {
+     "p": "nueve",
+     "conf": 0.889
+    },
+    {
+     "p": "soles",
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "inicio": 62.38,
+   "fin": 64.14,
+   "texto": "como las papas extra.",
+   "palabras": [
+    {
+     "p": "como",
+     "conf": 0.066
+    },
+    {
+     "p": "las",
+     "conf": 0.932
+    },
+    {
+     "p": "papas",
+     "conf": 0.994
+    },
+    {
+     "p": "extra.",
+     "conf": 0.113
+    }
+   ]
+  },
+  {
+   "inicio": 64.42,
+   "fin": 65.06,
+   "texto": "Ocho soles",
+   "palabras": [
+    {
+     "p": "Ocho",
+     "conf": 0.855
+    },
+    {
+     "p": "soles",
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "inicio": 65.06,
+   "fin": 66.58,
+   "texto": "y la chicha morada a seis soles.",
+   "palabras": [
+    {
+     "p": "y",
+     "conf": 0.838
+    },
+    {
+     "p": "la",
+     "conf": 0.986
+    },
+    {
+     "p": "chicha",
+     "conf": 0.973
+    },
+    {
+     "p": "morada",
+     "conf": 0.994
+    },
+    {
+     "p": "a",
+     "conf": 0.104
+    },
+    {
+     "p": "seis",
+     "conf": 0.16
+    },
+    {
+     "p": "soles.",
+     "conf": 0.996
+    }
+   ]
+  },
+  {
+   "inicio": 66.96,
+   "fin": 69.32,
+   "texto": "Con el descuento del combo familiar de diez soles,",
+   "palabras": [
+    {
+     "p": "Con",
+     "conf": 0.992
+    },
+    {
+     "p": "el",
+     "conf": 0.998
+    },
+    {
+     "p": "descuento",
+     "conf": 0.999
+    },
+    {
+     "p": "del",
+     "conf": 0.971
+    },
+    {
+     "p": "combo",
+     "conf": 0.534
+    },
+    {
+     "p": "familiar",
+     "conf": 0.999
+    },
+    {
+     "p": "de",
+     "conf": 0.996
+    },
+    {
+     "p": "diez",
+     "conf": 0.966
+    },
+    {
+     "p": "soles,",
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "inicio": 69.56,
+   "fin": 71.84,
+   "texto": "el total es ochenta y siete soles.",
+   "palabras": [
+    {
+     "p": "el",
+     "conf": 0.866
+    },
+    {
+     "p": "total",
+     "conf": 0.995
+    },
+    {
+     "p": "es",
+     "conf": 0.982
+    },
+    {
+     "p": "ochenta",
+     "conf": 0.892
+    },
+    {
+     "p": "y",
+     "conf": 1.0
+    },
+    {
+     "p": "siete",
+     "conf": 0.997
+    },
+    {
+     "p": "soles.",
+     "conf": 0.998
+    }
+   ]
+  },
+  {
+   "inicio": 72.86,
+   "fin": 73.58,
+   "texto": "Ocho y siete.",
+   "palabras": [
+    {
+     "p": "Ocho",
+     "conf": 0.773
+    },
+    {
+     "p": "y",
+     "conf": 0.195
+    },
+    {
+     "p": "siete.",
+     "conf": 0.983
+    }
+   ]
+  },
+  {
+   "inicio": 73.76,
+   "fin": 74.26,
+   "texto": "Perfecto.",
+   "palabras": [
+    {
+     "p": "Perfecto.",
+     "conf": 0.98
+    }
+   ]
+  },
+  {
+   "inicio": 74.5,
+   "fin": 74.98,
+   "texto": "Una pregunta.",
+   "palabras": [
+    {
+     "p": "Una",
+     "conf": 0.416
+    },
+    {
+     "p": "pregunta.",
+     "conf": 0.571
+    }
+   ]
+  },
+  {
+   "inicio": 75.36,
+   "fin": 76.84,
+   "texto": "¿El pollo viene con cualada?",
+   "palabras": [
+    {
+     "p": "¿El",
+     "conf": 0.807
+    },
+    {
+     "p": "pollo",
+     "conf": 0.991
+    },
+    {
+     "p": "viene",
+     "conf": 0.973
+    },
+    {
+     "p": "con",
+     "conf": 0.905
+    },
+    {
+     "p": "cualada?",
+     "conf": 0.265
+    }
+   ]
+  },
+  {
+   "inicio": 76.84,
+   "fin": 80.08,
+   "texto": "Sí, el pollo incluye papas y ensalada clásica.",
+   "palabras": [
+    {
+     "p": "Sí,",
+     "conf": 0.553
+    },
+    {
+     "p": "el",
+     "conf": 0.995
+    },
+    {
+     "p": "pollo",
+     "conf": 0.997
+    },
+    {
+     "p": "incluye",
+     "conf": 0.994
+    },
+    {
+     "p": "papas",
+     "conf": 0.98
+    },
+    {
+     "p": "y",
+     "conf": 0.514
+    },
+    {
+     "p": "ensalada",
+     "conf": 0.926
+    },
+    {
+     "p": "clásica.",
+     "conf": 0.623
+    }
+   ]
+  },
+  {
+   "inicio": 80.08,
+   "fin": 82.72,
+   "texto": "Las cremas van aparte, sin costo.",
+   "palabras": [
+    {
+     "p": "Las",
+     "conf": 0.419
+    },
+    {
+     "p": "cremas",
+     "conf": 0.989
+    },
+    {
+     "p": "van",
+     "conf": 0.995
+    },
+    {
+     "p": "aparte,",
+     "conf": 0.731
+    },
+    {
+     "p": "sin",
+     "conf": 0.996
+    },
+    {
+     "p": "costo.",
+     "conf": 0.718
+    }
+   ]
+  },
+  {
+   "inicio": 83.46,
+   "fin": 85.22,
+   "texto": "Mayonesa, queso, churro, churro, churro.",
+   "palabras": [
+    {
+     "p": "Mayonesa,",
+     "conf": 0.984
+    },
+    {
+     "p": "queso,",
+     "conf": 0.806
+    },
+    {
+     "p": "churro,",
+     "conf": 0.293
+    },
+    {
+     "p": "churro,",
+     "conf": 0.619
+    },
+    {
+     "p": "churro.",
+     "conf": 0.663
+    }
+   ]
+  },
+  {
+   "inicio": 85.22,
+   "fin": 86.2,
+   "texto": "Y mostaza nueve soles.",
+   "palabras": [
+    {
+     "p": "Y",
+     "conf": 0.027
+    },
+    {
+     "p": "mostaza",
+     "conf": 0.533
+    },
+    {
+     "p": "nueve",
+     "conf": 0.293
+    },
+    {
+     "p": "soles.",
+     "conf": 0.01
+    }
+   ]
+  },
+  {
+   "inicio": 86.7,
+   "fin": 89.14,
+   "texto": "Mándame bastante ají y poca mayones.",
+   "palabras": [
+    {
+     "p": "Mándame",
+     "conf": 0.827
+    },
+    {
+     "p": "bastante",
+     "conf": 0.987
+    },
+    {
+     "p": "ají",
+     "conf": 0.623
+    },
+    {
+     "p": "y",
+     "conf": 0.49
+    },
+    {
+     "p": "poca",
+     "conf": 0.9
+    },
+    {
+     "p": "mayones.",
+     "conf": 0.913
+    }
+   ]
+  },
+  {
+   "inicio": 90.14,
+   "fin": 90.58,
+   "texto": "Anotado.",
+   "palabras": [
+    {
+     "p": "Anotado.",
+     "conf": 0.785
+    }
+   ]
+  },
+  {
+   "inicio": 90.88,
+   "fin": 92.42,
+   "texto": "Bastante ají y poca mayones.",
+   "palabras": [
+    {
+     "p": "Bastante",
+     "conf": 0.962
+    },
+    {
+     "p": "ají",
+     "conf": 0.998
+    },
+    {
+     "p": "y",
+     "conf": 1.0
+    },
+    {
+     "p": "poca",
+     "conf": 0.999
+    },
+    {
+     "p": "mayones.",
+     "conf": 0.998
+    }
+   ]
+  },
+  {
+   "inicio": 92.72,
+   "fin": 94.14,
+   "texto": "¿Le pongo queso también?",
+   "palabras": [
+    {
+     "p": "¿Le",
+     "conf": 0.641
+    },
+    {
+     "p": "pongo",
+     "conf": 0.997
+    },
+    {
+     "p": "queso",
+     "conf": 0.412
+    },
+    {
+     "p": "también?",
+     "conf": 0.99
+    }
+   ]
+  },
+  {
+   "inicio": 94.38,
+   "fin": 94.8,
+   "texto": "¿Dónde estás ahora?",
+   "palabras": [
+    {
+     "p": "¿Dónde",
+     "conf": 0.591
+    },
+    {
+     "p": "estás",
+     "conf": 0.799
+    },
+    {
+     "p": "ahora?",
+     "conf": 0.977
+    }
+   ]
+  },
+  {
+   "inicio": 95.04,
+   "fin": 95.58,
+   "texto": "Sí, un poquito.",
+   "palabras": [
+    {
+     "p": "Sí,",
+     "conf": 0.709
+    },
+    {
+     "p": "un",
+     "conf": 0.997
+    },
+    {
+     "p": "poquito.",
+     "conf": 0.861
+    }
+   ]
+  },
+  {
+   "inicio": 96.18,
+   "fin": 98.34,
+   "texto": "¿Y la chicha es natural o de su?",
+   "palabras": [
+    {
+     "p": "¿Y",
+     "conf": 0.953
+    },
+    {
+     "p": "la",
+     "conf": 0.999
+    },
+    {
+     "p": "chicha",
+     "conf": 0.996
+    },
+    {
+     "p": "es",
+     "conf": 0.998
+    },
+    {
+     "p": "natural",
+     "conf": 0.999
+    },
+    {
+     "p": "o",
+     "conf": 0.94
+    },
+    {
+     "p": "de",
+     "conf": 0.884
+    },
+    {
+     "p": "su?",
+     "conf": 0.677
+    }
+   ]
+  },
+  {
+   "inicio": 98.68,
+   "fin": 99.18,
+   "texto": "Está bien.",
+   "palabras": [
+    {
+     "p": "Está",
+     "conf": 0.448
+    },
+    {
+     "p": "bien.",
+     "conf": 0.997
+    }
+   ]
+  },
+  {
+   "inicio": 99.26,
+   "fin": 99.8,
+   "texto": "Es natural.",
+   "palabras": [
+    {
+     "p": "Es",
+     "conf": 0.979
+    },
+    {
+     "p": "natural.",
+     "conf": 0.999
+    }
+   ]
+  },
+  {
+   "inicio": 100.14,
+   "fin": 102.76,
+   "texto": "Le preparamos aquí pia maíz, morado, piña y carne.",
+   "palabras": [
+    {
+     "p": "Le",
+     "conf": 0.922
+    },
+    {
+     "p": "preparamos",
+     "conf": 1.0
+    },
+    {
+     "p": "aquí",
+     "conf": 0.792
+    },
+    {
+     "p": "pia",
+     "conf": 0.362
+    },
+    {
+     "p": "maíz,",
+     "conf": 0.764
+    },
+    {
+     "p": "morado,",
+     "conf": 0.996
+    },
+    {
+     "p": "piña",
+     "conf": 0.987
+    },
+    {
+     "p": "y",
+     "conf": 0.993
+    },
+    {
+     "p": "carne.",
+     "conf": 0.394
+    }
+   ]
+  },
+  {
+   "inicio": 102.76,
+   "fin": 104.28,
+   "texto": "Ah, buenísimo.",
+   "palabras": [
+    {
+     "p": "Ah,",
+     "conf": 0.388
+    },
+    {
+     "p": "buenísimo.",
+     "conf": 0.992
+    }
+   ]
+  },
+  {
+   "inicio": 105.22,
+   "fin": 106.6,
+   "texto": "¿A qué dirección se le enviamos?",
+   "palabras": [
+    {
+     "p": "¿A",
+     "conf": 0.992
+    },
+    {
+     "p": "qué",
+     "conf": 0.996
+    },
+    {
+     "p": "dirección",
+     "conf": 0.854
+    },
+    {
+     "p": "se",
+     "conf": 0.994
+    },
+    {
+     "p": "le",
+     "conf": 0.661
+    },
+    {
+     "p": "enviamos?",
+     "conf": 0.998
+    }
+   ]
+  },
+  {
+   "inicio": 107.26,
+   "fin": 109.98,
+   "texto": "Girón Los Cedros, cuarenta y cinco.",
+   "palabras": [
+    {
+     "p": "Girón",
+     "conf": 0.598
+    },
+    {
+     "p": "Los",
+     "conf": 0.347
+    },
+    {
+     "p": "Cedros,",
+     "conf": 0.965
+    },
+    {
+     "p": "cuarenta",
+     "conf": 0.631
+    },
+    {
+     "p": "y",
+     "conf": 0.984
+    },
+    {
+     "p": "cinco.",
+     "conf": 0.982
+    }
+   ]
+  },
+  {
+   "inicio": 111.2,
+   "fin": 112.72,
+   "texto": "Departamento trescientos dos.",
+   "palabras": [
+    {
+     "p": "Departamento",
+     "conf": 0.997
+    },
+    {
+     "p": "trescientos",
+     "conf": 0.886
+    },
+    {
+     "p": "dos.",
+     "conf": 0.889
+    }
+   ]
+  },
+  {
+   "inicio": 113.12,
+   "fin": 113.52,
+   "texto": "Perfecto.",
+   "palabras": [
+    {
+     "p": "Perfecto.",
+     "conf": 0.904
+    }
+   ]
+  },
+  {
+   "inicio": 113.68,
+   "fin": 114.68,
+   "texto": "No hay una pregunta.",
+   "palabras": [
+    {
+     "p": "No",
+     "conf": 0.06
+    },
+    {
+     "p": "hay",
+     "conf": 0.754
+    },
+    {
+     "p": "una",
+     "conf": 0.091
+    },
+    {
+     "p": "pregunta.",
+     "conf": 0.826
+    }
+   ]
+  },
+  {
+   "inicio": 115.12,
+   "fin": 117.12,
+   "texto": "Girón Los Cedros, doscientos cuatro.",
+   "palabras": [
+    {
+     "p": "Girón",
+     "conf": 0.951
+    },
+    {
+     "p": "Los",
+     "conf": 0.998
+    },
+    {
+     "p": "Cedros,",
+     "conf": 0.999
+    },
+    {
+     "p": "doscientos",
+     "conf": 0.993
+    },
+    {
+     "p": "cuatro.",
+     "conf": 0.655
+    }
+   ]
+  },
+  {
+   "inicio": 117.22,
+   "fin": 117.48,
+   "texto": "¿Cuál es?",
+   "palabras": [
+    {
+     "p": "¿Cuál",
+     "conf": 0.835
+    },
+    {
+     "p": "es?",
+     "conf": 0.986
+    }
+   ]
+  },
+  {
+   "inicio": 117.58,
+   "fin": 119.42,
+   "texto": "Sí, recono, departamento trescientos dos.",
+   "palabras": [
+    {
+     "p": "Sí,",
+     "conf": 0.216
+    },
+    {
+     "p": "recono,",
+     "conf": 0.318
+    },
+    {
+     "p": "departamento",
+     "conf": 0.992
+    },
+    {
+     "p": "trescientos",
+     "conf": 0.996
+    },
+    {
+     "p": "dos.",
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "inicio": 120.02,
+   "fin": 120.6,
+   "texto": "Surguillo.",
+   "palabras": [
+    {
+     "p": "Surguillo.",
+     "conf": 0.541
+    }
+   ]
+  },
+  {
+   "inicio": 120.86,
+   "fin": 121.84,
+   "texto": "¿Alguna referencia?",
+   "palabras": [
+    {
+     "p": "¿Alguna",
+     "conf": 0.994
+    },
+    {
+     "p": "referencia?",
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "inicio": 122.28,
+   "fin": 125.7,
+   "texto": "Es un edificio blanco al costado de una farmacia.",
+   "palabras": [
+    {
+     "p": "Es",
+     "conf": 0.982
+    },
+    {
+     "p": "un",
+     "conf": 0.999
+    },
+    {
+     "p": "edificio",
+     "conf": 0.999
+    },
+    {
+     "p": "blanco",
+     "conf": 1.0
+    },
+    {
+     "p": "al",
+     "conf": 0.754
+    },
+    {
+     "p": "costado",
+     "conf": 0.763
+    },
+    {
+     "p": "de",
+     "conf": 0.955
+    },
+    {
+     "p": "una",
+     "conf": 0.871
+    },
+    {
+     "p": "farmacia.",
+     "conf": 0.887
+    }
+   ]
+  },
+  {
+   "inicio": 126.6,
+   "fin": 127.18,
+   "texto": "Anotado.",
+   "palabras": [
+    {
+     "p": "Anotado.",
+     "conf": 0.959
+    }
+   ]
+  },
+  {
+   "inicio": 127.42,
+   "fin": 128.18,
+   "texto": "¿Cómo va a pagar?",
+   "palabras": [
+    {
+     "p": "¿Cómo",
+     "conf": 0.998
+    },
+    {
+     "p": "va",
+     "conf": 0.967
+    },
+    {
+     "p": "a",
+     "conf": 0.996
+    },
+    {
+     "p": "pagar?",
+     "conf": 0.983
+    }
+   ]
+  },
+  {
+   "inicio": 128.56,
+   "fin": 129.18,
+   "texto": "No me hagas.",
+   "palabras": [
+    {
+     "p": "No",
+     "conf": 0.184
+    },
+    {
+     "p": "me",
+     "conf": 0.278
+    },
+    {
+     "p": "hagas.",
+     "conf": 0.431
+    }
+   ]
+  },
+  {
+   "inicio": 129.94,
+   "fin": 130.24,
+   "texto": "Muy bien.",
+   "palabras": [
+    {
+     "p": "Muy",
+     "conf": 0.921
+    },
+    {
+     "p": "bien.",
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "inicio": 130.44,
+   "fin": 132.3,
+   "texto": "El repartidor le muestra el código pandemático.",
+   "palabras": [
+    {
+     "p": "El",
+     "conf": 0.452
+    },
+    {
+     "p": "repartidor",
+     "conf": 0.917
+    },
+    {
+     "p": "le",
+     "conf": 0.639
+    },
+    {
+     "p": "muestra",
+     "conf": 0.989
+    },
+    {
+     "p": "el",
+     "conf": 0.997
+    },
+    {
+     "p": "código",
+     "conf": 0.998
+    },
+    {
+     "p": "pandemático.",
+     "conf": 0.213
+    }
+   ]
+  },
+  {
+   "inicio": 132.98,
+   "fin": 135.14,
+   "texto": "El pedido demora aproximadamente cuarenta minutos.",
+   "palabras": [
+    {
+     "p": "El",
+     "conf": 0.554
+    },
+    {
+     "p": "pedido",
+     "conf": 0.996
+    },
+    {
+     "p": "demora",
+     "conf": 0.984
+    },
+    {
+     "p": "aproximadamente",
+     "conf": 0.989
+    },
+    {
+     "p": "cuarenta",
+     "conf": 0.672
+    },
+    {
+     "p": "minutos.",
+     "conf": 0.997
+    }
+   ]
+  },
+  {
+   "inicio": 136.12,
+   "fin": 136.58,
+   "texto": "Perfecto.",
+   "palabras": [
+    {
+     "p": "Perfecto.",
+     "conf": 0.541
+    }
+   ]
+  },
+  {
+   "inicio": 136.8,
+   "fin": 137.4,
+   "texto": "¿Se puede mandar?",
+   "palabras": [
+    {
+     "p": "¿Se",
+     "conf": 0.656
+    },
+    {
+     "p": "puede",
+     "conf": 0.676
+    },
+    {
+     "p": "mandar?",
+     "conf": 0.978
+    }
+   ]
+  },
+  {
+   "inicio": 137.48,
+   "fin": 138.32,
+   "texto": "¿Otra referencia?",
+   "palabras": [
+    {
+     "p": "¿Otra",
+     "conf": 0.418
+    },
+    {
+     "p": "referencia?",
+     "conf": 0.328
+    }
+   ]
+  },
+  {
+   "inicio": 138.82,
+   "fin": 139.22,
+   "texto": "Sí, claro.",
+   "palabras": [
+    {
+     "p": "Sí,",
+     "conf": 0.908
+    },
+    {
+     "p": "claro.",
+     "conf": 0.999
+    }
+   ]
+  },
+  {
+   "inicio": 139.52,
+   "fin": 140.96,
+   "texto": "Teníamos cubierto todos los setenta.",
+   "palabras": [
+    {
+     "p": "Teníamos",
+     "conf": 0.754
+    },
+    {
+     "p": "cubierto",
+     "conf": 0.903
+    },
+    {
+     "p": "todos",
+     "conf": 0.214
+    },
+    {
+     "p": "los",
+     "conf": 0.503
+    },
+    {
+     "p": "setenta.",
+     "conf": 0.178
+    }
+   ]
+  },
+  {
+   "inicio": 141.38,
+   "fin": 143.64,
+   "texto": "¿A nombre de quién dejó el pedido?",
+   "palabras": [
+    {
+     "p": "¿A",
+     "conf": 0.942
+    },
+    {
+     "p": "nombre",
+     "conf": 0.996
+    },
+    {
+     "p": "de",
+     "conf": 0.999
+    },
+    {
+     "p": "quién",
+     "conf": 0.958
+    },
+    {
+     "p": "dejó",
+     "conf": 0.986
+    },
+    {
+     "p": "el",
+     "conf": 0.993
+    },
+    {
+     "p": "pedido?",
+     "conf": 0.999
+    }
+   ]
+  },
+  {
+   "inicio": 144.14,
+   "fin": 145.36,
+   "texto": "A nombre de su fila.",
+   "palabras": [
+    {
+     "p": "A",
+     "conf": 0.923
+    },
+    {
+     "p": "nombre",
+     "conf": 1.0
+    },
+    {
+     "p": "de",
+     "conf": 0.999
+    },
+    {
+     "p": "su",
+     "conf": 0.705
+    },
+    {
+     "p": "fila.",
+     "conf": 0.716
+    }
+   ]
+  },
+  {
+   "inicio": 146.52,
+   "fin": 147.14,
+   "texto": "Listo, dos o menos.",
+   "palabras": [
+    {
+     "p": "Listo,",
+     "conf": 0.902
+    },
+    {
+     "p": "dos",
+     "conf": 0.418
+    },
+    {
+     "p": "o",
+     "conf": 0.115
+    },
+    {
+     "p": "menos.",
+     "conf": 0.849
+    }
+   ]
+  },
+  {
+   "inicio": 147.34,
+   "fin": 148.76,
+   "texto": "Gracias por su pedido y que...",
+   "palabras": [
+    {
+     "p": "Gracias",
+     "conf": 0.998
+    },
+    {
+     "p": "por",
+     "conf": 1.0
+    },
+    {
+     "p": "su",
+     "conf": 0.999
+    },
+    {
+     "p": "pedido",
+     "conf": 1.0
+    },
+    {
+     "p": "y",
+     "conf": 0.879
+    },
+    {
+     "p": "que...",
+     "conf": 0.326
+    }
+   ]
+  },
+  {
+   "inicio": 148.76,
+   "fin": 150.28,
+   "texto": "Gracias a todos.",
+   "palabras": [
+    {
+     "p": "Gracias",
+     "conf": 0.789
+    },
+    {
+     "p": "a",
+     "conf": 0.264
+    },
+    {
+     "p": "todos.",
+     "conf": 0.949
+    }
+   ]
+  },
+  {
+   "inicio": 150.86,
+   "fin": 151.82,
+   "texto": "¿Cómo están los reclamos?",
+   "palabras": [
+    {
+     "p": "¿Cómo",
+     "conf": 0.726
+    },
+    {
+     "p": "están",
+     "conf": 0.902
+    },
+    {
+     "p": "los",
+     "conf": 0.813
+    },
+    {
+     "p": "reclamos?",
+     "conf": 0.989
+    }
+   ]
+  },
+  {
+   "inicio": 151.94,
+   "fin": 152.34,
+   "texto": "Muy bien.",
+   "palabras": [
+    {
+     "p": "Muy",
+     "conf": 0.884
+    },
+    {
+     "p": "bien.",
+     "conf": 1.0
+    }
+   ]
+  }
+ ],
+ "modelo": "large-v3-turbo",
+ "precision": "int8",
+ "modo_glosario": "ninguno",
+ "dispositivo_real": "cpu",
+ "gpus_visibles": 0,
+ "duracion_audio_s": 152.45,
+ "segundos_transcripcion": 105.93,
+ "segundos_carga_modelo": 0.0,
+ "seg_por_min_audio": 41.69,
+ "vram_base_mb": null,
+ "vram_pico_mb": null,
+ "idioma_detectado": "es",
+ "faster_whisper": "1.2.1",
+ "ctranslate2": "4.8.4",
+ "degradacion": {
+  "nivel": "L3",
+  "snr_objetivo_db": 5,
+  "snr_medida_voz_activa_db": 5.0,
+  "snr_medida_global_db": 3.46
+ }
+}

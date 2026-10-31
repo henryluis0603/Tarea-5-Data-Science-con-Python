@@ -1,0 +1,1604 @@
+{
+ "texto": "Sabor de barrio, buenas noches. Le habla Sasha. ¿Qué le gustaría pedir? Hola, buenas noches. Quería hacer un pedido para delivery, por favor. Claro que sí. Dígame. A ver, quiero un pollo a la brasa entero, una gaseosa de litro y medio, y dos porciones de papas fritas extra. Perfecto. Le comento que el pollo entero con la gaseosa entra en el combo familiar, que tiene 10 soles de descuento. Ah, qué bien. Entonces sí, con el combo. Listo. Entonces, tengo un pollo entero, una gaseosa y dos papas extra. ¿Algo más? Eh, espera. Déjame pensarlo. Mejor que sea una porción de papas extra, porque el pollo ya viene con papas. Y agrégame una jarra de chicha morada. Perfecto. Corrijo. Una sola porción de papas extra y una jarra de chicha morada. Eso sí. Sí. Le confirmo los precios. El pollo entero está a 68 soles, la gaseosa 9 soles, las papas extra 8 soles y la chicha morada 12 soles. Con el descuento del combo familiar de 10 soles, el total es 87 soles. 87. Perfecto. Una pregunta. ¿El pollo viene con ensalada? Sí. El pollo incluye papas y ensalada clásica. Las cremas van aparte, sin costa. Mayonesa, ketchup, ají y mostaza. Mándame bastante ají, por favor, y poca mayonesa. Anotado. Bastante ají y poca mayonesa. ¿Le pongo ketchup también? Sí, un poquito. ¿Y la chicha es natural o de sobre? Es natural. Le preparamos aquí con maíz, morado, piña y canela. Ah, buenísimo. ¿A qué dirección se lo enviamos? Girón Los Cedros 245, departamento 302, en Surquillo. Girón Los Cedros 245, departamento 302, Surquillo. ¿Alguna referencia? Es un edificio blanco al costado de una farmacia. Anotado. ¿Cómo va a pagar? Con yape. Muy bien. El repartidor le muestra el código cuando llegue. El pedido demora aproximadamente 40 minutos. Perfecto. ¿Me puedes mandar cubiertos? Sí, claro. Le enviamos cubiertos y servilletas. ¿A nombre de quién dejó el pedido? A nombre de Sofía. Listo, Sofía. Gracias por su pedido y que disfruten. Gracias. Hasta luego.",
+ "segmentos": [
+  {
+   "inicio": 1.92,
+   "fin": 6.46,
+   "texto": "Sabor de barrio, buenas noches. Le habla Sasha. ¿Qué le gustaría pedir?",
+   "palabras": [
+    {
+     "p": "Sabor",
+     "conf": 0.933
+    },
+    {
+     "p": "de",
+     "conf": 0.985
+    },
+    {
+     "p": "barrio,",
+     "conf": 0.607
+    },
+    {
+     "p": "buenas",
+     "conf": 0.993
+    },
+    {
+     "p": "noches.",
+     "conf": 1.0
+    },
+    {
+     "p": "Le",
+     "conf": 0.997
+    },
+    {
+     "p": "habla",
+     "conf": 1.0
+    },
+    {
+     "p": "Sasha.",
+     "conf": 0.996
+    },
+    {
+     "p": "¿Qué",
+     "conf": 1.0
+    },
+    {
+     "p": "le",
+     "conf": 0.999
+    },
+    {
+     "p": "gustaría",
+     "conf": 1.0
+    },
+    {
+     "p": "pedir?",
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "inicio": 7.1,
+   "fin": 10.52,
+   "texto": "Hola, buenas noches. Quería hacer un pedido para delivery, por favor.",
+   "palabras": [
+    {
+     "p": "Hola,",
+     "conf": 0.999
+    },
+    {
+     "p": "buenas",
+     "conf": 1.0
+    },
+    {
+     "p": "noches.",
+     "conf": 1.0
+    },
+    {
+     "p": "Quería",
+     "conf": 0.952
+    },
+    {
+     "p": "hacer",
+     "conf": 0.999
+    },
+    {
+     "p": "un",
+     "conf": 1.0
+    },
+    {
+     "p": "pedido",
+     "conf": 1.0
+    },
+    {
+     "p": "para",
+     "conf": 1.0
+    },
+    {
+     "p": "delivery,",
+     "conf": 0.982
+    },
+    {
+     "p": "por",
+     "conf": 0.993
+    },
+    {
+     "p": "favor.",
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "inicio": 11.26,
+   "fin": 12.56,
+   "texto": "Claro que sí. Dígame.",
+   "palabras": [
+    {
+     "p": "Claro",
+     "conf": 0.999
+    },
+    {
+     "p": "que",
+     "conf": 1.0
+    },
+    {
+     "p": "sí.",
+     "conf": 1.0
+    },
+    {
+     "p": "Dígame.",
+     "conf": 0.975
+    }
+   ]
+  },
+  {
+   "inicio": 13.44,
+   "fin": 20.56,
+   "texto": "A ver, quiero un pollo a la brasa entero, una gaseosa de litro y medio, y dos porciones de papas fritas extra.",
+   "palabras": [
+    {
+     "p": "A",
+     "conf": 0.998
+    },
+    {
+     "p": "ver,",
+     "conf": 1.0
+    },
+    {
+     "p": "quiero",
+     "conf": 0.957
+    },
+    {
+     "p": "un",
+     "conf": 1.0
+    },
+    {
+     "p": "pollo",
+     "conf": 0.998
+    },
+    {
+     "p": "a",
+     "conf": 0.908
+    },
+    {
+     "p": "la",
+     "conf": 0.998
+    },
+    {
+     "p": "brasa",
+     "conf": 0.921
+    },
+    {
+     "p": "entero,",
+     "conf": 0.998
+    },
+    {
+     "p": "una",
+     "conf": 1.0
+    },
+    {
+     "p": "gaseosa",
+     "conf": 0.997
+    },
+    {
+     "p": "de",
+     "conf": 0.992
+    },
+    {
+     "p": "litro",
+     "conf": 1.0
+    },
+    {
+     "p": "y",
+     "conf": 0.985
+    },
+    {
+     "p": "medio,",
+     "conf": 1.0
+    },
+    {
+     "p": "y",
+     "conf": 1.0
+    },
+    {
+     "p": "dos",
+     "conf": 1.0
+    },
+    {
+     "p": "porciones",
+     "conf": 1.0
+    },
+    {
+     "p": "de",
+     "conf": 1.0
+    },
+    {
+     "p": "papas",
+     "conf": 1.0
+    },
+    {
+     "p": "fritas",
+     "conf": 1.0
+    },
+    {
+     "p": "extra.",
+     "conf": 0.818
+    }
+   ]
+  },
+  {
+   "inicio": 21.48,
+   "fin": 28.86,
+   "texto": "Perfecto. Le comento que el pollo entero con la gaseosa entra en el combo familiar, que tiene 10 soles de descuento.",
+   "palabras": [
+    {
+     "p": "Perfecto.",
+     "conf": 0.999
+    },
+    {
+     "p": "Le",
+     "conf": 0.954
+    },
+    {
+     "p": "comento",
+     "conf": 0.986
+    },
+    {
+     "p": "que",
+     "conf": 1.0
+    },
+    {
+     "p": "el",
+     "conf": 0.999
+    },
+    {
+     "p": "pollo",
+     "conf": 1.0
+    },
+    {
+     "p": "entero",
+     "conf": 0.999
+    },
+    {
+     "p": "con",
+     "conf": 0.993
+    },
+    {
+     "p": "la",
+     "conf": 0.994
+    },
+    {
+     "p": "gaseosa",
+     "conf": 1.0
+    },
+    {
+     "p": "entra",
+     "conf": 0.982
+    },
+    {
+     "p": "en",
+     "conf": 1.0
+    },
+    {
+     "p": "el",
+     "conf": 0.999
+    },
+    {
+     "p": "combo",
+     "conf": 0.932
+    },
+    {
+     "p": "familiar,",
+     "conf": 1.0
+    },
+    {
+     "p": "que",
+     "conf": 1.0
+    },
+    {
+     "p": "tiene",
+     "conf": 1.0
+    },
+    {
+     "p": "10",
+     "conf": 0.904
+    },
+    {
+     "p": "soles",
+     "conf": 0.92
+    },
+    {
+     "p": "de",
+     "conf": 0.998
+    },
+    {
+     "p": "descuento.",
+     "conf": 0.999
+    }
+   ]
+  },
+  {
+   "inicio": 28.86,
+   "fin": 31.82,
+   "texto": "Ah, qué bien. Entonces sí, con el combo.",
+   "palabras": [
+    {
+     "p": "Ah,",
+     "conf": 0.917
+    },
+    {
+     "p": "qué",
+     "conf": 0.95
+    },
+    {
+     "p": "bien.",
+     "conf": 1.0
+    },
+    {
+     "p": "Entonces",
+     "conf": 0.999
+    },
+    {
+     "p": "sí,",
+     "conf": 0.979
+    },
+    {
+     "p": "con",
+     "conf": 1.0
+    },
+    {
+     "p": "el",
+     "conf": 1.0
+    },
+    {
+     "p": "combo.",
+     "conf": 0.958
+    }
+   ]
+  },
+  {
+   "inicio": 32.9,
+   "fin": 38.14,
+   "texto": "Listo. Entonces, tengo un pollo entero, una gaseosa y dos papas extra. ¿Algo más?",
+   "palabras": [
+    {
+     "p": "Listo.",
+     "conf": 0.989
+    },
+    {
+     "p": "Entonces,",
+     "conf": 0.996
+    },
+    {
+     "p": "tengo",
+     "conf": 0.678
+    },
+    {
+     "p": "un",
+     "conf": 1.0
+    },
+    {
+     "p": "pollo",
+     "conf": 0.998
+    },
+    {
+     "p": "entero,",
+     "conf": 1.0
+    },
+    {
+     "p": "una",
+     "conf": 0.999
+    },
+    {
+     "p": "gaseosa",
+     "conf": 0.993
+    },
+    {
+     "p": "y",
+     "conf": 0.998
+    },
+    {
+     "p": "dos",
+     "conf": 0.991
+    },
+    {
+     "p": "papas",
+     "conf": 0.907
+    },
+    {
+     "p": "extra.",
+     "conf": 0.681
+    },
+    {
+     "p": "¿Algo",
+     "conf": 0.998
+    },
+    {
+     "p": "más?",
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "inicio": 39.12,
+   "fin": 48.36,
+   "texto": "Eh, espera. Déjame pensarlo. Mejor que sea una porción de papas extra, porque el pollo ya viene con papas. Y agrégame una jarra de chicha morada.",
+   "palabras": [
+    {
+     "p": "Eh,",
+     "conf": 0.526
+    },
+    {
+     "p": "espera.",
+     "conf": 0.997
+    },
+    {
+     "p": "Déjame",
+     "conf": 0.999
+    },
+    {
+     "p": "pensarlo.",
+     "conf": 0.897
+    },
+    {
+     "p": "Mejor",
+     "conf": 0.996
+    },
+    {
+     "p": "que",
+     "conf": 1.0
+    },
+    {
+     "p": "sea",
+     "conf": 0.999
+    },
+    {
+     "p": "una",
+     "conf": 1.0
+    },
+    {
+     "p": "porción",
+     "conf": 1.0
+    },
+    {
+     "p": "de",
+     "conf": 1.0
+    },
+    {
+     "p": "papas",
+     "conf": 1.0
+    },
+    {
+     "p": "extra,",
+     "conf": 0.99
+    },
+    {
+     "p": "porque",
+     "conf": 1.0
+    },
+    {
+     "p": "el",
+     "conf": 1.0
+    },
+    {
+     "p": "pollo",
+     "conf": 1.0
+    },
+    {
+     "p": "ya",
+     "conf": 0.962
+    },
+    {
+     "p": "viene",
+     "conf": 1.0
+    },
+    {
+     "p": "con",
+     "conf": 1.0
+    },
+    {
+     "p": "papas.",
+     "conf": 1.0
+    },
+    {
+     "p": "Y",
+     "conf": 0.999
+    },
+    {
+     "p": "agrégame",
+     "conf": 0.996
+    },
+    {
+     "p": "una",
+     "conf": 1.0
+    },
+    {
+     "p": "jarra",
+     "conf": 0.999
+    },
+    {
+     "p": "de",
+     "conf": 0.997
+    },
+    {
+     "p": "chicha",
+     "conf": 0.974
+    },
+    {
+     "p": "morada.",
+     "conf": 0.999
+    }
+   ]
+  },
+  {
+   "inicio": 49.52,
+   "fin": 54.72,
+   "texto": "Perfecto. Corrijo. Una sola porción de papas extra y una jarra de chicha morada.",
+   "palabras": [
+    {
+     "p": "Perfecto.",
+     "conf": 0.999
+    },
+    {
+     "p": "Corrijo.",
+     "conf": 0.985
+    },
+    {
+     "p": "Una",
+     "conf": 0.908
+    },
+    {
+     "p": "sola",
+     "conf": 0.998
+    },
+    {
+     "p": "porción",
+     "conf": 1.0
+    },
+    {
+     "p": "de",
+     "conf": 1.0
+    },
+    {
+     "p": "papas",
+     "conf": 1.0
+    },
+    {
+     "p": "extra",
+     "conf": 1.0
+    },
+    {
+     "p": "y",
+     "conf": 0.995
+    },
+    {
+     "p": "una",
+     "conf": 1.0
+    },
+    {
+     "p": "jarra",
+     "conf": 1.0
+    },
+    {
+     "p": "de",
+     "conf": 1.0
+    },
+    {
+     "p": "chicha",
+     "conf": 1.0
+    },
+    {
+     "p": "morada.",
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "inicio": 55.08,
+   "fin": 55.72,
+   "texto": "Eso sí.",
+   "palabras": [
+    {
+     "p": "Eso",
+     "conf": 0.999
+    },
+    {
+     "p": "sí.",
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "inicio": 55.72,
+   "fin": 66.64,
+   "texto": "Sí. Le confirmo los precios. El pollo entero está a 68 soles, la gaseosa 9 soles, las papas extra 8 soles y la chicha morada 12 soles.",
+   "palabras": [
+    {
+     "p": "Sí.",
+     "conf": 0.011
+    },
+    {
+     "p": "Le",
+     "conf": 0.938
+    },
+    {
+     "p": "confirmo",
+     "conf": 0.995
+    },
+    {
+     "p": "los",
+     "conf": 0.978
+    },
+    {
+     "p": "precios.",
+     "conf": 1.0
+    },
+    {
+     "p": "El",
+     "conf": 0.996
+    },
+    {
+     "p": "pollo",
+     "conf": 0.997
+    },
+    {
+     "p": "entero",
+     "conf": 0.995
+    },
+    {
+     "p": "está",
+     "conf": 0.995
+    },
+    {
+     "p": "a",
+     "conf": 0.761
+    },
+    {
+     "p": "68",
+     "conf": 0.958
+    },
+    {
+     "p": "soles,",
+     "conf": 0.999
+    },
+    {
+     "p": "la",
+     "conf": 0.996
+    },
+    {
+     "p": "gaseosa",
+     "conf": 0.357
+    },
+    {
+     "p": "9",
+     "conf": 0.404
+    },
+    {
+     "p": "soles,",
+     "conf": 1.0
+    },
+    {
+     "p": "las",
+     "conf": 0.999
+    },
+    {
+     "p": "papas",
+     "conf": 0.999
+    },
+    {
+     "p": "extra",
+     "conf": 0.924
+    },
+    {
+     "p": "8",
+     "conf": 0.969
+    },
+    {
+     "p": "soles",
+     "conf": 1.0
+    },
+    {
+     "p": "y",
+     "conf": 0.967
+    },
+    {
+     "p": "la",
+     "conf": 1.0
+    },
+    {
+     "p": "chicha",
+     "conf": 0.994
+    },
+    {
+     "p": "morada",
+     "conf": 0.999
+    },
+    {
+     "p": "12",
+     "conf": 0.797
+    },
+    {
+     "p": "soles.",
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "inicio": 66.9,
+   "fin": 71.92,
+   "texto": "Con el descuento del combo familiar de 10 soles, el total es 87 soles.",
+   "palabras": [
+    {
+     "p": "Con",
+     "conf": 0.999
+    },
+    {
+     "p": "el",
+     "conf": 1.0
+    },
+    {
+     "p": "descuento",
+     "conf": 1.0
+    },
+    {
+     "p": "del",
+     "conf": 0.999
+    },
+    {
+     "p": "combo",
+     "conf": 0.982
+    },
+    {
+     "p": "familiar",
+     "conf": 1.0
+    },
+    {
+     "p": "de",
+     "conf": 0.998
+    },
+    {
+     "p": "10",
+     "conf": 1.0
+    },
+    {
+     "p": "soles,",
+     "conf": 1.0
+    },
+    {
+     "p": "el",
+     "conf": 1.0
+    },
+    {
+     "p": "total",
+     "conf": 1.0
+    },
+    {
+     "p": "es",
+     "conf": 1.0
+    },
+    {
+     "p": "87",
+     "conf": 0.982
+    },
+    {
+     "p": "soles.",
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "inicio": 72.62,
+   "fin": 76.84,
+   "texto": "87. Perfecto. Una pregunta. ¿El pollo viene con ensalada?",
+   "palabras": [
+    {
+     "p": "87.",
+     "conf": 0.839
+    },
+    {
+     "p": "Perfecto.",
+     "conf": 0.993
+    },
+    {
+     "p": "Una",
+     "conf": 0.997
+    },
+    {
+     "p": "pregunta.",
+     "conf": 1.0
+    },
+    {
+     "p": "¿El",
+     "conf": 0.991
+    },
+    {
+     "p": "pollo",
+     "conf": 0.998
+    },
+    {
+     "p": "viene",
+     "conf": 0.999
+    },
+    {
+     "p": "con",
+     "conf": 1.0
+    },
+    {
+     "p": "ensalada?",
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "inicio": 77.26,
+   "fin": 82.78,
+   "texto": "Sí. El pollo incluye papas y ensalada clásica. Las cremas van aparte, sin costa.",
+   "palabras": [
+    {
+     "p": "Sí.",
+     "conf": 0.984
+    },
+    {
+     "p": "El",
+     "conf": 0.996
+    },
+    {
+     "p": "pollo",
+     "conf": 1.0
+    },
+    {
+     "p": "incluye",
+     "conf": 0.999
+    },
+    {
+     "p": "papas",
+     "conf": 0.998
+    },
+    {
+     "p": "y",
+     "conf": 0.999
+    },
+    {
+     "p": "ensalada",
+     "conf": 0.999
+    },
+    {
+     "p": "clásica.",
+     "conf": 0.998
+    },
+    {
+     "p": "Las",
+     "conf": 0.999
+    },
+    {
+     "p": "cremas",
+     "conf": 1.0
+    },
+    {
+     "p": "van",
+     "conf": 1.0
+    },
+    {
+     "p": "aparte,",
+     "conf": 0.987
+    },
+    {
+     "p": "sin",
+     "conf": 1.0
+    },
+    {
+     "p": "costa.",
+     "conf": 0.779
+    }
+   ]
+  },
+  {
+   "inicio": 82.78,
+   "fin": 85.78,
+   "texto": "Mayonesa, ketchup, ají y mostaza.",
+   "palabras": [
+    {
+     "p": "Mayonesa,",
+     "conf": 0.939
+    },
+    {
+     "p": "ketchup,",
+     "conf": 0.712
+    },
+    {
+     "p": "ají",
+     "conf": 0.995
+    },
+    {
+     "p": "y",
+     "conf": 0.938
+    },
+    {
+     "p": "mostaza.",
+     "conf": 0.997
+    }
+   ]
+  },
+  {
+   "inicio": 86.38,
+   "fin": 89.36,
+   "texto": "Mándame bastante ají, por favor, y poca mayonesa.",
+   "palabras": [
+    {
+     "p": "Mándame",
+     "conf": 0.986
+    },
+    {
+     "p": "bastante",
+     "conf": 1.0
+    },
+    {
+     "p": "ají,",
+     "conf": 0.999
+    },
+    {
+     "p": "por",
+     "conf": 1.0
+    },
+    {
+     "p": "favor,",
+     "conf": 1.0
+    },
+    {
+     "p": "y",
+     "conf": 1.0
+    },
+    {
+     "p": "poca",
+     "conf": 0.971
+    },
+    {
+     "p": "mayonesa.",
+     "conf": 0.99
+    }
+   ]
+  },
+  {
+   "inicio": 90.1,
+   "fin": 94.16,
+   "texto": "Anotado. Bastante ají y poca mayonesa. ¿Le pongo ketchup también?",
+   "palabras": [
+    {
+     "p": "Anotado.",
+     "conf": 0.846
+    },
+    {
+     "p": "Bastante",
+     "conf": 0.999
+    },
+    {
+     "p": "ají",
+     "conf": 1.0
+    },
+    {
+     "p": "y",
+     "conf": 1.0
+    },
+    {
+     "p": "poca",
+     "conf": 1.0
+    },
+    {
+     "p": "mayonesa.",
+     "conf": 1.0
+    },
+    {
+     "p": "¿Le",
+     "conf": 0.987
+    },
+    {
+     "p": "pongo",
+     "conf": 1.0
+    },
+    {
+     "p": "ketchup",
+     "conf": 0.965
+    },
+    {
+     "p": "también?",
+     "conf": 0.999
+    }
+   ]
+  },
+  {
+   "inicio": 94.56,
+   "fin": 98.48,
+   "texto": "Sí, un poquito. ¿Y la chicha es natural o de sobre?",
+   "palabras": [
+    {
+     "p": "Sí,",
+     "conf": 0.996
+    },
+    {
+     "p": "un",
+     "conf": 1.0
+    },
+    {
+     "p": "poquito.",
+     "conf": 1.0
+    },
+    {
+     "p": "¿Y",
+     "conf": 0.989
+    },
+    {
+     "p": "la",
+     "conf": 1.0
+    },
+    {
+     "p": "chicha",
+     "conf": 0.998
+    },
+    {
+     "p": "es",
+     "conf": 0.997
+    },
+    {
+     "p": "natural",
+     "conf": 1.0
+    },
+    {
+     "p": "o",
+     "conf": 0.999
+    },
+    {
+     "p": "de",
+     "conf": 0.999
+    },
+    {
+     "p": "sobre?",
+     "conf": 0.961
+    }
+   ]
+  },
+  {
+   "inicio": 98.84,
+   "fin": 102.9,
+   "texto": "Es natural. Le preparamos aquí con maíz, morado, piña y canela.",
+   "palabras": [
+    {
+     "p": "Es",
+     "conf": 0.999
+    },
+    {
+     "p": "natural.",
+     "conf": 1.0
+    },
+    {
+     "p": "Le",
+     "conf": 0.966
+    },
+    {
+     "p": "preparamos",
+     "conf": 1.0
+    },
+    {
+     "p": "aquí",
+     "conf": 1.0
+    },
+    {
+     "p": "con",
+     "conf": 1.0
+    },
+    {
+     "p": "maíz,",
+     "conf": 1.0
+    },
+    {
+     "p": "morado,",
+     "conf": 0.999
+    },
+    {
+     "p": "piña",
+     "conf": 0.999
+    },
+    {
+     "p": "y",
+     "conf": 1.0
+    },
+    {
+     "p": "canela.",
+     "conf": 0.99
+    }
+   ]
+  },
+  {
+   "inicio": 103.5,
+   "fin": 104.4,
+   "texto": "Ah, buenísimo.",
+   "palabras": [
+    {
+     "p": "Ah,",
+     "conf": 0.932
+    },
+    {
+     "p": "buenísimo.",
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "inicio": 104.4,
+   "fin": 106.62,
+   "texto": "¿A qué dirección se lo enviamos?",
+   "palabras": [
+    {
+     "p": "¿A",
+     "conf": 0.975
+    },
+    {
+     "p": "qué",
+     "conf": 0.999
+    },
+    {
+     "p": "dirección",
+     "conf": 0.996
+    },
+    {
+     "p": "se",
+     "conf": 0.998
+    },
+    {
+     "p": "lo",
+     "conf": 0.757
+    },
+    {
+     "p": "enviamos?",
+     "conf": 0.999
+    }
+   ]
+  },
+  {
+   "inicio": 107.1,
+   "fin": 114.08,
+   "texto": "Girón Los Cedros 245, departamento 302, en Surquillo.",
+   "palabras": [
+    {
+     "p": "Girón",
+     "conf": 0.806
+    },
+    {
+     "p": "Los",
+     "conf": 0.522
+    },
+    {
+     "p": "Cedros",
+     "conf": 0.994
+    },
+    {
+     "p": "245,",
+     "conf": 0.914
+    },
+    {
+     "p": "departamento",
+     "conf": 0.733
+    },
+    {
+     "p": "302,",
+     "conf": 0.999
+    },
+    {
+     "p": "en",
+     "conf": 0.653
+    },
+    {
+     "p": "Surquillo.",
+     "conf": 0.948
+    }
+   ]
+  },
+  {
+   "inicio": 114.6,
+   "fin": 121.86,
+   "texto": "Girón Los Cedros 245, departamento 302, Surquillo. ¿Alguna referencia?",
+   "palabras": [
+    {
+     "p": "Girón",
+     "conf": 0.977
+    },
+    {
+     "p": "Los",
+     "conf": 0.999
+    },
+    {
+     "p": "Cedros",
+     "conf": 1.0
+    },
+    {
+     "p": "245,",
+     "conf": 0.996
+    },
+    {
+     "p": "departamento",
+     "conf": 1.0
+    },
+    {
+     "p": "302,",
+     "conf": 1.0
+    },
+    {
+     "p": "Surquillo.",
+     "conf": 0.982
+    },
+    {
+     "p": "¿Alguna",
+     "conf": 0.999
+    },
+    {
+     "p": "referencia?",
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "inicio": 122.14,
+   "fin": 125.78,
+   "texto": "Es un edificio blanco al costado de una farmacia.",
+   "palabras": [
+    {
+     "p": "Es",
+     "conf": 0.995
+    },
+    {
+     "p": "un",
+     "conf": 1.0
+    },
+    {
+     "p": "edificio",
+     "conf": 1.0
+    },
+    {
+     "p": "blanco",
+     "conf": 1.0
+    },
+    {
+     "p": "al",
+     "conf": 0.993
+    },
+    {
+     "p": "costado",
+     "conf": 0.999
+    },
+    {
+     "p": "de",
+     "conf": 1.0
+    },
+    {
+     "p": "una",
+     "conf": 1.0
+    },
+    {
+     "p": "farmacia.",
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "inicio": 126.66,
+   "fin": 128.18,
+   "texto": "Anotado. ¿Cómo va a pagar?",
+   "palabras": [
+    {
+     "p": "Anotado.",
+     "conf": 0.976
+    },
+    {
+     "p": "¿Cómo",
+     "conf": 0.999
+    },
+    {
+     "p": "va",
+     "conf": 0.998
+    },
+    {
+     "p": "a",
+     "conf": 1.0
+    },
+    {
+     "p": "pagar?",
+     "conf": 0.995
+    }
+   ]
+  },
+  {
+   "inicio": 128.54,
+   "fin": 129.24,
+   "texto": "Con yape.",
+   "palabras": [
+    {
+     "p": "Con",
+     "conf": 0.996
+    },
+    {
+     "p": "yape.",
+     "conf": 0.737
+    }
+   ]
+  },
+  {
+   "inicio": 129.66,
+   "fin": 132.36,
+   "texto": "Muy bien. El repartidor le muestra el código cuando llegue.",
+   "palabras": [
+    {
+     "p": "Muy",
+     "conf": 0.991
+    },
+    {
+     "p": "bien.",
+     "conf": 1.0
+    },
+    {
+     "p": "El",
+     "conf": 0.99
+    },
+    {
+     "p": "repartidor",
+     "conf": 0.997
+    },
+    {
+     "p": "le",
+     "conf": 0.728
+    },
+    {
+     "p": "muestra",
+     "conf": 0.996
+    },
+    {
+     "p": "el",
+     "conf": 0.999
+    },
+    {
+     "p": "código",
+     "conf": 0.999
+    },
+    {
+     "p": "cuando",
+     "conf": 0.999
+    },
+    {
+     "p": "llegue.",
+     "conf": 0.962
+    }
+   ]
+  },
+  {
+   "inicio": 132.36,
+   "fin": 135.16,
+   "texto": "El pedido demora aproximadamente 40 minutos.",
+   "palabras": [
+    {
+     "p": "El",
+     "conf": 0.926
+    },
+    {
+     "p": "pedido",
+     "conf": 0.999
+    },
+    {
+     "p": "demora",
+     "conf": 1.0
+    },
+    {
+     "p": "aproximadamente",
+     "conf": 0.971
+    },
+    {
+     "p": "40",
+     "conf": 0.955
+    },
+    {
+     "p": "minutos.",
+     "conf": 0.999
+    }
+   ]
+  },
+  {
+   "inicio": 136.02,
+   "fin": 138.06,
+   "texto": "Perfecto. ¿Me puedes mandar cubiertos?",
+   "palabras": [
+    {
+     "p": "Perfecto.",
+     "conf": 0.996
+    },
+    {
+     "p": "¿Me",
+     "conf": 0.998
+    },
+    {
+     "p": "puedes",
+     "conf": 0.996
+    },
+    {
+     "p": "mandar",
+     "conf": 1.0
+    },
+    {
+     "p": "cubiertos?",
+     "conf": 0.995
+    }
+   ]
+  },
+  {
+   "inicio": 138.44,
+   "fin": 141.12,
+   "texto": "Sí, claro. Le enviamos cubiertos y servilletas.",
+   "palabras": [
+    {
+     "p": "Sí,",
+     "conf": 0.995
+    },
+    {
+     "p": "claro.",
+     "conf": 1.0
+    },
+    {
+     "p": "Le",
+     "conf": 0.997
+    },
+    {
+     "p": "enviamos",
+     "conf": 1.0
+    },
+    {
+     "p": "cubiertos",
+     "conf": 1.0
+    },
+    {
+     "p": "y",
+     "conf": 0.999
+    },
+    {
+     "p": "servilletas.",
+     "conf": 0.854
+    }
+   ]
+  },
+  {
+   "inicio": 141.44,
+   "fin": 143.68,
+   "texto": "¿A nombre de quién dejó el pedido?",
+   "palabras": [
+    {
+     "p": "¿A",
+     "conf": 0.986
+    },
+    {
+     "p": "nombre",
+     "conf": 0.998
+    },
+    {
+     "p": "de",
+     "conf": 1.0
+    },
+    {
+     "p": "quién",
+     "conf": 0.994
+    },
+    {
+     "p": "dejó",
+     "conf": 0.998
+    },
+    {
+     "p": "el",
+     "conf": 0.996
+    },
+    {
+     "p": "pedido?",
+     "conf": 0.999
+    }
+   ]
+  },
+  {
+   "inicio": 144.08,
+   "fin": 145.28,
+   "texto": "A nombre de Sofía.",
+   "palabras": [
+    {
+     "p": "A",
+     "conf": 0.997
+    },
+    {
+     "p": "nombre",
+     "conf": 1.0
+    },
+    {
+     "p": "de",
+     "conf": 1.0
+    },
+    {
+     "p": "Sofía.",
+     "conf": 0.996
+    }
+   ]
+  },
+  {
+   "inicio": 146.32,
+   "fin": 148.96,
+   "texto": "Listo, Sofía. Gracias por su pedido y que disfruten.",
+   "palabras": [
+    {
+     "p": "Listo,",
+     "conf": 0.998
+    },
+    {
+     "p": "Sofía.",
+     "conf": 0.999
+    },
+    {
+     "p": "Gracias",
+     "conf": 0.999
+    },
+    {
+     "p": "por",
+     "conf": 1.0
+    },
+    {
+     "p": "su",
+     "conf": 0.999
+    },
+    {
+     "p": "pedido",
+     "conf": 1.0
+    },
+    {
+     "p": "y",
+     "conf": 0.998
+    },
+    {
+     "p": "que",
+     "conf": 0.995
+    },
+    {
+     "p": "disfruten.",
+     "conf": 0.793
+    }
+   ]
+  },
+  {
+   "inicio": 149.22,
+   "fin": 150.36,
+   "texto": "Gracias. Hasta luego.",
+   "palabras": [
+    {
+     "p": "Gracias.",
+     "conf": 0.999
+    },
+    {
+     "p": "Hasta",
+     "conf": 0.995
+    },
+    {
+     "p": "luego.",
+     "conf": 1.0
+    }
+   ]
+  }
+ ],
+ "modelo": "large-v3-turbo",
+ "precision": "int8",
+ "modo_glosario": "ninguno",
+ "dispositivo_real": "cpu",
+ "gpus_visibles": 0,
+ "duracion_audio_s": 152.45,
+ "segundos_transcripcion": 327.54,
+ "segundos_carga_modelo": 0.0,
+ "seg_por_min_audio": 128.91,
+ "vram_base_mb": null,
+ "vram_pico_mb": null,
+ "idioma_detectado": "es",
+ "faster_whisper": "1.2.1",
+ "ctranslate2": "4.8.4",
+ "degradacion": {
+  "nivel": "L2",
+  "banda_hz": [
+   300,
+   3400
+  ]
+ }
+}

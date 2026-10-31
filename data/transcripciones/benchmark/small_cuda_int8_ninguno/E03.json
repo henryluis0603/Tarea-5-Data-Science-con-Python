@@ -1,0 +1,1603 @@
+{
+ "texto": "Hola Chris, buenas tardes, gracias por tu tiempo. Te llamo de consultor pacífico por la posición de líder de proyectos. Buenas tardes encantada, gracias por la oportunidad. Cuéntame, cuánto tiempo llevas gestionando proyectos? Ya son una década, 10 años en total, los primeros como analista funcional y después liderando equipos. ¿Y dónde estás ahora? Ahora trabajo en una empresa retail, mi puesto actual es líder de proyectos de tecnología, coordinó tres equipos que implementan cambios en el sistema de inventarios. ¿Con qué realmente trabajas en el día a día? Para el seguimiento usamos Gira, el sistema central de empresa es SAP, así que ahí paso bastante tiempo validando configuraciones y para reportar a gerencia la verdad mucho Excel y algunos tableros en Power BI. ¿Cómo manejas un predito que se está retrasando? Lo primero es decirlo temprano, el año pasado teníamos una migración de 11 tiendas y a la mitad vimos que no llegábamos. En lugar de esconderlo propuse dividirla en dos etapas, primero seis tiendas y después otra cinco. Gerencia aceptó y cumplimos la primera etapa tiempo. ¿Y el equipo cómo lo tomó? Bien, porque le quitó presión, un equipo agotado comete errores y inventarios en un error cuesta caro. Muy bien, ahora una pregunta práctica, ¿Varían estos proveedores en Brasil y de Estados Unidos? ¿Qué tacto ingles? Básico, siendo honesta, entiendo correos y documentos técnicos pero en una llamada me cuesta, estoy llevando clases para mejorar. Te agradezco la honestidad y ¿Cuál sería tu pretensión salarial? Estaba pensando en cuatro mil ochocientos soles, no perdón mejor dicho cinco mil doscientos soles porque el puesto incluye más equipos de los que manejo ahora. Cinco mil doscientos, perfecto. ¿Y en cuánto a disponibilidad? Tengo que cerrar el proyecto de inventarios que estoy liderando, podría empezar a partir el primero de diciembre. Muy bien, eso calza con nuestros plazos. ¿Tienes alguna consulta? Sí, ¿Cuántas personas tendrían a cargo? Al inicio serían ocho personas en dos equipos, luego si todo va bien se suma un tercero. Perfecto, muchas gracias, queda al espero. Gracias Chris, te describí once en lunes.",
+ "segmentos": [
+  {
+   "inicio": 2.24,
+   "fin": 6.32,
+   "texto": "Hola Chris, buenas tardes, gracias por tu tiempo. Te llamo de consultor pacífico por",
+   "palabras": [
+    {
+     "p": "Hola",
+     "conf": 0.608
+    },
+    {
+     "p": "Chris,",
+     "conf": 0.525
+    },
+    {
+     "p": "buenas",
+     "conf": 0.943
+    },
+    {
+     "p": "tardes,",
+     "conf": 0.999
+    },
+    {
+     "p": "gracias",
+     "conf": 0.973
+    },
+    {
+     "p": "por",
+     "conf": 0.997
+    },
+    {
+     "p": "tu",
+     "conf": 0.939
+    },
+    {
+     "p": "tiempo.",
+     "conf": 0.998
+    },
+    {
+     "p": "Te",
+     "conf": 0.964
+    },
+    {
+     "p": "llamo",
+     "conf": 0.9
+    },
+    {
+     "p": "de",
+     "conf": 0.683
+    },
+    {
+     "p": "consultor",
+     "conf": 0.561
+    },
+    {
+     "p": "pacífico",
+     "conf": 0.927
+    },
+    {
+     "p": "por",
+     "conf": 0.953
+    }
+   ]
+  },
+  {
+   "inicio": 6.32,
+   "fin": 10.62,
+   "texto": "la posición de líder de proyectos. Buenas tardes encantada, gracias por la oportunidad.",
+   "palabras": [
+    {
+     "p": "la",
+     "conf": 0.967
+    },
+    {
+     "p": "posición",
+     "conf": 0.51
+    },
+    {
+     "p": "de",
+     "conf": 0.55
+    },
+    {
+     "p": "líder",
+     "conf": 0.7
+    },
+    {
+     "p": "de",
+     "conf": 0.978
+    },
+    {
+     "p": "proyectos.",
+     "conf": 0.995
+    },
+    {
+     "p": "Buenas",
+     "conf": 0.928
+    },
+    {
+     "p": "tardes",
+     "conf": 0.999
+    },
+    {
+     "p": "encantada,",
+     "conf": 0.66
+    },
+    {
+     "p": "gracias",
+     "conf": 0.992
+    },
+    {
+     "p": "por",
+     "conf": 0.999
+    },
+    {
+     "p": "la",
+     "conf": 0.997
+    },
+    {
+     "p": "oportunidad.",
+     "conf": 0.998
+    }
+   ]
+  },
+  {
+   "inicio": 11.56,
+   "fin": 14.1,
+   "texto": "Cuéntame, cuánto tiempo llevas gestionando proyectos?",
+   "palabras": [
+    {
+     "p": "Cuéntame,",
+     "conf": 0.951
+    },
+    {
+     "p": "cuánto",
+     "conf": 0.71
+    },
+    {
+     "p": "tiempo",
+     "conf": 1.0
+    },
+    {
+     "p": "llevas",
+     "conf": 0.929
+    },
+    {
+     "p": "gestionando",
+     "conf": 0.993
+    },
+    {
+     "p": "proyectos?",
+     "conf": 0.987
+    }
+   ]
+  },
+  {
+   "inicio": 14.76,
+   "fin": 19.62,
+   "texto": "Ya son una década, 10 años en total, los primeros como analista funcional y después",
+   "palabras": [
+    {
+     "p": "Ya",
+     "conf": 0.98
+    },
+    {
+     "p": "son",
+     "conf": 0.764
+    },
+    {
+     "p": "una",
+     "conf": 0.99
+    },
+    {
+     "p": "década,",
+     "conf": 0.997
+    },
+    {
+     "p": "10",
+     "conf": 0.677
+    },
+    {
+     "p": "años",
+     "conf": 0.998
+    },
+    {
+     "p": "en",
+     "conf": 0.991
+    },
+    {
+     "p": "total,",
+     "conf": 0.998
+    },
+    {
+     "p": "los",
+     "conf": 0.98
+    },
+    {
+     "p": "primeros",
+     "conf": 0.997
+    },
+    {
+     "p": "como",
+     "conf": 0.977
+    },
+    {
+     "p": "analista",
+     "conf": 0.995
+    },
+    {
+     "p": "funcional",
+     "conf": 0.949
+    },
+    {
+     "p": "y",
+     "conf": 0.924
+    },
+    {
+     "p": "después",
+     "conf": 0.988
+    }
+   ]
+  },
+  {
+   "inicio": 19.62,
+   "fin": 22.7,
+   "texto": "liderando equipos. ¿Y dónde estás ahora?",
+   "palabras": [
+    {
+     "p": "liderando",
+     "conf": 0.836
+    },
+    {
+     "p": "equipos.",
+     "conf": 0.995
+    },
+    {
+     "p": "¿Y",
+     "conf": 0.66
+    },
+    {
+     "p": "dónde",
+     "conf": 0.817
+    },
+    {
+     "p": "estás",
+     "conf": 0.979
+    },
+    {
+     "p": "ahora?",
+     "conf": 0.996
+    }
+   ]
+  },
+  {
+   "inicio": 22.7,
+   "fin": 29.18,
+   "texto": "Ahora trabajo en una empresa retail, mi puesto actual es líder de proyectos de",
+   "palabras": [
+    {
+     "p": "Ahora",
+     "conf": 0.049
+    },
+    {
+     "p": "trabajo",
+     "conf": 0.595
+    },
+    {
+     "p": "en",
+     "conf": 0.993
+    },
+    {
+     "p": "una",
+     "conf": 0.969
+    },
+    {
+     "p": "empresa",
+     "conf": 0.998
+    },
+    {
+     "p": "retail,",
+     "conf": 0.527
+    },
+    {
+     "p": "mi",
+     "conf": 0.975
+    },
+    {
+     "p": "puesto",
+     "conf": 0.901
+    },
+    {
+     "p": "actual",
+     "conf": 0.971
+    },
+    {
+     "p": "es",
+     "conf": 0.969
+    },
+    {
+     "p": "líder",
+     "conf": 0.845
+    },
+    {
+     "p": "de",
+     "conf": 0.995
+    },
+    {
+     "p": "proyectos",
+     "conf": 0.988
+    },
+    {
+     "p": "de",
+     "conf": 0.994
+    }
+   ]
+  },
+  {
+   "inicio": 29.18,
+   "fin": 34.42,
+   "texto": "tecnología, coordinó tres equipos que implementan cambios en el sistema de",
+   "palabras": [
+    {
+     "p": "tecnología,",
+     "conf": 0.984
+    },
+    {
+     "p": "coordinó",
+     "conf": 0.779
+    },
+    {
+     "p": "tres",
+     "conf": 0.761
+    },
+    {
+     "p": "equipos",
+     "conf": 0.994
+    },
+    {
+     "p": "que",
+     "conf": 0.742
+    },
+    {
+     "p": "implementan",
+     "conf": 0.929
+    },
+    {
+     "p": "cambios",
+     "conf": 0.99
+    },
+    {
+     "p": "en",
+     "conf": 0.983
+    },
+    {
+     "p": "el",
+     "conf": 0.988
+    },
+    {
+     "p": "sistema",
+     "conf": 0.993
+    },
+    {
+     "p": "de",
+     "conf": 0.983
+    }
+   ]
+  },
+  {
+   "inicio": 34.42,
+   "fin": 37.68,
+   "texto": "inventarios. ¿Con qué realmente trabajas en el día a día?",
+   "palabras": [
+    {
+     "p": "inventarios.",
+     "conf": 0.986
+    },
+    {
+     "p": "¿Con",
+     "conf": 0.778
+    },
+    {
+     "p": "qué",
+     "conf": 0.835
+    },
+    {
+     "p": "realmente",
+     "conf": 0.556
+    },
+    {
+     "p": "trabajas",
+     "conf": 0.98
+    },
+    {
+     "p": "en",
+     "conf": 0.957
+    },
+    {
+     "p": "el",
+     "conf": 0.97
+    },
+    {
+     "p": "día",
+     "conf": 0.996
+    },
+    {
+     "p": "a",
+     "conf": 0.98
+    },
+    {
+     "p": "día?",
+     "conf": 0.998
+    }
+   ]
+  },
+  {
+   "inicio": 38.9,
+   "fin": 45.64,
+   "texto": "Para el seguimiento usamos Gira, el sistema central de empresa es SAP, así que ahí paso",
+   "palabras": [
+    {
+     "p": "Para",
+     "conf": 0.958
+    },
+    {
+     "p": "el",
+     "conf": 0.986
+    },
+    {
+     "p": "seguimiento",
+     "conf": 0.995
+    },
+    {
+     "p": "usamos",
+     "conf": 0.951
+    },
+    {
+     "p": "Gira,",
+     "conf": 0.667
+    },
+    {
+     "p": "el",
+     "conf": 0.966
+    },
+    {
+     "p": "sistema",
+     "conf": 0.918
+    },
+    {
+     "p": "central",
+     "conf": 0.982
+    },
+    {
+     "p": "de",
+     "conf": 0.988
+    },
+    {
+     "p": "empresa",
+     "conf": 0.969
+    },
+    {
+     "p": "es",
+     "conf": 0.924
+    },
+    {
+     "p": "SAP,",
+     "conf": 0.714
+    },
+    {
+     "p": "así",
+     "conf": 0.967
+    },
+    {
+     "p": "que",
+     "conf": 0.997
+    },
+    {
+     "p": "ahí",
+     "conf": 0.848
+    },
+    {
+     "p": "paso",
+     "conf": 0.612
+    }
+   ]
+  },
+  {
+   "inicio": 45.64,
+   "fin": 50.86,
+   "texto": "bastante tiempo validando configuraciones y para reportar a gerencia la verdad",
+   "palabras": [
+    {
+     "p": "bastante",
+     "conf": 0.779
+    },
+    {
+     "p": "tiempo",
+     "conf": 0.999
+    },
+    {
+     "p": "validando",
+     "conf": 0.971
+    },
+    {
+     "p": "configuraciones",
+     "conf": 0.993
+    },
+    {
+     "p": "y",
+     "conf": 0.473
+    },
+    {
+     "p": "para",
+     "conf": 0.992
+    },
+    {
+     "p": "reportar",
+     "conf": 0.99
+    },
+    {
+     "p": "a",
+     "conf": 0.807
+    },
+    {
+     "p": "gerencia",
+     "conf": 0.785
+    },
+    {
+     "p": "la",
+     "conf": 0.622
+    },
+    {
+     "p": "verdad",
+     "conf": 0.997
+    }
+   ]
+  },
+  {
+   "inicio": 50.86,
+   "fin": 58.12,
+   "texto": "mucho Excel y algunos tableros en Power BI. ¿Cómo manejas un predito que se está",
+   "palabras": [
+    {
+     "p": "mucho",
+     "conf": 0.001
+    },
+    {
+     "p": "Excel",
+     "conf": 0.262
+    },
+    {
+     "p": "y",
+     "conf": 0.856
+    },
+    {
+     "p": "algunos",
+     "conf": 0.951
+    },
+    {
+     "p": "tableros",
+     "conf": 0.971
+    },
+    {
+     "p": "en",
+     "conf": 0.911
+    },
+    {
+     "p": "Power",
+     "conf": 0.919
+    },
+    {
+     "p": "BI.",
+     "conf": 0.431
+    },
+    {
+     "p": "¿Cómo",
+     "conf": 0.782
+    },
+    {
+     "p": "manejas",
+     "conf": 0.993
+    },
+    {
+     "p": "un",
+     "conf": 0.982
+    },
+    {
+     "p": "predito",
+     "conf": 0.528
+    },
+    {
+     "p": "que",
+     "conf": 0.98
+    },
+    {
+     "p": "se",
+     "conf": 0.992
+    },
+    {
+     "p": "está",
+     "conf": 0.958
+    }
+   ]
+  },
+  {
+   "inicio": 58.12,
+   "fin": 64.26,
+   "texto": "retrasando? Lo primero es decirlo temprano, el año pasado teníamos una migración de",
+   "palabras": [
+    {
+     "p": "retrasando?",
+     "conf": 0.985
+    },
+    {
+     "p": "Lo",
+     "conf": 0.961
+    },
+    {
+     "p": "primero",
+     "conf": 0.999
+    },
+    {
+     "p": "es",
+     "conf": 0.964
+    },
+    {
+     "p": "decirlo",
+     "conf": 0.748
+    },
+    {
+     "p": "temprano,",
+     "conf": 0.997
+    },
+    {
+     "p": "el",
+     "conf": 0.978
+    },
+    {
+     "p": "año",
+     "conf": 0.999
+    },
+    {
+     "p": "pasado",
+     "conf": 0.997
+    },
+    {
+     "p": "teníamos",
+     "conf": 0.985
+    },
+    {
+     "p": "una",
+     "conf": 0.996
+    },
+    {
+     "p": "migración",
+     "conf": 0.983
+    },
+    {
+     "p": "de",
+     "conf": 0.998
+    }
+   ]
+  },
+  {
+   "inicio": 64.26,
+   "fin": 70.54,
+   "texto": "11 tiendas y a la mitad vimos que no llegábamos. En lugar de esconderlo",
+   "palabras": [
+    {
+     "p": "11",
+     "conf": 0.946
+    },
+    {
+     "p": "tiendas",
+     "conf": 0.994
+    },
+    {
+     "p": "y",
+     "conf": 0.94
+    },
+    {
+     "p": "a",
+     "conf": 0.981
+    },
+    {
+     "p": "la",
+     "conf": 0.996
+    },
+    {
+     "p": "mitad",
+     "conf": 0.995
+    },
+    {
+     "p": "vimos",
+     "conf": 0.964
+    },
+    {
+     "p": "que",
+     "conf": 0.998
+    },
+    {
+     "p": "no",
+     "conf": 0.98
+    },
+    {
+     "p": "llegábamos.",
+     "conf": 0.971
+    },
+    {
+     "p": "En",
+     "conf": 0.939
+    },
+    {
+     "p": "lugar",
+     "conf": 0.997
+    },
+    {
+     "p": "de",
+     "conf": 0.99
+    },
+    {
+     "p": "esconderlo",
+     "conf": 0.992
+    }
+   ]
+  },
+  {
+   "inicio": 71.4,
+   "fin": 76.44,
+   "texto": "propuse dividirla en dos etapas, primero seis tiendas y después otra cinco.",
+   "palabras": [
+    {
+     "p": "propuse",
+     "conf": 0.743
+    },
+    {
+     "p": "dividirla",
+     "conf": 0.974
+    },
+    {
+     "p": "en",
+     "conf": 0.995
+    },
+    {
+     "p": "dos",
+     "conf": 0.88
+    },
+    {
+     "p": "etapas,",
+     "conf": 0.996
+    },
+    {
+     "p": "primero",
+     "conf": 0.975
+    },
+    {
+     "p": "seis",
+     "conf": 0.743
+    },
+    {
+     "p": "tiendas",
+     "conf": 0.997
+    },
+    {
+     "p": "y",
+     "conf": 0.986
+    },
+    {
+     "p": "después",
+     "conf": 0.998
+    },
+    {
+     "p": "otra",
+     "conf": 0.579
+    },
+    {
+     "p": "cinco.",
+     "conf": 0.935
+    }
+   ]
+  },
+  {
+   "inicio": 76.44,
+   "fin": 81.84,
+   "texto": "Gerencia aceptó y cumplimos la primera etapa tiempo. ¿Y el equipo cómo lo tomó?",
+   "palabras": [
+    {
+     "p": "Gerencia",
+     "conf": 0.662
+    },
+    {
+     "p": "aceptó",
+     "conf": 0.887
+    },
+    {
+     "p": "y",
+     "conf": 0.938
+    },
+    {
+     "p": "cumplimos",
+     "conf": 0.999
+    },
+    {
+     "p": "la",
+     "conf": 0.975
+    },
+    {
+     "p": "primera",
+     "conf": 0.851
+    },
+    {
+     "p": "etapa",
+     "conf": 0.984
+    },
+    {
+     "p": "tiempo.",
+     "conf": 0.814
+    },
+    {
+     "p": "¿Y",
+     "conf": 0.57
+    },
+    {
+     "p": "el",
+     "conf": 0.893
+    },
+    {
+     "p": "equipo",
+     "conf": 0.997
+    },
+    {
+     "p": "cómo",
+     "conf": 0.46
+    },
+    {
+     "p": "lo",
+     "conf": 0.967
+    },
+    {
+     "p": "tomó?",
+     "conf": 0.914
+    }
+   ]
+  },
+  {
+   "inicio": 82.5,
+   "fin": 88.74,
+   "texto": "Bien, porque le quitó presión, un equipo agotado comete errores y inventarios en",
+   "palabras": [
+    {
+     "p": "Bien,",
+     "conf": 0.943
+    },
+    {
+     "p": "porque",
+     "conf": 0.971
+    },
+    {
+     "p": "le",
+     "conf": 0.429
+    },
+    {
+     "p": "quitó",
+     "conf": 0.642
+    },
+    {
+     "p": "presión,",
+     "conf": 0.961
+    },
+    {
+     "p": "un",
+     "conf": 0.976
+    },
+    {
+     "p": "equipo",
+     "conf": 0.996
+    },
+    {
+     "p": "agotado",
+     "conf": 0.996
+    },
+    {
+     "p": "comete",
+     "conf": 0.711
+    },
+    {
+     "p": "errores",
+     "conf": 0.982
+    },
+    {
+     "p": "y",
+     "conf": 0.329
+    },
+    {
+     "p": "inventarios",
+     "conf": 0.951
+    },
+    {
+     "p": "en",
+     "conf": 0.85
+    }
+   ]
+  },
+  {
+   "inicio": 88.74,
+   "fin": 92.5,
+   "texto": "un error cuesta caro. Muy bien, ahora una pregunta práctica,",
+   "palabras": [
+    {
+     "p": "un",
+     "conf": 0.956
+    },
+    {
+     "p": "error",
+     "conf": 0.998
+    },
+    {
+     "p": "cuesta",
+     "conf": 0.879
+    },
+    {
+     "p": "caro.",
+     "conf": 0.658
+    },
+    {
+     "p": "Muy",
+     "conf": 0.861
+    },
+    {
+     "p": "bien,",
+     "conf": 0.996
+    },
+    {
+     "p": "ahora",
+     "conf": 0.99
+    },
+    {
+     "p": "una",
+     "conf": 0.929
+    },
+    {
+     "p": "pregunta",
+     "conf": 0.996
+    },
+    {
+     "p": "práctica,",
+     "conf": 0.89
+    }
+   ]
+  },
+  {
+   "inicio": 92.8,
+   "fin": 97.98,
+   "texto": "¿Varían estos proveedores en Brasil y de Estados Unidos? ¿Qué tacto ingles? Básico,",
+   "palabras": [
+    {
+     "p": "¿Varían",
+     "conf": 0.407
+    },
+    {
+     "p": "estos",
+     "conf": 0.79
+    },
+    {
+     "p": "proveedores",
+     "conf": 0.993
+    },
+    {
+     "p": "en",
+     "conf": 0.788
+    },
+    {
+     "p": "Brasil",
+     "conf": 0.7
+    },
+    {
+     "p": "y",
+     "conf": 0.814
+    },
+    {
+     "p": "de",
+     "conf": 0.655
+    },
+    {
+     "p": "Estados",
+     "conf": 0.858
+    },
+    {
+     "p": "Unidos?",
+     "conf": 0.999
+    },
+    {
+     "p": "¿Qué",
+     "conf": 0.958
+    },
+    {
+     "p": "tacto",
+     "conf": 0.567
+    },
+    {
+     "p": "ingles?",
+     "conf": 0.566
+    },
+    {
+     "p": "Básico,",
+     "conf": 0.973
+    }
+   ]
+  },
+  {
+   "inicio": 98.1,
+   "fin": 102.48,
+   "texto": "siendo honesta, entiendo correos y documentos técnicos pero en una",
+   "palabras": [
+    {
+     "p": "siendo",
+     "conf": 0.985
+    },
+    {
+     "p": "honesta,",
+     "conf": 0.992
+    },
+    {
+     "p": "entiendo",
+     "conf": 0.993
+    },
+    {
+     "p": "correos",
+     "conf": 0.996
+    },
+    {
+     "p": "y",
+     "conf": 0.992
+    },
+    {
+     "p": "documentos",
+     "conf": 0.997
+    },
+    {
+     "p": "técnicos",
+     "conf": 0.994
+    },
+    {
+     "p": "pero",
+     "conf": 0.249
+    },
+    {
+     "p": "en",
+     "conf": 0.98
+    },
+    {
+     "p": "una",
+     "conf": 0.995
+    }
+   ]
+  },
+  {
+   "inicio": 102.48,
+   "fin": 107.52,
+   "texto": "llamada me cuesta, estoy llevando clases para mejorar. Te agradezco la honestidad y",
+   "palabras": [
+    {
+     "p": "llamada",
+     "conf": 0.492
+    },
+    {
+     "p": "me",
+     "conf": 0.948
+    },
+    {
+     "p": "cuesta,",
+     "conf": 0.996
+    },
+    {
+     "p": "estoy",
+     "conf": 0.969
+    },
+    {
+     "p": "llevando",
+     "conf": 0.992
+    },
+    {
+     "p": "clases",
+     "conf": 0.994
+    },
+    {
+     "p": "para",
+     "conf": 0.994
+    },
+    {
+     "p": "mejorar.",
+     "conf": 0.984
+    },
+    {
+     "p": "Te",
+     "conf": 0.704
+    },
+    {
+     "p": "agradezco",
+     "conf": 0.981
+    },
+    {
+     "p": "la",
+     "conf": 0.692
+    },
+    {
+     "p": "honestidad",
+     "conf": 0.561
+    },
+    {
+     "p": "y",
+     "conf": 0.625
+    }
+   ]
+  },
+  {
+   "inicio": 107.52,
+   "fin": 113.52,
+   "texto": "¿Cuál sería tu pretensión salarial? Estaba pensando en cuatro mil ochocientos",
+   "palabras": [
+    {
+     "p": "¿Cuál",
+     "conf": 0.539
+    },
+    {
+     "p": "sería",
+     "conf": 0.981
+    },
+    {
+     "p": "tu",
+     "conf": 0.979
+    },
+    {
+     "p": "pretensión",
+     "conf": 0.983
+    },
+    {
+     "p": "salarial?",
+     "conf": 0.972
+    },
+    {
+     "p": "Estaba",
+     "conf": 0.881
+    },
+    {
+     "p": "pensando",
+     "conf": 0.997
+    },
+    {
+     "p": "en",
+     "conf": 0.972
+    },
+    {
+     "p": "cuatro",
+     "conf": 0.357
+    },
+    {
+     "p": "mil",
+     "conf": 0.975
+    },
+    {
+     "p": "ochocientos",
+     "conf": 0.985
+    }
+   ]
+  },
+  {
+   "inicio": 113.52,
+   "fin": 119.7,
+   "texto": "soles, no perdón mejor dicho cinco mil doscientos soles porque el puesto incluye",
+   "palabras": [
+    {
+     "p": "soles,",
+     "conf": 0.937
+    },
+    {
+     "p": "no",
+     "conf": 0.962
+    },
+    {
+     "p": "perdón",
+     "conf": 0.838
+    },
+    {
+     "p": "mejor",
+     "conf": 0.704
+    },
+    {
+     "p": "dicho",
+     "conf": 0.999
+    },
+    {
+     "p": "cinco",
+     "conf": 0.9
+    },
+    {
+     "p": "mil",
+     "conf": 0.999
+    },
+    {
+     "p": "doscientos",
+     "conf": 0.967
+    },
+    {
+     "p": "soles",
+     "conf": 0.997
+    },
+    {
+     "p": "porque",
+     "conf": 0.621
+    },
+    {
+     "p": "el",
+     "conf": 0.996
+    },
+    {
+     "p": "puesto",
+     "conf": 0.85
+    },
+    {
+     "p": "incluye",
+     "conf": 0.997
+    }
+   ]
+  },
+  {
+   "inicio": 119.7,
+   "fin": 125.56,
+   "texto": "más equipos de los que manejo ahora. Cinco mil doscientos, perfecto. ¿Y en",
+   "palabras": [
+    {
+     "p": "más",
+     "conf": 0.974
+    },
+    {
+     "p": "equipos",
+     "conf": 0.991
+    },
+    {
+     "p": "de",
+     "conf": 0.952
+    },
+    {
+     "p": "los",
+     "conf": 0.481
+    },
+    {
+     "p": "que",
+     "conf": 0.986
+    },
+    {
+     "p": "manejo",
+     "conf": 0.965
+    },
+    {
+     "p": "ahora.",
+     "conf": 0.991
+    },
+    {
+     "p": "Cinco",
+     "conf": 0.811
+    },
+    {
+     "p": "mil",
+     "conf": 0.995
+    },
+    {
+     "p": "doscientos,",
+     "conf": 0.986
+    },
+    {
+     "p": "perfecto.",
+     "conf": 0.98
+    },
+    {
+     "p": "¿Y",
+     "conf": 0.729
+    },
+    {
+     "p": "en",
+     "conf": 0.973
+    }
+   ]
+  },
+  {
+   "inicio": 125.56,
+   "fin": 130.66,
+   "texto": "cuánto a disponibilidad? Tengo que cerrar el proyecto de inventarios que",
+   "palabras": [
+    {
+     "p": "cuánto",
+     "conf": 0.738
+    },
+    {
+     "p": "a",
+     "conf": 0.63
+    },
+    {
+     "p": "disponibilidad?",
+     "conf": 0.984
+    },
+    {
+     "p": "Tengo",
+     "conf": 0.991
+    },
+    {
+     "p": "que",
+     "conf": 0.998
+    },
+    {
+     "p": "cerrar",
+     "conf": 0.999
+    },
+    {
+     "p": "el",
+     "conf": 0.997
+    },
+    {
+     "p": "proyecto",
+     "conf": 0.992
+    },
+    {
+     "p": "de",
+     "conf": 0.988
+    },
+    {
+     "p": "inventarios",
+     "conf": 0.983
+    },
+    {
+     "p": "que",
+     "conf": 0.992
+    }
+   ]
+  },
+  {
+   "inicio": 130.66,
+   "fin": 135.8,
+   "texto": "estoy liderando, podría empezar a partir el primero de diciembre. Muy bien, eso calza",
+   "palabras": [
+    {
+     "p": "estoy",
+     "conf": 0.525
+    },
+    {
+     "p": "liderando,",
+     "conf": 0.873
+    },
+    {
+     "p": "podría",
+     "conf": 0.926
+    },
+    {
+     "p": "empezar",
+     "conf": 0.992
+    },
+    {
+     "p": "a",
+     "conf": 0.986
+    },
+    {
+     "p": "partir",
+     "conf": 0.996
+    },
+    {
+     "p": "el",
+     "conf": 0.731
+    },
+    {
+     "p": "primero",
+     "conf": 0.223
+    },
+    {
+     "p": "de",
+     "conf": 0.994
+    },
+    {
+     "p": "diciembre.",
+     "conf": 0.991
+    },
+    {
+     "p": "Muy",
+     "conf": 0.907
+    },
+    {
+     "p": "bien,",
+     "conf": 0.989
+    },
+    {
+     "p": "eso",
+     "conf": 0.983
+    },
+    {
+     "p": "calza",
+     "conf": 0.977
+    }
+   ]
+  },
+  {
+   "inicio": 135.8,
+   "fin": 140.72,
+   "texto": "con nuestros plazos. ¿Tienes alguna consulta? Sí, ¿Cuántas personas tendrían a cargo?",
+   "palabras": [
+    {
+     "p": "con",
+     "conf": 0.991
+    },
+    {
+     "p": "nuestros",
+     "conf": 0.98
+    },
+    {
+     "p": "plazos.",
+     "conf": 0.973
+    },
+    {
+     "p": "¿Tienes",
+     "conf": 0.908
+    },
+    {
+     "p": "alguna",
+     "conf": 0.942
+    },
+    {
+     "p": "consulta?",
+     "conf": 0.994
+    },
+    {
+     "p": "Sí,",
+     "conf": 0.683
+    },
+    {
+     "p": "¿Cuántas",
+     "conf": 0.702
+    },
+    {
+     "p": "personas",
+     "conf": 0.999
+    },
+    {
+     "p": "tendrían",
+     "conf": 0.994
+    },
+    {
+     "p": "a",
+     "conf": 0.99
+    },
+    {
+     "p": "cargo?",
+     "conf": 0.994
+    }
+   ]
+  },
+  {
+   "inicio": 141.68,
+   "fin": 146.72,
+   "texto": "Al inicio serían ocho personas en dos equipos, luego si todo va bien se suma un tercero.",
+   "palabras": [
+    {
+     "p": "Al",
+     "conf": 0.829
+    },
+    {
+     "p": "inicio",
+     "conf": 0.99
+    },
+    {
+     "p": "serían",
+     "conf": 0.91
+    },
+    {
+     "p": "ocho",
+     "conf": 0.715
+    },
+    {
+     "p": "personas",
+     "conf": 0.962
+    },
+    {
+     "p": "en",
+     "conf": 0.58
+    },
+    {
+     "p": "dos",
+     "conf": 0.968
+    },
+    {
+     "p": "equipos,",
+     "conf": 0.992
+    },
+    {
+     "p": "luego",
+     "conf": 0.99
+    },
+    {
+     "p": "si",
+     "conf": 0.894
+    },
+    {
+     "p": "todo",
+     "conf": 0.936
+    },
+    {
+     "p": "va",
+     "conf": 0.984
+    },
+    {
+     "p": "bien",
+     "conf": 0.998
+    },
+    {
+     "p": "se",
+     "conf": 0.846
+    },
+    {
+     "p": "suma",
+     "conf": 0.965
+    },
+    {
+     "p": "un",
+     "conf": 0.887
+    },
+    {
+     "p": "tercero.",
+     "conf": 0.985
+    }
+   ]
+  },
+  {
+   "inicio": 147.08,
+   "fin": 152.52,
+   "texto": "Perfecto, muchas gracias, queda al espero. Gracias Chris, te describí once en lunes.",
+   "palabras": [
+    {
+     "p": "Perfecto,",
+     "conf": 0.963
+    },
+    {
+     "p": "muchas",
+     "conf": 0.98
+    },
+    {
+     "p": "gracias,",
+     "conf": 0.999
+    },
+    {
+     "p": "queda",
+     "conf": 0.761
+    },
+    {
+     "p": "al",
+     "conf": 0.715
+    },
+    {
+     "p": "espero.",
+     "conf": 0.324
+    },
+    {
+     "p": "Gracias",
+     "conf": 0.983
+    },
+    {
+     "p": "Chris,",
+     "conf": 0.381
+    },
+    {
+     "p": "te",
+     "conf": 0.963
+    },
+    {
+     "p": "describí",
+     "conf": 0.646
+    },
+    {
+     "p": "once",
+     "conf": 0.795
+    },
+    {
+     "p": "en",
+     "conf": 0.225
+    },
+    {
+     "p": "lunes.",
+     "conf": 0.965
+    }
+   ]
+  }
+ ],
+ "modelo": "small",
+ "precision": "int8",
+ "modo_glosario": "ninguno",
+ "dispositivo_real": "cuda",
+ "gpus_visibles": 1,
+ "duracion_audio_s": 152.85,
+ "segundos_transcripcion": 4.2,
+ "segundos_carga_modelo": 0.0,
+ "seg_por_min_audio": 1.65,
+ "vram_base_mb": 854.1875,
+ "vram_pico_mb": 1046.1875,
+ "idioma_detectado": "es",
+ "faster_whisper": "1.2.1",
+ "ctranslate2": "4.8.4"
+}

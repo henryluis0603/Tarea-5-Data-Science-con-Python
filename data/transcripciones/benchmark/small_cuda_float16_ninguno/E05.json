@@ -1,0 +1,1560 @@
+{
+ "texto": "Buenos días, Nova. Gracias por venir. Te cuento rápido. ¿Buscamos a alguien para el equipo ingeniería de datos de Grupo Alteplano? Buenos días. Sí, la descripción y me pareció muy alienada con lo que hago. Qué bueno. ¿Cuál es tu puesto actual? Soy ingenieria de datos en una empresa de telecomunicaciones. Construyo los flujos que llevan la información de las antenas hasta el área de analítica. ¿Y cuántos años de experiencia tienes en total? Seis años, dos comodalistas y los últimos cuatro ya en ingeniería de datos. ¿Qué tecnologías usas para esos flujos? El procesamiento pesado lo hacemos en Databricks con PySpar. Las tareas las programamos en iFrog. El almacén de datos está en Snowflake y las transformaciones usamos de BT. Todo el código está versionado en GIT, obviamente. ¿Cómo controlan la calidad de los datos en esos flujos? Cada tabla tiene pruebas automáticas ya que no haya duplicado que las fechas tengan sentido y que el volumen no caiga de golpe. Procesamos unos dos terabytes diario, así que revisar a mano es imposible. Si una prueba falla, los flujos se detienen y llega una alerta. ¿Recuerdas una vez que eso te salvara? Sí, una vez un proveedor mandó un archivo con la mitad de antenas vacías. La prueba de volumen lo detectó antes de que llegara los reportes de gerencia. Muy completo. ¿Y el inglés? Avanzado. Hice una maestría en línea en una universidad de Estados Unidos. Todo en inglés, así que no tengo problema. Excelente, hablemos de números. ¿Cuánto ganas actualmente? Ahora gano 7200 soles brutos. ¿Y cuál sería tu pretensión para este puesto? Considerando que es un rol con más responsabilidad, estaría buscando 9000 soles mensuales. 9000, entendido. ¿Y cuándo podrías empezar? Justo estoy terminando un proyecto esta semana, así que podría empezar la próxima semana sin problema. Perfecto. ¿Tienes alguna pregunta para mí? Sí. ¿El equipo trabaja con guardias los fines de semana? Solo una vez al mes y se convenza con un día libre. Te escribimos para la entrevista técnica. Genial, muchas gracias.",
+ "segmentos": [
+  {
+   "inicio": 1.76,
+   "fin": 7.78,
+   "texto": "Buenos días, Nova. Gracias por venir. Te cuento rápido. ¿Buscamos a alguien para el equipo ingeniería de datos de Grupo Alteplano?",
+   "palabras": [
+    {
+     "p": "Buenos",
+     "conf": 0.374
+    },
+    {
+     "p": "días,",
+     "conf": 0.919
+    },
+    {
+     "p": "Nova.",
+     "conf": 0.491
+    },
+    {
+     "p": "Gracias",
+     "conf": 0.977
+    },
+    {
+     "p": "por",
+     "conf": 0.991
+    },
+    {
+     "p": "venir.",
+     "conf": 0.996
+    },
+    {
+     "p": "Te",
+     "conf": 0.952
+    },
+    {
+     "p": "cuento",
+     "conf": 0.982
+    },
+    {
+     "p": "rápido.",
+     "conf": 0.983
+    },
+    {
+     "p": "¿Buscamos",
+     "conf": 0.78
+    },
+    {
+     "p": "a",
+     "conf": 0.846
+    },
+    {
+     "p": "alguien",
+     "conf": 0.991
+    },
+    {
+     "p": "para",
+     "conf": 0.97
+    },
+    {
+     "p": "el",
+     "conf": 0.96
+    },
+    {
+     "p": "equipo",
+     "conf": 0.919
+    },
+    {
+     "p": "ingeniería",
+     "conf": 0.605
+    },
+    {
+     "p": "de",
+     "conf": 0.986
+    },
+    {
+     "p": "datos",
+     "conf": 0.934
+    },
+    {
+     "p": "de",
+     "conf": 0.678
+    },
+    {
+     "p": "Grupo",
+     "conf": 0.812
+    },
+    {
+     "p": "Alteplano?",
+     "conf": 0.686
+    }
+   ]
+  },
+  {
+   "inicio": 8.42,
+   "fin": 13.02,
+   "texto": "Buenos días. Sí, la descripción y me pareció muy alienada con lo que hago.",
+   "palabras": [
+    {
+     "p": "Buenos",
+     "conf": 0.966
+    },
+    {
+     "p": "días.",
+     "conf": 0.976
+    },
+    {
+     "p": "Sí,",
+     "conf": 0.899
+    },
+    {
+     "p": "la",
+     "conf": 0.494
+    },
+    {
+     "p": "descripción",
+     "conf": 0.998
+    },
+    {
+     "p": "y",
+     "conf": 0.59
+    },
+    {
+     "p": "me",
+     "conf": 0.989
+    },
+    {
+     "p": "pareció",
+     "conf": 0.961
+    },
+    {
+     "p": "muy",
+     "conf": 0.997
+    },
+    {
+     "p": "alienada",
+     "conf": 0.944
+    },
+    {
+     "p": "con",
+     "conf": 0.987
+    },
+    {
+     "p": "lo",
+     "conf": 0.999
+    },
+    {
+     "p": "que",
+     "conf": 0.999
+    },
+    {
+     "p": "hago.",
+     "conf": 0.996
+    }
+   ]
+  },
+  {
+   "inicio": 13.86,
+   "fin": 15.68,
+   "texto": "Qué bueno. ¿Cuál es tu puesto actual?",
+   "palabras": [
+    {
+     "p": "Qué",
+     "conf": 0.72
+    },
+    {
+     "p": "bueno.",
+     "conf": 0.993
+    },
+    {
+     "p": "¿Cuál",
+     "conf": 0.934
+    },
+    {
+     "p": "es",
+     "conf": 0.973
+    },
+    {
+     "p": "tu",
+     "conf": 0.763
+    },
+    {
+     "p": "puesto",
+     "conf": 0.962
+    },
+    {
+     "p": "actual?",
+     "conf": 0.976
+    }
+   ]
+  },
+  {
+   "inicio": 16.46,
+   "fin": 24.38,
+   "texto": "Soy ingenieria de datos en una empresa de telecomunicaciones. Construyo los flujos que llevan la información de las antenas hasta el área de analítica.",
+   "palabras": [
+    {
+     "p": "Soy",
+     "conf": 0.963
+    },
+    {
+     "p": "ingenieria",
+     "conf": 0.786
+    },
+    {
+     "p": "de",
+     "conf": 0.998
+    },
+    {
+     "p": "datos",
+     "conf": 0.993
+    },
+    {
+     "p": "en",
+     "conf": 0.964
+    },
+    {
+     "p": "una",
+     "conf": 0.996
+    },
+    {
+     "p": "empresa",
+     "conf": 1.0
+    },
+    {
+     "p": "de",
+     "conf": 0.999
+    },
+    {
+     "p": "telecomunicaciones.",
+     "conf": 0.987
+    },
+    {
+     "p": "Construyo",
+     "conf": 0.79
+    },
+    {
+     "p": "los",
+     "conf": 0.995
+    },
+    {
+     "p": "flujos",
+     "conf": 0.984
+    },
+    {
+     "p": "que",
+     "conf": 0.991
+    },
+    {
+     "p": "llevan",
+     "conf": 0.964
+    },
+    {
+     "p": "la",
+     "conf": 0.736
+    },
+    {
+     "p": "información",
+     "conf": 0.998
+    },
+    {
+     "p": "de",
+     "conf": 0.994
+    },
+    {
+     "p": "las",
+     "conf": 0.986
+    },
+    {
+     "p": "antenas",
+     "conf": 0.996
+    },
+    {
+     "p": "hasta",
+     "conf": 0.873
+    },
+    {
+     "p": "el",
+     "conf": 0.996
+    },
+    {
+     "p": "área",
+     "conf": 0.987
+    },
+    {
+     "p": "de",
+     "conf": 0.993
+    },
+    {
+     "p": "analítica.",
+     "conf": 0.959
+    }
+   ]
+  },
+  {
+   "inicio": 25.16,
+   "fin": 27.0,
+   "texto": "¿Y cuántos años de experiencia tienes en total?",
+   "palabras": [
+    {
+     "p": "¿Y",
+     "conf": 0.791
+    },
+    {
+     "p": "cuántos",
+     "conf": 0.814
+    },
+    {
+     "p": "años",
+     "conf": 0.995
+    },
+    {
+     "p": "de",
+     "conf": 0.957
+    },
+    {
+     "p": "experiencia",
+     "conf": 0.99
+    },
+    {
+     "p": "tienes",
+     "conf": 0.914
+    },
+    {
+     "p": "en",
+     "conf": 0.924
+    },
+    {
+     "p": "total?",
+     "conf": 0.999
+    }
+   ]
+  },
+  {
+   "inicio": 27.0,
+   "fin": 32.34,
+   "texto": "Seis años, dos comodalistas y los últimos cuatro ya en ingeniería de datos.",
+   "palabras": [
+    {
+     "p": "Seis",
+     "conf": 0.497
+    },
+    {
+     "p": "años,",
+     "conf": 0.983
+    },
+    {
+     "p": "dos",
+     "conf": 0.956
+    },
+    {
+     "p": "comodalistas",
+     "conf": 0.722
+    },
+    {
+     "p": "y",
+     "conf": 0.693
+    },
+    {
+     "p": "los",
+     "conf": 0.964
+    },
+    {
+     "p": "últimos",
+     "conf": 0.964
+    },
+    {
+     "p": "cuatro",
+     "conf": 0.843
+    },
+    {
+     "p": "ya",
+     "conf": 0.593
+    },
+    {
+     "p": "en",
+     "conf": 0.178
+    },
+    {
+     "p": "ingeniería",
+     "conf": 0.961
+    },
+    {
+     "p": "de",
+     "conf": 0.973
+    },
+    {
+     "p": "datos.",
+     "conf": 0.981
+    }
+   ]
+  },
+  {
+   "inicio": 33.06,
+   "fin": 35.3,
+   "texto": "¿Qué tecnologías usas para esos flujos?",
+   "palabras": [
+    {
+     "p": "¿Qué",
+     "conf": 0.934
+    },
+    {
+     "p": "tecnologías",
+     "conf": 0.746
+    },
+    {
+     "p": "usas",
+     "conf": 0.916
+    },
+    {
+     "p": "para",
+     "conf": 0.993
+    },
+    {
+     "p": "esos",
+     "conf": 0.885
+    },
+    {
+     "p": "flujos?",
+     "conf": 0.987
+    }
+   ]
+  },
+  {
+   "inicio": 36.12,
+   "fin": 52.96,
+   "texto": "El procesamiento pesado lo hacemos en Databricks con PySpar. Las tareas las programamos en iFrog. El almacén de datos está en Snowflake y las transformaciones usamos de BT.",
+   "palabras": [
+    {
+     "p": "El",
+     "conf": 0.978
+    },
+    {
+     "p": "procesamiento",
+     "conf": 0.989
+    },
+    {
+     "p": "pesado",
+     "conf": 0.972
+    },
+    {
+     "p": "lo",
+     "conf": 0.977
+    },
+    {
+     "p": "hacemos",
+     "conf": 0.998
+    },
+    {
+     "p": "en",
+     "conf": 0.992
+    },
+    {
+     "p": "Databricks",
+     "conf": 0.821
+    },
+    {
+     "p": "con",
+     "conf": 0.721
+    },
+    {
+     "p": "PySpar.",
+     "conf": 0.61
+    },
+    {
+     "p": "Las",
+     "conf": 0.973
+    },
+    {
+     "p": "tareas",
+     "conf": 0.994
+    },
+    {
+     "p": "las",
+     "conf": 0.849
+    },
+    {
+     "p": "programamos",
+     "conf": 0.995
+    },
+    {
+     "p": "en",
+     "conf": 0.993
+    },
+    {
+     "p": "iFrog.",
+     "conf": 0.421
+    },
+    {
+     "p": "El",
+     "conf": 0.972
+    },
+    {
+     "p": "almacén",
+     "conf": 0.971
+    },
+    {
+     "p": "de",
+     "conf": 0.997
+    },
+    {
+     "p": "datos",
+     "conf": 0.997
+    },
+    {
+     "p": "está",
+     "conf": 0.976
+    },
+    {
+     "p": "en",
+     "conf": 0.98
+    },
+    {
+     "p": "Snowflake",
+     "conf": 0.557
+    },
+    {
+     "p": "y",
+     "conf": 0.562
+    },
+    {
+     "p": "las",
+     "conf": 0.986
+    },
+    {
+     "p": "transformaciones",
+     "conf": 0.989
+    },
+    {
+     "p": "usamos",
+     "conf": 0.991
+    },
+    {
+     "p": "de",
+     "conf": 0.2
+    },
+    {
+     "p": "BT.",
+     "conf": 0.318
+    }
+   ]
+  },
+  {
+   "inicio": 52.96,
+   "fin": 56.82,
+   "texto": "Todo el código está versionado en GIT, obviamente.",
+   "palabras": [
+    {
+     "p": "Todo",
+     "conf": 0.008
+    },
+    {
+     "p": "el",
+     "conf": 0.982
+    },
+    {
+     "p": "código",
+     "conf": 0.997
+    },
+    {
+     "p": "está",
+     "conf": 0.929
+    },
+    {
+     "p": "versionado",
+     "conf": 0.915
+    },
+    {
+     "p": "en",
+     "conf": 0.957
+    },
+    {
+     "p": "GIT,",
+     "conf": 0.585
+    },
+    {
+     "p": "obviamente.",
+     "conf": 0.975
+    }
+   ]
+  },
+  {
+   "inicio": 58.18,
+   "fin": 61.38,
+   "texto": "¿Cómo controlan la calidad de los datos en esos flujos?",
+   "palabras": [
+    {
+     "p": "¿Cómo",
+     "conf": 0.752
+    },
+    {
+     "p": "controlan",
+     "conf": 0.735
+    },
+    {
+     "p": "la",
+     "conf": 0.964
+    },
+    {
+     "p": "calidad",
+     "conf": 0.996
+    },
+    {
+     "p": "de",
+     "conf": 0.945
+    },
+    {
+     "p": "los",
+     "conf": 0.951
+    },
+    {
+     "p": "datos",
+     "conf": 1.0
+    },
+    {
+     "p": "en",
+     "conf": 0.984
+    },
+    {
+     "p": "esos",
+     "conf": 0.837
+    },
+    {
+     "p": "flujos?",
+     "conf": 0.99
+    }
+   ]
+  },
+  {
+   "inicio": 62.04,
+   "fin": 73.72,
+   "texto": "Cada tabla tiene pruebas automáticas ya que no haya duplicado que las fechas tengan sentido y que el volumen no caiga de golpe.",
+   "palabras": [
+    {
+     "p": "Cada",
+     "conf": 0.935
+    },
+    {
+     "p": "tabla",
+     "conf": 0.978
+    },
+    {
+     "p": "tiene",
+     "conf": 0.993
+    },
+    {
+     "p": "pruebas",
+     "conf": 0.991
+    },
+    {
+     "p": "automáticas",
+     "conf": 0.99
+    },
+    {
+     "p": "ya",
+     "conf": 0.358
+    },
+    {
+     "p": "que",
+     "conf": 0.957
+    },
+    {
+     "p": "no",
+     "conf": 0.991
+    },
+    {
+     "p": "haya",
+     "conf": 0.994
+    },
+    {
+     "p": "duplicado",
+     "conf": 0.992
+    },
+    {
+     "p": "que",
+     "conf": 0.861
+    },
+    {
+     "p": "las",
+     "conf": 0.996
+    },
+    {
+     "p": "fechas",
+     "conf": 0.964
+    },
+    {
+     "p": "tengan",
+     "conf": 0.993
+    },
+    {
+     "p": "sentido",
+     "conf": 0.998
+    },
+    {
+     "p": "y",
+     "conf": 0.961
+    },
+    {
+     "p": "que",
+     "conf": 0.99
+    },
+    {
+     "p": "el",
+     "conf": 0.994
+    },
+    {
+     "p": "volumen",
+     "conf": 0.978
+    },
+    {
+     "p": "no",
+     "conf": 0.996
+    },
+    {
+     "p": "caiga",
+     "conf": 0.992
+    },
+    {
+     "p": "de",
+     "conf": 0.988
+    },
+    {
+     "p": "golpe.",
+     "conf": 0.99
+    }
+   ]
+  },
+  {
+   "inicio": 73.72,
+   "fin": 80.1,
+   "texto": "Procesamos unos dos terabytes diario, así que revisar a mano es imposible.",
+   "palabras": [
+    {
+     "p": "Procesamos",
+     "conf": 0.683
+    },
+    {
+     "p": "unos",
+     "conf": 0.827
+    },
+    {
+     "p": "dos",
+     "conf": 0.16
+    },
+    {
+     "p": "terabytes",
+     "conf": 0.865
+    },
+    {
+     "p": "diario,",
+     "conf": 0.913
+    },
+    {
+     "p": "así",
+     "conf": 0.955
+    },
+    {
+     "p": "que",
+     "conf": 0.981
+    },
+    {
+     "p": "revisar",
+     "conf": 0.972
+    },
+    {
+     "p": "a",
+     "conf": 0.979
+    },
+    {
+     "p": "mano",
+     "conf": 0.986
+    },
+    {
+     "p": "es",
+     "conf": 0.989
+    },
+    {
+     "p": "imposible.",
+     "conf": 0.998
+    }
+   ]
+  },
+  {
+   "inicio": 80.6,
+   "fin": 85.46,
+   "texto": "Si una prueba falla, los flujos se detienen y llega una alerta.",
+   "palabras": [
+    {
+     "p": "Si",
+     "conf": 0.859
+    },
+    {
+     "p": "una",
+     "conf": 0.969
+    },
+    {
+     "p": "prueba",
+     "conf": 0.999
+    },
+    {
+     "p": "falla,",
+     "conf": 0.99
+    },
+    {
+     "p": "los",
+     "conf": 0.993
+    },
+    {
+     "p": "flujos",
+     "conf": 0.984
+    },
+    {
+     "p": "se",
+     "conf": 0.996
+    },
+    {
+     "p": "detienen",
+     "conf": 0.973
+    },
+    {
+     "p": "y",
+     "conf": 0.954
+    },
+    {
+     "p": "llega",
+     "conf": 0.99
+    },
+    {
+     "p": "una",
+     "conf": 0.768
+    },
+    {
+     "p": "alerta.",
+     "conf": 0.995
+    }
+   ]
+  },
+  {
+   "inicio": 86.36,
+   "fin": 88.5,
+   "texto": "¿Recuerdas una vez que eso te salvara?",
+   "palabras": [
+    {
+     "p": "¿Recuerdas",
+     "conf": 0.825
+    },
+    {
+     "p": "una",
+     "conf": 0.962
+    },
+    {
+     "p": "vez",
+     "conf": 0.999
+    },
+    {
+     "p": "que",
+     "conf": 0.991
+    },
+    {
+     "p": "eso",
+     "conf": 0.973
+    },
+    {
+     "p": "te",
+     "conf": 0.993
+    },
+    {
+     "p": "salvara?",
+     "conf": 0.937
+    }
+   ]
+  },
+  {
+   "inicio": 89.18,
+   "fin": 98.08,
+   "texto": "Sí, una vez un proveedor mandó un archivo con la mitad de antenas vacías. La prueba de volumen lo detectó antes de que llegara los reportes de gerencia.",
+   "palabras": [
+    {
+     "p": "Sí,",
+     "conf": 0.648
+    },
+    {
+     "p": "una",
+     "conf": 0.992
+    },
+    {
+     "p": "vez",
+     "conf": 0.999
+    },
+    {
+     "p": "un",
+     "conf": 0.971
+    },
+    {
+     "p": "proveedor",
+     "conf": 0.984
+    },
+    {
+     "p": "mandó",
+     "conf": 0.9
+    },
+    {
+     "p": "un",
+     "conf": 0.969
+    },
+    {
+     "p": "archivo",
+     "conf": 0.996
+    },
+    {
+     "p": "con",
+     "conf": 0.987
+    },
+    {
+     "p": "la",
+     "conf": 0.966
+    },
+    {
+     "p": "mitad",
+     "conf": 0.999
+    },
+    {
+     "p": "de",
+     "conf": 0.998
+    },
+    {
+     "p": "antenas",
+     "conf": 0.986
+    },
+    {
+     "p": "vacías.",
+     "conf": 0.988
+    },
+    {
+     "p": "La",
+     "conf": 0.979
+    },
+    {
+     "p": "prueba",
+     "conf": 0.999
+    },
+    {
+     "p": "de",
+     "conf": 0.985
+    },
+    {
+     "p": "volumen",
+     "conf": 0.935
+    },
+    {
+     "p": "lo",
+     "conf": 0.992
+    },
+    {
+     "p": "detectó",
+     "conf": 0.966
+    },
+    {
+     "p": "antes",
+     "conf": 0.989
+    },
+    {
+     "p": "de",
+     "conf": 0.974
+    },
+    {
+     "p": "que",
+     "conf": 0.988
+    },
+    {
+     "p": "llegara",
+     "conf": 0.991
+    },
+    {
+     "p": "los",
+     "conf": 0.969
+    },
+    {
+     "p": "reportes",
+     "conf": 0.969
+    },
+    {
+     "p": "de",
+     "conf": 0.998
+    },
+    {
+     "p": "gerencia.",
+     "conf": 0.944
+    }
+   ]
+  },
+  {
+   "inicio": 99.18,
+   "fin": 101.26,
+   "texto": "Muy completo. ¿Y el inglés?",
+   "palabras": [
+    {
+     "p": "Muy",
+     "conf": 0.912
+    },
+    {
+     "p": "completo.",
+     "conf": 0.996
+    },
+    {
+     "p": "¿Y",
+     "conf": 0.813
+    },
+    {
+     "p": "el",
+     "conf": 0.869
+    },
+    {
+     "p": "inglés?",
+     "conf": 0.985
+    }
+   ]
+  },
+  {
+   "inicio": 102.7,
+   "fin": 110.7,
+   "texto": "Avanzado. Hice una maestría en línea en una universidad de Estados Unidos. Todo en inglés, así que no tengo problema.",
+   "palabras": [
+    {
+     "p": "Avanzado.",
+     "conf": 0.648
+    },
+    {
+     "p": "Hice",
+     "conf": 0.881
+    },
+    {
+     "p": "una",
+     "conf": 0.984
+    },
+    {
+     "p": "maestría",
+     "conf": 0.93
+    },
+    {
+     "p": "en",
+     "conf": 0.992
+    },
+    {
+     "p": "línea",
+     "conf": 0.981
+    },
+    {
+     "p": "en",
+     "conf": 0.875
+    },
+    {
+     "p": "una",
+     "conf": 0.897
+    },
+    {
+     "p": "universidad",
+     "conf": 0.918
+    },
+    {
+     "p": "de",
+     "conf": 0.952
+    },
+    {
+     "p": "Estados",
+     "conf": 0.674
+    },
+    {
+     "p": "Unidos.",
+     "conf": 0.996
+    },
+    {
+     "p": "Todo",
+     "conf": 0.945
+    },
+    {
+     "p": "en",
+     "conf": 0.928
+    },
+    {
+     "p": "inglés,",
+     "conf": 0.964
+    },
+    {
+     "p": "así",
+     "conf": 0.962
+    },
+    {
+     "p": "que",
+     "conf": 0.997
+    },
+    {
+     "p": "no",
+     "conf": 0.944
+    },
+    {
+     "p": "tengo",
+     "conf": 0.998
+    },
+    {
+     "p": "problema.",
+     "conf": 0.98
+    }
+   ]
+  },
+  {
+   "inicio": 111.76,
+   "fin": 114.36,
+   "texto": "Excelente, hablemos de números. ¿Cuánto ganas actualmente?",
+   "palabras": [
+    {
+     "p": "Excelente,",
+     "conf": 0.679
+    },
+    {
+     "p": "hablemos",
+     "conf": 0.519
+    },
+    {
+     "p": "de",
+     "conf": 0.981
+    },
+    {
+     "p": "números.",
+     "conf": 0.99
+    },
+    {
+     "p": "¿Cuánto",
+     "conf": 0.894
+    },
+    {
+     "p": "ganas",
+     "conf": 0.996
+    },
+    {
+     "p": "actualmente?",
+     "conf": 0.969
+    }
+   ]
+  },
+  {
+   "inicio": 115.02,
+   "fin": 118.32,
+   "texto": "Ahora gano 7200 soles brutos.",
+   "palabras": [
+    {
+     "p": "Ahora",
+     "conf": 0.949
+    },
+    {
+     "p": "gano",
+     "conf": 0.646
+    },
+    {
+     "p": "7200",
+     "conf": 0.636
+    },
+    {
+     "p": "soles",
+     "conf": 0.881
+    },
+    {
+     "p": "brutos.",
+     "conf": 0.931
+    }
+   ]
+  },
+  {
+   "inicio": 119.24,
+   "fin": 121.06,
+   "texto": "¿Y cuál sería tu pretensión para este puesto?",
+   "palabras": [
+    {
+     "p": "¿Y",
+     "conf": 0.71
+    },
+    {
+     "p": "cuál",
+     "conf": 0.933
+    },
+    {
+     "p": "sería",
+     "conf": 0.989
+    },
+    {
+     "p": "tu",
+     "conf": 0.981
+    },
+    {
+     "p": "pretensión",
+     "conf": 0.988
+    },
+    {
+     "p": "para",
+     "conf": 0.978
+    },
+    {
+     "p": "este",
+     "conf": 0.961
+    },
+    {
+     "p": "puesto?",
+     "conf": 0.984
+    }
+   ]
+  },
+  {
+   "inicio": 122.08,
+   "fin": 127.48,
+   "texto": "Considerando que es un rol con más responsabilidad, estaría buscando 9000 soles mensuales.",
+   "palabras": [
+    {
+     "p": "Considerando",
+     "conf": 0.947
+    },
+    {
+     "p": "que",
+     "conf": 0.998
+    },
+    {
+     "p": "es",
+     "conf": 0.998
+    },
+    {
+     "p": "un",
+     "conf": 0.995
+    },
+    {
+     "p": "rol",
+     "conf": 0.994
+    },
+    {
+     "p": "con",
+     "conf": 0.98
+    },
+    {
+     "p": "más",
+     "conf": 0.977
+    },
+    {
+     "p": "responsabilidad,",
+     "conf": 0.998
+    },
+    {
+     "p": "estaría",
+     "conf": 0.987
+    },
+    {
+     "p": "buscando",
+     "conf": 0.999
+    },
+    {
+     "p": "9000",
+     "conf": 0.844
+    },
+    {
+     "p": "soles",
+     "conf": 0.996
+    },
+    {
+     "p": "mensuales.",
+     "conf": 0.997
+    }
+   ]
+  },
+  {
+   "inicio": 128.52,
+   "fin": 131.32,
+   "texto": "9000, entendido. ¿Y cuándo podrías empezar?",
+   "palabras": [
+    {
+     "p": "9000,",
+     "conf": 0.392
+    },
+    {
+     "p": "entendido.",
+     "conf": 0.813
+    },
+    {
+     "p": "¿Y",
+     "conf": 0.614
+    },
+    {
+     "p": "cuándo",
+     "conf": 0.892
+    },
+    {
+     "p": "podrías",
+     "conf": 0.985
+    },
+    {
+     "p": "empezar?",
+     "conf": 0.995
+    }
+   ]
+  },
+  {
+   "inicio": 132.3,
+   "fin": 137.32,
+   "texto": "Justo estoy terminando un proyecto esta semana, así que podría empezar la próxima semana sin problema.",
+   "palabras": [
+    {
+     "p": "Justo",
+     "conf": 0.932
+    },
+    {
+     "p": "estoy",
+     "conf": 0.983
+    },
+    {
+     "p": "terminando",
+     "conf": 0.998
+    },
+    {
+     "p": "un",
+     "conf": 0.988
+    },
+    {
+     "p": "proyecto",
+     "conf": 0.998
+    },
+    {
+     "p": "esta",
+     "conf": 0.96
+    },
+    {
+     "p": "semana,",
+     "conf": 0.999
+    },
+    {
+     "p": "así",
+     "conf": 0.984
+    },
+    {
+     "p": "que",
+     "conf": 0.992
+    },
+    {
+     "p": "podría",
+     "conf": 0.948
+    },
+    {
+     "p": "empezar",
+     "conf": 0.995
+    },
+    {
+     "p": "la",
+     "conf": 0.994
+    },
+    {
+     "p": "próxima",
+     "conf": 0.997
+    },
+    {
+     "p": "semana",
+     "conf": 0.995
+    },
+    {
+     "p": "sin",
+     "conf": 0.972
+    },
+    {
+     "p": "problema.",
+     "conf": 0.948
+    }
+   ]
+  },
+  {
+   "inicio": 138.4,
+   "fin": 140.28,
+   "texto": "Perfecto. ¿Tienes alguna pregunta para mí?",
+   "palabras": [
+    {
+     "p": "Perfecto.",
+     "conf": 0.934
+    },
+    {
+     "p": "¿Tienes",
+     "conf": 0.977
+    },
+    {
+     "p": "alguna",
+     "conf": 0.997
+    },
+    {
+     "p": "pregunta",
+     "conf": 0.998
+    },
+    {
+     "p": "para",
+     "conf": 0.996
+    },
+    {
+     "p": "mí?",
+     "conf": 0.789
+    }
+   ]
+  },
+  {
+   "inicio": 140.92,
+   "fin": 144.42,
+   "texto": "Sí. ¿El equipo trabaja con guardias los fines de semana?",
+   "palabras": [
+    {
+     "p": "Sí.",
+     "conf": 0.816
+    },
+    {
+     "p": "¿El",
+     "conf": 0.938
+    },
+    {
+     "p": "equipo",
+     "conf": 0.985
+    },
+    {
+     "p": "trabaja",
+     "conf": 0.997
+    },
+    {
+     "p": "con",
+     "conf": 0.997
+    },
+    {
+     "p": "guardias",
+     "conf": 0.798
+    },
+    {
+     "p": "los",
+     "conf": 0.971
+    },
+    {
+     "p": "fines",
+     "conf": 0.979
+    },
+    {
+     "p": "de",
+     "conf": 0.999
+    },
+    {
+     "p": "semana?",
+     "conf": 0.998
+    }
+   ]
+  },
+  {
+   "inicio": 145.38,
+   "fin": 149.8,
+   "texto": "Solo una vez al mes y se convenza con un día libre. Te escribimos para la entrevista técnica.",
+   "palabras": [
+    {
+     "p": "Solo",
+     "conf": 0.676
+    },
+    {
+     "p": "una",
+     "conf": 0.974
+    },
+    {
+     "p": "vez",
+     "conf": 0.999
+    },
+    {
+     "p": "al",
+     "conf": 0.993
+    },
+    {
+     "p": "mes",
+     "conf": 0.999
+    },
+    {
+     "p": "y",
+     "conf": 0.744
+    },
+    {
+     "p": "se",
+     "conf": 0.979
+    },
+    {
+     "p": "convenza",
+     "conf": 0.893
+    },
+    {
+     "p": "con",
+     "conf": 0.969
+    },
+    {
+     "p": "un",
+     "conf": 0.971
+    },
+    {
+     "p": "día",
+     "conf": 0.844
+    },
+    {
+     "p": "libre.",
+     "conf": 0.936
+    },
+    {
+     "p": "Te",
+     "conf": 0.699
+    },
+    {
+     "p": "escribimos",
+     "conf": 0.995
+    },
+    {
+     "p": "para",
+     "conf": 0.92
+    },
+    {
+     "p": "la",
+     "conf": 0.916
+    },
+    {
+     "p": "entrevista",
+     "conf": 0.992
+    },
+    {
+     "p": "técnica.",
+     "conf": 0.988
+    }
+   ]
+  },
+  {
+   "inicio": 150.68,
+   "fin": 151.64,
+   "texto": "Genial, muchas gracias.",
+   "palabras": [
+    {
+     "p": "Genial,",
+     "conf": 0.943
+    },
+    {
+     "p": "muchas",
+     "conf": 0.951
+    },
+    {
+     "p": "gracias.",
+     "conf": 0.998
+    }
+   ]
+  }
+ ],
+ "modelo": "small",
+ "precision": "float16",
+ "modo_glosario": "ninguno",
+ "dispositivo_real": "cuda",
+ "gpus_visibles": 1,
+ "duracion_audio_s": 153.43,
+ "segundos_transcripcion": 4.05,
+ "segundos_carga_modelo": 0.0,
+ "seg_por_min_audio": 1.58,
+ "vram_base_mb": 1142.1875,
+ "vram_pico_mb": 1334.1875,
+ "idioma_detectado": "es",
+ "faster_whisper": "1.2.1",
+ "ctranslate2": "4.8.4"
+}

@@ -1,0 +1,1159 @@
+{
+ "texto": "Sabor de Barrio ¿Cuál es el código de descuento Barrio 15? Déjame revisar. Sí, el código Barrio 15 aplica para pedidos desde 100 soles y su pedido pasa a los 100. Así que le descontamos 15 soles. Genial. De detalle, cada lo hemos saltado cuesta 35 soles, el ají de gallina 28 soles y la chicha morada 12 soles. Con el descuento de 15 soles del código el total es 85 soles. 85. Ya, perfecto. Una pregunta. ¿El ají de gallina pica mucho? No, es suave. Si quiere, le mandamos ají aparte para que cada uno le ponga el gusto. Sí, mándalo aparte, por favor. Y que los platos vayan en bases separados porque son para tres personas distintas. Perfecto. Van en tres envases separados con sus cubiertos. ¿Y la chicha viene con vasos? Sí, le enviamos tres vasos descartables. ¿Dirección de entrega? Calle Los Algarrobos 77, Manzana C, Lote 14, Urbanización Santa Rosa. Calle Los Algarrobos 77, Manzana C, Lote 14, Urbanización Santa Rosa. ¿Es una oficina? Sí, es una casa convertida en oficina. Hay un letrero azul en la puerta. Perfecto. ¿Cómo va a pagar? Con tarjeta, por favor. ¿El repartidor lleva el post? Sí, lleva el post y acepta todas las tarjetas. El pedido llega en unos 35 minutos. Excelente. Justo para la hora de la muerte. ¿A nombre de quién dejo el pedido? A nombre de Valeria, del área de contabilidad. Listo, Valeria. Gracias por preferirnos. Gracias, hasta luego.",
+ "segmentos": [
+  {
+   "inicio": 29.84,
+   "fin": 29.98,
+   "texto": "Sabor de Barrio",
+   "palabras": [
+    {
+     "p": "Sabor",
+     "conf": 0.932
+    },
+    {
+     "p": "de",
+     "conf": 0.454
+    },
+    {
+     "p": "Barrio",
+     "conf": 0.929
+    }
+   ]
+  },
+  {
+   "inicio": 30.0,
+   "fin": 32.04,
+   "texto": "¿Cuál es el código de descuento Barrio 15?",
+   "palabras": [
+    {
+     "p": "¿Cuál",
+     "conf": 0.579
+    },
+    {
+     "p": "es",
+     "conf": 0.961
+    },
+    {
+     "p": "el",
+     "conf": 0.958
+    },
+    {
+     "p": "código",
+     "conf": 0.964
+    },
+    {
+     "p": "de",
+     "conf": 0.991
+    },
+    {
+     "p": "descuento",
+     "conf": 0.999
+    },
+    {
+     "p": "Barrio",
+     "conf": 0.602
+    },
+    {
+     "p": "15?",
+     "conf": 0.72
+    }
+   ]
+  },
+  {
+   "inicio": 32.84,
+   "fin": 41.68,
+   "texto": "Déjame revisar. Sí, el código Barrio 15 aplica para pedidos desde 100 soles y su pedido pasa a los 100. Así que le descontamos 15 soles.",
+   "palabras": [
+    {
+     "p": "Déjame",
+     "conf": 0.837
+    },
+    {
+     "p": "revisar.",
+     "conf": 1.0
+    },
+    {
+     "p": "Sí,",
+     "conf": 0.994
+    },
+    {
+     "p": "el",
+     "conf": 1.0
+    },
+    {
+     "p": "código",
+     "conf": 1.0
+    },
+    {
+     "p": "Barrio",
+     "conf": 0.999
+    },
+    {
+     "p": "15",
+     "conf": 0.999
+    },
+    {
+     "p": "aplica",
+     "conf": 0.998
+    },
+    {
+     "p": "para",
+     "conf": 0.999
+    },
+    {
+     "p": "pedidos",
+     "conf": 0.985
+    },
+    {
+     "p": "desde",
+     "conf": 0.841
+    },
+    {
+     "p": "100",
+     "conf": 0.987
+    },
+    {
+     "p": "soles",
+     "conf": 0.999
+    },
+    {
+     "p": "y",
+     "conf": 0.604
+    },
+    {
+     "p": "su",
+     "conf": 0.998
+    },
+    {
+     "p": "pedido",
+     "conf": 1.0
+    },
+    {
+     "p": "pasa",
+     "conf": 0.999
+    },
+    {
+     "p": "a",
+     "conf": 0.982
+    },
+    {
+     "p": "los",
+     "conf": 1.0
+    },
+    {
+     "p": "100.",
+     "conf": 1.0
+    },
+    {
+     "p": "Así",
+     "conf": 0.999
+    },
+    {
+     "p": "que",
+     "conf": 1.0
+    },
+    {
+     "p": "le",
+     "conf": 0.999
+    },
+    {
+     "p": "descontamos",
+     "conf": 1.0
+    },
+    {
+     "p": "15",
+     "conf": 1.0
+    },
+    {
+     "p": "soles.",
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "inicio": 42.38,
+   "fin": 42.94,
+   "texto": "Genial.",
+   "palabras": [
+    {
+     "p": "Genial.",
+     "conf": 0.931
+    }
+   ]
+  },
+  {
+   "inicio": 43.5,
+   "fin": 53.56,
+   "texto": "De detalle, cada lo hemos saltado cuesta 35 soles, el ají de gallina 28 soles y la chicha morada 12 soles. Con el descuento de 15 soles del código el total es 85 soles.",
+   "palabras": [
+    {
+     "p": "De",
+     "conf": 0.978
+    },
+    {
+     "p": "detalle,",
+     "conf": 0.995
+    },
+    {
+     "p": "cada",
+     "conf": 0.933
+    },
+    {
+     "p": "lo",
+     "conf": 0.401
+    },
+    {
+     "p": "hemos",
+     "conf": 0.718
+    },
+    {
+     "p": "saltado",
+     "conf": 0.992
+    },
+    {
+     "p": "cuesta",
+     "conf": 0.929
+    },
+    {
+     "p": "35",
+     "conf": 0.999
+    },
+    {
+     "p": "soles,",
+     "conf": 1.0
+    },
+    {
+     "p": "el",
+     "conf": 0.998
+    },
+    {
+     "p": "ají",
+     "conf": 0.984
+    },
+    {
+     "p": "de",
+     "conf": 0.692
+    },
+    {
+     "p": "gallina",
+     "conf": 0.998
+    },
+    {
+     "p": "28",
+     "conf": 0.996
+    },
+    {
+     "p": "soles",
+     "conf": 1.0
+    },
+    {
+     "p": "y",
+     "conf": 1.0
+    },
+    {
+     "p": "la",
+     "conf": 0.998
+    },
+    {
+     "p": "chicha",
+     "conf": 0.997
+    },
+    {
+     "p": "morada",
+     "conf": 0.999
+    },
+    {
+     "p": "12",
+     "conf": 0.998
+    },
+    {
+     "p": "soles.",
+     "conf": 1.0
+    },
+    {
+     "p": "Con",
+     "conf": 0.999
+    },
+    {
+     "p": "el",
+     "conf": 1.0
+    },
+    {
+     "p": "descuento",
+     "conf": 1.0
+    },
+    {
+     "p": "de",
+     "conf": 0.999
+    },
+    {
+     "p": "15",
+     "conf": 1.0
+    },
+    {
+     "p": "soles",
+     "conf": 1.0
+    },
+    {
+     "p": "del",
+     "conf": 0.997
+    },
+    {
+     "p": "código",
+     "conf": 1.0
+    },
+    {
+     "p": "el",
+     "conf": 0.761
+    },
+    {
+     "p": "total",
+     "conf": 1.0
+    },
+    {
+     "p": "es",
+     "conf": 0.999
+    },
+    {
+     "p": "85",
+     "conf": 1.0
+    },
+    {
+     "p": "soles.",
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "inicio": 54.66,
+   "fin": 59.64,
+   "texto": "85. Ya, perfecto. Una pregunta. ¿El ají de gallina pica mucho?",
+   "palabras": [
+    {
+     "p": "85.",
+     "conf": 0.607
+    },
+    {
+     "p": "Ya,",
+     "conf": 0.998
+    },
+    {
+     "p": "perfecto.",
+     "conf": 1.0
+    },
+    {
+     "p": "Una",
+     "conf": 0.998
+    },
+    {
+     "p": "pregunta.",
+     "conf": 1.0
+    },
+    {
+     "p": "¿El",
+     "conf": 0.993
+    },
+    {
+     "p": "ají",
+     "conf": 0.99
+    },
+    {
+     "p": "de",
+     "conf": 1.0
+    },
+    {
+     "p": "gallina",
+     "conf": 1.0
+    },
+    {
+     "p": "pica",
+     "conf": 0.999
+    },
+    {
+     "p": "mucho?",
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "inicio": 60.1,
+   "fin": 65.68,
+   "texto": "No, es suave. Si quiere, le mandamos ají aparte para que cada uno le ponga el gusto.",
+   "palabras": [
+    {
+     "p": "No,",
+     "conf": 1.0
+    },
+    {
+     "p": "es",
+     "conf": 0.98
+    },
+    {
+     "p": "suave.",
+     "conf": 0.997
+    },
+    {
+     "p": "Si",
+     "conf": 0.999
+    },
+    {
+     "p": "quiere,",
+     "conf": 0.998
+    },
+    {
+     "p": "le",
+     "conf": 0.999
+    },
+    {
+     "p": "mandamos",
+     "conf": 1.0
+    },
+    {
+     "p": "ají",
+     "conf": 0.998
+    },
+    {
+     "p": "aparte",
+     "conf": 0.987
+    },
+    {
+     "p": "para",
+     "conf": 0.999
+    },
+    {
+     "p": "que",
+     "conf": 1.0
+    },
+    {
+     "p": "cada",
+     "conf": 1.0
+    },
+    {
+     "p": "uno",
+     "conf": 0.992
+    },
+    {
+     "p": "le",
+     "conf": 1.0
+    },
+    {
+     "p": "ponga",
+     "conf": 1.0
+    },
+    {
+     "p": "el",
+     "conf": 0.959
+    },
+    {
+     "p": "gusto.",
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "inicio": 66.26,
+   "fin": 73.3,
+   "texto": "Sí, mándalo aparte, por favor. Y que los platos vayan en bases separados porque son para tres personas distintas.",
+   "palabras": [
+    {
+     "p": "Sí,",
+     "conf": 0.995
+    },
+    {
+     "p": "mándalo",
+     "conf": 0.805
+    },
+    {
+     "p": "aparte,",
+     "conf": 1.0
+    },
+    {
+     "p": "por",
+     "conf": 1.0
+    },
+    {
+     "p": "favor.",
+     "conf": 1.0
+    },
+    {
+     "p": "Y",
+     "conf": 0.993
+    },
+    {
+     "p": "que",
+     "conf": 1.0
+    },
+    {
+     "p": "los",
+     "conf": 0.999
+    },
+    {
+     "p": "platos",
+     "conf": 1.0
+    },
+    {
+     "p": "vayan",
+     "conf": 0.996
+    },
+    {
+     "p": "en",
+     "conf": 0.912
+    },
+    {
+     "p": "bases",
+     "conf": 0.75
+    },
+    {
+     "p": "separados",
+     "conf": 0.998
+    },
+    {
+     "p": "porque",
+     "conf": 0.899
+    },
+    {
+     "p": "son",
+     "conf": 1.0
+    },
+    {
+     "p": "para",
+     "conf": 1.0
+    },
+    {
+     "p": "tres",
+     "conf": 0.928
+    },
+    {
+     "p": "personas",
+     "conf": 1.0
+    },
+    {
+     "p": "distintas.",
+     "conf": 0.999
+    }
+   ]
+  },
+  {
+   "inicio": 73.3,
+   "fin": 76.98,
+   "texto": "Perfecto. Van en tres envases separados con sus cubiertos.",
+   "palabras": [
+    {
+     "p": "Perfecto.",
+     "conf": 0.982
+    },
+    {
+     "p": "Van",
+     "conf": 0.993
+    },
+    {
+     "p": "en",
+     "conf": 0.987
+    },
+    {
+     "p": "tres",
+     "conf": 0.891
+    },
+    {
+     "p": "envases",
+     "conf": 0.988
+    },
+    {
+     "p": "separados",
+     "conf": 0.955
+    },
+    {
+     "p": "con",
+     "conf": 0.948
+    },
+    {
+     "p": "sus",
+     "conf": 1.0
+    },
+    {
+     "p": "cubiertos.",
+     "conf": 0.999
+    }
+   ]
+  },
+  {
+   "inicio": 77.24,
+   "fin": 79.02,
+   "texto": "¿Y la chicha viene con vasos?",
+   "palabras": [
+    {
+     "p": "¿Y",
+     "conf": 0.991
+    },
+    {
+     "p": "la",
+     "conf": 0.973
+    },
+    {
+     "p": "chicha",
+     "conf": 0.925
+    },
+    {
+     "p": "viene",
+     "conf": 0.999
+    },
+    {
+     "p": "con",
+     "conf": 1.0
+    },
+    {
+     "p": "vasos?",
+     "conf": 0.998
+    }
+   ]
+  },
+  {
+   "inicio": 79.28,
+   "fin": 81.74,
+   "texto": "Sí, le enviamos tres vasos descartables.",
+   "palabras": [
+    {
+     "p": "Sí,",
+     "conf": 0.985
+    },
+    {
+     "p": "le",
+     "conf": 0.998
+    },
+    {
+     "p": "enviamos",
+     "conf": 1.0
+    },
+    {
+     "p": "tres",
+     "conf": 0.997
+    },
+    {
+     "p": "vasos",
+     "conf": 0.999
+    },
+    {
+     "p": "descartables.",
+     "conf": 0.99
+    }
+   ]
+  },
+  {
+   "inicio": 82.36,
+   "fin": 83.2,
+   "texto": "¿Dirección de entrega?",
+   "palabras": [
+    {
+     "p": "¿Dirección",
+     "conf": 0.968
+    },
+    {
+     "p": "de",
+     "conf": 0.993
+    },
+    {
+     "p": "entrega?",
+     "conf": 0.98
+    }
+   ]
+  },
+  {
+   "inicio": 83.62,
+   "fin": 89.96,
+   "texto": "Calle Los Algarrobos 77, Manzana C, Lote 14, Urbanización Santa Rosa.",
+   "palabras": [
+    {
+     "p": "Calle",
+     "conf": 0.982
+    },
+    {
+     "p": "Los",
+     "conf": 0.975
+    },
+    {
+     "p": "Algarrobos",
+     "conf": 0.847
+    },
+    {
+     "p": "77,",
+     "conf": 0.509
+    },
+    {
+     "p": "Manzana",
+     "conf": 0.987
+    },
+    {
+     "p": "C,",
+     "conf": 0.82
+    },
+    {
+     "p": "Lote",
+     "conf": 0.917
+    },
+    {
+     "p": "14,",
+     "conf": 0.998
+    },
+    {
+     "p": "Urbanización",
+     "conf": 0.996
+    },
+    {
+     "p": "Santa",
+     "conf": 0.971
+    },
+    {
+     "p": "Rosa.",
+     "conf": 0.999
+    }
+   ]
+  },
+  {
+   "inicio": 90.74,
+   "fin": 97.46,
+   "texto": "Calle Los Algarrobos 77, Manzana C, Lote 14, Urbanización Santa Rosa. ¿Es una oficina?",
+   "palabras": [
+    {
+     "p": "Calle",
+     "conf": 0.985
+    },
+    {
+     "p": "Los",
+     "conf": 0.999
+    },
+    {
+     "p": "Algarrobos",
+     "conf": 0.999
+    },
+    {
+     "p": "77,",
+     "conf": 0.998
+    },
+    {
+     "p": "Manzana",
+     "conf": 0.999
+    },
+    {
+     "p": "C,",
+     "conf": 1.0
+    },
+    {
+     "p": "Lote",
+     "conf": 0.999
+    },
+    {
+     "p": "14,",
+     "conf": 1.0
+    },
+    {
+     "p": "Urbanización",
+     "conf": 0.998
+    },
+    {
+     "p": "Santa",
+     "conf": 1.0
+    },
+    {
+     "p": "Rosa.",
+     "conf": 1.0
+    },
+    {
+     "p": "¿Es",
+     "conf": 0.999
+    },
+    {
+     "p": "una",
+     "conf": 0.999
+    },
+    {
+     "p": "oficina?",
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "inicio": 98.02,
+   "fin": 101.86,
+   "texto": "Sí, es una casa convertida en oficina. Hay un letrero azul en la puerta.",
+   "palabras": [
+    {
+     "p": "Sí,",
+     "conf": 0.976
+    },
+    {
+     "p": "es",
+     "conf": 0.999
+    },
+    {
+     "p": "una",
+     "conf": 0.998
+    },
+    {
+     "p": "casa",
+     "conf": 0.845
+    },
+    {
+     "p": "convertida",
+     "conf": 0.999
+    },
+    {
+     "p": "en",
+     "conf": 0.999
+    },
+    {
+     "p": "oficina.",
+     "conf": 0.932
+    },
+    {
+     "p": "Hay",
+     "conf": 0.996
+    },
+    {
+     "p": "un",
+     "conf": 0.987
+    },
+    {
+     "p": "letrero",
+     "conf": 0.996
+    },
+    {
+     "p": "azul",
+     "conf": 0.999
+    },
+    {
+     "p": "en",
+     "conf": 1.0
+    },
+    {
+     "p": "la",
+     "conf": 1.0
+    },
+    {
+     "p": "puerta.",
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "inicio": 102.44,
+   "fin": 103.5,
+   "texto": "Perfecto. ¿Cómo va a pagar?",
+   "palabras": [
+    {
+     "p": "Perfecto.",
+     "conf": 0.995
+    },
+    {
+     "p": "¿Cómo",
+     "conf": 0.999
+    },
+    {
+     "p": "va",
+     "conf": 0.991
+    },
+    {
+     "p": "a",
+     "conf": 0.999
+    },
+    {
+     "p": "pagar?",
+     "conf": 0.987
+    }
+   ]
+  },
+  {
+   "inicio": 105.04,
+   "fin": 108.4,
+   "texto": "Con tarjeta, por favor. ¿El repartidor lleva el post?",
+   "palabras": [
+    {
+     "p": "Con",
+     "conf": 0.998
+    },
+    {
+     "p": "tarjeta,",
+     "conf": 1.0
+    },
+    {
+     "p": "por",
+     "conf": 1.0
+    },
+    {
+     "p": "favor.",
+     "conf": 1.0
+    },
+    {
+     "p": "¿El",
+     "conf": 0.877
+    },
+    {
+     "p": "repartidor",
+     "conf": 0.994
+    },
+    {
+     "p": "lleva",
+     "conf": 0.999
+    },
+    {
+     "p": "el",
+     "conf": 1.0
+    },
+    {
+     "p": "post?",
+     "conf": 0.552
+    }
+   ]
+  },
+  {
+   "inicio": 109.36,
+   "fin": 115.2,
+   "texto": "Sí, lleva el post y acepta todas las tarjetas. El pedido llega en unos 35 minutos.",
+   "palabras": [
+    {
+     "p": "Sí,",
+     "conf": 0.999
+    },
+    {
+     "p": "lleva",
+     "conf": 0.994
+    },
+    {
+     "p": "el",
+     "conf": 1.0
+    },
+    {
+     "p": "post",
+     "conf": 1.0
+    },
+    {
+     "p": "y",
+     "conf": 0.939
+    },
+    {
+     "p": "acepta",
+     "conf": 1.0
+    },
+    {
+     "p": "todas",
+     "conf": 0.999
+    },
+    {
+     "p": "las",
+     "conf": 1.0
+    },
+    {
+     "p": "tarjetas.",
+     "conf": 1.0
+    },
+    {
+     "p": "El",
+     "conf": 0.996
+    },
+    {
+     "p": "pedido",
+     "conf": 1.0
+    },
+    {
+     "p": "llega",
+     "conf": 0.999
+    },
+    {
+     "p": "en",
+     "conf": 1.0
+    },
+    {
+     "p": "unos",
+     "conf": 1.0
+    },
+    {
+     "p": "35",
+     "conf": 0.933
+    },
+    {
+     "p": "minutos.",
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "inicio": 116.44,
+   "fin": 118.26,
+   "texto": "Excelente. Justo para la hora de la muerte.",
+   "palabras": [
+    {
+     "p": "Excelente.",
+     "conf": 0.997
+    },
+    {
+     "p": "Justo",
+     "conf": 0.984
+    },
+    {
+     "p": "para",
+     "conf": 0.994
+    },
+    {
+     "p": "la",
+     "conf": 0.997
+    },
+    {
+     "p": "hora",
+     "conf": 0.998
+    },
+    {
+     "p": "de",
+     "conf": 0.863
+    },
+    {
+     "p": "la",
+     "conf": 0.988
+    },
+    {
+     "p": "muerte.",
+     "conf": 0.996
+    }
+   ]
+  },
+  {
+   "inicio": 119.08,
+   "fin": 120.5,
+   "texto": "¿A nombre de quién dejo el pedido?",
+   "palabras": [
+    {
+     "p": "¿A",
+     "conf": 0.993
+    },
+    {
+     "p": "nombre",
+     "conf": 0.999
+    },
+    {
+     "p": "de",
+     "conf": 0.999
+    },
+    {
+     "p": "quién",
+     "conf": 0.992
+    },
+    {
+     "p": "dejo",
+     "conf": 0.739
+    },
+    {
+     "p": "el",
+     "conf": 1.0
+    },
+    {
+     "p": "pedido?",
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "inicio": 121.52,
+   "fin": 124.4,
+   "texto": "A nombre de Valeria, del área de contabilidad.",
+   "palabras": [
+    {
+     "p": "A",
+     "conf": 0.886
+    },
+    {
+     "p": "nombre",
+     "conf": 0.999
+    },
+    {
+     "p": "de",
+     "conf": 1.0
+    },
+    {
+     "p": "Valeria,",
+     "conf": 0.918
+    },
+    {
+     "p": "del",
+     "conf": 0.998
+    },
+    {
+     "p": "área",
+     "conf": 0.983
+    },
+    {
+     "p": "de",
+     "conf": 1.0
+    },
+    {
+     "p": "contabilidad.",
+     "conf": 0.994
+    }
+   ]
+  },
+  {
+   "inicio": 125.04,
+   "fin": 127.02,
+   "texto": "Listo, Valeria. Gracias por preferirnos.",
+   "palabras": [
+    {
+     "p": "Listo,",
+     "conf": 0.99
+    },
+    {
+     "p": "Valeria.",
+     "conf": 0.926
+    },
+    {
+     "p": "Gracias",
+     "conf": 1.0
+    },
+    {
+     "p": "por",
+     "conf": 1.0
+    },
+    {
+     "p": "preferirnos.",
+     "conf": 0.971
+    }
+   ]
+  },
+  {
+   "inicio": 127.46,
+   "fin": 128.54,
+   "texto": "Gracias, hasta luego.",
+   "palabras": [
+    {
+     "p": "Gracias,",
+     "conf": 0.994
+    },
+    {
+     "p": "hasta",
+     "conf": 0.999
+    },
+    {
+     "p": "luego.",
+     "conf": 1.0
+    }
+   ]
+  }
+ ],
+ "modelo": "large-v3-turbo",
+ "precision": "int8",
+ "modo_glosario": "ninguno",
+ "dispositivo_real": "cpu",
+ "gpus_visibles": 0,
+ "duracion_audio_s": 129.71,
+ "segundos_transcripcion": 258.55,
+ "segundos_carga_modelo": 0.0,
+ "seg_por_min_audio": 119.6,
+ "vram_base_mb": null,
+ "vram_pico_mb": null,
+ "idioma_detectado": "es",
+ "faster_whisper": "1.2.1",
+ "ctranslate2": "4.8.4",
+ "degradacion": {
+  "nivel": "L2",
+  "banda_hz": [
+   300,
+   3400
+  ]
+ }
+}
