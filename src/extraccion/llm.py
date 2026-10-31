@@ -14,7 +14,8 @@ def _mensajes(transcripcion: str, clave_prompt: str) -> list[dict]:
     cfg = cargar_config()["extraccion"]
     return [
         {"role": "system", "content": cfg["prompt_sistema"]},
-        {"role": "user", "content": cfg[clave_prompt].replace("{transcripcion}", transcripcion)},
+        {"role": "user", "content": cfg[clave_prompt].replace("{transcripcion}", transcripcion)
+                                    .replace("{fecha_referencia}", cargar_config()["proyecto"]["fecha_grabacion"])},
     ]
 
 

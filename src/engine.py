@@ -29,6 +29,18 @@ ESQUEMAS = {
 }
 
 
+def _canonizar(campos: dict) -> dict:
+    """Formatos equivalentes -> forma canónica (solo formato, nunca el valor): 'S/.' -> 'PEN'."""
+    sal = campos.get("pretension_salarial")
+    if isinstance(sal, dict) and sal.get("moneda"):
+        from .normalizacion import normalizar_texto
+        m = str(sal["moneda"]).strip().lower()
+        for iso, alias in cargar_config()["normalizacion"]["monedas"].items():
+            if m in alias or normalizar_texto(m) in alias:
+                sal["moneda"] = iso
+    return campos
+
+
 def procesar_audio(ruta_audio, esquema: str = "entrevista", metodo: str | None = None,
                    proveedor: str | None = None, transcripcion: dict | None = None) -> dict:
     """Procesa un audio y devuelve el resultado estructurado.
@@ -68,8 +80,8 @@ def procesar_audio(ruta_audio, esquema: str = "entrevista", metodo: str | None =
             crudo = llm.extraer(transcripcion["texto"], e["prompt"], e["campos"], proveedor)
         salida["segundos"]["extraccion"] = round(time.perf_counter() - t0, 2)
 
-        salida["campos"] = {c: crudo.get(c, {}).get("valor") for c in e["campos"]}
-        salida["evidencias"] = {c: crudo.get(c, {}).get("evidencia") for c in e["campos"]}
+        salida["campos"] = _canonizar({c: (crudo.get(c) or {}).get("valor") for c in e["campos"]})
+        salida["evidencias"] = {c: (crudo.get(c) or {}).get("evidencia") for c in e["campos"]}
         salida["verificacion"] = verificar(transcripcion["texto"], salida["campos"])
         if e["validar"]:
             salida["validacion"] = validar_pedido(salida["campos"],
