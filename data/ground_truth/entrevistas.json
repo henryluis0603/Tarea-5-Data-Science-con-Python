@@ -1,0 +1,69 @@
+{
+  "_descripcion": "Valores correctos de los seis campos por entrevista. Todos los datos son inventados. 'disponibilidad' se convierte a fecha absoluta con la fecha de grabación definida en config.yaml.",
+  "_categorias": {
+    "nivel_ingles": ["basico", "intermedio", "avanzado"],
+    "disponibilidad.tipo": ["inmediata", "relativa_dias", "fecha"]
+  },
+  "clips": [
+    {
+      "clip_id": "E01",
+      "rol_A": "yo",
+      "rol_B": "companera",
+      "anios_experiencia": 4.5,
+      "ultimo_puesto": "analista de datos senior",
+      "tecnologias": ["Power BI", "Python", "SQL", "Airflow"],
+      "pretension_salarial": {"monto": 6500, "moneda": "PEN"},
+      "disponibilidad": {"tipo": "relativa_dias", "dias": 14},
+      "nivel_ingles": "intermedio",
+      "dificultades": ["experiencia en dos tramos (3 + 1.5), el total lo resume el entrevistador", "salario con duda ('eh, bueno')"]
+    },
+    {
+      "clip_id": "E02",
+      "rol_A": "companera",
+      "rol_B": "yo",
+      "anios_experiencia": 7,
+      "ultimo_puesto": "backend developer",
+      "tecnologias": ["Java", "Spring Boot", "Docker", "Kubernetes", "PostgreSQL"],
+      "pretension_salarial": {"monto": 5000, "moneda": "PEN"},
+      "disponibilidad": {"tipo": "inmediata"},
+      "nivel_ingles": "avanzado",
+      "dificultades": ["salario preguntado al inicio", "jerga 'cinco lucas' sin la palabra soles", "puesto en inglés"]
+    },
+    {
+      "clip_id": "E03",
+      "rol_A": "yo",
+      "rol_B": "companera",
+      "anios_experiencia": 10,
+      "ultimo_puesto": "líder de proyectos de tecnología",
+      "tecnologias": ["Jira", "SAP", "Excel", "Power BI"],
+      "pretension_salarial": {"monto": 5200, "moneda": "PEN"},
+      "disponibilidad": {"tipo": "fecha", "fecha": "2026-12-01"},
+      "nivel_ingles": "basico",
+      "dificultades": ["autocorrección del salario (4800 -> 5200)", "experiencia como 'una década'", "fecha absoluta sin año"]
+    },
+    {
+      "clip_id": "E04",
+      "rol_A": "companera",
+      "rol_B": "yo",
+      "anios_experiencia": 2.5,
+      "ultimo_puesto": "ML engineer",
+      "tecnologias": ["scikit-learn", "PyTorch", "TensorFlow", "MLflow", "AWS"],
+      "pretension_salarial": {"monto": 2800, "moneda": "USD"},
+      "disponibilidad": {"tipo": "relativa_dias", "dias": 30},
+      "nivel_ingles": "intermedio",
+      "dificultades": ["inglés preguntado al inicio y dicho como 'B2, intermedio alto'", "salario en dólares", "disponibilidad como preaviso"]
+    },
+    {
+      "clip_id": "E05",
+      "rol_A": "yo",
+      "rol_B": "companera",
+      "anios_experiencia": 6,
+      "ultimo_puesto": "ingeniera de datos",
+      "tecnologias": ["Databricks", "PySpark", "Airflow", "Snowflake", "dbt", "Git"],
+      "pretension_salarial": {"monto": 9000, "moneda": "PEN"},
+      "disponibilidad": {"tipo": "relativa_dias", "dias": 7},
+      "nivel_ingles": "avanzado",
+      "dificultades": ["distractor: salario actual 7200 antes de la pretensión", "experiencia desglosada (2 + 4) después del total", "seis tecnologías"]
+    }
+  ]
+}

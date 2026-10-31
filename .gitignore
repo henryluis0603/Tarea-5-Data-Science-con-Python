@@ -1,0 +1,20 @@
+# Audios y pesos de modelos: no se suben
+audio/*
+!audio/LEEME.md
+*.m4a
+*.mp3
+*.wav
+*.ogg
+*.opus
+models/
+
+# Credenciales
+.env
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/
+.DS_Store
