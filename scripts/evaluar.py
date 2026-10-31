@@ -133,14 +133,13 @@ def glosario():
 # ------------------------------------------------------------------ Tarea 2
 
 def causa_real(pred, g):
-    """Causa verdadera de un descuadre: 'asr' si el registro extraído difiere del verdadero en
-    ítems, descuento o total; 'hablante' si el registro es fiel y el total dicho estaba mal."""
-    fiel = (items_por_producto(pred.get("items")) == items_por_producto(g["items"])
-            and puntuar_llamada(pred, g)["promocion"]["correcto"]
-            and puntuar_llamada(pred, g)["total_dicho"]["correcto"])
-    if not fiel:
-        return "asr"
-    return "hablante" if g["trampas"]["total_erroneo"] else None
+    """Causa verdadera de un descuadre detectado.
+    - Llamada con total mal dicho a propósito y total extraído = total realmente dicho: 'hablante'
+      (el número se oyó bien; el error es de quien habló).
+    - En otro caso (sin trampa, o el total extraído no es el que se dijo): 'asr' (ASR o extracción)."""
+    if g["trampas"]["total_erroneo"] and puntuar_llamada(pred, g)["total_dicho"]["correcto"]:
+        return "hablante"
+    return "asr"
 
 
 def tarea2(metodos, solo_cache):
