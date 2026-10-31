@@ -16,6 +16,28 @@ from .config import cargar_config
 _MODELOS: dict = {}
 
 
+def _precargar_cuda12():
+    """CTranslate2 4.x busca cuBLAS/cuDNN de CUDA 12. En entornos con CUDA 13 (Colab desde 2026)
+    no están en el sistema: se instalan por pip (nvidia-cublas-cu12, nvidia-cudnn-cu12) y se
+    cargan aquí con RTLD_GLOBAL, porque LD_LIBRARY_PATH solo se lee al iniciar el proceso."""
+    import ctypes
+    import glob
+    import os
+    for modulo in ("nvidia.cublas.lib", "nvidia.cudnn.lib"):
+        try:
+            carpeta = list(__import__(modulo, fromlist=["_"]).__path__)[0]
+        except ImportError:
+            continue
+        for so in sorted(glob.glob(os.path.join(carpeta, "lib*.so*")), key=lambda s: ("Lt" not in s, s)):
+            try:
+                ctypes.CDLL(so, mode=ctypes.RTLD_GLOBAL)
+            except OSError:
+                pass
+
+
+_precargar_cuda12()
+
+
 class MonitorVRAM:
     """Muestrea la memoria usada de la GPU 0 en un hilo y guarda el pico (MB)."""
 

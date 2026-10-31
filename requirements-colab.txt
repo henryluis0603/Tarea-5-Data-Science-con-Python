@@ -6,3 +6,5 @@ pynvml==13.0.1
 pyyaml==6.0.3
 python-dotenv==1.2.4
 soundfile==0.14.0
+nvidia-cublas-cu12    # CTranslate2 necesita cuBLAS de CUDA 12 (Colab trae CUDA 13)
+nvidia-cudnn-cu12==9.*
