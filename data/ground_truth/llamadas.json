@@ -1,0 +1,98 @@
+{
+  "_descripcion": "Pedido final correcto por llamada (dominio: restaurante 'Sabor de Barrio', ficticio). Todos los datos son inventados. total_correcto = suma(cantidad * precio_unitario) - descuento_promocion. total_dicho es lo que dice el vendedor en voz alta.",
+  "_categorias": {
+    "metodo_pago": ["efectivo", "tarjeta", "yape", "plin", "transferencia"],
+    "tipo_error_total": ["promocion_no_aplicada", "error_suma", "total_pedido_previo"]
+  },
+  "clips": [
+    {
+      "clip_id": "V01",
+      "rol_A": "yo",
+      "rol_B": "companera",
+      "items": [
+        {"producto": "pollo a la brasa", "tamano": "entero", "cantidad": 1, "precio_unitario": 68},
+        {"producto": "gaseosa", "tamano": "1.5 L", "cantidad": 1, "precio_unitario": 9},
+        {"producto": "papas fritas extra", "tamano": null, "cantidad": 1, "precio_unitario": 8},
+        {"producto": "chicha morada", "tamano": "jarra 1 L", "cantidad": 1, "precio_unitario": 12}
+      ],
+      "promocion": {"nombre": "combo familiar", "descuento": 10},
+      "direccion_entrega": "Jirón Los Cedros 245, departamento 302, Surquillo",
+      "metodo_pago": "yape",
+      "total_dicho": 87,
+      "total_correcto": 87,
+      "trampas": {"autocorreccion": true, "total_erroneo": false, "tipo_error_total": null, "direccion_con_digitos": true},
+      "nota_autocorreccion": "papas extra 2 -> 1; se agrega chicha morada"
+    },
+    {
+      "clip_id": "V02",
+      "rol_A": "companera",
+      "rol_B": "yo",
+      "items": [
+        {"producto": "pizza americana", "tamano": "mediana", "cantidad": 1, "precio_unitario": 32},
+        {"producto": "pizza pepperoni", "tamano": "mediana", "cantidad": 1, "precio_unitario": 32},
+        {"producto": "tequeños", "tamano": "12 unidades", "cantidad": 1, "precio_unitario": 20},
+        {"producto": "gaseosa", "tamano": "1.5 L", "cantidad": 2, "precio_unitario": 9}
+      ],
+      "promocion": {"nombre": "martes de pizza 2x1 en medianas", "descuento": 32},
+      "direccion_entrega": "Avenida Arequipa 1870, interior B, Lince",
+      "metodo_pago": "efectivo",
+      "total_dicho": 102,
+      "total_correcto": 70,
+      "trampas": {"autocorreccion": true, "total_erroneo": true, "tipo_error_total": "promocion_no_aplicada", "direccion_con_digitos": true},
+      "nota_autocorreccion": "dos hawaianas -> una americana y una pepperoni; gaseosa 1 -> 2",
+      "distractores": ["billete de doscientos"]
+    },
+    {
+      "clip_id": "V03",
+      "rol_A": "yo",
+      "rol_B": "companera",
+      "items": [
+        {"producto": "lomo saltado", "tamano": null, "cantidad": 2, "precio_unitario": 35},
+        {"producto": "ají de gallina", "tamano": null, "cantidad": 1, "precio_unitario": 28},
+        {"producto": "chicha morada", "tamano": "jarra 1 L", "cantidad": 1, "precio_unitario": 12}
+      ],
+      "promocion": {"nombre": "código BARRIO15", "descuento": 15},
+      "direccion_entrega": "Calle Los Algarrobos 77, manzana C, lote 14, urbanización Santa Rosa",
+      "metodo_pago": "tarjeta",
+      "total_dicho": 85,
+      "total_correcto": 95,
+      "trampas": {"autocorreccion": false, "total_erroneo": true, "tipo_error_total": "error_suma", "direccion_con_digitos": true},
+      "nota_autocorreccion": null
+    },
+    {
+      "clip_id": "V04",
+      "rol_A": "companera",
+      "rol_B": "yo",
+      "items": [
+        {"producto": "pollo a la brasa", "tamano": "cuarto", "cantidad": 1, "precio_unitario": 22},
+        {"producto": "arroz chaufa", "tamano": null, "cantidad": 1, "precio_unitario": 26},
+        {"producto": "ensalada extra", "tamano": null, "cantidad": 1, "precio_unitario": 10},
+        {"producto": "agua sin gas", "tamano": null, "cantidad": 2, "precio_unitario": 4}
+      ],
+      "promocion": null,
+      "direccion_entrega": "Pasaje San Martín 12, tercer piso, Barranco",
+      "metodo_pago": "plin",
+      "total_dicho": 66,
+      "total_correcto": 66,
+      "trampas": {"autocorreccion": true, "total_erroneo": false, "tipo_error_total": null, "direccion_con_digitos": true},
+      "nota_autocorreccion": "medio pollo -> cuarto de pollo + arroz chaufa; código BARRIO15 pedido pero rechazado (no llega a 100)"
+    },
+    {
+      "clip_id": "V05",
+      "rol_A": "yo",
+      "rol_B": "companera",
+      "items": [
+        {"producto": "pizza pepperoni", "tamano": "familiar", "cantidad": 1, "precio_unitario": 45},
+        {"producto": "gaseosa", "tamano": "1.5 L", "cantidad": 1, "precio_unitario": 9},
+        {"producto": "tequeños", "tamano": "12 unidades", "cantidad": 1, "precio_unitario": 20}
+      ],
+      "promocion": null,
+      "direccion_entrega": "Avenida Brasil 3045, block 7, departamento 501, Pueblo Libre",
+      "metodo_pago": "transferencia",
+      "total_dicho": 63,
+      "total_correcto": 74,
+      "trampas": {"autocorreccion": true, "total_erroneo": true, "tipo_error_total": "total_pedido_previo", "direccion_con_digitos": true},
+      "nota_autocorreccion": "gaseosa 2 -> 1; se agregan tequeños. El total dicho (63) corresponde al pedido antes de la corrección (45 + 2*9)"
+    }
+  ]
+}
